@@ -1,0 +1,41 @@
+
+library(tidyverse)
+library(dplyr)
+library(stringr)
+library(arrow)
+
+years_vec <- 2002:2021
+# --- compile into play_by_play_{year}.parquet ---------
+future::plan("multisession")
+progressr::with_progress({
+  p <- progressr::progressor(along = sort(years_vec, decreasing = TRUE))
+  pbp_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y){
+    
+    pbp_g <- data.frame()
+    pbp_list <- list.files(path = glue::glue('mbb/{y}/'))
+    print(glue::glue('mbb/{y}/'))
+    pbp_g <- furrr::future_map_dfr(pbp_list, function(x){
+      pbp <- jsonlite::fromJSON(glue::glue('mbb/{y}/{x}'))$plays
+      pbp$game_id <- gsub(".json","", x)
+      return(pbp)
+    })
+    pbp_g <- pbp_g %>% janitor::clean_names()
+    ifelse(!dir.exists(file.path("mbb/pbp")), dir.create(file.path("mbb/pbp")), FALSE)
+    ifelse(!dir.exists(file.path("mbb/pbp/csv")), dir.create(file.path("mbb/pbp/csv")), FALSE)
+    write.csv(pbp_g, file=gzfile(glue::glue("mbb/pbp/csv/play_by_play_{y}.csv.gz")), row.names = FALSE)
+    ifelse(!dir.exists(file.path("mbb/pbp/rds")), dir.create(file.path("mbb/pbp/rds")), FALSE)
+    saveRDS(pbp_g,glue::glue("mbb/pbp/rds/play_by_play_{y}.rds"))
+    ifelse(!dir.exists(file.path("mbb/pbp/parquet")), dir.create(file.path("mbb/pbp/parquet")), FALSE)
+    
+    arrow::write_parquet(pbp_g, glue::glue("mbb/pbp/parquet/play_by_play_{y}.parquet"))
+    p(sprintf("y=%s", as.integer(y)))
+    return(pbp_g)
+  })
+})
+
+df_game_ids <- as.data.frame(
+  dplyr::distinct(pbp_games %>% 
+                    dplyr::select(game_id, season, season_type, home_team_name, away_team_name))) %>% 
+  dplyr::arrange(-season)
+
+write.csv(df_game_ids, 'mbb/mbb_games_in_data_repo.csv',row.names=FALSE)
