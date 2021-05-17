@@ -1,0 +1,1604 @@
+{
+"gameId": 211009018,
+"plays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Spurs",
+"uid": "s:40~l:46~t:24",
+"alternateColor": "061922",
+"color": "000000",
+"displayName": "San Antonio Spurs",
+"name": "Spurs",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+"location": "San Antonio",
+"id": "24",
+"abbreviation": "SA",
+"slug": "san-antonio-spurs"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Knicks",
+"uid": "s:40~l:46~t:18",
+"alternateColor": "f58426",
+"color": "225EA8",
+"displayName": "New York Knicks",
+"name": "Knicks",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+"location": "New York",
+"id": "18",
+"abbreviation": "NY",
+"slug": "new-york-knicks"
+},
+"statistics": []
+}
+],
+"players": [
+{
+"team": {
+"shortDisplayName": "Spurs",
+"uid": "s:40~l:46~t:24",
+"alternateColor": "061922",
+"color": "000000",
+"displayName": "San Antonio Spurs",
+"name": "Spurs",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+"location": "San Antonio",
+"id": "24",
+"abbreviation": "SA",
+"slug": "san-antonio-spurs"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"athletes": [],
+"totals": [],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+]
+}
+]
+},
+{
+"team": {
+"shortDisplayName": "Knicks",
+"uid": "s:40~l:46~t:18",
+"alternateColor": "f58426",
+"color": "225EA8",
+"displayName": "New York Knicks",
+"name": "Knicks",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+"location": "New York",
+"id": "18",
+"abbreviation": "NY",
+"slug": "new-york-knicks"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"athletes": [],
+"totals": [],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+]
+}
+]
+}
+]
+},
+"header": {
+"uid": "s:40~l:46~e:211009018",
+"week": 1,
+"timeValid": true,
+"league": {
+"uid": "s:40~l:46",
+"name": "National Basketball Association",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/injuries",
+"text": "Injuries"
+}
+],
+"id": "46",
+"abbreviation": "NBA",
+"slug": "nba",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2001-10-09T23:30Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "2",
+"type": "Home"
+},
+"media": {
+"shortName": "MSG"
+},
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:40~l:46~e:211009018~c:211009018",
+"competitors": [
+{
+"uid": "s:40~l:46~t:18",
+"homeAway": "home",
+"score": "71",
+"winner": false,
+"record": [
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "total"
+},
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "home"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "18",
+"team": {
+"uid": "s:40~l:46~t:18",
+"alternateColor": "f58426",
+"color": "225EA8",
+"displayName": "New York Knicks",
+"name": "Knicks",
+"location": "New York",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks",
+"text": "Clubhouse"
+}
+],
+"id": "18",
+"abbreviation": "NY",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/ny.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "17"
+},
+{
+"displayValue": "19"
+},
+{
+"displayValue": "16"
+},
+{
+"displayValue": "19"
+}
+],
+"order": 0
+},
+{
+"uid": "s:40~l:46~t:24",
+"homeAway": "away",
+"score": "84",
+"winner": true,
+"record": [
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "total"
+},
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "road"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "24",
+"team": {
+"uid": "s:40~l:46~t:24",
+"alternateColor": "061922",
+"color": "000000",
+"displayName": "San Antonio Spurs",
+"name": "Spurs",
+"location": "San Antonio",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs",
+"text": "Clubhouse"
+}
+],
+"id": "24",
+"abbreviation": "SA",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "19"
+},
+{
+"displayValue": "28"
+},
+{
+"displayValue": "20"
+},
+{
+"displayValue": "17"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"series": [
+{
+"summary": "SA Wins series 2-0",
+"competitors": [
+{
+"wins": 0,
+"uid": "s:40~l:46~t:18",
+"ties": 0,
+"id": "18",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2002/teams/18?lang=en&region=us"
+}
+},
+{
+"wins": 2,
+"uid": "s:40~l:46~t:24",
+"ties": 0,
+"id": "24",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2002/teams/24?lang=en&region=us"
+}
+}
+],
+"totalCompetitions": 2,
+"description": "Regular Season Series",
+"completed": true,
+"type": "season",
+"title": "Regular Season Series",
+"events": [
+{
+"id": "220107024",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/220107024?lang=en&region=us"
+},
+{
+"id": "220303018",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/220303018?lang=en&region=us"
+}
+]
+}
+],
+"boxscoreAvailable": false,
+"id": "211009018",
+"shotChartAvailable": false,
+"timeoutsAvailable": false,
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"possessionArrowAvailable": false,
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+}
+],
+"season": {
+"year": 2002,
+"type": 1
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/211009018",
+"text": "Gamecast",
+"isPremium": false
+}
+],
+"id": "211009018"
+},
+"broadcasts": [],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/nba/standings"
+},
+"groups": [
+{
+"header": "2020-2021 Midwest Standings",
+"href": "https://www.espn.com/nba/standings/_/group/3",
+"standings": {
+"entries": []
+}
+},
+{
+"header": "2020-2021 Atlantic Standings",
+"href": "https://www.espn.com/nba/standings/_/group/1",
+"standings": {
+"entries": [
+{
+"uid": "s:40~l:46~t:20",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "47",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 47
+},
+{
+"shortDisplayName": "L",
+"displayValue": "22",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 22
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".681",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6811594367027283
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
+"height": 500
+}
+],
+"team": "Philadelphia",
+"id": "20"
+},
+{
+"uid": "s:40~l:46~t:17",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "45",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 45
+},
+{
+"shortDisplayName": "L",
+"displayValue": "24",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 24
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".652",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6521739363670349
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W2",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+"height": 500
+}
+],
+"team": "Brooklyn",
+"id": "17"
+},
+{
+"uid": "s:40~l:46~t:18",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "38",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 38
+},
+{
+"shortDisplayName": "L",
+"displayValue": "31",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 31
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".551",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5507246255874634
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "9",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 9
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png",
+"height": 500
+}
+],
+"team": "New York",
+"id": "18"
+},
+{
+"uid": "s:40~l:46~t:2",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "35",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 35
+},
+{
+"shortDisplayName": "L",
+"displayValue": "34",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 34
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".507",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5072463750839233
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "12",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 12
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L3",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -3
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/bos/boston-celtics",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png",
+"height": 500
+}
+],
+"team": "Boston",
+"id": "2"
+},
+{
+"uid": "s:40~l:46~t:28",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "27",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 27
+},
+{
+"shortDisplayName": "L",
+"displayValue": "42",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 42
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".391",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3913043439388275
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "20",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 20
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L4",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -4
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png",
+"height": 500
+}
+],
+"team": "Toronto",
+"id": "28"
+}
+]
+}
+}
+]
+},
+"seasonseries": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "SA Wins series 2-0",
+"completed": true,
+"totalCompetitions": 2,
+"events": [
+{
+"id": "220303018",
+"uid": "s:40~l:46~e:220303018~c:220303018",
+"date": "2002-03-03T20:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "18",
+"uid": "s:40~l:46~t:18",
+"displayName": "New York Knicks",
+"abbreviation": "NY",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/ny",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
+},
+"score": "83"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "24",
+"uid": "s:40~l:46~t:24",
+"displayName": "San Antonio Spurs",
+"abbreviation": "SA",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/sa",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+},
+"score": "99"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/220303018",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=220303018",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "220107024",
+"uid": "s:40~l:46~e:220107024~c:220107024",
+"date": "2002-01-08T00:30:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "24",
+"uid": "s:40~l:46~t:24",
+"displayName": "San Antonio Spurs",
+"abbreviation": "SA",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/sa",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+},
+"score": "90"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "18",
+"uid": "s:40~l:46~t:18",
+"displayName": "New York Knicks",
+"abbreviation": "NY",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/ny",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
+},
+"score": "79"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/220107024",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=220107024",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+}
+],
+"timeouts": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "24",
+"uid": "s:40~l:46~t:24",
+"displayName": "San Antonio Spurs",
+"abbreviation": "SA",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/sa",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "18",
+"uid": "s:40~l:46~t:18",
+"displayName": "New York Knicks",
+"abbreviation": "NY",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/ny",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {},
+"espnWP": [],
+"gameInfo": {
+"date": "2001-10-09T23:30Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "2",
+"type": "Home"
+},
+"media": {
+"shortName": "MSG"
+},
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:40~l:46~e:211009018~c:211009018",
+"competitors": [
+{
+"uid": "s:40~l:46~t:18",
+"homeAway": "home",
+"score": "71",
+"winner": false,
+"record": [
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "total"
+},
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "home"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "18",
+"team": {
+"uid": "s:40~l:46~t:18",
+"alternateColor": "f58426",
+"color": "225EA8",
+"displayName": "New York Knicks",
+"name": "Knicks",
+"location": "New York",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks",
+"text": "Clubhouse"
+}
+],
+"id": "18",
+"abbreviation": "NY",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/ny.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "17"
+},
+{
+"displayValue": "19"
+},
+{
+"displayValue": "16"
+},
+{
+"displayValue": "19"
+}
+],
+"order": 0
+},
+{
+"uid": "s:40~l:46~t:24",
+"homeAway": "away",
+"score": "84",
+"winner": true,
+"record": [
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "total"
+},
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "road"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "24",
+"team": {
+"uid": "s:40~l:46~t:24",
+"alternateColor": "061922",
+"color": "000000",
+"displayName": "San Antonio Spurs",
+"name": "Spurs",
+"location": "San Antonio",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs",
+"text": "Clubhouse"
+}
+],
+"id": "24",
+"abbreviation": "SA",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "19"
+},
+{
+"displayValue": "28"
+},
+{
+"displayValue": "20"
+},
+{
+"displayValue": "17"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"series": [
+{
+"summary": "SA Wins series 2-0",
+"competitors": [
+{
+"wins": 0,
+"uid": "s:40~l:46~t:18",
+"ties": 0,
+"id": "18",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2002/teams/18?lang=en&region=us"
+}
+},
+{
+"wins": 2,
+"uid": "s:40~l:46~t:24",
+"ties": 0,
+"id": "24",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2002/teams/24?lang=en&region=us"
+}
+}
+],
+"totalCompetitions": 2,
+"description": "Regular Season Series",
+"completed": true,
+"type": "season",
+"title": "Regular Season Series",
+"events": [
+{
+"id": "220107024",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/220107024?lang=en&region=us"
+},
+{
+"id": "220303018",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/220303018?lang=en&region=us"
+}
+]
+}
+],
+"boxscoreAvailable": false,
+"id": "211009018",
+"shotChartAvailable": false,
+"timeoutsAvailable": false,
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"possessionArrowAvailable": false,
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+},
+"season": {
+"year": 2002,
+"type": 1
+}
+}

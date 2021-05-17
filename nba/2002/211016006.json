@@ -1,0 +1,1358 @@
+{
+"gameId": 211016006,
+"plays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Nuggets",
+"uid": "s:40~l:46~t:7",
+"alternateColor": "fdb927",
+"color": "0860A8",
+"displayName": "Denver Nuggets",
+"name": "Nuggets",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+"location": "Denver",
+"id": "7",
+"abbreviation": "DEN",
+"slug": "denver-nuggets"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Mavericks",
+"uid": "s:40~l:46~t:6",
+"alternateColor": "c4ced3",
+"color": "0C479D",
+"displayName": "Dallas Mavericks",
+"name": "Mavericks",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+"location": "Dallas",
+"id": "6",
+"abbreviation": "DAL",
+"slug": "dallas-mavericks"
+},
+"statistics": []
+}
+],
+"players": [
+{
+"team": {
+"shortDisplayName": "Nuggets",
+"uid": "s:40~l:46~t:7",
+"alternateColor": "fdb927",
+"color": "0860A8",
+"displayName": "Denver Nuggets",
+"name": "Nuggets",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+"location": "Denver",
+"id": "7",
+"abbreviation": "DEN",
+"slug": "denver-nuggets"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"athletes": [],
+"totals": [],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+]
+}
+]
+},
+{
+"team": {
+"shortDisplayName": "Mavericks",
+"uid": "s:40~l:46~t:6",
+"alternateColor": "c4ced3",
+"color": "0C479D",
+"displayName": "Dallas Mavericks",
+"name": "Mavericks",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+"location": "Dallas",
+"id": "6",
+"abbreviation": "DAL",
+"slug": "dallas-mavericks"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"athletes": [],
+"totals": [],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+]
+}
+]
+}
+]
+},
+"header": {
+"uid": "s:40~l:46~e:211016006",
+"week": 2,
+"timeValid": true,
+"league": {
+"uid": "s:40~l:46",
+"name": "National Basketball Association",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/injuries",
+"text": "Injuries"
+}
+],
+"id": "46",
+"abbreviation": "NBA",
+"slug": "nba",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2001-10-16T23:30Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [],
+"playByPlaySource": "none",
+"uid": "s:40~l:46~e:211016006~c:211016006",
+"competitors": [
+{
+"uid": "s:40~l:46~t:6",
+"homeAway": "home",
+"score": "112",
+"winner": true,
+"record": [
+{
+"summary": "3-2",
+"displayValue": "3-2",
+"type": "total"
+},
+{
+"summary": "1-1",
+"displayValue": "1-1",
+"type": "home"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "6",
+"team": {
+"uid": "s:40~l:46~t:6",
+"alternateColor": "c4ced3",
+"color": "0C479D",
+"displayName": "Dallas Mavericks",
+"name": "Mavericks",
+"location": "Dallas",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks",
+"text": "Clubhouse"
+}
+],
+"id": "6",
+"abbreviation": "DAL",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/dal.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/dal.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "28"
+},
+{
+"displayValue": "34"
+},
+{
+"displayValue": "34"
+},
+{
+"displayValue": "16"
+}
+],
+"order": 0
+},
+{
+"uid": "s:40~l:46~t:7",
+"homeAway": "away",
+"score": "80",
+"winner": false,
+"record": [
+{
+"summary": "1-2",
+"displayValue": "1-2",
+"type": "total"
+},
+{
+"summary": "0-2",
+"displayValue": "0-2",
+"type": "road"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "7",
+"team": {
+"uid": "s:40~l:46~t:7",
+"alternateColor": "fdb927",
+"color": "0860A8",
+"displayName": "Denver Nuggets",
+"name": "Nuggets",
+"location": "Denver",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+}
+],
+"id": "7",
+"abbreviation": "DEN",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/den.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/den.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "23"
+},
+{
+"displayValue": "18"
+},
+{
+"displayValue": "19"
+},
+{
+"displayValue": "20"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"series": [
+{
+"summary": "DAL Wins series 4-0",
+"competitors": [
+{
+"wins": 4,
+"uid": "s:40~l:46~t:6",
+"ties": 0,
+"id": "6",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2002/teams/6?lang=en&region=us"
+}
+},
+{
+"wins": 0,
+"uid": "s:40~l:46~t:7",
+"ties": 0,
+"id": "7",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2002/teams/7?lang=en&region=us"
+}
+}
+],
+"totalCompetitions": 4,
+"description": "Regular Season Series",
+"completed": true,
+"type": "season",
+"title": "Regular Season Series",
+"events": [
+{
+"id": "211108006",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/211108006?lang=en&region=us"
+},
+{
+"id": "220108006",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/220108006?lang=en&region=us"
+},
+{
+"id": "220124007",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/220124007?lang=en&region=us"
+},
+{
+"id": "220303007",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/220303007?lang=en&region=us"
+}
+]
+}
+],
+"boxscoreAvailable": false,
+"id": "211016006",
+"shotChartAvailable": false,
+"timeoutsAvailable": false,
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"possessionArrowAvailable": false,
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+}
+],
+"season": {
+"year": 2002,
+"type": 1
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/211016006",
+"text": "Gamecast",
+"isPremium": false
+}
+],
+"id": "211016006"
+},
+"broadcasts": [],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/nba/standings"
+},
+"groups": [
+{
+"header": "2020-2021 Midwest Standings",
+"href": "https://www.espn.com/nba/standings/_/group/3",
+"standings": {
+"entries": []
+}
+}
+]
+},
+"seasonseries": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "DAL Wins series 4-0",
+"completed": true,
+"totalCompetitions": 4,
+"events": [
+{
+"id": "220303007",
+"uid": "s:40~l:46~e:220303007~c:220303007",
+"date": "2002-03-04T00:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final/OT",
+"shortDetail": "Final/OT",
+"altDetail": "OT"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "7",
+"uid": "s:40~l:46~t:7",
+"displayName": "Denver Nuggets",
+"abbreviation": "DEN",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/den",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+},
+"score": "110"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "6",
+"uid": "s:40~l:46~t:6",
+"displayName": "Dallas Mavericks",
+"abbreviation": "DAL",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/dal",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+},
+"score": "116"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/220303007",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=220303007",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "220124007",
+"uid": "s:40~l:46~e:220124007~c:220124007",
+"date": "2002-01-25T00:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "7",
+"uid": "s:40~l:46~t:7",
+"displayName": "Denver Nuggets",
+"abbreviation": "DEN",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/den",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+},
+"score": "97"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "6",
+"uid": "s:40~l:46~t:6",
+"displayName": "Dallas Mavericks",
+"abbreviation": "DAL",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/dal",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+},
+"score": "104"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/220124007",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=220124007",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "220108006",
+"uid": "s:40~l:46~e:220108006~c:220108006",
+"date": "2002-01-09T00:30:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "6",
+"uid": "s:40~l:46~t:6",
+"displayName": "Dallas Mavericks",
+"abbreviation": "DAL",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/dal",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+},
+"score": "95"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "7",
+"uid": "s:40~l:46~t:7",
+"displayName": "Denver Nuggets",
+"abbreviation": "DEN",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/den",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+},
+"score": "94"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/220108006",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=220108006",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "211108006",
+"uid": "s:40~l:46~e:211108006~c:211108006",
+"date": "2001-11-09T00:30:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "6",
+"uid": "s:40~l:46~t:6",
+"displayName": "Dallas Mavericks",
+"abbreviation": "DAL",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/dal",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+},
+"score": "105"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "7",
+"uid": "s:40~l:46~t:7",
+"displayName": "Denver Nuggets",
+"abbreviation": "DEN",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/den",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+},
+"score": "91"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/211108006",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=211108006",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+}
+],
+"timeouts": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "7",
+"uid": "s:40~l:46~t:7",
+"displayName": "Denver Nuggets",
+"abbreviation": "DEN",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/den",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "6",
+"uid": "s:40~l:46~t:6",
+"displayName": "Dallas Mavericks",
+"abbreviation": "DAL",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/dal",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {},
+"espnWP": [],
+"gameInfo": {
+"date": "2001-10-16T23:30Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [],
+"playByPlaySource": "none",
+"uid": "s:40~l:46~e:211016006~c:211016006",
+"competitors": [
+{
+"uid": "s:40~l:46~t:6",
+"homeAway": "home",
+"score": "112",
+"winner": true,
+"record": [
+{
+"summary": "3-2",
+"displayValue": "3-2",
+"type": "total"
+},
+{
+"summary": "1-1",
+"displayValue": "1-1",
+"type": "home"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "6",
+"team": {
+"uid": "s:40~l:46~t:6",
+"alternateColor": "c4ced3",
+"color": "0C479D",
+"displayName": "Dallas Mavericks",
+"name": "Mavericks",
+"location": "Dallas",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks",
+"text": "Clubhouse"
+}
+],
+"id": "6",
+"abbreviation": "DAL",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/dal.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/dal.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "28"
+},
+{
+"displayValue": "34"
+},
+{
+"displayValue": "34"
+},
+{
+"displayValue": "16"
+}
+],
+"order": 0
+},
+{
+"uid": "s:40~l:46~t:7",
+"homeAway": "away",
+"score": "80",
+"winner": false,
+"record": [
+{
+"summary": "1-2",
+"displayValue": "1-2",
+"type": "total"
+},
+{
+"summary": "0-2",
+"displayValue": "0-2",
+"type": "road"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "7",
+"team": {
+"uid": "s:40~l:46~t:7",
+"alternateColor": "fdb927",
+"color": "0860A8",
+"displayName": "Denver Nuggets",
+"name": "Nuggets",
+"location": "Denver",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+}
+],
+"id": "7",
+"abbreviation": "DEN",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/den.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/den.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "23"
+},
+{
+"displayValue": "18"
+},
+{
+"displayValue": "19"
+},
+{
+"displayValue": "20"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"series": [
+{
+"summary": "DAL Wins series 4-0",
+"competitors": [
+{
+"wins": 4,
+"uid": "s:40~l:46~t:6",
+"ties": 0,
+"id": "6",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2002/teams/6?lang=en&region=us"
+}
+},
+{
+"wins": 0,
+"uid": "s:40~l:46~t:7",
+"ties": 0,
+"id": "7",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2002/teams/7?lang=en&region=us"
+}
+}
+],
+"totalCompetitions": 4,
+"description": "Regular Season Series",
+"completed": true,
+"type": "season",
+"title": "Regular Season Series",
+"events": [
+{
+"id": "211108006",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/211108006?lang=en&region=us"
+},
+{
+"id": "220108006",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/220108006?lang=en&region=us"
+},
+{
+"id": "220124007",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/220124007?lang=en&region=us"
+},
+{
+"id": "220303007",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/220303007?lang=en&region=us"
+}
+]
+}
+],
+"boxscoreAvailable": false,
+"id": "211016006",
+"shotChartAvailable": false,
+"timeoutsAvailable": false,
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"possessionArrowAvailable": false,
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+},
+"season": {
+"year": 2002,
+"type": 1
+}
+}

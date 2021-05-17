@@ -1,0 +1,1731 @@
+{
+"gameId": 231020020,
+"plays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Hornets",
+"uid": "s:40~l:46~t:3",
+"alternateColor": "b4975a",
+"color": "0093B1",
+"displayName": "New Orleans Hornets",
+"name": "Hornets",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+"location": "New Orleans",
+"id": "3",
+"abbreviation": "NO",
+"slug": "new-orleans-hornets"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "76ers",
+"uid": "s:40~l:46~t:20",
+"alternateColor": "f1f2f3",
+"color": "000000",
+"displayName": "Philadelphia 76ers",
+"name": "76ers",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+"location": "Philadelphia",
+"id": "20",
+"abbreviation": "PHI",
+"slug": "philadelphia-76ers"
+},
+"statistics": []
+}
+],
+"players": [
+{
+"team": {
+"shortDisplayName": "Hornets",
+"uid": "s:40~l:46~t:3",
+"alternateColor": "b4975a",
+"color": "0093B1",
+"displayName": "New Orleans Hornets",
+"name": "Hornets",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+"location": "New Orleans",
+"id": "3",
+"abbreviation": "NO",
+"slug": "new-orleans-hornets"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"athletes": [],
+"totals": [],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+]
+}
+]
+},
+{
+"team": {
+"shortDisplayName": "76ers",
+"uid": "s:40~l:46~t:20",
+"alternateColor": "f1f2f3",
+"color": "000000",
+"displayName": "Philadelphia 76ers",
+"name": "76ers",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+"location": "Philadelphia",
+"id": "20",
+"abbreviation": "PHI",
+"slug": "philadelphia-76ers"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"athletes": [],
+"totals": [],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+]
+}
+]
+}
+]
+},
+"header": {
+"uid": "s:40~l:46~e:231020020",
+"week": 4,
+"timeValid": true,
+"league": {
+"uid": "s:40~l:46",
+"name": "National Basketball Association",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/injuries",
+"text": "Injuries"
+}
+],
+"id": "46",
+"abbreviation": "NBA",
+"slug": "nba",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2003-10-20T23:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [],
+"playByPlaySource": "none",
+"uid": "s:40~l:46~e:231020020~c:231020020",
+"competitors": [
+{
+"uid": "s:40~l:46~t:20",
+"homeAway": "home",
+"score": "85",
+"winner": false,
+"record": [
+{
+"summary": "2-5",
+"displayValue": "2-5",
+"type": "total"
+},
+{
+"summary": "0-2",
+"displayValue": "0-2",
+"type": "home"
+},
+{
+"summary": "1-3",
+"displayValue": "1-3",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "20",
+"team": {
+"uid": "s:40~l:46~t:20",
+"alternateColor": "f1f2f3",
+"color": "000000",
+"displayName": "Philadelphia 76ers",
+"name": "76ers",
+"location": "Philadelphia",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+"text": "Clubhouse"
+}
+],
+"id": "20",
+"abbreviation": "PHI",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/phi.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "17"
+},
+{
+"displayValue": "23"
+},
+{
+"displayValue": "22"
+},
+{
+"displayValue": "23"
+}
+],
+"order": 0
+},
+{
+"uid": "s:40~l:46~t:3",
+"homeAway": "away",
+"score": "102",
+"winner": true,
+"record": [
+{
+"summary": "5-2",
+"displayValue": "5-2",
+"type": "total"
+},
+{
+"summary": "3-1",
+"displayValue": "3-1",
+"type": "road"
+},
+{
+"summary": "4-1",
+"displayValue": "4-1",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "3",
+"team": {
+"uid": "s:40~l:46~t:3",
+"alternateColor": "b4975a",
+"color": "0093B1",
+"displayName": "New Orleans Hornets",
+"name": "Hornets",
+"location": "New Orleans",
+"links": [],
+"id": "3",
+"abbreviation": "NO",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/no.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/no.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "24"
+},
+{
+"displayValue": "33"
+},
+{
+"displayValue": "21"
+},
+{
+"displayValue": "24"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"series": [
+{
+"summary": "Series tied 2-2",
+"competitors": [
+{
+"wins": 2,
+"uid": "s:40~l:46~t:20",
+"ties": 0,
+"id": "20",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2004/teams/20?lang=en&region=us"
+}
+},
+{
+"wins": 2,
+"uid": "s:40~l:46~t:3",
+"ties": 0,
+"id": "3",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2004/teams/3?lang=en&region=us"
+}
+}
+],
+"totalCompetitions": 4,
+"description": "Regular Season Series",
+"completed": true,
+"type": "season",
+"title": "Regular Season Series",
+"events": [
+{
+"id": "231105020",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/231105020?lang=en&region=us"
+},
+{
+"id": "240121003",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/240121003?lang=en&region=us"
+},
+{
+"id": "240130020",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/240130020?lang=en&region=us"
+},
+{
+"id": "240317003",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/240317003?lang=en&region=us"
+}
+]
+}
+],
+"boxscoreAvailable": true,
+"id": "231020020",
+"shotChartAvailable": false,
+"timeoutsAvailable": true,
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "basic",
+"possessionArrowAvailable": false,
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+}
+],
+"season": {
+"year": 2004,
+"type": 1
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/231020020",
+"text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Box Score",
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/boxscore/_/gameId/231020020",
+"text": "Box Score",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Team Stats",
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/nba/matchup?gameId=231020020",
+"text": "Team Stats",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Recap",
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/recap?gameId=231020020",
+"text": "Recap",
+"isPremium": false
+}
+],
+"id": "231020020",
+"gameNote": "AT NORFOLK VA"
+},
+"broadcasts": [],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/nba/standings"
+},
+"groups": [
+{
+"header": "2020-2021 Atlantic Standings",
+"href": "https://www.espn.com/nba/standings/_/group/1",
+"standings": {
+"entries": [
+{
+"uid": "s:40~l:46~t:20",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "47",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 47
+},
+{
+"shortDisplayName": "L",
+"displayValue": "22",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 22
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".681",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6811594367027283
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
+"height": 500
+}
+],
+"team": "Philadelphia",
+"id": "20"
+},
+{
+"uid": "s:40~l:46~t:17",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "45",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 45
+},
+{
+"shortDisplayName": "L",
+"displayValue": "24",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 24
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".652",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6521739363670349
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W2",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+"height": 500
+}
+],
+"team": "Brooklyn",
+"id": "17"
+},
+{
+"uid": "s:40~l:46~t:18",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "38",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 38
+},
+{
+"shortDisplayName": "L",
+"displayValue": "31",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 31
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".551",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5507246255874634
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "9",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 9
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png",
+"height": 500
+}
+],
+"team": "New York",
+"id": "18"
+},
+{
+"uid": "s:40~l:46~t:2",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "35",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 35
+},
+{
+"shortDisplayName": "L",
+"displayValue": "34",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 34
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".507",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5072463750839233
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "12",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 12
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L3",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -3
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/bos/boston-celtics",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png",
+"height": 500
+}
+],
+"team": "Boston",
+"id": "2"
+},
+{
+"uid": "s:40~l:46~t:28",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "27",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 27
+},
+{
+"shortDisplayName": "L",
+"displayValue": "42",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 42
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".391",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3913043439388275
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "20",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 20
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L4",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -4
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png",
+"height": 500
+}
+],
+"team": "Toronto",
+"id": "28"
+}
+]
+}
+}
+]
+},
+"seasonseries": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "Series tied 2-2",
+"completed": true,
+"totalCompetitions": 4,
+"events": [
+{
+"id": "240317003",
+"uid": "s:40~l:46~e:240317003~c:240317003",
+"date": "2004-03-18T00:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "3",
+"uid": "s:40~l:46~t:3",
+"displayName": "New Orleans Hornets",
+"abbreviation": "NO",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+},
+"score": "104"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "20",
+"uid": "s:40~l:46~t:20",
+"displayName": "Philadelphia 76ers",
+"abbreviation": "PHI",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/phi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+},
+"score": "80"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/240317003",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=240317003",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "240130020",
+"uid": "s:40~l:46~e:240130020~c:240130020",
+"date": "2004-01-31T00:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "20",
+"uid": "s:40~l:46~t:20",
+"displayName": "Philadelphia 76ers",
+"abbreviation": "PHI",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/phi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+},
+"score": "85"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "3",
+"uid": "s:40~l:46~t:3",
+"displayName": "New Orleans Hornets",
+"abbreviation": "NO",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+},
+"score": "82"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/240130020",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=240130020",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "240121003",
+"uid": "s:40~l:46~e:240121003~c:240121003",
+"date": "2004-01-22T00:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "3",
+"uid": "s:40~l:46~t:3",
+"displayName": "New Orleans Hornets",
+"abbreviation": "NO",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+},
+"score": "86"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "20",
+"uid": "s:40~l:46~t:20",
+"displayName": "Philadelphia 76ers",
+"abbreviation": "PHI",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/phi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+},
+"score": "92"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/240121003",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=240121003",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "231105020",
+"uid": "s:40~l:46~e:231105020~c:231105020",
+"date": "2003-11-06T00:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final/OT",
+"shortDetail": "Final/OT",
+"altDetail": "OT"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "20",
+"uid": "s:40~l:46~t:20",
+"displayName": "Philadelphia 76ers",
+"abbreviation": "PHI",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/phi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+},
+"score": "99"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "3",
+"uid": "s:40~l:46~t:3",
+"displayName": "New Orleans Hornets",
+"abbreviation": "NO",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+},
+"score": "106"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/231105020",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=231105020",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+}
+],
+"timeouts": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "3",
+"uid": "s:40~l:46~t:3",
+"displayName": "New Orleans Hornets",
+"abbreviation": "NO",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "20",
+"uid": "s:40~l:46~t:20",
+"displayName": "Philadelphia 76ers",
+"abbreviation": "PHI",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/phi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {},
+"espnWP": [],
+"gameInfo": {
+"date": "2003-10-20T23:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [],
+"playByPlaySource": "none",
+"uid": "s:40~l:46~e:231020020~c:231020020",
+"competitors": [
+{
+"uid": "s:40~l:46~t:20",
+"homeAway": "home",
+"score": "85",
+"winner": false,
+"record": [
+{
+"summary": "2-5",
+"displayValue": "2-5",
+"type": "total"
+},
+{
+"summary": "0-2",
+"displayValue": "0-2",
+"type": "home"
+},
+{
+"summary": "1-3",
+"displayValue": "1-3",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "20",
+"team": {
+"uid": "s:40~l:46~t:20",
+"alternateColor": "f1f2f3",
+"color": "000000",
+"displayName": "Philadelphia 76ers",
+"name": "76ers",
+"location": "Philadelphia",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+"text": "Clubhouse"
+}
+],
+"id": "20",
+"abbreviation": "PHI",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/phi.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "17"
+},
+{
+"displayValue": "23"
+},
+{
+"displayValue": "22"
+},
+{
+"displayValue": "23"
+}
+],
+"order": 0
+},
+{
+"uid": "s:40~l:46~t:3",
+"homeAway": "away",
+"score": "102",
+"winner": true,
+"record": [
+{
+"summary": "5-2",
+"displayValue": "5-2",
+"type": "total"
+},
+{
+"summary": "3-1",
+"displayValue": "3-1",
+"type": "road"
+},
+{
+"summary": "4-1",
+"displayValue": "4-1",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "3",
+"team": {
+"uid": "s:40~l:46~t:3",
+"alternateColor": "b4975a",
+"color": "0093B1",
+"displayName": "New Orleans Hornets",
+"name": "Hornets",
+"location": "New Orleans",
+"links": [],
+"id": "3",
+"abbreviation": "NO",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/no.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/no.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "24"
+},
+{
+"displayValue": "33"
+},
+{
+"displayValue": "21"
+},
+{
+"displayValue": "24"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"series": [
+{
+"summary": "Series tied 2-2",
+"competitors": [
+{
+"wins": 2,
+"uid": "s:40~l:46~t:20",
+"ties": 0,
+"id": "20",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2004/teams/20?lang=en&region=us"
+}
+},
+{
+"wins": 2,
+"uid": "s:40~l:46~t:3",
+"ties": 0,
+"id": "3",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2004/teams/3?lang=en&region=us"
+}
+}
+],
+"totalCompetitions": 4,
+"description": "Regular Season Series",
+"completed": true,
+"type": "season",
+"title": "Regular Season Series",
+"events": [
+{
+"id": "231105020",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/231105020?lang=en&region=us"
+},
+{
+"id": "240121003",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/240121003?lang=en&region=us"
+},
+{
+"id": "240130020",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/240130020?lang=en&region=us"
+},
+{
+"id": "240317003",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/240317003?lang=en&region=us"
+}
+]
+}
+],
+"boxscoreAvailable": true,
+"id": "231020020",
+"shotChartAvailable": false,
+"timeoutsAvailable": true,
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "basic",
+"possessionArrowAvailable": false,
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+},
+"season": {
+"year": 2004,
+"type": 1
+}
+}

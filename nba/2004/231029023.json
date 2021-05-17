@@ -1,0 +1,4288 @@
+{
+"gameId": 231029023,
+"plays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Cavaliers",
+"uid": "s:40~l:46~t:5",
+"alternateColor": "fdbb30",
+"color": "061642",
+"displayName": "Cleveland Cavaliers",
+"name": "Cavaliers",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+"location": "Cleveland",
+"id": "5",
+"abbreviation": "CLE",
+"slug": "cleveland-cavaliers"
+},
+"statistics": [
+{
+"displayValue": "40-86",
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"label": "FG"
+},
+{
+"displayValue": "46.5",
+"name": "fieldGoalPct",
+"label": "Field Goal %",
+"abbreviation": "FG%"
+},
+{
+"displayValue": "6-11",
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"label": "3PT"
+},
+{
+"displayValue": "54.5",
+"name": "threePointFieldGoalPct",
+"label": "Three Point %",
+"abbreviation": "3P%"
+},
+{
+"displayValue": "6-9",
+"name": "freeThrowsMade-freeThrowsAttempted",
+"label": "FT"
+},
+{
+"displayValue": "66.7",
+"name": "freeThrowPct",
+"label": "Free Throw %",
+"abbreviation": "FT%"
+},
+{
+"displayValue": "47",
+"name": "totalRebounds",
+"label": "Rebounds",
+"abbreviation": "REB"
+},
+{
+"displayValue": "10",
+"name": "offensiveRebounds",
+"label": "Offensive Rebounds",
+"abbreviation": "OR"
+},
+{
+"displayValue": "29",
+"name": "defensiveRebounds",
+"label": "Defensive Rebounds",
+"abbreviation": "DR"
+},
+{
+"displayValue": "24",
+"name": "assists",
+"label": "Assists",
+"abbreviation": "AST"
+},
+{
+"displayValue": "6",
+"name": "steals",
+"label": "Steals",
+"abbreviation": "STL"
+},
+{
+"displayValue": "9",
+"name": "blocks",
+"label": "Blocks",
+"abbreviation": "BLK"
+},
+{
+"displayValue": "14",
+"name": "turnovers",
+"label": "Turnovers",
+"abbreviation": "TO"
+},
+{
+"displayValue": "14",
+"name": "teamTurnovers",
+"label": "Team Turnovers",
+"abbreviation": "TTO"
+},
+{
+"displayValue": "28",
+"name": "totalTurnovers",
+"label": "Total Turnovers",
+"abbreviation": "ToTO"
+},
+{
+"displayValue": "0",
+"name": "technicalFouls",
+"label": "Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "totalTechnicalFouls",
+"label": "Total Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "flagrantFouls",
+"label": "Flagrant Fouls",
+"abbreviation": "FLAG"
+},
+{
+"displayValue": "14",
+"name": "turnoverPoints",
+"label": "Points Off Turnovers",
+"abbreviation": "PTS OFF TO"
+},
+{
+"displayValue": "10",
+"name": "fastBreakPoints",
+"label": "Fast Break Points",
+"abbreviation": "FBPs"
+},
+{
+"displayValue": "-1",
+"name": "pointsInPaint",
+"label": "Points in Paint",
+"abbreviation": "PIP"
+},
+{
+"displayValue": "25",
+"name": "fouls",
+"label": "Fouls",
+"abbreviation": "PF"
+}
+]
+},
+{
+"team": {
+"shortDisplayName": "Kings",
+"uid": "s:40~l:46~t:23",
+"alternateColor": "8e9090",
+"color": "393996",
+"displayName": "Sacramento Kings",
+"name": "Kings",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+"location": "Sacramento",
+"id": "23",
+"abbreviation": "SAC",
+"slug": "sacramento-kings"
+},
+"statistics": [
+{
+"displayValue": "44-87",
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"label": "FG"
+},
+{
+"displayValue": "50.6",
+"name": "fieldGoalPct",
+"label": "Field Goal %",
+"abbreviation": "FG%"
+},
+{
+"displayValue": "2-9",
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"label": "3PT"
+},
+{
+"displayValue": "22.2",
+"name": "threePointFieldGoalPct",
+"label": "Three Point %",
+"abbreviation": "3P%"
+},
+{
+"displayValue": "16-20",
+"name": "freeThrowsMade-freeThrowsAttempted",
+"label": "FT"
+},
+{
+"displayValue": "80.0",
+"name": "freeThrowPct",
+"label": "Free Throw %",
+"abbreviation": "FT%"
+},
+{
+"displayValue": "49",
+"name": "totalRebounds",
+"label": "Rebounds",
+"abbreviation": "REB"
+},
+{
+"displayValue": "13",
+"name": "offensiveRebounds",
+"label": "Offensive Rebounds",
+"abbreviation": "OR"
+},
+{
+"displayValue": "28",
+"name": "defensiveRebounds",
+"label": "Defensive Rebounds",
+"abbreviation": "DR"
+},
+{
+"displayValue": "27",
+"name": "assists",
+"label": "Assists",
+"abbreviation": "AST"
+},
+{
+"displayValue": "7",
+"name": "steals",
+"label": "Steals",
+"abbreviation": "STL"
+},
+{
+"displayValue": "8",
+"name": "blocks",
+"label": "Blocks",
+"abbreviation": "BLK"
+},
+{
+"displayValue": "10",
+"name": "turnovers",
+"label": "Turnovers",
+"abbreviation": "TO"
+},
+{
+"displayValue": "10",
+"name": "teamTurnovers",
+"label": "Team Turnovers",
+"abbreviation": "TTO"
+},
+{
+"displayValue": "20",
+"name": "totalTurnovers",
+"label": "Total Turnovers",
+"abbreviation": "ToTO"
+},
+{
+"displayValue": "0",
+"name": "technicalFouls",
+"label": "Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "totalTechnicalFouls",
+"label": "Total Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "flagrantFouls",
+"label": "Flagrant Fouls",
+"abbreviation": "FLAG"
+},
+{
+"displayValue": "19",
+"name": "turnoverPoints",
+"label": "Points Off Turnovers",
+"abbreviation": "PTS OFF TO"
+},
+{
+"displayValue": "7",
+"name": "fastBreakPoints",
+"label": "Fast Break Points",
+"abbreviation": "FBPs"
+},
+{
+"displayValue": "-1",
+"name": "pointsInPaint",
+"label": "Points in Paint",
+"abbreviation": "PIP"
+},
+{
+"displayValue": "11",
+"name": "fouls",
+"label": "Fouls",
+"abbreviation": "PF"
+}
+]
+}
+],
+"players": [
+{
+"team": {
+"shortDisplayName": "Cavaliers",
+"uid": "s:40~l:46~t:5",
+"alternateColor": "fdbb30",
+"color": "061642",
+"displayName": "Cleveland Cavaliers",
+"name": "Cavaliers",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+"location": "Cleveland",
+"id": "5",
+"abbreviation": "CLE",
+"slug": "cleveland-cavaliers"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"athletes": [
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:46~a:1703",
+"displayName": "Carlos Boozer",
+"headshot": {
+"alt": "Carlos Boozer",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/1703.png"
+},
+"jersey": "99",
+"guid": "202faf076402972e7afca57535b26db0",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/1703/carlos-boozer",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/1703/carlos-boozer",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/1703/carlos-boozer",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/1703/carlos-boozer",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/1703/carlos-boozer",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/1703/carlos-boozer",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/1703/carlos-boozer",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/1703/carlos-boozer",
+"text": "Advanced Stats"
+}
+],
+"id": "1703",
+"position": {
+"displayName": "Power Forward",
+"name": "Power Forward",
+"abbreviation": "PF"
+},
+"shortName": "C. Boozer"
+},
+"ejected": false,
+"stats": [
+"39",
+"7-15",
+"0-0",
+"0-0",
+"2",
+"9",
+"11",
+"3",
+"0",
+"4",
+"2",
+"3",
+"--",
+"14"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:46~a:550",
+"displayName": "Darius Miles",
+"headshot": {
+"alt": "Darius Miles",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/550.png"
+},
+"jersey": "24",
+"guid": "c224eb805e1c8cba525581b12708577c",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/550/darius-miles",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/550/darius-miles",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/550/darius-miles",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/550/darius-miles",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/550/darius-miles",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/550/darius-miles",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/550/darius-miles",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/550/darius-miles",
+"text": "Advanced Stats"
+}
+],
+"id": "550",
+"position": {
+"displayName": "Small Forward",
+"name": "Small Forward",
+"abbreviation": "SF"
+},
+"shortName": "D. Miles"
+},
+"ejected": false,
+"stats": [
+"29",
+"2-6",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"5",
+"0",
+"2",
+"1",
+"3",
+"--",
+"4"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:46~a:1966",
+"displayName": "LeBron James",
+"headshot": {
+"alt": "LeBron James",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png"
+},
+"jersey": "23",
+"guid": "1f6592b3ff53d3218dc56038d48c1786",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/1966/lebron-james",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/1966/lebron-james",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/1966/lebron-james",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/1966/lebron-james",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/1966/lebron-james",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/1966/lebron-james",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/1966/lebron-james",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/1966/lebron-james",
+"text": "Advanced Stats"
+}
+],
+"id": "1966",
+"position": {
+"displayName": "Small Forward",
+"name": "Small Forward",
+"abbreviation": "SF"
+},
+"shortName": "L. James"
+},
+"ejected": false,
+"stats": [
+"42",
+"12-20",
+"0-2",
+"1-3",
+"2",
+"4",
+"6",
+"9",
+"4",
+"0",
+"2",
+"3",
+"--",
+"25"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:46~a:362",
+"displayName": "Zydrunas Ilgauskas",
+"headshot": {
+"alt": "Zydrunas Ilgauskas",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/362.png"
+},
+"jersey": "11",
+"guid": "dea027f7d90ddc1b18777366a9e4e798",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/362/zydrunas-ilgauskas",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/362/zydrunas-ilgauskas",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/362/zydrunas-ilgauskas",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/362/zydrunas-ilgauskas",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/362/zydrunas-ilgauskas",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/362/zydrunas-ilgauskas",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/362/zydrunas-ilgauskas",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/362/zydrunas-ilgauskas",
+"text": "Advanced Stats"
+}
+],
+"id": "362",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "Z. Ilgauskas"
+},
+"ejected": false,
+"stats": [
+"32",
+"2-8",
+"0-0",
+"5-6",
+"3",
+"5",
+"8",
+"0",
+"0",
+"1",
+"3",
+"5",
+"--",
+"9"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:46~a:193",
+"displayName": "Ricky Davis",
+"jersey": "31",
+"guid": "7929f7abb56ab66fe078efb371d10ed1",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/193/ricky-davis",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/193/ricky-davis",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/193/ricky-davis",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/193/ricky-davis",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/193/ricky-davis",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/193/ricky-davis",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/193/ricky-davis",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/193/ricky-davis",
+"text": "Advanced Stats"
+}
+],
+"id": "193",
+"position": {
+"displayName": "Shooting Guard",
+"name": "Shooting Guard",
+"abbreviation": "SG"
+},
+"shortName": "R. Davis"
+},
+"ejected": false,
+"stats": [
+"41",
+"7-15",
+"0-0",
+"0-0",
+"0",
+"3",
+"3",
+"5",
+"1",
+"0",
+"4",
+"2",
+"--",
+"14"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:601",
+"displayName": "Ira Newble",
+"jersey": "14",
+"guid": "259616e830356e5c50d04e6547c926ad",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/601/ira-newble",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/601/ira-newble",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/601/ira-newble",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/601/ira-newble",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/601/ira-newble",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/601/ira-newble",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/601/ira-newble",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/601/ira-newble",
+"text": "Advanced Stats"
+}
+],
+"id": "601",
+"position": {
+"displayName": "Small Forward",
+"name": "Small Forward",
+"abbreviation": "SF"
+},
+"shortName": "I. Newble"
+},
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:549",
+"displayName": "Chris Mihm",
+"jersey": "4",
+"guid": "c0f000ba38fcc2edb3c1a078c84ddcad",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/549/chris-mihm",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/549/chris-mihm",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/549/chris-mihm",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/549/chris-mihm",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/549/chris-mihm",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/549/chris-mihm",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/549/chris-mihm",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/549/chris-mihm",
+"text": "Advanced Stats"
+}
+],
+"id": "549",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "C. Mihm"
+},
+"ejected": false,
+"stats": [
+"9",
+"2-5",
+"0-0",
+"0-0",
+"1",
+"2",
+"3",
+"0",
+"0",
+"1",
+"0",
+"1",
+"--",
+"4"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:824",
+"displayName": "Bruno Sundov",
+"jersey": "14",
+"guid": "22cc0c5826b2ca5b71edd439b7b13c33",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/824/bruno-sundov",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/824/bruno-sundov",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/824/bruno-sundov",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/824/bruno-sundov",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/824/bruno-sundov",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/824/bruno-sundov",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/824/bruno-sundov",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/824/bruno-sundov",
+"text": "Advanced Stats"
+}
+],
+"id": "824",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "B. Sundov"
+},
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:992",
+"displayName": "DeSagana Diop",
+"headshot": {
+"alt": "DeSagana Diop",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/992.png"
+},
+"jersey": "5",
+"guid": "92e70604a188f3a5789a41675f4ba2fb",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/992/desagana-diop",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/992/desagana-diop",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/992/desagana-diop",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/992/desagana-diop",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/992/desagana-diop",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/992/desagana-diop",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/992/desagana-diop",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/992/desagana-diop",
+"text": "Advanced Stats"
+}
+],
+"id": "992",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "D. Diop"
+},
+"ejected": false,
+"stats": [
+"16",
+"1-3",
+"0-0",
+"0-0",
+"2",
+"3",
+"5",
+"0",
+"0",
+"1",
+"1",
+"4",
+"--",
+"2"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:620",
+"displayName": "Kevin Ollie",
+"jersey": "7",
+"guid": "29350033d76bc74f27f472b1a0304655",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/620/kevin-ollie",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/620/kevin-ollie",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/620/kevin-ollie",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/620/kevin-ollie",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/620/kevin-ollie",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/620/kevin-ollie",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/620/kevin-ollie",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/620/kevin-ollie",
+"text": "Advanced Stats"
+}
+],
+"id": "620",
+"position": {
+"displayName": "Point Guard",
+"name": "Point Guard",
+"abbreviation": "PG"
+},
+"shortName": "K. Ollie"
+},
+"ejected": false,
+"stats": [
+"5",
+"0-1",
+"0-0",
+"0-0",
+"0",
+"1",
+"1",
+"0",
+"0",
+"0",
+"1",
+"1",
+"--",
+"0"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:1872",
+"displayName": "J.R. Bremer",
+"jersey": "9",
+"guid": "d6ad842dcaf7d63b45929c9a1dbd52bf",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/1872/jr-bremer",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/1872/jr-bremer",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/1872/jr-bremer",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/1872/jr-bremer",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/1872/jr-bremer",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/1872/jr-bremer",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/1872/jr-bremer",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/1872/jr-bremer",
+"text": "Advanced Stats"
+}
+],
+"id": "1872",
+"position": {
+"displayName": "Point Guard",
+"name": "Point Guard",
+"abbreviation": "PG"
+},
+"shortName": "J.R. Bremer"
+},
+"ejected": false,
+"stats": [
+"27",
+"7-13",
+"6-9",
+"0-0",
+"0",
+"2",
+"2",
+"2",
+"1",
+"0",
+"0",
+"3",
+"--",
+"20"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:1729",
+"displayName": "Dajuan Wagner",
+"jersey": "0",
+"guid": "befa8e65286c0907c0828201125baf59",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/1729/dajuan-wagner",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/1729/dajuan-wagner",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/1729/dajuan-wagner",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/1729/dajuan-wagner",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/1729/dajuan-wagner",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/1729/dajuan-wagner",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/1729/dajuan-wagner",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/1729/dajuan-wagner",
+"text": "Advanced Stats"
+}
+],
+"id": "1729",
+"position": {
+"displayName": "Shooting Guard",
+"name": "Shooting Guard",
+"abbreviation": "SG"
+},
+"shortName": "D. Wagner"
+},
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:525",
+"displayName": "Jelani McCoy",
+"jersey": "34",
+"guid": "977e3e84cb77d665d29fc5d8ab7797a0",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/525/jelani-mccoy",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/525/jelani-mccoy",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/525/jelani-mccoy",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/525/jelani-mccoy",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/525/jelani-mccoy",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/525/jelani-mccoy",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/525/jelani-mccoy",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/525/jelani-mccoy",
+"text": "Advanced Stats"
+}
+],
+"id": "525",
+"position": {
+"displayName": "Power Forward",
+"name": "Power Forward",
+"abbreviation": "PF"
+},
+"shortName": "J. McCoy"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:810",
+"displayName": "Michael Stewart",
+"jersey": "44",
+"guid": "e8deffeff9df59bc58f72621bd9564c8",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/810/michael-stewart",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/810/michael-stewart",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/810/michael-stewart",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/810/michael-stewart",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/810/michael-stewart",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/810/michael-stewart",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/810/michael-stewart",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/810/michael-stewart",
+"text": "Advanced Stats"
+}
+],
+"id": "810",
+"position": {
+"displayName": "Power Forward",
+"name": "Power Forward",
+"abbreviation": "PF"
+},
+"shortName": "M. Stewart"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:2010",
+"displayName": "Jason Kapono",
+"headshot": {
+"alt": "Jason Kapono",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/2010.png"
+},
+"jersey": "22",
+"guid": "352aadc73a6cb9b70847671f83e6a64d",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/2010/jason-kapono",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/2010/jason-kapono",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/2010/jason-kapono",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/2010/jason-kapono",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/2010/jason-kapono",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/2010/jason-kapono",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/2010/jason-kapono",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/2010/jason-kapono",
+"text": "Advanced Stats"
+}
+],
+"id": "2010",
+"position": {
+"displayName": "Shooting Guard",
+"name": "Shooting Guard",
+"abbreviation": "SG"
+},
+"shortName": "J. Kapono"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+}
+],
+"totals": [
+"",
+"40-86",
+"6-11",
+"6-9",
+"10",
+"29",
+"39",
+"24",
+"6",
+"9",
+"14",
+"25",
+"",
+"92"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+]
+}
+]
+},
+{
+"team": {
+"shortDisplayName": "Kings",
+"uid": "s:40~l:46~t:23",
+"alternateColor": "8e9090",
+"color": "393996",
+"displayName": "Sacramento Kings",
+"name": "Kings",
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+"location": "Sacramento",
+"id": "23",
+"abbreviation": "SAC",
+"slug": "sacramento-kings"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"athletes": [
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:46~a:813",
+"displayName": "Peja Stojakovic",
+"headshot": {
+"alt": "Peja Stojakovic",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/813.png"
+},
+"jersey": "16",
+"guid": "58efca0da6b54fd398806438d4b83cb7",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/813/peja-stojakovic",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/813/peja-stojakovic",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/813/peja-stojakovic",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/813/peja-stojakovic",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/813/peja-stojakovic",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/813/peja-stojakovic",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/813/peja-stojakovic",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/813/peja-stojakovic",
+"text": "Advanced Stats"
+}
+],
+"id": "813",
+"position": {
+"displayName": "Small Forward",
+"name": "Small Forward",
+"abbreviation": "SF"
+},
+"shortName": "P. Stojakovic"
+},
+"ejected": false,
+"stats": [
+"40",
+"9-20",
+"2-8",
+"2-2",
+"2",
+"5",
+"7",
+"4",
+"2",
+"0",
+"1",
+"1",
+"--",
+"22"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:46~a:205",
+"displayName": "Vlade Divac",
+"jersey": "12",
+"guid": "77afdfe6a8c8dbc5c0e4da53d910696d",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/205/vlade-divac",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/205/vlade-divac",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/205/vlade-divac",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/205/vlade-divac",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/205/vlade-divac",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/205/vlade-divac",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/205/vlade-divac",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/205/vlade-divac",
+"text": "Advanced Stats"
+}
+],
+"id": "205",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "V. Divac"
+},
+"ejected": false,
+"stats": [
+"39",
+"7-11",
+"0-0",
+"4-5",
+"3",
+"4",
+"7",
+"4",
+"0",
+"4",
+"5",
+"3",
+"--",
+"18"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:46~a:556",
+"displayName": "Brad Miller",
+"headshot": {
+"alt": "Brad Miller",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/556.png"
+},
+"jersey": "52",
+"guid": "00bc51f57b962ef2b460c61367e52334",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/556/brad-miller",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/556/brad-miller",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/556/brad-miller",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/556/brad-miller",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/556/brad-miller",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/556/brad-miller",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/556/brad-miller",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/556/brad-miller",
+"text": "Advanced Stats"
+}
+],
+"id": "556",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "B. Miller"
+},
+"ejected": false,
+"stats": [
+"37",
+"6-11",
+"0-1",
+"4-5",
+"4",
+"5",
+"9",
+"4",
+"0",
+"2",
+"1",
+"2",
+"--",
+"16"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:46~a:61",
+"displayName": "Mike Bibby",
+"headshot": {
+"alt": "Mike Bibby",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/61.png"
+},
+"jersey": "99",
+"guid": "a60b4eece3158210ea9be8003fb37032",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/61/mike-bibby",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/61/mike-bibby",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/61/mike-bibby",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/61/mike-bibby",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/61/mike-bibby",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/61/mike-bibby",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/61/mike-bibby",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/61/mike-bibby",
+"text": "Advanced Stats"
+}
+],
+"id": "61",
+"position": {
+"displayName": "Point Guard",
+"name": "Point Guard",
+"abbreviation": "PG"
+},
+"shortName": "M. Bibby"
+},
+"ejected": false,
+"stats": [
+"36",
+"8-15",
+"0-0",
+"3-4",
+"1",
+"1",
+"2",
+"7",
+"0",
+"0",
+"1",
+"0",
+"--",
+"19"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:46~a:147",
+"displayName": "Doug Christie",
+"jersey": "21",
+"guid": "3c3984b655278e1ec906471b8b9e0a57",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/147/doug-christie",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/147/doug-christie",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/147/doug-christie",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/147/doug-christie",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/147/doug-christie",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/147/doug-christie",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/147/doug-christie",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/147/doug-christie",
+"text": "Advanced Stats"
+}
+],
+"id": "147",
+"position": {
+"displayName": "Shooting Guard",
+"name": "Shooting Guard",
+"abbreviation": "SG"
+},
+"shortName": "D. Christie"
+},
+"ejected": false,
+"stats": [
+"31",
+"6-14",
+"0-0",
+"0-0",
+"1",
+"3",
+"4",
+"3",
+"2",
+"1",
+"1",
+"2",
+"--",
+"12"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:259",
+"displayName": "Lawrence Funderburke",
+"jersey": "51",
+"guid": "fda6446d0d7238ff8263826c3ee0a0ac",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/259/lawrence-funderburke",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/259/lawrence-funderburke",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/259/lawrence-funderburke",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/259/lawrence-funderburke",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/259/lawrence-funderburke",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/259/lawrence-funderburke",
+"text": "Overview"
+}
+],
+"id": "259",
+"position": {
+"displayName": "Power Forward",
+"name": "Power Forward",
+"abbreviation": "PF"
+},
+"shortName": "L. Funderburke"
+},
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:519",
+"displayName": "Tony Massenburg",
+"jersey": "44",
+"guid": "bff2bac1077e938476cd9271bb22e028",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/519/tony-massenburg",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/519/tony-massenburg",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/519/tony-massenburg",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/519/tony-massenburg",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/519/tony-massenburg",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/519/tony-massenburg",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/519/tony-massenburg",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/519/tony-massenburg",
+"text": "Advanced Stats"
+}
+],
+"id": "519",
+"position": {
+"displayName": "Power Forward",
+"name": "Power Forward",
+"abbreviation": "PF"
+},
+"shortName": "T. Massenburg"
+},
+"ejected": false,
+"stats": [
+"13",
+"0-1",
+"0-0",
+"0-0",
+"0",
+"3",
+"3",
+"2",
+"0",
+"1",
+"1",
+"1",
+"--",
+"0"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:1784",
+"displayName": "Darius Songaila",
+"headshot": {
+"alt": "Darius Songaila",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/1784.png"
+},
+"jersey": "25",
+"guid": "8d0f28824ce34b3527f4b2234f1f673d",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/1784/darius-songaila",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/1784/darius-songaila",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/1784/darius-songaila",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/1784/darius-songaila",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/1784/darius-songaila",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/1784/darius-songaila",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/1784/darius-songaila",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/1784/darius-songaila",
+"text": "Advanced Stats"
+}
+],
+"id": "1784",
+"position": {
+"displayName": "Power Forward",
+"name": "Power Forward",
+"abbreviation": "PF"
+},
+"shortName": "D. Songaila"
+},
+"ejected": false,
+"stats": [
+"7",
+"1-2",
+"0-0",
+"0-0",
+"0",
+"2",
+"2",
+"0",
+"1",
+"0",
+"0",
+"0",
+"--",
+"2"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:1026",
+"displayName": "Gerald Wallace",
+"headshot": {
+"alt": "Gerald Wallace",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/1026.png"
+},
+"guid": "19fe525e5bb42c465e9794da4a0bdf2a",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/1026/gerald-wallace",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/1026/gerald-wallace",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/1026/gerald-wallace",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/1026/gerald-wallace",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/1026/gerald-wallace",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/1026/gerald-wallace",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/1026/gerald-wallace",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/1026/gerald-wallace",
+"text": "Advanced Stats"
+}
+],
+"id": "1026",
+"position": {
+"displayName": "Small Forward",
+"name": "Small Forward",
+"abbreviation": "SF"
+},
+"shortName": "G. Wallace"
+},
+"ejected": false,
+"stats": [
+"17",
+"0-1",
+"0-0",
+"1-2",
+"2",
+"4",
+"6",
+"0",
+"1",
+"0",
+"0",
+"1",
+"--",
+"1"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:897",
+"displayName": "Chris Webber",
+"jersey": "4",
+"guid": "420890394b8154df58c1bd1a5db75387",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/897/chris-webber",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/897/chris-webber",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/897/chris-webber",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/897/chris-webber",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/897/chris-webber",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/897/chris-webber",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/897/chris-webber",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/897/chris-webber",
+"text": "Advanced Stats"
+}
+],
+"id": "897",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "C. Webber"
+},
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:376",
+"displayName": "Bobby Jackson",
+"jersey": "24",
+"guid": "eb95b335a0dc783cb87e5b375f21f7d2",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/376/bobby-jackson",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/376/bobby-jackson",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/376/bobby-jackson",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/376/bobby-jackson",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/376/bobby-jackson",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/376/bobby-jackson",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/376/bobby-jackson",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/376/bobby-jackson",
+"text": "Advanced Stats"
+}
+],
+"id": "376",
+"position": {
+"displayName": "Point Guard",
+"name": "Point Guard",
+"abbreviation": "PG"
+},
+"shortName": "B. Jackson"
+},
+"ejected": false,
+"stats": [
+"20",
+"7-12",
+"0-0",
+"2-2",
+"0",
+"1",
+"1",
+"3",
+"1",
+"0",
+"0",
+"1",
+"--",
+"16"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:114",
+"displayName": "Rodney Buford",
+"jersey": "2",
+"guid": "70826390cf6181ac0e37aea5cb8ac693",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/114/rodney-buford",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/114/rodney-buford",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/114/rodney-buford",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/114/rodney-buford",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/114/rodney-buford",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/114/rodney-buford",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/114/rodney-buford",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/114/rodney-buford",
+"text": "Advanced Stats"
+}
+],
+"id": "114",
+"position": {
+"displayName": "Small Forward",
+"name": "Small Forward",
+"abbreviation": "SF"
+},
+"shortName": "R. Buford"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:793",
+"displayName": "Jabari Smith",
+"jersey": "55",
+"guid": "a6133b245aea5f1cc7d8052568865fed",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/793/jabari-smith",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/793/jabari-smith",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/793/jabari-smith",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/793/jabari-smith",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/793/jabari-smith",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/793/jabari-smith",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/793/jabari-smith",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/793/jabari-smith",
+"text": "Advanced Stats"
+}
+],
+"id": "793",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "J. Smith"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:46~a:642",
+"displayName": "Anthony Peeler",
+"jersey": "8",
+"guid": "b900a1b60f07e26cedad5274d0b88437",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/642/anthony-peeler",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/642/anthony-peeler",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/642/anthony-peeler",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/642/anthony-peeler",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/642/anthony-peeler",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/642/anthony-peeler",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/642/anthony-peeler",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/642/anthony-peeler",
+"text": "Advanced Stats"
+}
+],
+"id": "642",
+"position": {
+"displayName": "Shooting Guard",
+"name": "Shooting Guard",
+"abbreviation": "SG"
+},
+"shortName": "A. Peeler"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+}
+],
+"totals": [
+"",
+"44-87",
+"2-9",
+"16-20",
+"13",
+"28",
+"41",
+"27",
+"7",
+"8",
+"10",
+"11",
+"",
+"106"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+]
+}
+]
+}
+]
+},
+"header": {
+"uid": "s:40~l:46~e:231029023",
+"week": 1,
+"timeValid": true,
+"league": {
+"uid": "s:40~l:46",
+"name": "National Basketball Association",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/nba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/nba/injuries",
+"text": "Injuries"
+}
+],
+"id": "46",
+"abbreviation": "NBA",
+"slug": "nba",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2003-10-30T00:30Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "2",
+"type": "Home"
+},
+"media": {
+"shortName": "KXTV"
+},
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:40~l:46~e:231029023~c:231029023",
+"competitors": [
+{
+"uid": "s:40~l:46~t:23",
+"homeAway": "home",
+"score": "106",
+"winner": true,
+"record": [
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "total"
+},
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "home"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"rank": 3,
+"id": "23",
+"team": {
+"uid": "s:40~l:46~t:23",
+"alternateColor": "8e9090",
+"color": "393996",
+"displayName": "Sacramento Kings",
+"name": "Kings",
+"location": "Sacramento",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
+"text": "Clubhouse"
+}
+],
+"id": "23",
+"abbreviation": "SAC",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sac.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sac.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "39"
+},
+{
+"displayValue": "26"
+},
+{
+"displayValue": "18"
+},
+{
+"displayValue": "23"
+}
+],
+"order": 0
+},
+{
+"uid": "s:40~l:46~t:5",
+"homeAway": "away",
+"score": "92",
+"winner": false,
+"record": [
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "total"
+},
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "road"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"rank": 20,
+"id": "5",
+"team": {
+"uid": "s:40~l:46~t:5",
+"alternateColor": "fdbb30",
+"color": "061642",
+"displayName": "Cleveland Cavaliers",
+"name": "Cavaliers",
+"location": "Cleveland",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers",
+"text": "Clubhouse"
+}
+],
+"id": "5",
+"abbreviation": "CLE",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/cle.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/cle.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "32"
+},
+{
+"displayValue": "20"
+},
+{
+"displayValue": "26"
+},
+{
+"displayValue": "14"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"series": [
+{
+"summary": "SAC leads series 1-0",
+"competitors": [
+{
+"wins": 1,
+"uid": "s:40~l:46~t:23",
+"ties": 0,
+"id": "23",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2004/teams/23?lang=en&region=us"
+}
+},
+{
+"wins": 0,
+"uid": "s:40~l:46~t:5",
+"ties": 0,
+"id": "5",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2004/teams/5?lang=en&region=us"
+}
+}
+],
+"totalCompetitions": 2,
+"description": "Regular Season Series",
+"completed": false,
+"type": "season",
+"title": "Regular Season Series",
+"events": [
+{
+"id": "231029023",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/231029023?lang=en&region=us"
+},
+{
+"id": "240122005",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/240122005?lang=en&region=us"
+}
+]
+}
+],
+"boxscoreAvailable": true,
+"id": "231029023",
+"shotChartAvailable": false,
+"timeoutsAvailable": true,
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "basic",
+"possessionArrowAvailable": false,
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+}
+],
+"season": {
+"year": 2004,
+"type": 2
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/231029023",
+"text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Recap",
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/nba/recap?gameId=231029023",
+"text": "Recap",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Box Score",
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/boxscore/_/gameId/231029023",
+"text": "Box Score",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Team Stats",
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/nba/matchup?gameId=231029023",
+"text": "Team Stats",
+"isPremium": false
+}
+],
+"id": "231029023"
+},
+"broadcasts": [],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/nba/standings"
+},
+"groups": [
+{
+"header": "2020-2021 Central Standings",
+"href": "https://www.espn.com/nba/standings/_/group/2",
+"standings": {
+"entries": [
+{
+"uid": "s:40~l:46~t:15",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "44",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 44
+},
+{
+"shortDisplayName": "L",
+"displayValue": "25",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 25
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".638",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6376811861991882
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mil.png",
+"height": 500
+}
+],
+"team": "Milwaukee",
+"id": "15"
+},
+{
+"uid": "s:40~l:46~t:11",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "33",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 33
+},
+{
+"shortDisplayName": "L",
+"displayValue": "36",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 36
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".478",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.47826087474823
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 11
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W2",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ind.png",
+"height": 500
+}
+],
+"team": "Indiana",
+"id": "11"
+},
+{
+"uid": "s:40~l:46~t:4",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "29",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 29
+},
+{
+"shortDisplayName": "L",
+"displayValue": "40",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 40
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".420",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.4202898442745209
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "15",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 15
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/chi.png",
+"height": 500
+}
+],
+"team": "Chicago",
+"id": "4"
+},
+{
+"uid": "s:40~l:46~t:5",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "21",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 21
+},
+{
+"shortDisplayName": "L",
+"displayValue": "48",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 48
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".304",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.30434781312942505
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "23",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 23
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L11",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -11
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/cle.png",
+"height": 500
+}
+],
+"team": "Cleveland",
+"id": "5"
+},
+{
+"uid": "s:40~l:46~t:8",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "20",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 20
+},
+{
+"shortDisplayName": "L",
+"displayValue": "50",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 50
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".286",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.2857142984867096
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "24.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 24.5
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L3",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -3
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png",
+"height": 500
+}
+],
+"team": "Detroit",
+"id": "8"
+}
+]
+}
+},
+{
+"header": "2020-2021 Pacific Standings",
+"href": "https://www.espn.com/nba/standings/_/group/4",
+"standings": {
+"entries": [
+{
+"uid": "s:40~l:46~t:21",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "48",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 48
+},
+{
+"shortDisplayName": "L",
+"displayValue": "21",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 21
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".696",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.695652186870575
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L2",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -2
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phx.png",
+"height": 500
+}
+],
+"team": "Phoenix",
+"id": "21"
+},
+{
+"uid": "s:40~l:46~t:12",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "46",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 46
+},
+{
+"shortDisplayName": "L",
+"displayValue": "23",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 23
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".667",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6666666865348816
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/lac.png",
+"height": 500
+}
+],
+"team": "LA",
+"id": "12"
+},
+{
+"uid": "s:40~l:46~t:13",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "39",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 39
+},
+{
+"shortDisplayName": "L",
+"displayValue": "30",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 30
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".565",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5652173757553101
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "9",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 9
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W2",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/lal.png",
+"height": 500
+}
+],
+"team": "LA Lakers",
+"id": "13"
+},
+{
+"uid": "s:40~l:46~t:9",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "37",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 37
+},
+{
+"shortDisplayName": "L",
+"displayValue": "33",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 33
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".529",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5285714268684387
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 11.5
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W4",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 4
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/gs.png",
+"height": 500
+}
+],
+"team": "Golden State",
+"id": "9"
+},
+{
+"uid": "s:40~l:46~t:23",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "31",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 31
+},
+{
+"shortDisplayName": "L",
+"displayValue": "38",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 38
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".449",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.4492753744125366
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "17",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 17
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W2",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sac.png",
+"height": 500
+}
+],
+"team": "Sacramento",
+"id": "23"
+}
+]
+}
+}
+]
+},
+"seasonseries": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "SAC Wins series 2-0",
+"completed": true,
+"totalCompetitions": 2,
+"events": [
+{
+"id": "240122005",
+"uid": "s:40~l:46~e:240122005~c:240122005",
+"date": "2004-01-23T00:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "5",
+"uid": "s:40~l:46~t:5",
+"displayName": "Cleveland Cavaliers",
+"abbreviation": "CLE",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/cle",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
+},
+"score": "89"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "23",
+"uid": "s:40~l:46~t:23",
+"displayName": "Sacramento Kings",
+"abbreviation": "SAC",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/sac",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
+},
+"score": "95"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/240122005",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=240122005",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "231029023",
+"uid": "s:40~l:46~e:231029023~c:231029023",
+"date": "2003-10-30T00:30:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "23",
+"uid": "s:40~l:46~t:23",
+"displayName": "Sacramento Kings",
+"abbreviation": "SAC",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/sac",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
+},
+"score": "106"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "5",
+"uid": "s:40~l:46~t:5",
+"displayName": "Cleveland Cavaliers",
+"abbreviation": "CLE",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/cle",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
+},
+"score": "92"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/231029023",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=231029023",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+}
+],
+"timeouts": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "5",
+"uid": "s:40~l:46~t:5",
+"displayName": "Cleveland Cavaliers",
+"abbreviation": "CLE",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/cle",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "23",
+"uid": "s:40~l:46~t:23",
+"displayName": "Sacramento Kings",
+"abbreviation": "SAC",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/sac",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {},
+"espnWP": [],
+"gameInfo": {
+"date": "2003-10-30T00:30Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "2",
+"type": "Home"
+},
+"media": {
+"shortName": "KXTV"
+},
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:40~l:46~e:231029023~c:231029023",
+"competitors": [
+{
+"uid": "s:40~l:46~t:23",
+"homeAway": "home",
+"score": "106",
+"winner": true,
+"record": [
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "total"
+},
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "home"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"rank": 3,
+"id": "23",
+"team": {
+"uid": "s:40~l:46~t:23",
+"alternateColor": "8e9090",
+"color": "393996",
+"displayName": "Sacramento Kings",
+"name": "Kings",
+"location": "Sacramento",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
+"text": "Clubhouse"
+}
+],
+"id": "23",
+"abbreviation": "SAC",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sac.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sac.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "39"
+},
+{
+"displayValue": "26"
+},
+{
+"displayValue": "18"
+},
+{
+"displayValue": "23"
+}
+],
+"order": 0
+},
+{
+"uid": "s:40~l:46~t:5",
+"homeAway": "away",
+"score": "92",
+"winner": false,
+"record": [
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "total"
+},
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "road"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"rank": 20,
+"id": "5",
+"team": {
+"uid": "s:40~l:46~t:5",
+"alternateColor": "fdbb30",
+"color": "061642",
+"displayName": "Cleveland Cavaliers",
+"name": "Cavaliers",
+"location": "Cleveland",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers",
+"text": "Clubhouse"
+}
+],
+"id": "5",
+"abbreviation": "CLE",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/cle.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/cle.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "32"
+},
+{
+"displayValue": "20"
+},
+{
+"displayValue": "26"
+},
+{
+"displayValue": "14"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"series": [
+{
+"summary": "SAC leads series 1-0",
+"competitors": [
+{
+"wins": 1,
+"uid": "s:40~l:46~t:23",
+"ties": 0,
+"id": "23",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2004/teams/23?lang=en&region=us"
+}
+},
+{
+"wins": 0,
+"uid": "s:40~l:46~t:5",
+"ties": 0,
+"id": "5",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2004/teams/5?lang=en&region=us"
+}
+}
+],
+"totalCompetitions": 2,
+"description": "Regular Season Series",
+"completed": false,
+"type": "season",
+"title": "Regular Season Series",
+"events": [
+{
+"id": "231029023",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/231029023?lang=en&region=us"
+},
+{
+"id": "240122005",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/240122005?lang=en&region=us"
+}
+]
+}
+],
+"boxscoreAvailable": true,
+"id": "231029023",
+"shotChartAvailable": false,
+"timeoutsAvailable": true,
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "basic",
+"possessionArrowAvailable": false,
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+},
+"season": {
+"year": 2004,
+"type": 2
+}
+}
