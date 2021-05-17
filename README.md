@@ -1,2 +1,2 @@
-# kenpomR-data
-KenPom data
+# hoopR-data
+hoopR data 2002-2021
