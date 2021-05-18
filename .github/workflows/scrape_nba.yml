@@ -2,13 +2,16 @@ name: NBA Year Scraper
 
 on:
   workflow_dispatch:
-  
-strategy:
-      matrix:
-        r-version: [4.0.3]
+  schedule:
+    - cron: '5 4 * 1-6,10-12 *'
+
 jobs:
+  
   scrape-latest:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        r-version: [4.0.3]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
@@ -27,7 +30,32 @@ jobs:
           git add . && git commit -m "current season schedule update" 
           git pull --rebase && git push
           python scrape_nba_json.py
-          
+      - name: Set up R ${{ matrix.r-version }}
+        uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: '4.0.3'
+      - name: Install libcurl 
+        run: sudo apt-get install libcurl4-openssl-dev libssl-dev libicu-dev libxml2-dev
+      - uses: r-lib/actions/setup-pandoc@v1  
+      - name: Install dependencies
+        run: |
+          install.packages(c("remotes","rvest","data.table","tidyr","stringr","stringi","assertthat","rlang"))
+          install.packages(c("tibble","usethis","httr","curl","xml2","glue","janitor", "jsonlite","dplyr"))
+          install.packages(c("future","furrr","progressr","purrr","arrow", "tidyr", "readr"))
+          remotes::install_github("saiemgilani/hoopR")
+        shell: Rscript {0}  
+      - name: Run weekly update
+        run: Rscript "week.R"
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Github Action"
+          git add .
+          git commit -m "morning update" || echo "No changes to commit"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"

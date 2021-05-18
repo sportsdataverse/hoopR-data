@@ -19,8 +19,9 @@ def main():
         print(year)
         processor = ScheduleProcess(year)
         year_schedule = processor.nba_schedule()
+        year_schedule['game_id'] = year_schedule['id']
          # this finds our json files
-        year_schedule.to_csv(f"{path_to_schedules}/nba_games_info_{year}.csv")
+        year_schedule.to_csv(f"{path_to_schedules}/nba_schedule_{year}.csv", index=False)
         schedule_table = schedule_table.append(year_schedule)
     csv_files = [pos_csv.replace('.csv', '') for pos_csv in os.listdir(path_to_schedules) if pos_csv.endswith('.csv')]
     glued_data = pd.DataFrame()
@@ -28,7 +29,7 @@ def main():
         x = pd.read_csv(f"{path_to_schedules}/{js}.csv", low_memory=False)
         glued_data = pd.concat([glued_data,x],axis=0)
     glued_data['game_id'] = glued_data['id']
-    glued_data.to_csv(final_file_name)
+    glued_data.to_csv(final_file_name, index=False)
 
 
 if __name__ == "__main__":
