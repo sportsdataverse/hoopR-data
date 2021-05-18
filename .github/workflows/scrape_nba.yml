@@ -9,6 +9,7 @@ on:
     - cron: '5 4 * 1-6,10-12 *'
     - cron: '5 0 * 1-6,10-12 *'
     - cron: '5 11 * 1-6,10-12 *'
+    - cron: '5 4 * 1-6,10-12 *'
 
 jobs:
   
@@ -51,6 +52,8 @@ jobs:
         shell: Rscript {0}  
       - name: Rebuild play-by-play and schedules
         run: Rscript "R/01_nba_pbp_creation.R"
+      - name: Run weekly update
+        run: Rscript "week.R"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
