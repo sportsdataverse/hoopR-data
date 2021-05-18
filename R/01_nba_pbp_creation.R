@@ -40,7 +40,7 @@ pbp_games <- purrr::map_dfr(years_vec, function(y){
     status.displayClock = as.character(.data$status.displayClock),
     PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
   )
-  write.csv(dplyr::distinct(sched),glue::glue('nba/schedules/nba_schedule_{y}.csv'), row.names=FALSE)
+  write.csv(dplyr::distinct(sched) %>% dplyr::arrange(-.data$date),glue::glue('nba/schedules/nba_schedule_{y}.csv'), row.names=FALSE)
   return(pbp_g)
 })
 
@@ -54,6 +54,6 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 })
 
 
-write.csv(sched_g, 'nba_schedule_2002_2021.csv', row.names = FALSE)
-write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE), 'nba/nba_games_in_data_repo.csv', row.names = FALSE)
+write.csv(sched_g %>% dplyr::arrange(-.data$date), 'nba_schedule_2002_2021.csv', row.names = FALSE)
+write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(-.data$date), 'nba/nba_games_in_data_repo.csv', row.names = FALSE)
 
