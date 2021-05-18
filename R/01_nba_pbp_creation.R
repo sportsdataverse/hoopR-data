@@ -1,12 +1,18 @@
 
-library(dplyr)
-library(magrittr)
-library(jsonlite)
-library(furrr)
-library(purrr)
-library(future)
-library(progressr)
-library(arrow)
+.libPaths("C:/Users/saiem/Documents/R/win-library/4.0")
+Sys.setenv(R_LIBS="C:/Users/saiem/Documents/R/win-library/4.0")
+if (!requireNamespace('pacman', quietly = TRUE)){
+  install.packages('pacman',lib=Sys.getenv("R_LIBS"), repos='http://cran.us.r-project.org')
+}
+library(dplyr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")
+library(magrittr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")
+library(jsonlite, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")
+library(furrr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")
+library(purrr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")
+library(future, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")
+library(progressr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")
+library(arrow, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")
+library(glue, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")
 
 years_vec <- 2021:2021
 # --- compile into play_by_play_{year}.parquet ---------
