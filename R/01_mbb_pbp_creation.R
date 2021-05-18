@@ -28,14 +28,28 @@ progressr::with_progress({
     ifelse(!dir.exists(file.path("mbb/pbp/parquet")), dir.create(file.path("mbb/pbp/parquet")), FALSE)
     
     arrow::write_parquet(pbp_g, glue::glue("mbb/pbp/parquet/play_by_play_{y}.parquet"))
+    sched <- read.csv(glue::glue('mbb/schedules/mbb_schedule_{y}.csv'))
+    sched <- sched %>%
+      dplyr::mutate(
+        status.displayClock = as.character(.data$status.displayClock),
+        PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
+      )
+    write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/mbb_schedule_{y}.csv'), row.names=FALSE)
     p(sprintf("y=%s", as.integer(y)))
     return(pbp_g)
   })
 })
 
-df_game_ids <- as.data.frame(
-  dplyr::distinct(pbp_games %>% 
-                    dplyr::select(game_id, season, season_type, home_team_name, away_team_name))) %>% 
-  dplyr::arrange(-season)
+sched_list <- list.files(path = glue::glue('mbb/schedules/'))
+sched_g <-  purrr::map_dfr(sched_list, function(x){
+  sched <- read.csv(glue::glue('mbb/schedules/{x}')) %>%
+    dplyr::mutate(
+      status.displayClock = as.character(.data$status.displayClock)
+    )
+  return(sched)
+})
 
-write.csv(df_game_ids, 'mbb/mbb_games_in_data_repo.csv',row.names=FALSE)
+
+write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_2002_2021.csv', row.names = FALSE)
+write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.csv', row.names = FALSE)
+
