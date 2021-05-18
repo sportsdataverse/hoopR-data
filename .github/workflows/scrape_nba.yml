@@ -2,6 +2,10 @@ name: NBA Year Scraper
 
 on:
   workflow_dispatch:
+  
+strategy:
+      matrix:
+        r-version: [4.0.3]
 jobs:
   scrape-latest:
     runs-on: ubuntu-latest
@@ -18,13 +22,18 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
           python -m pip install -r requirements.txt
       - name: Run Scraper
-        run: python scrape_nba_json.py
+        run: |
+          python scrape_nba_schedules.py
+          git add . && git commit -m "current season schedule update" 
+          git pull --rebase && git push
+          python scrape_nba_json.py
+          
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
           git add .
-          git commit -m "MBB Year Updated" || echo "No changes to commit"
+          git commit -m "NBA Year Updated" || echo "No changes to commit"
           git pull --rebase
       - name: Push changes
         uses: ad-m/github-push-action@master

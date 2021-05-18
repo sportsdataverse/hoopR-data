@@ -1,7 +1,6 @@
 import os, json
 import re
 import http
-import xgboost as xgb
 import time
 import urllib.request
 import numpy as np
@@ -13,9 +12,12 @@ from pathlib import Path
 from play_handler import PlayProcess
 path_to_raw = "nba"
 def main():
-    years_arr = range(2002,2021)
+    years_arr = range(2021,2022)
     schedule = pd.read_csv('nba_schedule_2002_2021.csv', encoding='latin-1', low_memory=False)
+    schedule_in_repo = pd.read_csv('nba/nba_games_in_data_repo.csv', encoding='latin-1', low_memory=False)
+    done_already = schedule_in_repo['game_id']
     schedule = schedule[schedule['status.type.completed']==True]
+    schedule = schedule[~schedule['game_id'].isin(done_already)]
     schedule = schedule.sort_values(by=['season'], ascending = False)
 
     for year in reversed(years_arr):
@@ -67,6 +69,7 @@ def main():
             with open(fp,'w') as f:
                 json.dump(pbp, f, indent=0, sort_keys=False)
             i+=1
+        
 
 
 

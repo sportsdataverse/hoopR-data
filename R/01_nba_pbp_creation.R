@@ -33,9 +33,27 @@ progressr::with_progress({
   })
 })
 
+sched <- read.csv('nba_schedule_2002_2021.csv')
+
+
+
 df_game_ids <- as.data.frame(
   dplyr::distinct(pbp_games %>% 
                     dplyr::select(game_id, season, season_type, home_team_name, away_team_name))) %>% 
-  dplyr::arrange(-season)
+  dplyr::arrange(-season) %>% 
+  dplyr::mutate(
+    game_id = as.integer(.data$game_id)
+  )
 
-write.csv(df_game_ids, 'nba/nba_games_in_data_repo.csv',row.names=FALSE)
+sched <- sched %>% 
+  dplyr::left_join(df_game_ids %>% dplyr::select(game_id,season), by = "game_id",
+                   suffix = c("", ".y"),)
+sched <- sched %>% 
+  dplyr::mutate(
+    PBP = ifelse(is.na(.data$season.y), FALSE, TRUE)
+  ) %>% 
+  dplyr::select(-.data$season.y)
+
+write.csv(sched, 'nba_schedule_2002_2021.csv', row.names = FALSE)
+write.csv(sched %>% dplyr::filter(.data$PBP == TRUE), 'nba/nba_games_in_data_repo.csv', row.names = FALSE)
+
