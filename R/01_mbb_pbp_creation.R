@@ -40,7 +40,7 @@ progressr::with_progress({
     sched <- sched %>%
       dplyr::mutate(
         status.displayClock = as.character(.data$status.displayClock),
-        PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
+        PBP = ifelse(.data$game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
       )
     write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/mbb_schedule_{y}.csv'), row.names=FALSE)
     p(sprintf("y=%s", as.integer(y)))

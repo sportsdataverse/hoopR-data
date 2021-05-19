@@ -13,14 +13,15 @@ path_to_schedules = "mbb/schedules"
 final_file_name = "mbb_schedule_2002_2021.csv"
 def main():
 
-    years_arr = range(2021,2022)
+    years_arr = range(2002,2022)
     schedule_table = pd.DataFrame()
     for year in years_arr:
         print(year)
         processor = ScheduleProcess(year)
         year_schedule = processor.mbb_schedule()
+        year_schedule['game_id'] = year_schedule['id']
          # this finds our json files
-        year_schedule.to_csv(f"{path_to_schedules}/mbb_schedule_{year}.csv")
+        year_schedule.to_csv(f"{path_to_schedules}/mbb_schedule_{year}.csv", index = False)
         schedule_table = schedule_table.append(year_schedule)
     csv_files = [pos_csv.replace('.csv', '') for pos_csv in os.listdir(path_to_schedules) if pos_csv.endswith('.csv')]
     glued_data = pd.DataFrame()
