@@ -15,7 +15,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:/Users/
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2021:2021
+years_vec <- 2002:2021
 # --- compile into play_by_play_{year}.parquet ---------
 future::plan("multisession")
 progressr::with_progress({
