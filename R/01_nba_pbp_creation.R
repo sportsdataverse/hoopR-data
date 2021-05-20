@@ -25,8 +25,10 @@ pbp_games <- purrr::map_dfr(years_vec, function(y){
     pbp$game_id <- gsub(".json","", x)
     return(pbp)
   })
-  pbp_g <- pbp_g %>% janitor::clean_names()
-  pbp_g <- pbp_g %>% dplyr::mutate(game_id = as.integer(.data$game_id))
+  if(nrow(pbp_g)>0){
+    pbp_g <- pbp_g %>% janitor::clean_names()
+    pbp_g <- pbp_g %>% dplyr::mutate(game_id = as.integer(.data$game_id))
+  }
   ifelse(!dir.exists(file.path("nba/pbp")), dir.create(file.path("nba/pbp")), FALSE)
   ifelse(!dir.exists(file.path("nba/pbp/csv")), dir.create(file.path("nba/pbp/csv")), FALSE)
   write.csv(pbp_g, file=gzfile(glue::glue("nba/pbp/csv/play_by_play_{y}.csv.gz")), row.names = FALSE)
@@ -43,7 +45,20 @@ pbp_games <- purrr::map_dfr(years_vec, function(y){
   write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/nba_schedule_{y}.csv'), row.names=FALSE)
   return(pbp_g)
 })
-
+future::plan("multisession")
+purrr::map(years_vec, function(y){
+  pbp_g <- pbp_games %>% 
+      dplyr::filter(.data$season == y)
+  
+  ifelse(!dir.exists(file.path("nba/pbp")), dir.create(file.path("nba/pbp")), FALSE)
+  ifelse(!dir.exists(file.path("nba/pbp/csv")), dir.create(file.path("nba/pbp/csv")), FALSE)
+  write.csv(pbp_g, file=gzfile(glue::glue("nba/pbp/csv/play_by_play_{y}.csv.gz")), row.names = FALSE)
+  ifelse(!dir.exists(file.path("nba/pbp/rds")), dir.create(file.path("nba/pbp/rds")), FALSE)
+  saveRDS(pbp_g,glue::glue("nba/pbp/rds/play_by_play_{y}.rds"))
+  ifelse(!dir.exists(file.path("nba/pbp/parquet")), dir.create(file.path("nba/pbp/parquet")), FALSE)
+  arrow::write_parquet(pbp_g, glue::glue("nba/pbp/parquet/play_by_play_{y}.parquet"))
+  
+})
 sched_list <- list.files(path = glue::glue('nba/schedules/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
   sched <- read.csv(glue::glue('nba/schedules/{x}')) %>%
