@@ -64,7 +64,6 @@ progressr::with_progress({
       teams1$OpponentMascot <- homeTeamMascot
       teams1$OpponentAbbrev <- homeTeamAbbrev
       teams <- dplyr::bind_rows(teams1,teams2)
-      team_box_score_df <- teams_box_score_df[-c("statistics")]
       team_box_score <- teams_box_score_df %>%
         # dplyr::select(-.data$statistics) %>%
         dplyr::bind_cols(teams)
