@@ -1,17 +1,17 @@
-.libPaths("C:/Users/saiem/Documents/R/win-library/4.0")
-Sys.setenv(R_LIBS="C:/Users/saiem/Documents/R/win-library/4.0")
+.libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
+Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 if (!requireNamespace('pacman', quietly = TRUE)){
   install.packages('pacman',lib=Sys.getenv("R_LIBS"), repos='http://cran.us.r-project.org')
 }
-suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
-suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
-suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
-suppressPackageStartupMessages(suppressMessages(library(furrr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
-suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
-suppressPackageStartupMessages(suppressMessages(library(future, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
-suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
-suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
-suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
+suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
+suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
+suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
+suppressPackageStartupMessages(suppressMessages(library(furrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
+suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
+suppressPackageStartupMessages(suppressMessages(library(future, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
+suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
+suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
+suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
@@ -58,10 +58,9 @@ progressr::with_progress({
   })
 })
 future::plan("multisession")
-purrr::map(years_vec, function(y){
+all_games <- purrr::map(years_vec, function(y){
   pbp_g <- pbp_games %>% 
     dplyr::filter(.data$season == y)
-  
   ifelse(!dir.exists(file.path("mbb/pbp")), dir.create(file.path("mbb/pbp")), FALSE)
   ifelse(!dir.exists(file.path("mbb/pbp/csv")), dir.create(file.path("mbb/pbp/csv")), FALSE)
   write.csv(pbp_g, file=gzfile(glue::glue("mbb/pbp/csv/play_by_play_{y}.csv.gz")), row.names = FALSE)
@@ -69,7 +68,6 @@ purrr::map(years_vec, function(y){
   saveRDS(pbp_g,glue::glue("mbb/pbp/rds/play_by_play_{y}.rds"))
   ifelse(!dir.exists(file.path("mbb/pbp/parquet")), dir.create(file.path("mbb/pbp/parquet")), FALSE)
   arrow::write_parquet(pbp_g, glue::glue("mbb/pbp/parquet/play_by_play_{y}.parquet"))
-  
 })
 sched_list <- list.files(path = glue::glue('mbb/schedules/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
