@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2021:2021
+years_vec <- 2002:2021
 # --- compile into player_box_{year}.parquet ---------
 future::plan("multisession")
 
@@ -26,7 +26,7 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
   print(glue::glue('mbb/{y}/'))
   player_box_g <- furrr::future_map_dfr(player_box_list, function(x){
     game_json <- jsonlite::fromJSON(glue::glue('mbb/{y}/{x}'))
-
+    
     player_box_score <- data.frame()
     players_box_score_df <- data.frame()
     players_box_score_df <- data.frame(jsonlite::fromJSON(jsonlite::toJSON(game_json[['boxscore']][['players']]), flatten=TRUE))
@@ -34,46 +34,63 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
     season <- game_json[['header']][['season']][['year']]
     season_type <- game_json[['header']][['season']][['type']]
     boxScoreAvailable = game_json[['header']][['competitions']][["boxscoreAvailable"]]
+    
+    boxScoreSource = game_json[['header']][['competitions']][["boxscoreSource"]]
     homeTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][1]
     awayTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][2]
     homeTeamMascot = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['name']][1]
     awayTeamMascot = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['name']][2]
     homeTeamName = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['location']][1]
     awayTeamName = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['location']][2]
-
+    
     homeTeamAbbrev = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['abbreviation']][1]
     awayTeamAbbrev = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['abbreviation']][2]
     game_date = as.Date(substr(game_json[['header']][['competitions']][['date']],0,10))
-
-    if(boxScoreAvailable == TRUE){
+    
+    if(boxScoreAvailable == TRUE && boxScoreSource == "full"){
       if(length(players_box_score_df[[1]][[2]])>0){
-        players_box_score_df_2 <- players_box_score_df[[1]][[2]] %>%
-          dplyr::select(.data$displayValue, .data$name) %>%
-          dplyr::rename(Home = .data$displayValue)
-        players_box_score_df_1 <- players_box_score_df[[1]][[1]] %>%
-          dplyr::select(.data$displayValue, .data$name) %>%
-          dplyr::rename(Away = .data$displayValue)
-        players2 <- data.frame(t(players_box_score_df_2$Home))
-        colnames(players2) <- t(players_box_score_df_2$name)
-        players2$TeamType <- "Home"
-        players2$OpponentId <- as.integer(awayTeamId)
-        players2$OpponentName <- awayTeamName
-        players2$OpponentMascot <- awayTeamMascot
-        players2$OpponentAbbrev <- awayTeamAbbrev
-
-        players1 <- data.frame(t(players_box_score_df_1$Away))
-        colnames(players1) <- t(players_box_score_df_1$name)
-        players1$TeamType <- "Away"
-        players1$OpponentId <- as.integer(homeTeamId)
-        players1$OpponentName <- homeTeamName
-        players1$OpponentMascot <- homeTeamMascot
-        players1$OpponentAbbrev <- homeTeamAbbrev
-        players <- dplyr::bind_rows(players1,players2)
-        team_box_score <- players_box_score_df %>%
-          # dplyr::select(-.data$statistics) %>%
-          dplyr::bind_cols(players)
-
-        player_box_score <- player_box_score %>%
+        players_df <- players_box_score_df %>%
+          tidyr::unnest(.data$statistics) %>%
+          tidyr::unnest(.data$athletes)
+        
+        cols <- c('starter','ejected', 'didNotPlay','active',
+                  'athlete.displayName','athlete.jersey',
+                  'athlete.id','athlete.shortName',
+                  'athlete.headshot.href','athlete.position.name',
+                  'athlete.position.abbreviation', 'team.shortDisplayName',
+                  'team.name', 'team.logo', 'team.id', 'team.abbreviation',
+                  'team.color')
+        
+        players_df <- players_df %>%
+          dplyr::select(tidyselect::any_of(cols))
+        
+        tryCatch(
+          expr = {
+            stat_cols <- players_df$names[[1]]
+            stats <- players_df$stats
+            
+            stats_df <- as.data.frame(do.call(rbind,stats))
+            colnames(stats_df) <- stat_cols
+            
+            players_df <- dplyr::bind_cols(stats_df,players_df) %>%
+              dplyr::select(.data$athlete.displayName,.data$team.shortDisplayName, tidyr::everything())
+            
+            
+            players_df <- players_df %>%
+              janitor::clean_names() %>%
+              dplyr::rename(
+                fg3 = .data$x3pt
+              )
+          },
+          error = function(e) {
+            message(glue::glue("{Sys.time()}: Invalid arguments or no player box data for {game_id} available!"))
+          },
+          warning = function(w) {
+          },
+          finally = {
+          }
+        )
+        player_box_score <- players_df %>%
           dplyr::mutate(
             game_id = gameId,
             season = season,
@@ -87,7 +104,7 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
     }
     return(player_box_score)
   })
-
+  
   ifelse(!dir.exists(file.path("mbb/player_box")), dir.create(file.path("mbb/player_box")), FALSE)
   ifelse(!dir.exists(file.path("mbb/player_box/csv")), dir.create(file.path("mbb/player_box/csv")), FALSE)
   write.csv(player_box_g, file=gzfile(glue::glue("mbb/player_box/csv/player_box_{y}.csv.gz")), row.names = FALSE)
@@ -102,7 +119,7 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
       player_box = ifelse(.data$game_id %in% unique(player_box_g$game_id), TRUE,FALSE)
     )
   write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/mbb_schedule_{y}.csv'), row.names=FALSE)
-
+  
   return(player_box_g)
 })
 future::plan("multisession")
