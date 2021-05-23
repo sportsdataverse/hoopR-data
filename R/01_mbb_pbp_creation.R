@@ -1,3 +1,4 @@
+
 .libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 if (!requireNamespace('pacman', quietly = TRUE)){
@@ -21,7 +22,6 @@ future::plan("multisession")
 progressr::with_progress({
   p <- progressr::progressor(along = sort(years_vec, decreasing = TRUE))
   pbp_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y){
-    
     pbp_g <- data.frame()
     pbp_list <- list.files(path = glue::glue('mbb/{y}/'))
     print(glue::glue('mbb/{y}/'))
@@ -37,14 +37,12 @@ progressr::with_progress({
           game_id = as.integer(.data$game_id)
         )
     }
-    
     ifelse(!dir.exists(file.path("mbb/pbp")), dir.create(file.path("mbb/pbp")), FALSE)
     ifelse(!dir.exists(file.path("mbb/pbp/csv")), dir.create(file.path("mbb/pbp/csv")), FALSE)
     write.csv(pbp_g, file=gzfile(glue::glue("mbb/pbp/csv/play_by_play_{y}.csv.gz")), row.names = FALSE)
     ifelse(!dir.exists(file.path("mbb/pbp/rds")), dir.create(file.path("mbb/pbp/rds")), FALSE)
     saveRDS(pbp_g,glue::glue("mbb/pbp/rds/play_by_play_{y}.rds"))
     ifelse(!dir.exists(file.path("mbb/pbp/parquet")), dir.create(file.path("mbb/pbp/parquet")), FALSE)
-    
     arrow::write_parquet(pbp_g, glue::glue("mbb/pbp/parquet/play_by_play_{y}.parquet"))
     sched <- read.csv(glue::glue('mbb/schedules/mbb_schedule_{y}.csv'))
     sched <- sched %>%
