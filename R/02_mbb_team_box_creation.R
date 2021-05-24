@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2021:2021
+years_vec <- 2002:2021
 # --- compile into team_box_{year}.parquet ---------
 future::plan("multisession")
 
@@ -26,7 +26,7 @@ team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y)
   print(glue::glue('mbb/{y}/'))
   team_box_g <- furrr::future_map_dfr(team_box_list, function(x){
     game_json <- jsonlite::fromJSON(glue::glue('mbb/{y}/{x}'))
-
+    
     team_box_score <- data.frame()
     teams_box_score_df <- data.frame()
     teams_box_score_df <- data.frame(jsonlite::fromJSON(jsonlite::toJSON(game_json[['boxscore']][['teams']]), flatten=TRUE))
@@ -40,54 +40,65 @@ team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y)
     awayTeamMascot = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['name']][2]
     homeTeamName = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['location']][1]
     awayTeamName = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['location']][2]
-
+    
     homeTeamAbbrev = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['abbreviation']][1]
     awayTeamAbbrev = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['abbreviation']][2]
     game_date = as.Date(substr(game_json[['header']][['competitions']][['date']],0,10))
-
-    if(boxScoreAvailable == TRUE){
-      if(length(teams_box_score_df[[1]][[2]])>0){
-        teams_box_score_df_2 <- teams_box_score_df[[1]][[2]] %>%
-          dplyr::select(.data$displayValue, .data$name) %>%
-          dplyr::rename(Home = .data$displayValue)
-        teams_box_score_df_1 <- teams_box_score_df[[1]][[1]] %>%
-          dplyr::select(.data$displayValue, .data$name) %>%
-          dplyr::rename(Away = .data$displayValue)
-        teams2 <- data.frame(t(teams_box_score_df_2$Home))
-        colnames(teams2) <- t(teams_box_score_df_2$name)
-        teams2$Team <- "Home"
-        teams2$OpponentId <- as.integer(awayTeamId)
-        teams2$OpponentName <- awayTeamName
-        teams2$OpponentMascot <- awayTeamMascot
-        teams2$OpponentAbbrev <- awayTeamAbbrev
-
-        teams1 <- data.frame(t(teams_box_score_df_1$Away))
-        colnames(teams1) <- t(teams_box_score_df_1$name)
-        teams1$Team <- "Away"
-        teams1$OpponentId <- as.integer(homeTeamId)
-        teams1$OpponentName <- homeTeamName
-        teams1$OpponentMascot <- homeTeamMascot
-        teams1$OpponentAbbrev <- homeTeamAbbrev
-        teams <- dplyr::bind_rows(teams1,teams2)
-        team_box_score <- teams_box_score_df %>%
-          # dplyr::select(-.data$statistics) %>%
-          dplyr::bind_cols(teams)
-
-        team_box_score <- team_box_score %>%
-          dplyr::mutate(
-            game_id = gameId,
-            season = season,
-            season_type = season_type,
-            game_date = game_date
-          ) %>%
-          janitor::clean_names()
-        drop <- c("statistics")
-        team_box_score = team_box_score[,!(names(team_box_score) %in% drop)]
+    tryCatch(
+      expr = {
+        if(boxScoreAvailable == TRUE){
+          if(length(teams_box_score_df[["statistics"]][[1]])>0){
+            teams_box_score_df_2 <- teams_box_score_df[['statistics']][[2]] %>%
+              dplyr::select(.data$displayValue, .data$name) %>%
+              dplyr::rename(Home = .data$displayValue)
+            teams_box_score_df_1 <- teams_box_score_df[['statistics']][[1]] %>%
+              dplyr::select(.data$displayValue, .data$name) %>%
+              dplyr::rename(Away = .data$displayValue)
+            
+            teams2 <- data.frame(t(teams_box_score_df_2$Home))
+            colnames(teams2) <- t(teams_box_score_df_2$name)
+            teams2$Team <- "Home"
+            teams2$OpponentId <- as.integer(awayTeamId)
+            teams2$OpponentName <- awayTeamName
+            teams2$OpponentMascot <- awayTeamMascot
+            teams2$OpponentAbbrev <- awayTeamAbbrev
+            
+            teams1 <- data.frame(t(teams_box_score_df_1$Away))
+            colnames(teams1) <- t(teams_box_score_df_1$name)
+            teams1$Team <- "Away"
+            teams1$OpponentId <- as.integer(homeTeamId)
+            teams1$OpponentName <- homeTeamName
+            teams1$OpponentMascot <- homeTeamMascot
+            teams1$OpponentAbbrev <- homeTeamAbbrev
+            teams <- dplyr::bind_rows(teams1,teams2)
+            team_box_score <- teams_box_score_df %>%
+              # dplyr::select(-.data$statistics) %>%
+              dplyr::bind_cols(teams)
+            
+            team_box_score <- team_box_score %>%
+              dplyr::mutate(
+                game_id = gameId,
+                season = season,
+                season_type = season_type,
+                game_date = game_date
+              ) %>%
+              janitor::clean_names()
+          }
+        }
+      },
+      error = function(e) {
+        message(glue::glue("{Sys.time()}: Invalid arguments or no team box data available!"))
+      },
+      warning = function(w) {
+      },
+      finally = {
       }
-    }
+    )
+    drop <- c("statistics")
+    team_box_score = team_box_score[,!(names(team_box_score) %in% drop)]
     return(team_box_score)
   })
-
+  
   ifelse(!dir.exists(file.path("mbb/team_box")), dir.create(file.path("mbb/team_box")), FALSE)
   ifelse(!dir.exists(file.path("mbb/team_box/csv")), dir.create(file.path("mbb/team_box/csv")), FALSE)
   write.csv(team_box_g, file=gzfile(glue::glue("mbb/team_box/csv/team_box_{y}.csv.gz")), row.names = FALSE)
@@ -102,7 +113,7 @@ team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y)
       team_box = ifelse(.data$game_id %in% unique(team_box_g$game_id), TRUE,FALSE)
     )
   write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/mbb_schedule_{y}.csv'), row.names=FALSE)
-
+  
   return(team_box_g)
 })
 future::plan("multisession")

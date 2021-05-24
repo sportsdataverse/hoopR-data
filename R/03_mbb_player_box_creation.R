@@ -47,31 +47,29 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
     awayTeamAbbrev = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['abbreviation']][2]
     game_date = as.Date(substr(game_json[['header']][['competitions']][['date']],0,10))
     
-    if(boxScoreAvailable == TRUE && boxScoreSource == "full"){
-      if(length(players_box_score_df[[1]][[2]])>0){
-        players_df <- players_box_score_df %>%
-          tidyr::unnest(.data$statistics) %>%
-          tidyr::unnest(.data$athletes)
-        
-        cols <- c('starter','ejected', 'didNotPlay','active',
-                  'athlete.displayName','athlete.jersey',
-                  'athlete.id','athlete.shortName',
-                  'athlete.headshot.href','athlete.position.name',
-                  'athlete.position.abbreviation', 'team.shortDisplayName',
-                  'team.name', 'team.logo', 'team.id', 'team.abbreviation',
-                  'team.color')
-        
-        players_df <- players_df %>%
-          dplyr::select(tidyselect::any_of(cols))
-        
-        tryCatch(
-          expr = {
+    tryCatch(
+      expr = {
+        if(length(players_box_score_df[["statistics"]])>0){
+          if(length(players_box_score_df[["statistics"]][[1]][["athletes"]][[1]])>0){
+            players_df <- players_box_score_df %>%
+              tidyr::unnest(.data$statistics) %>%
+              tidyr::unnest(.data$athletes)
             stat_cols <- players_df$names[[1]]
             stats <- players_df$stats
             
             stats_df <- as.data.frame(do.call(rbind,stats))
             colnames(stats_df) <- stat_cols
+            cols <- c('starter','ejected', 'didNotPlay','active',
+                      'athlete.displayName','athlete.jersey',
+                      'athlete.id','athlete.shortName',
+                      'athlete.headshot.href','athlete.position.name',
+                      'athlete.position.abbreviation', 'team.shortDisplayName',
+                      'team.name', 'team.logo', 'team.id', 'team.abbreviation',
+                      'team.color')
             
+            players_df <- players_df %>%
+              dplyr::filter(!.data$didNotPlay) %>%
+              dplyr::select(tidyselect::any_of(cols))
             players_df <- dplyr::bind_cols(stats_df,players_df) %>%
               dplyr::select(.data$athlete.displayName,.data$team.shortDisplayName, tidyr::everything())
             
@@ -81,27 +79,29 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
               dplyr::rename(
                 fg3 = .data$x3pt
               )
-          },
-          error = function(e) {
-            message(glue::glue("{Sys.time()}: Invalid arguments or no player box data for {game_id} available!"))
-          },
-          warning = function(w) {
-          },
-          finally = {
+            player_box_score <- players_df %>%
+              dplyr::mutate(
+                game_id = gameId,
+                season = season,
+                season_type = season_type,
+                game_date = game_date
+              ) %>%
+              janitor::clean_names()
           }
-        )
-        player_box_score <- players_df %>%
-          dplyr::mutate(
-            game_id = gameId,
-            season = season,
-            season_type = season_type,
-            game_date = game_date
-          ) %>%
-          janitor::clean_names()
-        drop <- c("statistics")
-        player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
+        }
+      },
+      error = function(e) {
+        message(glue::glue("{Sys.time()}: Invalid arguments or no player box data available!"))
+      },
+      warning = function(w) {
+      },
+      finally = {
       }
-    }
+    )
+    
+    drop <- c("statistics")
+    player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
+    
     return(player_box_score)
   })
   
