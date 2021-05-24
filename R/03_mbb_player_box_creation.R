@@ -22,7 +22,7 @@ future::plan("multisession")
 
 player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y){
   player_box_g <- data.frame()
-  player_box_list <- list.files(path = glue::glue('mbb/{y}/'))[-2]
+  player_box_list <- tail(list.files(path = glue::glue('mbb/2013/')),5)
   print(glue::glue('mbb/{y}/'))
   player_box_g <- furrr::future_map_dfr(player_box_list, function(x){
     game_json <- jsonlite::fromJSON(glue::glue('mbb/{y}/{x}'))
