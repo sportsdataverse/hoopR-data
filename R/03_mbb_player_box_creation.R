@@ -16,13 +16,13 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2002:2013
+years_vec <- 2021:2021
 # --- compile into player_box_{year}.parquet ---------
 future::plan("multisession")
 
 player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y){
   player_box_g <- data.frame()
-  player_box_list <- tail(list.files(path = glue::glue('mbb/2013/')),5)
+  player_box_list <- list.files(path = glue::glue('mbb/{y}/'))
   print(glue::glue('mbb/{y}/'))
   player_box_g <- furrr::future_map_dfr(player_box_list, function(x){
     game_json <- jsonlite::fromJSON(glue::glue('mbb/{y}/{x}'))
@@ -56,49 +56,54 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
             players_df <- players_box_score_df %>%
               tidyr::unnest(.data$statistics) %>%
               tidyr::unnest(.data$athletes)
-            if(length(players_df)>0){
+            if(length(players_df)>1){
               stat_cols <- players_df$names[[1]]
               stats <- players_df$stats
-              
-              stats_df <- as.data.frame(do.call(rbind,stats))
-              colnames(stats_df) <- stat_cols
-              cols <- c('starter','ejected', 'didNotPlay','active',
-                        'athlete.displayName','athlete.jersey',
-                        'athlete.id','athlete.shortName',
-                        'athlete.headshot.href','athlete.position.name',
-                        'athlete.position.abbreviation', 'team.shortDisplayName',
-                        'team.name', 'team.logo', 'team.id', 'team.abbreviation',
-                        'team.color')
-              
-              if(length(stats_df)>0){
-                players_df <- players_df %>%
-                  dplyr::filter(!.data$didNotPlay) %>%
-                  dplyr::select(tidyselect::any_of(cols))
+              if(length(stat_cols)==length(stats[[1]]) ){
+                stats_df <- as.data.frame(do.call(rbind,stats))
+                colnames(stats_df) <- stat_cols
+                cols <- c('starter','ejected', 'didNotPlay','active',
+                          'athlete.displayName','athlete.jersey',
+                          'athlete.id','athlete.shortName',
+                          'athlete.headshot.href','athlete.position.name',
+                          'athlete.position.abbreviation', 'team.shortDisplayName',
+                          'team.name', 'team.logo', 'team.id', 'team.abbreviation',
+                          'team.color')
                 
-                players_df <- dplyr::bind_cols(stats_df,players_df) %>%
-                  dplyr::select(tidyselect::any_of(c('athlete.displayName','team.shortDisplayName')), tidyr::everything())
-                
-                
-                players_df <- players_df %>%
-                  janitor::clean_names() %>%
-                  dplyr::rename(
-                    fg3 = .data$x3pt
-                  )
-                player_box_score <- players_df %>%
-                  dplyr::mutate(
-                    game_id = gameId,
-                    season = season,
-                    season_type = season_type,
-                    game_date = game_date
-                  ) 
-                drop <- c("statistics")
-                player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
-                
+                if(length(stats_df)>0){
+                  players_df <- players_df %>%
+                    dplyr::filter(!.data$didNotPlay) %>%
+                    dplyr::select(tidyselect::any_of(cols))
+                  
+                  players_df <- dplyr::bind_cols(stats_df,players_df) %>%
+                    dplyr::select(tidyselect::any_of(c('athlete.displayName','team.shortDisplayName')), tidyr::everything())
+                  
+                  
+                  players_df <- players_df %>%
+                    janitor::clean_names() %>%
+                    dplyr::rename(
+                      fg3 = .data$x3pt
+                    )
+                  player_box_score <- players_df %>%
+                    dplyr::mutate(
+                      game_id = gameId,
+                      season = season,
+                      season_type = season_type,
+                      game_date = game_date
+                    ) 
+                  drop <- c("statistics")
+                  player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
+                  
+                }
               }
+            }else{
+              player_box_score <- data.frame()
             }
           }else{
             player_box_score <- data.frame()
           }
+        }else{
+          player_box_score <- data.frame()
         }
       },
       error = function(e) {
