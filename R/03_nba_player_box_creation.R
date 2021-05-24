@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2002:2021
+years_vec <- 2021:2021
 # --- compile into player_box_{year}.parquet ---------
 future::plan("multisession")
 
@@ -70,24 +70,25 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
             players_df <- players_df %>%
               dplyr::filter(!.data$didNotPlay) %>%
               dplyr::select(tidyselect::any_of(cols))
-            players_df <- dplyr::bind_cols(stats_df,players_df) %>%
-              dplyr::select(.data$athlete.displayName,.data$team.shortDisplayName, tidyr::everything())
-            
-            
-            players_df <- players_df %>%
-              janitor::clean_names() %>%
-              dplyr::rename(
-                '+/-'=.data$x,
-                fg3 = .data$x3pt
-              )
-            player_box_score <- players_df %>%
-              dplyr::mutate(
-                game_id = gameId,
-                season = season,
-                season_type = season_type,
-                game_date = game_date
-              ) %>%
-              janitor::clean_names()
+            if(length(stats_df)>0){
+              players_df <- dplyr::bind_cols(stats_df,players_df) %>%
+                dplyr::select(.data$athlete.displayName,.data$team.shortDisplayName, tidyr::everything())
+              
+              
+              players_df <- players_df %>%
+                janitor::clean_names() %>%
+                dplyr::rename(
+                  '+/-'=.data$x,
+                  fg3 = .data$x3pt
+                )
+              player_box_score <- players_df %>%
+                dplyr::mutate(
+                  game_id = gameId,
+                  season = season,
+                  season_type = season_type,
+                  game_date = game_date
+                ) 
+            }
           }
         }
       },
@@ -105,7 +106,8 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
     
     return(player_box_score)
   })
-  
+    
+    
   ifelse(!dir.exists(file.path("nba/player_box")), dir.create(file.path("nba/player_box")), FALSE)
   ifelse(!dir.exists(file.path("nba/player_box/csv")), dir.create(file.path("nba/player_box/csv")), FALSE)
   write.csv(player_box_g, file=gzfile(glue::glue("nba/player_box/csv/player_box_{y}.csv.gz")), row.names = FALSE)
@@ -149,3 +151,4 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'nba_schedule_2002_2021.csv', row.names = FALSE)
 write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.csv', row.names = FALSE)
 
+length(unique(player_box_games$game_id))
