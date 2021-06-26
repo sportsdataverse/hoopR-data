@@ -16,7 +16,6 @@ def main():
     years_arr = range(2021,2022)
     schedule_table = pd.DataFrame()
     for year in years_arr:
-        print(year)
         processor = ScheduleProcess(year)
         year_schedule = processor.nba_schedule()
         year_schedule['game_id'] = year_schedule['id']

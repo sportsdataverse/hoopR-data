@@ -21,7 +21,6 @@ def main():
     schedule = schedule.sort_values(by=['season'], ascending = False)
 
     for year in reversed(years_arr):
-        print(year)
         games = schedule[(schedule['season']==year)].reset_index()['game_id']
         if len(games)>0:
             print(f"Number of Games: {len(games)}, first gameId: {games[0]}")
