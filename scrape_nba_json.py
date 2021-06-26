@@ -70,9 +70,6 @@ def main():
                 with open(fp,'w') as f:
                     json.dump(pbp, f, indent=0, sort_keys=False)
                 i+=1
-        
-
-
 
 if __name__ == "__main__":
     main()
