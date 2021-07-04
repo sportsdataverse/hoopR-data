@@ -46,7 +46,7 @@ pbp_games <- purrr::map_dfr(years_vec, function(y){
   return(pbp_g)
 })
 future::plan("multisession")
-purrr::map(years_vec, function(y){
+all_games <- purrr::map(years_vec, function(y){
   pbp_g <- pbp_games %>% 
       dplyr::filter(.data$season == y)
   
@@ -57,7 +57,7 @@ purrr::map(years_vec, function(y){
   saveRDS(pbp_g,glue::glue("nba/pbp/rds/play_by_play_{y}.rds"))
   ifelse(!dir.exists(file.path("nba/pbp/parquet")), dir.create(file.path("nba/pbp/parquet")), FALSE)
   arrow::write_parquet(pbp_g, glue::glue("nba/pbp/parquet/play_by_play_{y}.parquet"))
-  
+  return(pbp_g)
 })
 sched_list <- list.files(path = glue::glue('nba/schedules/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
