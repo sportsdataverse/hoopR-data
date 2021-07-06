@@ -122,7 +122,7 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
       player_box = ifelse(.data$game_id %in% unique(player_box_g$game_id), TRUE,FALSE)
     )
   write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/nba_schedule_{y}.csv'), row.names=FALSE)
-  arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/nba_schedule_{y}.parquet'))
+  arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/parquet/nba_schedule_{y}.parquet'))
   return(player_box_g)
 })
 future::plan("multisession")

@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2002:2021
+years_vec <- 2021:2021
 # --- compile into team_box_{year}.parquet ---------
 future::plan("multisession")
 
@@ -113,7 +113,7 @@ team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y)
       team_box = ifelse(.data$game_id %in% unique(team_box_g$game_id), TRUE,FALSE)
     )
   write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/mbb_schedule_{y}.csv'), row.names=FALSE)
-  arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/mbb_schedule_{y}.parquet'))
+  arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/parquet/mbb_schedule_{y}.parquet'))
   return(team_box_g)
 })
 future::plan("multisession")
