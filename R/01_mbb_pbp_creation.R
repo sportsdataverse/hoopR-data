@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2021:2021
+years_vec <- 2002:2021
 # --- compile into play_by_play_{year}.parquet ---------
 future::plan("multisession")
 progressr::with_progress({
@@ -51,6 +51,7 @@ progressr::with_progress({
         PBP = ifelse(.data$game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
       )
     write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/mbb_schedule_{y}.csv'), row.names=FALSE)
+    arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/mbb_schedule_{y}.parquet'))
     p(sprintf("y=%s", as.integer(y)))
     return(pbp_g)
   })
@@ -79,4 +80,5 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 
 write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_2002_2021.csv', row.names = FALSE)
 write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.csv', row.names = FALSE)
-
+arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb_schedule_2002_2021.parquet'))
+arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.parquet')

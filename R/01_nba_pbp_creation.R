@@ -14,7 +14,7 @@ suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:/U
 suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
 suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
 
-years_vec <- 2021:2021
+years_vec <- 2002:2021
 # --- compile into play_by_play_{year}.parquet ---------
 future::plan("multisession")
 pbp_games <- purrr::map_dfr(years_vec, function(y){
@@ -43,6 +43,7 @@ pbp_games <- purrr::map_dfr(years_vec, function(y){
     PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
   )
   write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/nba_schedule_{y}.csv'), row.names=FALSE)
+  arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/nba_schedule_{y}.parquet'))
   return(pbp_g)
 })
 future::plan("multisession")
@@ -72,3 +73,5 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'nba_schedule_2002_2021.csv', row.names = FALSE)
 write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.csv', row.names = FALSE)
 
+arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('nba_schedule_2002_2021.parquet'))
+arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/nba_games_in_data_repo.parquet'))
