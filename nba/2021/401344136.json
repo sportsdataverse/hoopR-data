@@ -33580,15 +33580,15 @@
 "uid": "s:40~l:46~e:401344137~c:401344137",
 "date": "2021-07-12T00:00:00Z",
 "timeValid": true,
-"status": "pre",
+"status": "in",
 "statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
+"id": "23",
+"name": "STATUS_HALFTIME",
+"state": "in",
 "completed": false,
-"description": "Scheduled",
-"detail": "Sun, July 11th at 8:00 PM EDT",
-"shortDetail": "7/11 - 8:00 PM EDT"
+"description": "Halftime",
+"detail": "Halftime",
+"shortDetail": "Halftime"
 },
 "broadcasts": [
 {
@@ -33643,7 +33643,7 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
 },
-"score": "0"
+"score": "60"
 },
 {
 "homeAway": "away",
@@ -33664,34 +33664,34 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
 },
-"score": "0"
+"score": "45"
 }
 ],
 "links": [
 {
 "language": "en-US",
 "rel": [
-"summary",
+"live",
 "desktop",
 "event"
 ],
-"href": "http://www.espn.com/nba/game/_/gameId/401344137",
+"href": "https://www.espn.com/nba/game?gameId=401344137",
 "text": "Gamecast",
-"shortText": "Summary",
+"shortText": "Gamecast",
 "isExternal": false,
 "isPremium": false
 },
 {
 "language": "en-US",
 "rel": [
-"summary",
+"live",
 "sportscenter",
 "app",
 "event"
 ],
 "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401344137",
 "text": "Gamecast",
-"shortText": "Summary",
+"shortText": "Gamecast",
 "isExternal": false,
 "isPremium": false
 }
