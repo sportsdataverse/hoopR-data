@@ -31111,7 +31111,7 @@
 "type": "playoff",
 "title": "Playoff Series",
 "description": "NBA Finals",
-"summary": "PHX leads series 2-1",
+"summary": "Series tied 2-2",
 "completed": false,
 "totalCompetitions": 7,
 "events": [
@@ -31438,52 +31438,20 @@
 "uid": "s:40~l:46~e:401344138~c:401344138",
 "date": "2021-07-15T01:00:00Z",
 "timeValid": true,
-"status": "in",
+"status": "post",
 "statusType": {
-"id": "2",
-"name": "STATUS_IN_PROGRESS",
-"state": "in",
-"completed": false,
-"description": "In Progress",
-"detail": "9:48 - 3rd Quarter",
-"shortDetail": "9:48 - 3rd"
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
 },
-"broadcasts": [
-{
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ABC"
-},
-"lang": "en",
-"region": "us"
-},
-{
-"type": {
-"id": "5",
-"shortName": "Radio"
-},
-"url": "https://cerebro.espn.com/cerebro/search/airing/a114646060",
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ESPNRM"
-},
-"lang": "en",
-"region": "us"
-}
-],
 "competitors": [
 {
 "homeAway": "home",
+"winner": true,
 "team": {
 "id": "15",
 "uid": "s:40~l:46~t:15",
@@ -31501,10 +31469,11 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
 },
-"score": "52"
+"score": "109"
 },
 {
 "homeAway": "away",
+"winner": false,
 "team": {
 "id": "21",
 "uid": "s:40~l:46~t:21",
@@ -31522,34 +31491,34 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
 },
-"score": "57"
+"score": "103"
 }
 ],
 "links": [
 {
 "language": "en-US",
 "rel": [
-"live",
+"summary",
 "desktop",
 "event"
 ],
-"href": "https://www.espn.com/nba/game?gameId=401344138",
+"href": "http://www.espn.com/nba/game/_/gameId/401344138",
 "text": "Gamecast",
-"shortText": "Gamecast",
+"shortText": "Summary",
 "isExternal": false,
 "isPremium": false
 },
 {
 "language": "en-US",
 "rel": [
-"live",
+"summary",
 "sportscenter",
 "app",
 "event"
 ],
 "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401344138",
 "text": "Gamecast",
-"shortText": "Gamecast",
+"shortText": "Summary",
 "isExternal": false,
 "isPremium": false
 }
@@ -31931,10 +31900,10 @@
 "underdog": true,
 "moneyLine": 195,
 "spreadRecord": {
-"wins": 42,
+"wins": 43,
 "losses": 49,
 "pushes": 0,
-"summary": "42-49-0"
+"summary": "43-49-0"
 },
 "spreadOdds": 285.0,
 "teamId": "15"
@@ -31946,9 +31915,9 @@
 "moneyLine": -225,
 "spreadRecord": {
 "wins": 55,
-"losses": 34,
+"losses": 35,
 "pushes": 1,
-"summary": "55-34-1"
+"summary": "55-35-1"
 },
 "spreadOdds": -355.0,
 "teamId": "21"
