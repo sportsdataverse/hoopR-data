@@ -33147,7 +33147,7 @@
 "type": "playoff",
 "title": "Playoff Series",
 "description": "NBA Finals",
-"summary": "Series tied 2-2",
+"summary": "MIL leads series 3-2",
 "completed": false,
 "totalCompetitions": 7,
 "events": [
@@ -33368,52 +33368,20 @@
 "uid": "s:40~l:46~e:401344139~c:401344139",
 "date": "2021-07-18T01:00:00Z",
 "timeValid": true,
-"status": "in",
+"status": "post",
 "statusType": {
-"id": "2",
-"name": "STATUS_IN_PROGRESS",
-"state": "in",
-"completed": false,
-"description": "In Progress",
-"detail": "9.8 - 4th Quarter",
-"shortDetail": "9.8 - 4th"
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
 },
-"broadcasts": [
-{
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ABC"
-},
-"lang": "en",
-"region": "us"
-},
-{
-"type": {
-"id": "5",
-"shortName": "Radio"
-},
-"url": "https://cerebro.espn.com/cerebro/search/airing/a114658048",
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ESPNRM"
-},
-"lang": "en",
-"region": "us"
-}
-],
 "competitors": [
 {
 "homeAway": "home",
+"winner": false,
 "team": {
 "id": "21",
 "uid": "s:40~l:46~t:21",
@@ -33435,6 +33403,7 @@
 },
 {
 "homeAway": "away",
+"winner": true,
 "team": {
 "id": "15",
 "uid": "s:40~l:46~t:15",
@@ -33459,27 +33428,27 @@
 {
 "language": "en-US",
 "rel": [
-"live",
+"summary",
 "desktop",
 "event"
 ],
-"href": "https://www.espn.com/nba/game?gameId=401344139",
+"href": "http://www.espn.com/nba/game/_/gameId/401344139",
 "text": "Gamecast",
-"shortText": "Gamecast",
+"shortText": "Summary",
 "isExternal": false,
 "isPremium": false
 },
 {
 "language": "en-US",
 "rel": [
-"live",
+"summary",
 "sportscenter",
 "app",
 "event"
 ],
 "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401344139",
 "text": "Gamecast",
-"shortText": "Gamecast",
+"shortText": "Summary",
 "isExternal": false,
 "isPremium": false
 }
@@ -33952,10 +33921,10 @@
 "underdog": true,
 "moneyLine": 166,
 "spreadRecord": {
-"wins": 42,
+"wins": 44,
 "losses": 49,
 "pushes": 0,
-"summary": "42-49-0"
+"summary": "44-49-0"
 },
 "spreadOdds": -425.0,
 "teamId": "15"
@@ -33967,9 +33936,9 @@
 "moneyLine": -186,
 "spreadRecord": {
 "wins": 55,
-"losses": 34,
+"losses": 36,
 "pushes": 1,
-"summary": "55-34-1"
+"summary": "55-36-1"
 },
 "spreadOdds": 325.0,
 "teamId": "21"
