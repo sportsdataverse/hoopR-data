@@ -31332,15 +31332,15 @@
 "uid": "s:40~l:46~e:401344139~c:401344139",
 "date": "2021-07-18T01:00:00Z",
 "timeValid": true,
-"status": "pre",
+"status": "in",
 "statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
+"id": "2",
+"name": "STATUS_IN_PROGRESS",
+"state": "in",
 "completed": false,
-"description": "Scheduled",
-"detail": "Sat, July 17th at 9:00 PM EDT",
-"shortDetail": "7/17 - 9:00 PM EDT"
+"description": "In Progress",
+"detail": "7:33 - 1st Quarter",
+"shortDetail": "7:33 - 1st"
 },
 "broadcasts": [
 {
@@ -31395,7 +31395,7 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
 },
-"score": "0"
+"score": "14"
 },
 {
 "homeAway": "away",
@@ -31416,34 +31416,34 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
 },
-"score": "0"
+"score": "9"
 }
 ],
 "links": [
 {
 "language": "en-US",
 "rel": [
-"summary",
+"live",
 "desktop",
 "event"
 ],
-"href": "http://www.espn.com/nba/game/_/gameId/401344139",
+"href": "https://www.espn.com/nba/game?gameId=401344139",
 "text": "Gamecast",
-"shortText": "Summary",
+"shortText": "Gamecast",
 "isExternal": false,
 "isPremium": false
 },
 {
 "language": "en-US",
 "rel": [
-"summary",
+"live",
 "sportscenter",
 "app",
 "event"
 ],
 "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401344139",
 "text": "Gamecast",
-"shortText": "Summary",
+"shortText": "Gamecast",
 "isExternal": false,
 "isPremium": false
 }
@@ -31916,10 +31916,10 @@
 "underdog": true,
 "moneyLine": 195,
 "spreadRecord": {
-"wins": 42,
+"wins": 44,
 "losses": 49,
 "pushes": 0,
-"summary": "42-49-0"
+"summary": "44-49-0"
 },
 "spreadOdds": 285.0,
 "teamId": "15"
@@ -31931,9 +31931,9 @@
 "moneyLine": -225,
 "spreadRecord": {
 "wins": 55,
-"losses": 34,
+"losses": 36,
 "pushes": 1,
-"summary": "55-34-1"
+"summary": "55-36-1"
 },
 "spreadOdds": -355.0,
 "teamId": "21"
