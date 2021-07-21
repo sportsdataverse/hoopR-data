@@ -33348,167 +33348,29 @@
 "type": "playoff",
 "title": "Playoff Series",
 "description": "NBA Finals",
-"summary": "MIL leads series 3-2",
-"completed": false,
+"summary": "MIL Wins series 4-2",
+"completed": true,
 "totalCompetitions": 7,
 "events": [
-{
-"id": "401344141",
-"uid": "s:40~l:46~e:401344141~c:401344141",
-"date": "2021-07-23T01:00:00Z",
-"timeValid": true,
-"status": "pre",
-"statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
-"completed": false,
-"description": "Scheduled",
-"detail": "Thu, July 22nd at 9:00 PM EDT",
-"shortDetail": "7/22 - 9:00 PM EDT"
-},
-"broadcasts": [
-{
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ABC"
-},
-"lang": "en",
-"region": "us"
-}
-],
-"competitors": [
-{
-"homeAway": "home",
-"team": {
-"id": "21",
-"uid": "s:40~l:46~t:21",
-"displayName": "Phoenix Suns",
-"abbreviation": "PHX",
-"links": [
-{
-"href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns",
-"text": "Clubhouse"
-},
-{
-"href": "https://www.espn.com/nba/team/schedule/_/name/phx",
-"text": "Schedule"
-}
-],
-"logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
-},
-"score": "0"
-},
-{
-"homeAway": "away",
-"team": {
-"id": "15",
-"uid": "s:40~l:46~t:15",
-"displayName": "Milwaukee Bucks",
-"abbreviation": "MIL",
-"links": [
-{
-"href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks",
-"text": "Clubhouse"
-},
-{
-"href": "https://www.espn.com/nba/team/schedule/_/name/mil",
-"text": "Schedule"
-}
-],
-"logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
-},
-"score": "0"
-}
-],
-"links": [
-{
-"language": "en-US",
-"rel": [
-"summary",
-"desktop",
-"event"
-],
-"href": "http://www.espn.com/nba/game/_/gameId/401344141",
-"text": "Gamecast",
-"shortText": "Summary",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"summary",
-"sportscenter",
-"app",
-"event"
-],
-"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401344141",
-"text": "Gamecast",
-"shortText": "Summary",
-"isExternal": false,
-"isPremium": false
-}
-]
-},
 {
 "id": "401344140",
 "uid": "s:40~l:46~e:401344140~c:401344140",
 "date": "2021-07-21T01:00:00Z",
 "timeValid": true,
-"status": "in",
+"status": "post",
 "statusType": {
-"id": "2",
-"name": "STATUS_IN_PROGRESS",
-"state": "in",
-"completed": false,
-"description": "In Progress",
-"detail": "6:34 - 3rd Quarter",
-"shortDetail": "6:34 - 3rd"
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
 },
-"broadcasts": [
-{
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ABC"
-},
-"lang": "en",
-"region": "us"
-},
-{
-"type": {
-"id": "5",
-"shortName": "Radio"
-},
-"url": "https://cerebro.espn.com/cerebro/search/airing/a114658156",
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ESPNRM"
-},
-"lang": "en",
-"region": "us"
-}
-],
 "competitors": [
 {
 "homeAway": "home",
+"winner": true,
 "team": {
 "id": "15",
 "uid": "s:40~l:46~t:15",
@@ -33526,10 +33388,11 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
 },
-"score": "60"
+"score": "105"
 },
 {
 "homeAway": "away",
+"winner": false,
 "team": {
 "id": "21",
 "uid": "s:40~l:46~t:21",
@@ -33547,34 +33410,34 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
 },
-"score": "59"
+"score": "98"
 }
 ],
 "links": [
 {
 "language": "en-US",
 "rel": [
-"live",
+"summary",
 "desktop",
 "event"
 ],
-"href": "https://www.espn.com/nba/game?gameId=401344140",
+"href": "http://www.espn.com/nba/game/_/gameId/401344140",
 "text": "Gamecast",
-"shortText": "Gamecast",
+"shortText": "Summary",
 "isExternal": false,
 "isPremium": false
 },
 {
 "language": "en-US",
 "rel": [
-"live",
+"summary",
 "sportscenter",
 "app",
 "event"
 ],
 "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401344140",
 "text": "Gamecast",
-"shortText": "Gamecast",
+"shortText": "Summary",
 "isExternal": false,
 "isPremium": false
 }
