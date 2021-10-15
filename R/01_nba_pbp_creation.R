@@ -38,10 +38,18 @@ pbp_games <- purrr::map_dfr(years_vec, function(y){
   arrow::write_parquet(pbp_g, glue::glue("nba/pbp/parquet/play_by_play_{y}.parquet"))
   sched <- read.csv(glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'))
   sched <- sched %>%
-  dplyr::mutate(
-    status.displayClock = as.character(.data$status.displayClock),
-    PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
-  )
+    dplyr::mutate(
+      game_id = as.integer(.data$id),
+      status.displayClock = as.character(.data$status.displayClock)
+    )
+  if(nrow(pbp_g)>0){
+    sched <- sched %>%
+      dplyr::mutate(
+        PBP = ifelse(.data$game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
+      )
+  } else {
+    sched$PBP <- FALSE
+  }
   write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'), row.names=FALSE)
   arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/parquet/nba_schedule_{y}.parquet'))
   return(pbp_g)

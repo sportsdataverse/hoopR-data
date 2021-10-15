@@ -118,9 +118,17 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
   sched <- read.csv(glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'))
   sched <- sched %>%
     dplyr::mutate(
-      status.displayClock = as.character(.data$status.displayClock),
-      player_box = ifelse(.data$game_id %in% unique(player_box_g$game_id), TRUE,FALSE)
+      game_id = as.integer(.data$id),
+      status.displayClock = as.character(.data$status.displayClock)
     )
+  if(nrow(player_box_g)>0){
+    sched <- sched %>%
+      dplyr::mutate(
+        player_box = ifelse(.data$game_id %in% unique(player_box_g$game_id), TRUE,FALSE)
+      )
+  } else {
+    sched$player_box <- FALSE
+  }
   write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'), row.names=FALSE)
   arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/parquet/nba_schedule_{y}.parquet'))
   return(player_box_g)

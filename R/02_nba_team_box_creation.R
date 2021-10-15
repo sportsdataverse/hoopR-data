@@ -107,11 +107,19 @@ team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y)
   ifelse(!dir.exists(file.path("nba/team_box/parquet")), dir.create(file.path("nba/team_box/parquet")), FALSE)
   arrow::write_parquet(team_box_g, glue::glue("nba/team_box/parquet/team_box_{y}.parquet"))
   sched <- read.csv(glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'))
-  sched <- sched %>%
+    sched <- sched %>%
     dplyr::mutate(
-      status.displayClock = as.character(.data$status.displayClock),
-      team_box = ifelse(.data$game_id %in% unique(team_box_g$game_id), TRUE,FALSE)
+      game_id = as.integer(.data$id),
+      status.displayClock = as.character(.data$status.displayClock)
     )
+  if(nrow(team_box_g)>0){
+    sched <- sched %>%
+      dplyr::mutate(
+        team_box = ifelse(.data$game_id %in% unique(team_box_g$game_id), TRUE,FALSE)
+      )
+  } else {
+    sched$team_box <- FALSE
+  }
   write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'), row.names=FALSE)
   arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/parquet/nba_schedule_{y}.parquet'))
   return(team_box_g)

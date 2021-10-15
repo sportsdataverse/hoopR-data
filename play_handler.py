@@ -172,6 +172,7 @@ class PlayProcess(object):
             pbp_txt['plays'] = pd.json_normalize(pbp_txt,'plays_mod')
             pbp_txt['plays']['season'] = pbp_txt['season']['year']
             pbp_txt['plays']['seasonType'] = pbp_txt['season']['type']
+            pbp_txt['plays']['game_id'] = self.gameId
             pbp_txt['plays']["awayTeamId"] = awayTeamId
             pbp_txt['plays']["awayTeamName"] = str(awayTeamName)
             pbp_txt['plays']["awayTeamMascot"] = str(awayTeamMascot)
@@ -460,6 +461,7 @@ class PlayProcess(object):
             pbp_txt['plays'] = pd.json_normalize(pbp_txt,'plays_mod')
             pbp_txt['plays']['season'] = pbp_txt['season']['year']
             pbp_txt['plays']['seasonType'] = pbp_txt['season']['type']
+            pbp_txt['plays']['game_id'] = self.gameId
             pbp_txt['plays']["awayTeamId"] = awayTeamId
             pbp_txt['plays']["awayTeamName"] = str(awayTeamName)
             pbp_txt['plays']["awayTeamMascot"] = str(awayTeamMascot)

@@ -47,9 +47,17 @@ progressr::with_progress({
     sched <- read.csv(glue::glue('mbb/schedules/csv/mbb_schedule_{y}.csv'))
     sched <- sched %>%
       dplyr::mutate(
-        status.displayClock = as.character(.data$status.displayClock),
-        PBP = ifelse(.data$game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
+        game_id = as.integer(.data$id),
+        status.displayClock = as.character(.data$status.displayClock)
       )
+    if(nrow(pbp_g)>0){
+      sched <- sched %>%
+        dplyr::mutate(
+          PBP = ifelse(.data$game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
+        )
+    } else {
+      sched$PBP <- FALSE
+    }
     write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/csv/mbb_schedule_{y}.csv'), row.names=FALSE)
     arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/parquet/mbb_schedule_{y}.parquet'))
     p(sprintf("y=%s", as.integer(y)))
