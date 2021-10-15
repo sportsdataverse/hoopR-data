@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2002:2021
+years_vec <- 2021:hoopR:::most_recent_nba_season()
 # --- compile into player_box_{year}.parquet ---------
 future::plan("multisession")
 
