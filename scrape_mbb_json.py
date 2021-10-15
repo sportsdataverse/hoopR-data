@@ -12,7 +12,7 @@ from pathlib import Path
 from play_handler import PlayProcess
 path_to_raw = "mbb"
 def main():
-    years_arr = range(2021,2023)
+    years_arr = range(2022,2023)
     schedule = pd.read_csv('mbb_schedule_master.csv', encoding='latin-1', low_memory=False)
     schedule_in_repo = pd.read_csv('mbb/mbb_games_in_data_repo.csv', encoding='latin-1', low_memory=False)
     done_already = schedule_in_repo['game_id']

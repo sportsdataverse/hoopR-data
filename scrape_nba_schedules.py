@@ -13,11 +13,12 @@ path_to_schedules = "nba/schedules/csv"
 final_file_name = "nba_schedule_master.csv"
 def main():
 
-    years_arr = range(2021,2023)
+    years_arr = range(2022,2023)
     schedule_table = pd.DataFrame()
     for year in years_arr:
         processor = ScheduleProcess(year)
         year_schedule = processor.nba_schedule()
+        year_schedule = year_schedule[year_schedule['season_type'].isin([2,3])]
          # this finds our json files
         year_schedule.to_csv(f"{path_to_schedules}/nba_schedule_{year}.csv", index=False)
         schedule_table = schedule_table.append(year_schedule)

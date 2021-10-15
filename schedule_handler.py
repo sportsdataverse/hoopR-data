@@ -107,6 +107,7 @@ class ScheduleProcess(object):
                             del event['competitions'][0][k]
                     event_info = pd.json_normalize(event['competitions'][0])
                     event_info['game_id'] = event_info['id'].astype(int)
+                    event_info['season_type'] = event['season']['type']
                     ev = ev.append(event_info)
                 i+=1
                 ev['season']=year
@@ -183,6 +184,7 @@ class ScheduleProcess(object):
 
                     event_info = pd.json_normalize(event['competitions'][0])
                     event_info['game_id'] = event_info['id'].astype(int)
+                    event_info['season_type'] = event['season']['type']
                     ev = ev.append(event_info)
                 i+=1
                 ev['season']=season
