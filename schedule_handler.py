@@ -69,7 +69,7 @@ class ScheduleProcess(object):
         url = "http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates={}".format(year)
         resp = self.download(url=url)
         txt = json.loads(resp)['leagues'][0]['calendar']
-    #     print(len(txt))
+        #     print(len(txt))
         txt = list(map(lambda x: x[:10].replace("-",""),txt))
 
         ev = pd.DataFrame()
@@ -105,8 +105,9 @@ class ScheduleProcess(object):
                     for k in del_keys:
                         if k in event['competitions'][0].keys():
                             del event['competitions'][0][k]
-
-                    ev = ev.append(pd.json_normalize(event['competitions'][0]))
+                    event_info = pd.json_normalize(event['competitions'][0])
+                    event_info['game_id'] = event_info['id'].astype(int)
+                    ev = ev.append(event_info)
                 i+=1
                 ev['season']=year
             else:
@@ -143,7 +144,7 @@ class ScheduleProcess(object):
         url = "http://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={}".format(season)
         resp = self.download(url=url)
         txt = json.loads(resp)['leagues'][0]['calendar']
-    #     print(len(txt))
+        #     print(len(txt))
         txt = list(map(lambda x: x[:10].replace("-",""),txt))
         ev = pd.DataFrame()
         i=0
@@ -180,7 +181,9 @@ class ScheduleProcess(object):
                         if k in event['competitions'][0].keys():
                             del event['competitions'][0][k]
 
-                    ev = ev.append(pd.json_normalize(event['competitions'][0]))
+                    event_info = pd.json_normalize(event['competitions'][0])
+                    event_info['game_id'] = event_info['id'].astype(int)
+                    ev = ev.append(event_info)
                 i+=1
                 ev['season']=season
             else:

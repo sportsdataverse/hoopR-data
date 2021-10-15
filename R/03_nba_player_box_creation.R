@@ -78,7 +78,7 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
               players_df <- players_df %>%
                 janitor::clean_names() %>%
                 dplyr::rename(
-                  '+/-'=.data$x,
+                  'plus_minus'=.data$x,
                   fg3 = .data$x3pt
                 )
               player_box_score <- players_df %>%
@@ -148,8 +148,8 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 })
 
 
-write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'nba_schedule_2002_2021.csv', row.names = FALSE)
+write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'nba_schedule_master.csv', row.names = FALSE)
 write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.csv', row.names = FALSE)
-arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('nba_schedule_2002_2021.parquet'))
+arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('nba_schedule_master.parquet'))
 arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/nba_games_in_data_repo.parquet'))
 length(unique(player_box_games$game_id))
