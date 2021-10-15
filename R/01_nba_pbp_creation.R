@@ -36,14 +36,14 @@ pbp_games <- purrr::map_dfr(years_vec, function(y){
   saveRDS(pbp_g,glue::glue("nba/pbp/rds/play_by_play_{y}.rds"))
   ifelse(!dir.exists(file.path("nba/pbp/parquet")), dir.create(file.path("nba/pbp/parquet")), FALSE)
   arrow::write_parquet(pbp_g, glue::glue("nba/pbp/parquet/play_by_play_{y}.parquet"))
-  sched <- read.csv(glue::glue('nba/schedules/nba_schedule_{y}.csv'))
+  sched <- read.csv(glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'))
   sched <- sched %>%
   dplyr::mutate(
     status.displayClock = as.character(.data$status.displayClock),
     PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
   )
-  write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/nba_schedule_{y}.csv'), row.names=FALSE)
-  arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/nba_schedule_{y}.parquet'))
+  write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'), row.names=FALSE)
+  arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/parquet/nba_schedule_{y}.parquet'))
   return(pbp_g)
 })
 future::plan("multisession")
@@ -60,9 +60,9 @@ all_games <- purrr::map(years_vec, function(y){
   arrow::write_parquet(pbp_g, glue::glue("nba/pbp/parquet/play_by_play_{y}.parquet"))
   return(pbp_g)
 })
-sched_list <- list.files(path = glue::glue('nba/schedules/'))
+sched_list <- list.files(path = glue::glue('nba/schedules/csv/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
-  sched <- read.csv(glue::glue('nba/schedules/{x}')) %>%
+  sched <- read.csv(glue::glue('nba/schedules/csv/{x}')) %>%
     dplyr::mutate(
       status.displayClock = as.character(.data$status.displayClock)
     )

@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2021:2021
+years_vec <- 2002:2021
 # --- compile into player_box_{year}.parquet ---------
 future::plan("multisession")
 
@@ -115,13 +115,13 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
   saveRDS(player_box_g,glue::glue("nba/player_box/rds/player_box_{y}.rds"))
   ifelse(!dir.exists(file.path("nba/player_box/parquet")), dir.create(file.path("nba/player_box/parquet")), FALSE)
   arrow::write_parquet(player_box_g, glue::glue("nba/player_box/parquet/player_box_{y}.parquet"))
-  sched <- read.csv(glue::glue('nba/schedules/nba_schedule_{y}.csv'))
+  sched <- read.csv(glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'))
   sched <- sched %>%
     dplyr::mutate(
       status.displayClock = as.character(.data$status.displayClock),
       player_box = ifelse(.data$game_id %in% unique(player_box_g$game_id), TRUE,FALSE)
     )
-  write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/nba_schedule_{y}.csv'), row.names=FALSE)
+  write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'), row.names=FALSE)
   arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/parquet/nba_schedule_{y}.parquet'))
   return(player_box_g)
 })
@@ -138,9 +138,9 @@ all_games <- purrr::map(years_vec, function(y){
   arrow::write_parquet(player_box_g, glue::glue("nba/player_box/parquet/player_box_{y}.parquet"))
 })
 
-sched_list <- list.files(path = glue::glue('nba/schedules/'))
+sched_list <- list.files(path = glue::glue('nba/schedules/csv/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
-  sched <- read.csv(glue::glue('nba/schedules/{x}')) %>%
+  sched <- read.csv(glue::glue('nba/schedules/csv/{x}')) %>%
     dplyr::mutate(
       status.displayClock = as.character(.data$status.displayClock)
     )
