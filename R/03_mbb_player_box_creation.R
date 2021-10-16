@@ -1,4 +1,5 @@
-
+rm(list = ls())
+gc()
 .libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 if (!requireNamespace('pacman', quietly = TRUE)){
@@ -18,9 +19,9 @@ options(stringsAsFactors = FALSE)
 options(scipen = 999)
 years_vec <- 2021:hoopR:::most_recent_mbb_season()
 # --- compile into player_box_{year}.parquet ---------
-future::plan("multisession")
 
-player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y){
+player_box_games <- function(y){
+  cli::cli_process_start("Starting play_by_play parse for {y}!")
   player_box_g <- data.frame()
   player_box_list <- list.files(path = glue::glue('mbb/{y}/'))
   print(glue::glue('mbb/{y}/'))
@@ -51,58 +52,53 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
     
     tryCatch(
       expr = {
-        if(length(players_box_score_df[["statistics"]])>1){
-          if(length(players_box_score_df[["statistics"]][[1]][["athletes"]][[1]])>1){
-            players_df <- players_box_score_df %>%
-              tidyr::unnest(.data$statistics) %>%
-              tidyr::unnest(.data$athletes)
-            if(length(players_df)>1){
-              stat_cols <- players_df$names[[1]]
-              stats <- players_df$stats
-              if(length(stat_cols)==length(stats[[1]]) ){
-                stats_df <- as.data.frame(do.call(rbind,stats))
-                colnames(stats_df) <- stat_cols
-                cols <- c('starter','ejected', 'didNotPlay','active',
-                          'athlete.displayName','athlete.jersey',
-                          'athlete.id','athlete.shortName',
-                          'athlete.headshot.href','athlete.position.name',
-                          'athlete.position.abbreviation', 'team.shortDisplayName',
-                          'team.name', 'team.logo', 'team.id', 'team.abbreviation',
-                          'team.color')
+        if(boxScoreAvailable == TRUE && length(players_box_score_df[["statistics"]])>1 && 
+           length(players_box_score_df[["statistics"]][[1]][["athletes"]][[1]])>1){
+          players_df <- players_box_score_df %>%
+            tidyr::unnest(.data$statistics) %>%
+            tidyr::unnest(.data$athletes)
+          if(length(players_df)>1){
+            stat_cols <- players_df$names[[1]]
+            stats <- players_df$stats
+            if(length(stat_cols)==length(stats[[1]]) ){
+              stats_df <- as.data.frame(do.call(rbind,stats))
+              colnames(stats_df) <- stat_cols
+              cols <- c('starter','ejected', 'didNotPlay','active',
+                        'athlete.displayName','athlete.jersey',
+                        'athlete.id','athlete.shortName',
+                        'athlete.headshot.href','athlete.position.name',
+                        'athlete.position.abbreviation', 'team.shortDisplayName',
+                        'team.name', 'team.logo', 'team.id', 'team.abbreviation',
+                        'team.color')
+              
+              if(length(stats_df)>0){
+                players_df <- players_df %>%
+                  dplyr::filter(!.data$didNotPlay) %>%
+                  dplyr::select(tidyselect::any_of(cols))
                 
-                if(length(stats_df)>0){
-                  players_df <- players_df %>%
-                    dplyr::filter(!.data$didNotPlay) %>%
-                    dplyr::select(tidyselect::any_of(cols))
-                  
-                  players_df <- dplyr::bind_cols(stats_df,players_df) %>%
-                    dplyr::select(tidyselect::any_of(c('athlete.displayName','team.shortDisplayName')), tidyr::everything())
-                  
-                  
-                  players_df <- players_df %>%
-                    janitor::clean_names() %>%
-                    dplyr::rename(
-                      fg3 = .data$x3pt
-                    )
-                  player_box_score <- players_df %>%
-                    dplyr::mutate(
-                      game_id = gameId,
-                      season = season,
-                      season_type = season_type,
-                      game_date = game_date
-                    ) 
-                  drop <- c("statistics")
-                  player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
-                  
-                }
+                players_df <- dplyr::bind_cols(stats_df,players_df) %>%
+                  dplyr::select(tidyselect::any_of(c('athlete.displayName','team.shortDisplayName')), tidyr::everything())
+                
+                
+                players_df <- players_df %>%
+                  janitor::clean_names() %>%
+                  dplyr::rename(
+                    fg3 = .data$x3pt
+                  )
+                player_box_score <- players_df %>%
+                  dplyr::mutate(
+                    game_id = gameId,
+                    season = season,
+                    season_type = season_type,
+                    game_date = game_date
+                  ) 
+                drop <- c("statistics")
+                player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
+                
               }
-            }else{
-              player_box_score <- data.frame()
             }
-          }else{
-            player_box_score <- data.frame()
           }
-        }else{
+        } else {
           player_box_score <- data.frame()
         }
       },
@@ -114,19 +110,24 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
       finally = {
       }
     )
-    
-    
     return(player_box_score)
   })
   
   ifelse(!dir.exists(file.path("mbb/player_box")), dir.create(file.path("mbb/player_box")), FALSE)
+  
   ifelse(!dir.exists(file.path("mbb/player_box/csv")), dir.create(file.path("mbb/player_box/csv")), FALSE)
-  write.csv(player_box_g, file=gzfile(glue::glue("mbb/player_box/csv/player_box_{y}.csv.gz")), row.names = FALSE)
+  data.table::fwrite(player_box_g, file=paste0("mbb/player_box/csv/player_box_",y,".csv.gz"))
+  
+  ifelse(!dir.exists(file.path("mbb/player_box/qs")), dir.create(file.path("mbb/player_box/qs")), FALSE)
+  qs::qsave(player_box_g,glue::glue("mbb/player_box/qs/team_box_{y}.qs"))
+  
   ifelse(!dir.exists(file.path("mbb/player_box/rds")), dir.create(file.path("mbb/player_box/rds")), FALSE)
   saveRDS(player_box_g,glue::glue("mbb/player_box/rds/player_box_{y}.rds"))
+  
   ifelse(!dir.exists(file.path("mbb/player_box/parquet")), dir.create(file.path("mbb/player_box/parquet")), FALSE)
   arrow::write_parquet(player_box_g, glue::glue("mbb/player_box/parquet/player_box_{y}.parquet"))
-  sched <- read.csv(glue::glue('mbb/schedules/csv/mbb_schedule_{y}.csv'))
+  
+  sched <- data.table::fread(paste0('mbb/schedules/csv/mbb_schedule_',y,'.csv'))
   sched <- sched %>%
     dplyr::mutate(
       game_id = as.integer(.data$id),
@@ -140,27 +141,24 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
   } else {
     sched$player_box <- FALSE
   }
-  write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/csv/mbb_schedule_{y}.csv'), row.names=FALSE)
+  data.table::fwrite(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),paste0("mbb/schedules/csv/mbb_schedule_",y,".csv"))
+  qs::qsave(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/qs/mbb_schedule_{y}.qs'))
   arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/parquet/mbb_schedule_{y}.parquet'))
-  
-  return(player_box_g)
-})
-future::plan("multisession")
+  rm(player_box_g)
+  rm(player_box_list)
+  rm(sched)
+  gc()
+  cli::cli_process_done(msg_done = "Finished player_box parse for {y}!")
+  return(NULL)
+}
+
 all_games <- purrr::map(years_vec, function(y){
-  player_box_g <- player_box_games %>% 
-    dplyr::filter(.data$season == y)
-  ifelse(!dir.exists(file.path("mbb/player_box")), dir.create(file.path("mbb/player_box")), FALSE)
-  ifelse(!dir.exists(file.path("mbb/player_box/csv")), dir.create(file.path("mbb/player_box/csv")), FALSE)
-  write.csv(player_box_g, file=gzfile(glue::glue("mbb/player_box/csv/player_box_{y}.csv.gz")), row.names = FALSE)
-  ifelse(!dir.exists(file.path("mbb/player_box/rds")), dir.create(file.path("mbb/player_box/rds")), FALSE)
-  saveRDS(player_box_g,glue::glue("mbb/player_box/rds/player_box_{y}.rds"))
-  ifelse(!dir.exists(file.path("mbb/player_box/parquet")), dir.create(file.path("mbb/player_box/parquet")), FALSE)
-  arrow::write_parquet(player_box_g, glue::glue("mbb/player_box/parquet/player_box_{y}.parquet"))
+  player_box_games(y)
 })
 
 sched_list <- list.files(path = glue::glue('mbb/schedules/csv/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
-  sched <- read.csv(glue::glue('mbb/schedules/csv/{x}')) %>%
+  sched <- data.table::fread(paste0('mbb/schedules/csv/',x)) %>%
     dplyr::mutate(
       status.displayClock = as.character(.data$status.displayClock)
     )
@@ -170,6 +168,11 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 
 write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.csv', row.names = FALSE)
 write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.csv', row.names = FALSE)
+qs::qsave(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.qs')
+qs::qsave(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.qs')
 arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb_schedule_master.parquet'))
 arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.parquet')
-length(unique(player_box_games$game_id))
+rm(sched_g)
+rm(sched_list)
+rm(years_vec)
+gc()

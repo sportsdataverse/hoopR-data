@@ -1,4 +1,5 @@
-
+rm(list = ls())
+gc()
 .libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 if (!requireNamespace('pacman', quietly = TRUE)){
