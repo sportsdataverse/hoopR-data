@@ -21,8 +21,8 @@ options(stringsAsFactors = FALSE)
 options(scipen = 999)
 years_vec <- 2002:hoopR:::most_recent_nba_season()
 # --- compile into play_by_play_{year}.parquet ---------
-pbp_games <- function(y){
-  cli::cli_process_start("Starting play_by_play parse for {y}!")
+nba_pbp_games <- function(y){
+  cli::cli_process_start("Starting nba play_by_play parse for {y}!")
   pbp_g <- data.frame()
   pbp_list <- list.files(path = glue::glue('nba/{y}/'))
   pbp_g <- purrr::map_dfr(pbp_list, function(x){
@@ -71,18 +71,21 @@ pbp_games <- function(y){
   } else {
     sched$PBP <- FALSE
   }
-  data.table::fwrite(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/csv/nba_schedule_{y}.csv'))
-  qs::qsave(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/qs/nba_schedule_{y}.qs'))
-  arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('nba/schedules/parquet/nba_schedule_{y}.parquet'))
-  rm(pbp_g)
+  final_sched <- dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date))
+  data.table::fwrite(final_sched,paste0("nba/schedules/csv/nba_schedule_",y,".csv"))
+  qs::qsave(final_sched,glue::glue('nba/schedules/qs/nba_schedule_{y}.qs'))
+  saveRDS(final_sched, glue::glue('nba/schedules/rds/nba_schedule_{y}.rds'))
+  arrow::write_parquet(final_sched, glue::glue('nba/schedules/parquet/nba_schedule_{y}.parquet'))
   rm(sched)
+  rm(final_sched)
+  rm(pbp_g)
   gc()
-  cli::cli_process_done(msg_done = "Finished play_by_play parse for {y}!")
+  cli::cli_process_done(msg_done = "Finished nba play_by_play parse for {y}!")
   return(NULL)
 }
 
 all_games <- purrr::map(years_vec, function(y){
-  pbp_games(y)
+  nba_pbp_games(y)
 })
 
 

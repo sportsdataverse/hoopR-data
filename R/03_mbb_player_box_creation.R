@@ -20,11 +20,10 @@ options(scipen = 999)
 years_vec <- 2021:hoopR:::most_recent_mbb_season()
 # --- compile into player_box_{year}.parquet ---------
 
-player_box_games <- function(y){
-  cli::cli_process_start("Starting play_by_play parse for {y}!")
+mbb_player_box_games <- function(y){
+  cli::cli_process_start("Starting player_box parse for {y}!")
   player_box_g <- data.frame()
   player_box_list <- list.files(path = glue::glue('mbb/{y}/'))
-  print(glue::glue('mbb/{y}/'))
   player_box_g <- furrr::future_map_dfr(player_box_list, function(x){
     game_json <- jsonlite::fromJSON(glue::glue('mbb/{y}/{x}'))
     
@@ -39,6 +38,8 @@ player_box_games <- function(y){
     boxScoreAvailable = game_json[['header']][['competitions']][["boxscoreAvailable"]]
     
     boxScoreSource = game_json[['header']][['competitions']][["boxscoreSource"]]
+    homeAwayTeam1 = game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][1]
+    homeAwayTeam2 = game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][2]
     homeTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][1]
     awayTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][2]
     homeTeamMascot = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['name']][1]
@@ -103,7 +104,7 @@ player_box_games <- function(y){
         }
       },
       error = function(e) {
-        message(glue::glue("{Sys.time()}: {gameId} Invalid arguments or no player box data available!"))
+        
       },
       warning = function(w) {
       },
@@ -141,19 +142,23 @@ player_box_games <- function(y){
   } else {
     sched$player_box <- FALSE
   }
-  data.table::fwrite(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),paste0("mbb/schedules/csv/mbb_schedule_",y,".csv"))
-  qs::qsave(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/qs/mbb_schedule_{y}.qs'))
-  arrow::write_parquet(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb/schedules/parquet/mbb_schedule_{y}.parquet'))
+  
+  final_sched <- dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date))
+  data.table::fwrite(final_sched,paste0("mbb/schedules/csv/mbb_schedule_",y,".csv"))
+  qs::qsave(final_sched,glue::glue('mbb/schedules/qs/mbb_schedule_{y}.qs'))
+  saveRDS(final_sched, glue::glue('mbb/schedules/rds/mbb_schedule_{y}.rds'))
+  arrow::write_parquet(final_sched, glue::glue('mbb/schedules/parquet/mbb_schedule_{y}.parquet'))
+  rm(sched)
+  rm(final_sched)
   rm(player_box_g)
   rm(player_box_list)
-  rm(sched)
   gc()
   cli::cli_process_done(msg_done = "Finished player_box parse for {y}!")
   return(NULL)
 }
 
 all_games <- purrr::map(years_vec, function(y){
-  player_box_games(y)
+  mbb_player_box_games(y)
 })
 
 sched_list <- list.files(path = glue::glue('mbb/schedules/csv/'))
