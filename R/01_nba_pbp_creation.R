@@ -19,7 +19,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2002:hoopR:::most_recent_nba_season()
+years_vec <- hoopR:::most_recent_nba_season()
 # --- compile into play_by_play_{year}.parquet ---------
 nba_pbp_games <- function(y){
   cli::cli_process_start("Starting nba play_by_play parse for {y}!")
@@ -42,6 +42,12 @@ nba_pbp_games <- function(y){
       dplyr::mutate(
         coordinate_x = NA_real_,
         coordinate_y = NA_real_
+      )
+  }
+  if(!('type_abbreviation' %in% colnames(pbp_g))){
+    pbp_g <- pbp_g %>% 
+      dplyr::mutate(
+        type_abbreviation = NA_character_
       )
   }
   ifelse(!dir.exists(file.path("nba/pbp")), dir.create(file.path("nba/pbp")), FALSE)
@@ -105,6 +111,8 @@ qs::qsave(sched_g %>% dplyr::arrange(desc(.data$date)), 'nba_schedule_master.qs'
 qs::qsave(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.qs')
 arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('nba_schedule_master.parquet'))
 arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.parquet')
+
+rm(all_games)
 rm(sched_g)
 rm(sched_list)
 rm(years_vec)

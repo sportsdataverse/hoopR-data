@@ -34,8 +34,8 @@ mbb_team_box_games <- function(y){
     season_type <- game_json[['header']][['season']][['type']]
     boxScoreAvailable = game_json[['header']][['competitions']][["boxscoreAvailable"]]
     
-    homeAwayTeam1 = game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][1]
-    homeAwayTeam2 = game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][2]
+    homeAwayTeam1 = toupper(game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][1])
+    homeAwayTeam2 = toupper(game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][2])
     homeTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][1]
     awayTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][2]
     homeTeamMascot = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['name']][1]
@@ -59,7 +59,7 @@ mbb_team_box_games <- function(y){
             
             teams2 <- data.frame(t(teams_box_score_df_2$Home))
             colnames(teams2) <- t(teams_box_score_df_2$name)
-            teams2$Team <- homeAwayTeam2
+            teams2$homeAway <- homeAwayTeam2
             teams2$OpponentId <- as.integer(awayTeamId)
             teams2$OpponentName <- awayTeamName
             teams2$OpponentMascot <- awayTeamMascot
@@ -67,7 +67,7 @@ mbb_team_box_games <- function(y){
             
             teams1 <- data.frame(t(teams_box_score_df_1$Away))
             colnames(teams1) <- t(teams_box_score_df_1$name)
-            teams1$Team <- homeAwayTeam1
+            teams1$homeAway <- homeAwayTeam1
             teams1$OpponentId <- as.integer(homeTeamId)
             teams1$OpponentName <- homeTeamName
             teams1$OpponentMascot <- homeTeamMascot
@@ -100,20 +100,20 @@ mbb_team_box_games <- function(y){
     team_box_score = team_box_score[,!(names(team_box_score) %in% drop)]
     return(team_box_score)
   })
-  
-  ifelse(!dir.exists(file.path("mbb/team_box")), dir.create(file.path("mbb/team_box")), FALSE)
-  ifelse(!dir.exists(file.path("mbb/team_box/csv")), dir.create(file.path("mbb/team_box/csv")), FALSE)
-  data.table::fwrite(team_box_g, file=paste0("mbb/team_box/csv/team_box_",y,".csv.gz"))
-  
-  ifelse(!dir.exists(file.path("mbb/team_box/qs")), dir.create(file.path("mbb/team_box/qs")), FALSE)
-  qs::qsave(team_box_g,glue::glue("mbb/team_box/qs/team_box_{y}.qs"))
-  
-  ifelse(!dir.exists(file.path("mbb/team_box/rds")), dir.create(file.path("mbb/team_box/rds")), FALSE)
-  saveRDS(team_box_g,glue::glue("mbb/team_box/rds/team_box_{y}.rds"))
-  
-  ifelse(!dir.exists(file.path("mbb/team_box/parquet")), dir.create(file.path("mbb/team_box/parquet")), FALSE)
-  arrow::write_parquet(team_box_g, glue::glue("mbb/team_box/parquet/team_box_{y}.parquet"))
-  
+  if(nrow(team_box_g)>0){
+    ifelse(!dir.exists(file.path("mbb/team_box")), dir.create(file.path("mbb/team_box")), FALSE)
+    ifelse(!dir.exists(file.path("mbb/team_box/csv")), dir.create(file.path("mbb/team_box/csv")), FALSE)
+    data.table::fwrite(team_box_g, file=paste0("mbb/team_box/csv/team_box_",y,".csv.gz"))
+    
+    ifelse(!dir.exists(file.path("mbb/team_box/qs")), dir.create(file.path("mbb/team_box/qs")), FALSE)
+    qs::qsave(team_box_g,glue::glue("mbb/team_box/qs/team_box_{y}.qs"))
+    
+    ifelse(!dir.exists(file.path("mbb/team_box/rds")), dir.create(file.path("mbb/team_box/rds")), FALSE)
+    saveRDS(team_box_g,glue::glue("mbb/team_box/rds/team_box_{y}.rds"))
+    
+    ifelse(!dir.exists(file.path("mbb/team_box/parquet")), dir.create(file.path("mbb/team_box/parquet")), FALSE)
+    arrow::write_parquet(team_box_g, glue::glue("mbb/team_box/parquet/team_box_{y}.parquet"))
+  }
   sched <- data.table::fread(paste0('mbb/schedules/csv/mbb_schedule_',y,'.csv'))
   sched <- sched %>%
     dplyr::mutate(
@@ -145,6 +145,7 @@ mbb_team_box_games <- function(y){
 
 all_games <- purrr::map(years_vec, function(y){
   mbb_team_box_games(y)
+  return(NULL)
 })
 
 sched_list <- list.files(path = glue::glue('mbb/schedules/csv/'))
@@ -163,3 +164,10 @@ qs::qsave(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.qs'
 qs::qsave(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.qs')
 arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb_schedule_master.parquet'))
 arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.parquet')
+
+
+rm(all_games)
+rm(sched_g)
+rm(sched_list)
+rm(years_vec)
+gc()

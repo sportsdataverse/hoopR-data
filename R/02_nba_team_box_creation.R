@@ -36,8 +36,8 @@ nba_team_box_games <- function(y){
     season_type <- game_json[['header']][['season']][['type']]
     boxScoreAvailable = game_json[['header']][['competitions']][["boxscoreAvailable"]]
     boxScoreSource = game_json[['header']][['competitions']][["boxscoreSource"]]
-    homeAwayTeam1 = game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][1]
-    homeAwayTeam2 = game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][2]
+    homeAwayTeam1 = toupper(game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][1])
+    homeAwayTeam2 = toupper(game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][2])
     homeTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][1]
     awayTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][2]
     homeTeamMascot = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['name']][1]
@@ -61,7 +61,7 @@ nba_team_box_games <- function(y){
             
             teams2 <- data.frame(t(teams_box_score_df_2$Home))
             colnames(teams2) <- t(teams_box_score_df_2$name)
-            teams2$Team <- homeAwayTeam2
+            teams2$homeAway <- homeAwayTeam2
             teams2$OpponentId <- as.integer(awayTeamId)
             teams2$OpponentName <- awayTeamName
             teams2$OpponentMascot <- awayTeamMascot
@@ -69,7 +69,7 @@ nba_team_box_games <- function(y){
     
             teams1 <- data.frame(t(teams_box_score_df_1$Away))
             colnames(teams1) <- t(teams_box_score_df_1$name)
-            teams1$Team <- homeAwayTeam1
+            teams1$homeAway <- homeAwayTeam1
             teams1$OpponentId <- as.integer(homeTeamId)
             teams1$OpponentName <- homeTeamName
             teams1$OpponentMascot <- homeTeamMascot
@@ -166,6 +166,8 @@ qs::qsave(sched_g %>% dplyr::arrange(desc(.data$date)), 'nba_schedule_master.qs'
 qs::qsave(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.qs')
 arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('nba_schedule_master.parquet'))
 arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.parquet')
+
+rm(all_games)
 rm(sched_g)
 rm(sched_list)
 rm(years_vec)
