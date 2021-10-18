@@ -17,7 +17,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2021:hoopR:::most_recent_nba_season()
+years_vec <- 2013:hoopR:::most_recent_nba_season()
 # --- compile into team_box_{year}.parquet ---------
 
 nba_team_box_games <- function(y){
@@ -102,21 +102,22 @@ nba_team_box_games <- function(y){
     team_box_score = team_box_score[,!(names(team_box_score) %in% drop)]
     return(team_box_score)
   })
-
-  ifelse(!dir.exists(file.path("nba/team_box")), dir.create(file.path("nba/team_box")), FALSE)
   
-  ifelse(!dir.exists(file.path("nba/team_box/csv")), dir.create(file.path("nba/team_box/csv")), FALSE)
-  data.table::fwrite(team_box_g, file=paste0("nba/team_box/csv/team_box_",y,".csv.gz"))
-  
-  ifelse(!dir.exists(file.path("nba/team_box/qs")), dir.create(file.path("nba/team_box/qs")), FALSE)
-  qs::qsave(team_box_g,glue::glue("nba/team_box/qs/team_box_{y}.qs"))
-  
-  ifelse(!dir.exists(file.path("nba/team_box/rds")), dir.create(file.path("nba/team_box/rds")), FALSE)
-  saveRDS(team_box_g,glue::glue("nba/team_box/rds/team_box_{y}.rds"))
-  
-  ifelse(!dir.exists(file.path("nba/team_box/parquet")), dir.create(file.path("nba/team_box/parquet")), FALSE)
-  arrow::write_parquet(team_box_g, glue::glue("nba/team_box/parquet/team_box_{y}.parquet"))
-  
+  if(nrow(team_box_g)>0){
+    ifelse(!dir.exists(file.path("nba/team_box")), dir.create(file.path("nba/team_box")), FALSE)
+    
+    ifelse(!dir.exists(file.path("nba/team_box/csv")), dir.create(file.path("nba/team_box/csv")), FALSE)
+    data.table::fwrite(team_box_g, file=paste0("nba/team_box/csv/team_box_",y,".csv.gz"))
+    
+    ifelse(!dir.exists(file.path("nba/team_box/qs")), dir.create(file.path("nba/team_box/qs")), FALSE)
+    qs::qsave(team_box_g,glue::glue("nba/team_box/qs/team_box_{y}.qs"))
+    
+    ifelse(!dir.exists(file.path("nba/team_box/rds")), dir.create(file.path("nba/team_box/rds")), FALSE)
+    saveRDS(team_box_g,glue::glue("nba/team_box/rds/team_box_{y}.rds"))
+    
+    ifelse(!dir.exists(file.path("nba/team_box/parquet")), dir.create(file.path("nba/team_box/parquet")), FALSE)
+    arrow::write_parquet(team_box_g, glue::glue("nba/team_box/parquet/team_box_{y}.parquet"))
+  }
   sched <- data.table::fread(paste0('nba/schedules/csv/nba_schedule_',y,'.csv'))
     sched <- sched %>%
     dplyr::mutate(
