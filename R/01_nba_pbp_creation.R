@@ -27,42 +27,45 @@ nba_pbp_games <- function(y){
   pbp_list <- list.files(path = glue::glue('nba/{y}/'))
   pbp_g <- purrr::map_dfr(pbp_list, function(x){
     pbp <- jsonlite::fromJSON(glue::glue('nba/{y}/{x}'))$plays
-    pbp$game_id <- gsub(".json","", x)
+    if(length(pbp)>1){
+      pbp$game_id <- gsub(".json","", x)
+    }
     return(pbp)
   })
-  if(nrow(pbp_g)>0){
+  if(nrow(pbp_g)>0 && length(pbp_g)>1){
     pbp_g <- pbp_g %>% janitor::clean_names()
     pbp_g <- pbp_g %>% 
       dplyr::mutate(
         game_id = as.integer(.data$game_id)
       )
   }
-  if(!('coordinate_x' %in% colnames(pbp_g))){
+  if(!('coordinate_x' %in% colnames(pbp_g)) && length(pbp_g)>1){
     pbp_g <- pbp_g %>% 
       dplyr::mutate(
         coordinate_x = NA_real_,
         coordinate_y = NA_real_
       )
   }
-  if(!('type_abbreviation' %in% colnames(pbp_g))){
+  if(!('type_abbreviation' %in% colnames(pbp_g)) && length(pbp_g)>1){
     pbp_g <- pbp_g %>% 
       dplyr::mutate(
         type_abbreviation = NA_character_
       )
   }
-  ifelse(!dir.exists(file.path("nba/pbp")), dir.create(file.path("nba/pbp")), FALSE)
-  ifelse(!dir.exists(file.path("nba/pbp/csv")), dir.create(file.path("nba/pbp/csv")), FALSE)
-  data.table::fwrite(pbp_g, file=paste0("nba/pbp/csv/play_by_play_",y,".csv.gz"))
-  
-  ifelse(!dir.exists(file.path("nba/pbp/qs")), dir.create(file.path("nba/pbp/qs")), FALSE)
-  qs::qsave(pbp_g,glue::glue("nba/pbp/qs/play_by_play_{y}.qs"))
-  
-  ifelse(!dir.exists(file.path("nba/pbp/rds")), dir.create(file.path("nba/pbp/rds")), FALSE)
-  saveRDS(pbp_g,glue::glue("nba/pbp/rds/play_by_play_{y}.rds"))
-  
-  ifelse(!dir.exists(file.path("nba/pbp/parquet")), dir.create(file.path("nba/pbp/parquet")), FALSE)
-  arrow::write_parquet(pbp_g, glue::glue("nba/pbp/parquet/play_by_play_{y}.parquet"))
-  
+  if(nrow(pbp_g)>1){
+    ifelse(!dir.exists(file.path("nba/pbp")), dir.create(file.path("nba/pbp")), FALSE)
+    ifelse(!dir.exists(file.path("nba/pbp/csv")), dir.create(file.path("nba/pbp/csv")), FALSE)
+    data.table::fwrite(pbp_g, file=paste0("nba/pbp/csv/play_by_play_",y,".csv.gz"))
+    
+    ifelse(!dir.exists(file.path("nba/pbp/qs")), dir.create(file.path("nba/pbp/qs")), FALSE)
+    qs::qsave(pbp_g,glue::glue("nba/pbp/qs/play_by_play_{y}.qs"))
+    
+    ifelse(!dir.exists(file.path("nba/pbp/rds")), dir.create(file.path("nba/pbp/rds")), FALSE)
+    saveRDS(pbp_g,glue::glue("nba/pbp/rds/play_by_play_{y}.rds"))
+    
+    ifelse(!dir.exists(file.path("nba/pbp/parquet")), dir.create(file.path("nba/pbp/parquet")), FALSE)
+    arrow::write_parquet(pbp_g, paste0("nba/pbp/parquet/play_by_play_",y,".parquet"))
+  }
   sched <- data.table::fread(paste0('nba/schedules/csv/nba_schedule_',y,'.csv'))
   sched <- sched %>%
     dplyr::mutate(
@@ -112,7 +115,7 @@ qs::qsave(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.
 arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('nba_schedule_master.parquet'))
 arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.parquet')
 
-rm(all_games)
+
 rm(sched_g)
 rm(sched_list)
 rm(years_vec)

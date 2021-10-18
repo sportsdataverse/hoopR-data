@@ -19,7 +19,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2006
+years_vec <- hoopR:::most_recent_mbb_season()
 # --- compile into play_by_play_{year}.parquet ---------
 mbb_pbp_games <- function(y){
   cli::cli_process_start("Starting play_by_play parse for {y}!")
@@ -106,7 +106,7 @@ qs::qsave(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.
 arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb_schedule_master.parquet'))
 arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.parquet')
 
-rm(all_games)
+
 rm(sched_g)
 rm(sched_list)
 rm(years_vec)

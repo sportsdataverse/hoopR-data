@@ -37,8 +37,8 @@ nba_player_box_games <- function(y){
     boxScoreAvailable = game_json[['header']][['competitions']][["boxscoreAvailable"]]
     
     boxScoreSource = game_json[['header']][['competitions']][["boxscoreSource"]]
-    homeAwayTeam1 = game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][1]
-    homeAwayTeam2 = game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][2]
+    homeAwayTeam1 = toupper(game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][1])
+    homeAwayTeam2 = toupper(game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][2])
     homeTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][1]
     awayTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][2]
     homeTeamMascot = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['name']][1]
