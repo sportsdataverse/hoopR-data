@@ -118,7 +118,7 @@ nba_player_box_games <- function(y){
     data.table::fwrite(player_box_g, file=paste0("nba/player_box/csv/player_box_",y,".csv.gz"))
     
     ifelse(!dir.exists(file.path("nba/player_box/qs")), dir.create(file.path("nba/player_box/qs")), FALSE)
-    qs::qsave(player_box_g,glue::glue("nba/player_box/qs/team_box_{y}.qs"))
+    qs::qsave(player_box_g,glue::glue("nba/player_box/qs/player_box_{y}.qs"))
     
     ifelse(!dir.exists(file.path("nba/player_box/rds")), dir.create(file.path("nba/player_box/rds")), FALSE)
     saveRDS(player_box_g,glue::glue("nba/player_box/rds/player_box_{y}.rds"))
