@@ -17,10 +17,11 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- hoopR:::most_recent_mbb_season()
+years_vec <- 2002:hoopR:::most_recent_mbb_season()
 # --- compile into team_box_{year}.parquet ---------
 
 mbb_team_box_games <- function(y){
+  cli::cli_process_start("Starting mbb team_box parse for {y}!")
   team_box_g <- data.frame()
   team_box_list <- list.files(path = glue::glue('mbb/{y}/'))
   team_box_g <- purrr::map_dfr(team_box_list, function(x){
@@ -48,8 +49,8 @@ mbb_team_box_games <- function(y){
     game_date = as.Date(substr(game_json[['header']][['competitions']][['date']],0,10))
     tryCatch(
       expr = {
-        if(boxScoreAvailable == TRUE){
-          if(length(teams_box_score_df[["statistics"]][[1]])>0){
+        if(boxScoreAvailable == TRUE && length(teams_box_score_df[["statistics"]][[1]])>1){
+          
             teams_box_score_df_2 <- teams_box_score_df[['statistics']][[2]] %>%
               dplyr::select(.data$displayValue, .data$name) %>%
               dplyr::rename(Home = .data$displayValue)
@@ -74,8 +75,8 @@ mbb_team_box_games <- function(y){
             teams1$OpponentAbbrev <- homeTeamAbbrev
             teams <- dplyr::bind_rows(teams1,teams2)
             team_box_score <- teams_box_score_df %>%
-              # dplyr::select(-.data$statistics) %>%
               dplyr::bind_cols(teams)
+            
             
             team_box_score <- team_box_score %>%
               dplyr::mutate(
@@ -84,12 +85,11 @@ mbb_team_box_games <- function(y){
                 season_type = season_type,
                 game_date = game_date
               ) %>%
-              janitor::clean_names()
+              janitor::clean_names() 
           }
-        }
       },
       error = function(e) {
-        message(glue::glue("{Sys.time()}: Invalid arguments or no team box data available!"))
+        # message(glue::glue("{Sys.time()}: Invalid arguments or no team box data available!"))
       },
       warning = function(w) {
       },
@@ -100,6 +100,12 @@ mbb_team_box_games <- function(y){
     team_box_score = team_box_score[,!(names(team_box_score) %in% drop)]
     return(team_box_score)
   })
+  if(nrow(team_box_g)>0 && !("largest_lead" %in% colnames(team_box_g))){
+    team_box_score$largestLead <- NA_character_
+    team_box_score <- team_box_score %>% 
+      dplyr::relocate(.data$largestLead, .after = last_col())
+    
+  }
   if(nrow(team_box_g)>0){
     ifelse(!dir.exists(file.path("mbb/team_box")), dir.create(file.path("mbb/team_box")), FALSE)
     ifelse(!dir.exists(file.path("mbb/team_box/csv")), dir.create(file.path("mbb/team_box/csv")), FALSE)
@@ -138,7 +144,7 @@ mbb_team_box_games <- function(y){
   rm(team_box_g)
   rm(team_box_list)
   gc()
-  cli::cli_process_done(msg_done = "Finished team_box parse for {y}!")
+  cli::cli_process_done(msg_done = "Finished mbb team_box parse for {y}!")
   return(NULL)
 }
 

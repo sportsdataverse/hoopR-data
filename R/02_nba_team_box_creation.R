@@ -50,44 +50,42 @@ nba_team_box_games <- function(y){
     game_date = as.Date(substr(game_json[['header']][['competitions']][['date']],0,10))
     tryCatch(
       expr = {
-        if(boxScoreAvailable == TRUE){
-          if(length(teams_box_score_df[["statistics"]][[1]])>0){
-            teams_box_score_df_2 <- teams_box_score_df[['statistics']][[2]] %>%
-              dplyr::select(.data$displayValue, .data$name) %>%
-              dplyr::rename(Home = .data$displayValue)
-            teams_box_score_df_1 <- teams_box_score_df[['statistics']][[1]] %>%
-              dplyr::select(.data$displayValue, .data$name) %>%
-              dplyr::rename(Away = .data$displayValue)
-            
-            teams2 <- data.frame(t(teams_box_score_df_2$Home))
-            colnames(teams2) <- t(teams_box_score_df_2$name)
-            teams2$homeAway <- homeAwayTeam2
-            teams2$OpponentId <- as.integer(awayTeamId)
-            teams2$OpponentName <- awayTeamName
-            teams2$OpponentMascot <- awayTeamMascot
-            teams2$OpponentAbbrev <- awayTeamAbbrev
-    
-            teams1 <- data.frame(t(teams_box_score_df_1$Away))
-            colnames(teams1) <- t(teams_box_score_df_1$name)
-            teams1$homeAway <- homeAwayTeam1
-            teams1$OpponentId <- as.integer(homeTeamId)
-            teams1$OpponentName <- homeTeamName
-            teams1$OpponentMascot <- homeTeamMascot
-            teams1$OpponentAbbrev <- homeTeamAbbrev
-            teams <- dplyr::bind_rows(teams1,teams2)
-            team_box_score <- teams_box_score_df %>%
-              # dplyr::select(-.data$statistics) %>%
-              dplyr::bind_cols(teams)
-    
-            team_box_score <- team_box_score %>%
-              dplyr::mutate(
-                game_id = gameId,
-                season = season,
-                season_type = season_type,
-                game_date = game_date
-              ) %>%
-              janitor::clean_names()
-          }
+        if(boxScoreAvailable == TRUE && length(teams_box_score_df[["statistics"]][[1]])>1){
+          teams_box_score_df_2 <- teams_box_score_df[['statistics']][[2]] %>%
+            dplyr::select(.data$displayValue, .data$name) %>%
+            dplyr::rename(Home = .data$displayValue)
+          teams_box_score_df_1 <- teams_box_score_df[['statistics']][[1]] %>%
+            dplyr::select(.data$displayValue, .data$name) %>%
+            dplyr::rename(Away = .data$displayValue)
+          
+          teams2 <- data.frame(t(teams_box_score_df_2$Home))
+          colnames(teams2) <- t(teams_box_score_df_2$name)
+          teams2$homeAway <- homeAwayTeam2
+          teams2$OpponentId <- as.integer(awayTeamId)
+          teams2$OpponentName <- awayTeamName
+          teams2$OpponentMascot <- awayTeamMascot
+          teams2$OpponentAbbrev <- awayTeamAbbrev
+          
+          teams1 <- data.frame(t(teams_box_score_df_1$Away))
+          colnames(teams1) <- t(teams_box_score_df_1$name)
+          teams1$homeAway <- homeAwayTeam1
+          teams1$OpponentId <- as.integer(homeTeamId)
+          teams1$OpponentName <- homeTeamName
+          teams1$OpponentMascot <- homeTeamMascot
+          teams1$OpponentAbbrev <- homeTeamAbbrev
+          teams <- dplyr::bind_rows(teams1,teams2)
+          team_box_score <- teams_box_score_df %>%
+            # dplyr::select(-.data$statistics) %>%
+            dplyr::bind_cols(teams)
+          
+          team_box_score <- team_box_score %>%
+            dplyr::mutate(
+              game_id = gameId,
+              season = season,
+              season_type = season_type,
+              game_date = game_date
+            ) %>%
+            janitor::clean_names()
         }
       },
       error = function(e) {

@@ -21,7 +21,7 @@ years_vec <- hoopR:::most_recent_mbb_season()
 # --- compile into player_box_{year}.parquet ---------
 
 mbb_player_box_games <- function(y){
-  cli::cli_process_start("Starting player_box parse for {y}!")
+  cli::cli_process_start("Starting mbb player_box parse for {y}!")
   player_box_g <- data.frame()
   player_box_list <- list.files(path = glue::glue('mbb/{y}/'))
   player_box_g <- furrr::future_map_dfr(player_box_list, function(x){
@@ -94,8 +94,10 @@ mbb_player_box_games <- function(y){
                     game_date = game_date
                   ) 
                 drop <- c("statistics")
-                player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
-                
+                player_box_score <- player_box_score[,!(names(player_box_score) %in% drop)]
+                if(!("athlete_headshot_href" %in% colnames(player_box_score))){
+                  player_box_score$athlete_headshot_href <- NA_character_
+                }
               }
             }
           }
@@ -153,7 +155,7 @@ mbb_player_box_games <- function(y){
   rm(player_box_g)
   rm(player_box_list)
   gc()
-  cli::cli_process_done(msg_done = "Finished player_box parse for {y}!")
+  cli::cli_process_done(msg_done = "Finished mbb player_box parse for {y}!")
   return(NULL)
 }
 
