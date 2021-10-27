@@ -16,10 +16,15 @@ year_json_scrape <- function(seasons_vec){
     schedules_year <- schedules_df %>% dplyr::filter(.data$Season==seasons_vec[[i]],
                                                      !(.data$GAME_ID %in% pbp_list))
     yr <- years_vec[[i]]
-    nba_pbp_stats <- purrr::map_dfr(unique(schedules_year$GAME_ID), function(x){
-      df <- hoopR::nba_pbp(game_id = x)
-      jsonlite::write_json(df, path=paste0("nba_stats/",yr,"/",x,".json"))
+    games_list <- unique(schedules_year$GAME_ID)
+    
+    nba_pbp_stats <- purrr::map_dfr(1:length(games_list), function(x){
+      df <- hoopR::nba_pbp(game_id = games_list[x])
+      jsonlite::write_json(df, path=paste0("nba_stats/",yr,"/",games_list[x],".json"))
       Sys.sleep(3)
+      if(x%%200 == 0){
+        Sys.sleep(60)
+      }
     })
   }
 }
