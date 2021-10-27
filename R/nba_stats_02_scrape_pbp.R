@@ -1,7 +1,7 @@
 pacman::p_load("dplyr","purrr","stringr","data.table", "qs","arrow", "progressr")
 source('R/utils.R')
 
-years_vec <- 2008
+years_vec <- 2009
 schedules_df <-data.table::fread("nba_stats_schedule_master.csv")
 seasons_vec <- unlist(purrr::map(years_vec,function(x){year_to_season(x)})) 
 
