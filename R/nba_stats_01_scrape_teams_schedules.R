@@ -4,20 +4,6 @@ years_vec <- hoopR:::most_recent_nba_season()-1
 
 seasons_vec <- unlist(purrr::map(years_vec,function(x){year_to_season(x)}))
 
-# teams_df <- purrr::map_df(1:length(seasons_vec), function(x){
-#   teams <- hoopR::nba_leaguestandingsv3(league_id='00',season = seasons_vec[[x]])$Standings %>% 
-#     dplyr::select(.data$TeamID, .data$TeamCity, .data$TeamName, .data$TeamSlug,
-#                   .data$Conference, .data$Division, .data$LeagueID, .data$SeasonID) %>% 
-#     dplyr::mutate(
-#       Season = seasons_vec[[x]],
-#       TeamNameFull = glue::glue("{TeamCity} {TeamName}"))
-#   return(teams)
-# })
-# 
-# data.table::fwrite(teams_df,'nba_stats/nba_stats_teams.csv')
-# saveRDS(teams_df,'nba_stats/nba_stats_teams.rds')
-# qs::qsave(teams_df,'nba_stats/nba_stats_teams.qs')
-# arrow::write_parquet(teams_df, 'nba_stats/nba_stats_teams.parquet')
 
 schedules_df <- purrr::map_dfr(1:length(seasons_vec), function(x){
   season_pull <- seasons_vec[[x]]
