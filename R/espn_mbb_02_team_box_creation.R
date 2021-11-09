@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2003:hoopR:::most_recent_mbb_season()
+years_vec <- 2015:hoopR:::most_recent_mbb_season()
 # --- compile into team_box_{year}.parquet ---------
 
 mbb_team_box_games <- function(y){
