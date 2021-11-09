@@ -10,14 +10,13 @@ suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:\\U
 suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
 suppressPackageStartupMessages(suppressMessages(library(furrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
 suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
-suppressPackageStartupMessages(suppressMessages(library(future, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
 suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
 suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
 suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- hoopR:::most_recent_mbb_season()
+years_vec <- 2003:hoopR:::most_recent_mbb_season()
 # --- compile into team_box_{year}.parquet ---------
 
 mbb_team_box_games <- function(y){
@@ -101,8 +100,8 @@ mbb_team_box_games <- function(y){
     return(team_box_score)
   })
   if(nrow(team_box_g)>0 && !("largest_lead" %in% colnames(team_box_g))){
-    team_box_score$largestLead <- NA_character_
-    team_box_score <- team_box_score %>% 
+    team_box_g$largestLead <- NA_character_
+    team_box_g <- team_box_g %>% 
       dplyr::relocate(.data$largestLead, .after = last_col())
     
   }
