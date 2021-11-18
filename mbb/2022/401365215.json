@@ -799,6 +799,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4896377",
 "displayName": "Rollin Belton",
+"headshot": {
+"alt": "Rollin Belton",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4896377.png"
+},
 "jersey": "1",
 "guid": "6b7ba659-6199-3cce-8dcc-28452317572f",
 "links": [
@@ -995,6 +999,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4896378",
 "displayName": "Jao Ituka",
+"headshot": {
+"alt": "Jao Ituka",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4896378.png"
+},
 "jersey": "10",
 "guid": "f9e6b1f2-594b-3a62-9c41-1a2b6074ee17",
 "links": [
@@ -2925,8 +2933,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "3-0",
+"displayValue": "3-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3025,6 +3033,59 @@
 ],
 "team": "Manhattan",
 "id": "2363"
+},
+{
+"uid": "s:40~l:41~t:2405",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-1",
+"displayValue": "2-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2405/monmouth-hawks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png",
+"height": 500
+}
+],
+"team": "Monmouth",
+"id": "2405"
 },
 {
 "uid": "s:40~l:41~t:2514",
@@ -3186,65 +3247,12 @@
 "id": "2368"
 },
 {
-"uid": "s:40~l:41~t:2405",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2405/monmouth-hawks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png",
-"height": 500
-}
-],
-"team": "Monmouth",
-"id": "2405"
-},
-{
 "uid": "s:40~l:41~t:2217",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "1-2",
+"displayValue": "1-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3398,59 +3406,6 @@
 "id": "2612"
 },
 {
-"uid": "s:40~l:41~t:2561",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2561/siena-saints",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png",
-"height": 500
-}
-],
-"team": "Siena",
-"id": "2561"
-},
-{
 "uid": "s:40~l:41~t:2099",
 "stats": [
 {
@@ -3502,6 +3457,59 @@
 ],
 "team": "Canisius",
 "id": "2099"
+},
+{
+"uid": "s:40~l:41~t:2561",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "0-3",
+"displayValue": "0-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2561/siena-saints",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png",
+"height": 500
+}
+],
+"team": "Siena",
+"id": "2561"
 }
 ]
 }
@@ -3516,8 +3524,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "3-0",
+"displayValue": "3-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3569,8 +3577,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "3-1",
+"displayValue": "3-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3616,6 +3624,59 @@
 ],
 "team": "Brown",
 "id": "225"
+},
+{
+"uid": "s:40~l:41~t:43",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "3-1",
+"displayValue": "3-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/43/yale-bulldogs",
+"logo": [
+{
+"lastUpdated": "2019-06-18T14:57Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
+"height": 500
+}
+],
+"team": "Yale",
+"id": "43"
 },
 {
 "uid": "s:40~l:41~t:163",
@@ -3671,65 +3732,12 @@
 "id": "163"
 },
 {
-"uid": "s:40~l:41~t:43",
+"uid": "s:40~l:41~t:159",
 "stats": [
 {
 "shortDisplayName": "Season",
 "summary": "2-1",
 "displayValue": "2-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/43/yale-bulldogs",
-"logo": [
-{
-"lastUpdated": "2019-06-18T14:57Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
-"height": 500
-}
-],
-"team": "Yale",
-"id": "43"
-},
-{
-"uid": "s:40~l:41~t:159",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3775,6 +3783,59 @@
 ],
 "team": "Dartmouth",
 "id": "159"
+},
+{
+"uid": "s:40~l:41~t:219",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/219/pennsylvania-quakers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png",
+"height": 500
+}
+],
+"team": "Pennsylvania",
+"id": "219"
 },
 {
 "uid": "s:40~l:41~t:108",
@@ -3828,59 +3889,6 @@
 ],
 "team": "Harvard",
 "id": "108"
-},
-{
-"uid": "s:40~l:41~t:219",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-2",
-"displayValue": "1-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/219/pennsylvania-quakers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png",
-"height": 500
-}
-],
-"team": "Pennsylvania",
-"id": "219"
 },
 {
 "uid": "s:40~l:41~t:171",
@@ -4018,10 +4026,10 @@
 "underdog": false,
 "moneyLine": -225,
 "spreadRecord": {
-"wins": 0,
+"wins": 1,
 "losses": 1,
 "pushes": 0,
-"summary": "0-1-0"
+"summary": "1-1-0"
 },
 "spreadOdds": -110.0,
 "teamId": "2368"
@@ -4033,9 +4041,9 @@
 "moneyLine": 195,
 "spreadRecord": {
 "wins": 0,
-"losses": 1,
+"losses": 2,
 "pushes": 0,
-"summary": "0-1-0"
+"summary": "0-2-0"
 },
 "spreadOdds": -110.0,
 "teamId": "171"
