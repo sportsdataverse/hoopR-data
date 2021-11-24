@@ -3027,6 +3027,7 @@
 },
 "groups": [
 {
+"moduleType": "standings",
 "header": "2021-22 Big Sky Conference Standings",
 "href": "https://www.espn.com/mens-college-basketball/standings/_/group/5",
 "standings": {
@@ -3085,12 +3086,12 @@
 "id": "2692"
 },
 {
-"uid": "s:40~l:41~t:2502",
+"uid": "s:40~l:41~t:16",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "3-2",
+"displayValue": "3-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3120,7 +3121,7 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2502/portland-state-vikings",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/16/sacramento-state-hornets",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3130,12 +3131,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
 "height": 500
 }
 ],
-"team": "Portland State",
-"id": "2502"
+"team": "Sacramento State",
+"id": "16"
 },
 {
 "uid": "s:40~l:41~t:2464",
@@ -3191,12 +3192,12 @@
 "id": "2464"
 },
 {
-"uid": "s:40~l:41~t:2458",
+"uid": "s:40~l:41~t:2502",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-3",
-"displayValue": "3-3",
+"summary": "2-2",
+"displayValue": "2-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3226,7 +3227,7 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2458/northern-colorado-bears",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2502/portland-state-vikings",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3236,12 +3237,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
 "height": 500
 }
 ],
-"team": "Northern Colorado",
-"id": "2458"
+"team": "Portland State",
+"id": "2502"
 },
 {
 "uid": "s:40~l:41~t:149",
@@ -3297,12 +3298,12 @@
 "id": "149"
 },
 {
-"uid": "s:40~l:41~t:16",
+"uid": "s:40~l:41~t:2458",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-2",
-"displayValue": "2-2",
+"summary": "3-4",
+"displayValue": "3-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3332,7 +3333,7 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/16/sacramento-state-hornets",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2458/northern-colorado-bears",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3342,12 +3343,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
 "height": 500
 }
 ],
-"team": "Sacramento State",
-"id": "16"
+"team": "Northern Colorado",
+"id": "2458"
 },
 {
 "uid": "s:40~l:41~t:331",
@@ -3618,6 +3619,7 @@
 }
 },
 {
+"moduleType": "standings",
 "header": "2021-22 Western Athletic Conference Standings",
 "href": "https://www.espn.com/mens-college-basketball/standings/_/group/30",
 "standings": {
@@ -3676,6 +3678,59 @@
 "id": "2856"
 },
 {
+"uid": "s:40~l:41~t:2547",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-1",
+"displayValue": "5-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2547/seattle-u-redhawks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
+"height": 500
+}
+],
+"team": "Seattle U",
+"id": "2547"
+},
+{
 "uid": "s:40~l:41~t:166",
 "stats": [
 {
@@ -3727,59 +3782,6 @@
 ],
 "team": "New Mexico State",
 "id": "166"
-},
-{
-"uid": "s:40~l:41~t:2547",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-1",
-"displayValue": "4-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2547/seattle-u-redhawks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
-"height": 500
-}
-],
-"team": "Seattle U",
-"id": "2547"
 },
 {
 "uid": "s:40~l:41~t:2617",
