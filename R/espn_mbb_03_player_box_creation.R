@@ -1,5 +1,4 @@
-rm(list = ls())
-gc()
+
 .libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 if (!requireNamespace('pacman', quietly = TRUE)){
@@ -11,7 +10,7 @@ suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\U
 suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
 suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
 suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
-suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")))
+
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)

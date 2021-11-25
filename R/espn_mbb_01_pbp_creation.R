@@ -1,5 +1,4 @@
-rm(list = ls())
-gc()
+
 .libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 if (!requireNamespace('pacman', quietly = TRUE)){
@@ -19,7 +18,7 @@ options(scipen = 999)
 years_vec <- hoopR:::most_recent_mbb_season()
 # --- compile into play_by_play_{year}.parquet ---------
 mbb_pbp_games <- function(y){
-  cli::cli_process_start("Starting play_by_play parse for {y}!")
+  cli::cli_process_start("Starting mbb play_by_play parse for {y}!")
   pbp_g <- data.frame()
   pbp_list <- list.files(path = glue::glue('mbb/{y}/'))
   pbp_g <- purrr::map_dfr(pbp_list, function(x){
@@ -79,7 +78,7 @@ mbb_pbp_games <- function(y){
   rm(final_sched)
   rm(pbp_g)
   gc()
-  cli::cli_process_done(msg_done = "Finished play_by_play parse for {y}!")
+  cli::cli_process_done(msg_done = "Finished mbb play_by_play parse for {y}!")
   return(NULL)
 }
 
