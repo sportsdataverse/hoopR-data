@@ -2941,12 +2941,65 @@
 "id": "50"
 },
 {
-"uid": "s:40~l:41~t:2065",
+"uid": "s:40~l:41~t:2296",
 "stats": [
 {
 "shortDisplayName": "Season",
 "summary": "1-5",
 "displayValue": "1-5",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2296/jackson-state-tigers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
+"height": 500
+}
+],
+"team": "Jackson State",
+"id": "2296"
+},
+{
+"uid": "s:40~l:41~t:2065",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "1-6",
+"displayValue": "1-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3045,59 +3098,6 @@
 ],
 "team": "Mississippi Valley State",
 "id": "2400"
-},
-{
-"uid": "s:40~l:41~t:2296",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-5",
-"displayValue": "0-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2296/jackson-state-tigers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
-"height": 500
-}
-],
-"team": "Jackson State",
-"id": "2296"
 }
 ]
 }
@@ -3267,59 +3267,6 @@
 "id": "2016"
 },
 {
-"uid": "s:40~l:41~t:2504",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-6",
-"displayValue": "0-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2504/prairie-view-am-panthers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
-"height": 500
-}
-],
-"team": "Prairie View A&M",
-"id": "2504"
-},
-{
 "uid": "s:40~l:41~t:2640",
 "stats": [
 {
@@ -3424,6 +3371,59 @@
 ],
 "team": "Arkansas-Pine Bluff",
 "id": "2029"
+},
+{
+"uid": "s:40~l:41~t:2504",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "0-7",
+"displayValue": "0-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2504/prairie-view-am-panthers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
+"height": 500
+}
+],
+"team": "Prairie View A&M",
+"id": "2504"
 }
 ]
 }
@@ -3444,8 +3444,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "5-2",
+"displayValue": "5-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3497,8 +3497,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-2",
-"displayValue": "2-2",
+"summary": "3-2",
+"displayValue": "3-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3546,65 +3546,12 @@
 "id": "294"
 },
 {
-"uid": "s:40~l:41~t:56",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-2",
-"displayValue": "2-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/56/stetson-hatters",
-"logo": [
-{
-"lastUpdated": "2019-10-21T16:39Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png",
-"height": 500
-}
-],
-"team": "Stetson",
-"id": "56"
-},
-{
 "uid": "s:40~l:41~t:2335",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-3",
-"displayValue": "2-3",
+"summary": "3-3",
+"displayValue": "3-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3650,6 +3597,59 @@
 ],
 "team": "Liberty",
 "id": "2335"
+},
+{
+"uid": "s:40~l:41~t:56",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-3",
+"displayValue": "2-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/56/stetson-hatters",
+"logo": [
+{
+"lastUpdated": "2019-10-21T16:39Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png",
+"height": 500
+}
+],
+"team": "Stetson",
+"id": "56"
 },
 {
 "uid": "s:40~l:41~t:338",
@@ -3709,8 +3709,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-6",
-"displayValue": "1-6",
+"summary": "1-7",
+"displayValue": "1-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3876,8 +3876,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-3",
-"displayValue": "2-3",
+"summary": "3-3",
+"displayValue": "3-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -4168,10 +4168,10 @@
 "underdog": true,
 "moneyLine": -1641,
 "spreadRecord": {
-"wins": 2,
+"wins": 3,
 "losses": 2,
 "pushes": 1,
-"summary": "2-2-1"
+"summary": "3-2-1"
 },
 "spreadOdds": -114.0,
 "teamId": "2065"
