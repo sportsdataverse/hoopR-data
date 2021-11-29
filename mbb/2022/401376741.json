@@ -2713,8 +2713,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-2",
-"displayValue": "5-2",
+"summary": "6-2",
+"displayValue": "6-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3671,6 +3671,59 @@
 "id": "2460"
 },
 {
+"uid": "s:40~l:41~t:339",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "3-6",
+"displayValue": "3-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/339/evansville-purple-aces",
+"logo": [
+{
+"lastUpdated": "2020-08-31T15:04Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/339.png",
+"height": 500
+}
+],
+"team": "Evansville",
+"id": "339"
+},
+{
 "uid": "s:40~l:41~t:71",
 "stats": [
 {
@@ -3722,59 +3775,6 @@
 ],
 "team": "Bradley",
 "id": "71"
-},
-{
-"uid": "s:40~l:41~t:339",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-6",
-"displayValue": "2-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/339/evansville-purple-aces",
-"logo": [
-{
-"lastUpdated": "2020-08-31T15:04Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/339.png",
-"height": 500
-}
-],
-"team": "Evansville",
-"id": "339"
 }
 ]
 }
