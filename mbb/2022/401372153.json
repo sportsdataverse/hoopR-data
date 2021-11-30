@@ -3034,8 +3034,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "2-6",
+"displayValue": "2-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3201,8 +3201,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-3",
-"displayValue": "3-3",
+"summary": "4-3",
+"displayValue": "4-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3472,6 +3472,59 @@
 "standings": {
 "entries": [
 {
+"uid": "s:40~l:41~t:2294",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-0",
+"displayValue": "7-0",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2294/iowa-hawkeyes",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+"height": 500
+}
+],
+"team": "Iowa",
+"id": "2294"
+},
+{
 "uid": "s:40~l:41~t:84",
 "stats": [
 {
@@ -3523,59 +3576,6 @@
 ],
 "team": "Indiana",
 "id": "84"
-},
-{
-"uid": "s:40~l:41~t:2294",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-0",
-"displayValue": "6-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2294/iowa-hawkeyes",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-"height": 500
-}
-],
-"team": "Iowa",
-"id": "2294"
 },
 {
 "uid": "s:40~l:41~t:2509",
@@ -4269,10 +4269,10 @@
 "underdog": true,
 "moneyLine": 918,
 "spreadRecord": {
-"wins": 3,
+"wins": 4,
 "losses": 1,
 "pushes": 0,
-"summary": "3-1-0"
+"summary": "4-1-0"
 },
 "spreadOdds": -105.0,
 "teamId": "2272"
@@ -4283,10 +4283,10 @@
 "underdog": false,
 "moneyLine": -1857,
 "spreadRecord": {
-"wins": 3,
+"wins": 4,
 "losses": 2,
 "pushes": 0,
-"summary": "3-2-0"
+"summary": "4-2-0"
 },
 "spreadOdds": -115.0,
 "teamId": "77"
