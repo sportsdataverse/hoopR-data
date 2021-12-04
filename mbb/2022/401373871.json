@@ -77,7 +77,7 @@
 "abbreviation": "TREB"
 },
 {
-"displayValue": "13",
+"displayValue": "11",
 "name": "assists",
 "label": "Assists",
 "abbreviation": "AST"
@@ -89,25 +89,25 @@
 "abbreviation": "STL"
 },
 {
-"displayValue": "5",
+"displayValue": "6",
 "name": "blocks",
 "label": "Blocks",
 "abbreviation": "BLK"
 },
 {
-"displayValue": "11",
+"displayValue": "12",
 "name": "turnovers",
 "label": "Turnovers",
 "abbreviation": "TO"
 },
 {
-"displayValue": "0",
+"displayValue": "1",
 "name": "teamTurnovers",
 "label": "Team Turnovers",
 "abbreviation": "TTO"
 },
 {
-"displayValue": "11",
+"displayValue": "12",
 "name": "totalTurnovers",
 "label": "Total Turnovers",
 "abbreviation": "ToTO"
@@ -374,11 +374,11 @@
 "0-0",
 "3-4",
 "4",
-"7",
-"11",
-"2",
-"2",
 "5",
+"9",
+"2",
+"0",
+"6",
 "0",
 "2",
 "11"
@@ -437,15 +437,15 @@
 },
 "ejected": false,
 "stats": [
-"15",
+"22",
 "2-7",
 "1-4",
 "1-2",
 "1",
 "2",
 "3",
-"0",
-"0",
+"1",
+"2",
 "0",
 "2",
 "1",
@@ -506,16 +506,16 @@
 "ejected": false,
 "stats": [
 "33",
-"4-10",
+"4-8",
 "2-2",
 "0-0",
 "0",
-"4",
-"4",
 "3",
-"1",
+"3",
+"2",
 "0",
-"1",
+"0",
+"2",
 "1",
 "10"
 ],
@@ -573,15 +573,15 @@
 },
 "ejected": false,
 "stats": [
-"32",
-"4-9",
+"33",
+"4-10",
 "3-3",
 "5-6",
 "1",
-"2",
 "3",
 "4",
-"1",
+"3",
+"2",
 "0",
 "2",
 "2",
@@ -641,15 +641,15 @@
 },
 "ejected": false,
 "stats": [
-"26",
+"31",
 "5-9",
 "3-5",
 "2-2",
 "0",
-"2",
-"2",
-"2",
-"0",
+"5",
+"5",
+"1",
+"1",
 "0",
 "2",
 "0",
@@ -709,13 +709,13 @@
 },
 "ejected": false,
 "stats": [
-"17",
-"2-6",
+"13",
+"2-7",
 "0-1",
 "0-0",
-"0",
+"1",
 "3",
-"3",
+"4",
 "1",
 "0",
 "0",
@@ -777,13 +777,13 @@
 },
 "ejected": false,
 "stats": [
-"21",
+"19",
 "2-3",
 "0-0",
 "2-3",
 "1",
+"2",
 "3",
-"4",
 "0",
 "1",
 "0",
@@ -845,7 +845,7 @@
 },
 "ejected": false,
 "stats": [
-"11",
+"10",
 "1-2",
 "0-0",
 "0-0",
@@ -853,79 +853,11 @@
 "1",
 "1",
 "0",
-"1",
 "0",
-"2",
+"0",
+"1",
 "1",
 "2"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4897203",
-"displayName": "Dominic Muncey",
-"headshot": {
-"alt": "Dominic Muncey",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897203.png"
-},
-"jersey": "13",
-"guid": "1e801c38-815a-3ee1-ba91-f10610df717b",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4897203/dominic-muncey",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4897203/dominic-muncey",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4897203/dominic-muncey",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4897203/dominic-muncey",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4897203/dominic-muncey",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4897203/dominic-muncey",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4897203/dominic-muncey",
-"text": "Overview"
-}
-],
-"id": "4897203",
-"position": {
-"displayName": "Guard",
-"name": "Guard",
-"abbreviation": "G"
-},
-"shortName": "D. Muncey"
-},
-"ejected": false,
-"stats": [
-"1",
-"0-0",
-"0-0",
-"0-0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0"
 ],
 "didNotPlay": false,
 "active": false
@@ -981,7 +913,7 @@
 },
 "ejected": false,
 "stats": [
-"10",
+"5",
 "0-0",
 "0-0",
 "0-0",
@@ -1231,6 +1163,60 @@
 {
 "starter": false,
 "athlete": {
+"uid": "s:40~l:41~a:4897203",
+"displayName": "Dominic Muncey",
+"headshot": {
+"alt": "Dominic Muncey",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897203.png"
+},
+"jersey": "13",
+"guid": "1e801c38-815a-3ee1-ba91-f10610df717b",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4897203/dominic-muncey",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4897203/dominic-muncey",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4897203/dominic-muncey",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4897203/dominic-muncey",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4897203/dominic-muncey",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4897203/dominic-muncey",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4897203/dominic-muncey",
+"text": "Overview"
+}
+],
+"id": "4897203",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "D. Muncey"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
 "uid": "s:40~l:41~a:4701194",
 "displayName": "Scotty Prunty",
 "headshot": {
@@ -1291,10 +1277,10 @@
 "11",
 "27",
 "38",
-"13",
-"6",
-"5",
 "11",
+"6",
+"6",
+"12",
 "10",
 "70"
 ],
@@ -3154,59 +3140,6 @@
 "id": "252"
 },
 {
-"uid": "s:40~l:41~t:2501",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-2",
-"displayValue": "7-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2501/portland-pilots",
-"logo": [
-{
-"lastUpdated": "2018-10-15T16:50Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2501.png",
-"height": 500
-}
-],
-"team": "Portland",
-"id": "2501"
-},
-{
 "uid": "s:40~l:41~t:2541",
 "stats": [
 {
@@ -3258,6 +3191,59 @@
 ],
 "team": "Santa Clara",
 "id": "2541"
+},
+{
+"uid": "s:40~l:41~t:2501",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-3",
+"displayValue": "7-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2501/portland-pilots",
+"logo": [
+{
+"lastUpdated": "2018-10-15T16:50Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2501.png",
+"height": 500
+}
+],
+"team": "Portland",
+"id": "2501"
 },
 {
 "uid": "s:40~l:41~t:2351",
@@ -3423,8 +3409,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-7",
-"displayValue": "2-7",
+"summary": "2-8",
+"displayValue": "2-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3480,12 +3466,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:30",
+"uid": "s:40~l:41~t:26",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-0",
-"displayValue": "7-0",
+"summary": "8-1",
+"displayValue": "8-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3502,6 +3488,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/26/ucla-bruins",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+"height": 500
+}
+],
+"team": "UCLA",
+"id": "26"
+},
+{
+"uid": "s:40~l:41~t:30",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-0",
+"displayValue": "7-0",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3533,59 +3572,6 @@
 "id": "30"
 },
 {
-"uid": "s:40~l:41~t:26",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-1",
-"displayValue": "7-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/26/ucla-bruins",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-"height": 500
-}
-],
-"team": "UCLA",
-"id": "26"
-},
-{
 "uid": "s:40~l:41~t:265",
 "stats": [
 {
@@ -3601,13 +3587,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3654,13 +3640,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3707,13 +3693,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -3760,13 +3746,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -3813,13 +3799,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -3851,59 +3837,6 @@
 "id": "2483"
 },
 {
-"uid": "s:40~l:41~t:264",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-4",
-"displayValue": "4-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/264/washington-huskies",
-"logo": [
-{
-"lastUpdated": "2019-07-12T19:04Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-"height": 500
-}
-],
-"team": "Washington",
-"id": "264"
-},
-{
 "uid": "s:40~l:41~t:254",
 "stats": [
 {
@@ -3919,13 +3852,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3972,13 +3905,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -4010,6 +3943,59 @@
 "id": "24"
 },
 {
+"uid": "s:40~l:41~t:264",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "4-5",
+"displayValue": "4-5",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/264/washington-huskies",
+"logo": [
+{
+"lastUpdated": "2019-07-12T19:04Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+"height": 500
+}
+],
+"team": "Washington",
+"id": "264"
+},
+{
 "uid": "s:40~l:41~t:9",
 "stats": [
 {
@@ -4025,13 +4011,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -4078,13 +4064,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
