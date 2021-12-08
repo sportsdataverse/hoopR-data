@@ -2943,7 +2943,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -2974,6 +2974,18 @@
 ],
 "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401370940",
 "text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Recap",
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/recap?gameId=401370940",
+"text": "Recap",
 "isPremium": false
 },
 {
@@ -3034,7 +3046,6 @@
 },
 "groups": [
 {
-"moduleType": "standings",
 "header": "2021-22 America East Conference Standings",
 "href": "https://www.espn.com/mens-college-basketball/standings/_/group/1",
 "standings": {
@@ -3573,7 +3584,6 @@
 }
 },
 {
-"moduleType": "standings",
 "header": "2021-22 Ivy League Standings",
 "href": "https://www.espn.com/mens-college-basketball/standings/_/group/12",
 "standings": {
@@ -4361,7 +4371,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
