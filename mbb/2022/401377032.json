@@ -1951,40 +1951,40 @@
 "starter": false,
 "athlete": {
 "uid": "s:40~l:41~a:4433108",
-"displayName": "T.J. Weeks",
+"displayName": "T.J. Weeks Jr.",
 "headshot": {
-"alt": "T.J. Weeks",
+"alt": "T.J. Weeks Jr.",
 "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4433108.png"
 },
 "jersey": "23",
 "guid": "de568b46-278c-3951-8dc8-80a5d74a2bbc",
 "links": [
 {
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4433108/tj-weeks",
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4433108/tj-weeks-jr",
 "text": "Player Card"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4433108/tj-weeks",
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4433108/tj-weeks-jr",
 "text": "Stats"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4433108/tj-weeks",
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4433108/tj-weeks-jr",
 "text": "Splits"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4433108/tj-weeks",
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4433108/tj-weeks-jr",
 "text": "Game Log"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4433108/tj-weeks",
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4433108/tj-weeks-jr",
 "text": "News"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4433108/tj-weeks",
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4433108/tj-weeks-jr",
 "text": "Bio"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4433108/tj-weeks",
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4433108/tj-weeks-jr",
 "text": "Overview"
 }
 ],
@@ -1994,7 +1994,7 @@
 "name": "Guard",
 "abbreviation": "G"
 },
-"shortName": "T.J. Weeks"
+"shortName": "T.J. Weeks Jr."
 },
 "ejected": false,
 "stats": [
@@ -2806,12 +2806,65 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2649",
+"uid": "s:40~l:41~t:195",
 "stats": [
 {
 "shortDisplayName": "Season",
 "summary": "7-2",
 "displayValue": "7-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/195/ohio-bobcats",
+"logo": [
+{
+"lastUpdated": "2021-06-10T21:28Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+"height": 500
+}
+],
+"team": "Ohio",
+"id": "195"
+},
+{
+"uid": "s:40~l:41~t:2649",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-3",
+"displayValue": "7-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2859,12 +2912,12 @@
 "id": "2649"
 },
 {
-"uid": "s:40~l:41~t:195",
+"uid": "s:40~l:41~t:2084",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-2",
-"displayValue": "6-2",
+"summary": "6-3",
+"displayValue": "6-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2894,22 +2947,22 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/195/ohio-bobcats",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2084/buffalo-bulls",
 "logo": [
 {
-"lastUpdated": "2021-06-10T21:28Z",
+"lastUpdated": "2019-03-01T22:14Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
 "height": 500
 }
 ],
-"team": "Ohio",
-"id": "195"
+"team": "Buffalo",
+"id": "2084"
 },
 {
 "uid": "s:40~l:41~t:2006",
@@ -2963,59 +3016,6 @@
 ],
 "team": "Akron",
 "id": "2006"
-},
-{
-"uid": "s:40~l:41~t:2084",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "5-3",
-"displayValue": "5-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2084/buffalo-bulls",
-"logo": [
-{
-"lastUpdated": "2019-03-01T22:14Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
-"height": 500
-}
-],
-"team": "Buffalo",
-"id": "2084"
 },
 {
 "uid": "s:40~l:41~t:2309",
@@ -3181,8 +3181,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "5-5",
+"displayValue": "5-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3287,8 +3287,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-5",
-"displayValue": "3-5",
+"summary": "3-6",
+"displayValue": "3-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3393,8 +3393,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-8",
-"displayValue": "1-8",
+"summary": "1-9",
+"displayValue": "1-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3454,8 +3454,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-1",
-"displayValue": "8-1",
+"summary": "8-2",
+"displayValue": "8-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3556,6 +3556,59 @@
 "id": "2166"
 },
 {
+"uid": "s:40~l:41~t:139",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-3",
+"displayValue": "8-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/139/saint-louis-billikens",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png",
+"height": 500
+}
+],
+"team": "Saint Louis",
+"id": "139"
+},
+{
 "uid": "s:40~l:41~t:227",
 "stats": [
 {
@@ -3607,59 +3660,6 @@
 ],
 "team": "Rhode Island",
 "id": "227"
-},
-{
-"uid": "s:40~l:41~t:139",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-3",
-"displayValue": "7-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/139/saint-louis-billikens",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png",
-"height": 500
-}
-],
-"team": "Saint Louis",
-"id": "139"
 },
 {
 "uid": "s:40~l:41~t:2230",
@@ -3768,65 +3768,12 @@
 "id": "2168"
 },
 {
-"uid": "s:40~l:41~t:113",
+"uid": "s:40~l:41~t:257",
 "stats": [
 {
 "shortDisplayName": "Season",
 "summary": "6-4",
 "displayValue": "6-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/113/umass-minutemen",
-"logo": [
-{
-"lastUpdated": "2021-01-14T22:35Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
-"height": 500
-}
-],
-"team": "UMass",
-"id": "113"
-},
-{
-"uid": "s:40~l:41~t:257",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "5-4",
-"displayValue": "5-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3878,8 +3825,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3931,8 +3878,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3978,6 +3925,112 @@
 ],
 "team": "VCU",
 "id": "2670"
+},
+{
+"uid": "s:40~l:41~t:2325",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-4",
+"displayValue": "5-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2325/la-salle-explorers",
+"logo": [
+{
+"lastUpdated": "2021-09-13T17:41Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
+"height": 500
+}
+],
+"team": "La Salle",
+"id": "2325"
+},
+{
+"uid": "s:40~l:41~t:113",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-5",
+"displayValue": "6-5",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/113/umass-minutemen",
+"logo": [
+{
+"lastUpdated": "2021-01-14T22:35Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+"height": 500
+}
+],
+"team": "UMass",
+"id": "113"
 },
 {
 "uid": "s:40~l:41~t:2244",
@@ -4033,65 +4086,12 @@
 "id": "2244"
 },
 {
-"uid": "s:40~l:41~t:2325",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-4",
-"displayValue": "4-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2325/la-salle-explorers",
-"logo": [
-{
-"lastUpdated": "2021-09-13T17:41Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
-"height": 500
-}
-],
-"team": "La Salle",
-"id": "2325"
-},
-{
 "uid": "s:40~l:41~t:2184",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-7",
-"displayValue": "3-7",
+"summary": "4-7",
+"displayValue": "4-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
