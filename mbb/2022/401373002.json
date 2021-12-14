@@ -1344,6 +1344,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4898328",
 "displayName": "Jemel Davis",
+"headshot": {
+"alt": "Jemel Davis",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4898328.png"
+},
 "jersey": "2",
 "guid": "adcf682f-137f-3a53-a9c4-aae86c8b3475",
 "links": [
@@ -1408,6 +1412,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4286093",
 "displayName": "Deaquan Williams",
+"headshot": {
+"alt": "Deaquan Williams",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4286093.png"
+},
 "jersey": "5",
 "guid": "f57b4291bcfb3bfce35dd2c28ca3dca9",
 "links": [
@@ -1472,6 +1480,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4898331",
 "displayName": "TJ Madlock",
+"headshot": {
+"alt": "TJ Madlock",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4898331.png"
+},
 "jersey": "20",
 "guid": "a23fe31b-c758-3b6f-915e-6c3ab2bcdadf",
 "links": [
@@ -1672,6 +1684,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4898329",
 "displayName": "Rakeim Gary",
+"headshot": {
+"alt": "Rakeim Gary",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4898329.png"
+},
 "jersey": "11",
 "guid": "61df46ec-975d-3322-a979-3c6bdbbe1e79",
 "links": [
@@ -2156,6 +2172,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4898330",
 "displayName": "Rashamel Bulter",
+"headshot": {
+"alt": "Rashamel Bulter",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4898330.png"
+},
 "jersey": "13",
 "guid": "8a9386e1-edf2-372b-a5b9-13dca55d62ae",
 "links": [
@@ -2923,59 +2943,6 @@
 "id": "2272"
 },
 {
-"uid": "s:40~l:41~t:2515",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-6",
-"displayValue": "4-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2515/radford-highlanders",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2515.png",
-"height": 500
-}
-],
-"team": "Radford",
-"id": "2515"
-},
-{
 "uid": "s:40~l:41~t:2261",
 "stats": [
 {
@@ -3027,6 +2994,59 @@
 ],
 "team": "Hampton",
 "id": "2261"
+},
+{
+"uid": "s:40~l:41~t:2515",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "4-7",
+"displayValue": "4-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2515/radford-highlanders",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2515.png",
+"height": 500
+}
+],
+"team": "Radford",
+"id": "2515"
 },
 {
 "uid": "s:40~l:41~t:2448",
@@ -3904,9 +3924,9 @@
 "moneyLine": -171,
 "spreadRecord": {
 "wins": 4,
-"losses": 2,
+"losses": 3,
 "pushes": 1,
-"summary": "4-2-1"
+"summary": "4-3-1"
 },
 "spreadOdds": -102.0,
 "teamId": "2908"
@@ -3917,10 +3937,10 @@
 "underdog": true,
 "moneyLine": 144,
 "spreadRecord": {
-"wins": 4,
+"wins": 5,
 "losses": 2,
 "pushes": 2,
-"summary": "4-2-2"
+"summary": "5-2-2"
 },
 "spreadOdds": -118.0,
 "teamId": "2569"
