@@ -368,7 +368,23 @@
 "commentaryAvailable": false,
 "conferenceCompetition": true,
 "liveAvailable": false,
-"broadcasts": [],
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "FOX"
+},
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"lang": "en",
+"region": "us"
+}
+],
 "groups": {
 "midsizeName": "Big East",
 "name": "Big East Conference",
@@ -530,7 +546,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": false,
+"recent": true,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -1215,7 +1231,40 @@
 "2": []
 }
 },
-"pickcenter": [],
+"pickcenter": [
+{
+"provider": {
+"id": "1002",
+"name": "teamrankings",
+"priority": 0
+},
+"awayTeamOdds": {
+"averageScore": 73.0,
+"favorite": false,
+"underdog": true,
+"spreadRecord": {
+"wins": 5,
+"losses": 7,
+"pushes": 0,
+"summary": "5-7-0"
+},
+"teamId": "156"
+},
+"homeTeamOdds": {
+"averageScore": 69.7,
+"favorite": true,
+"underdog": false,
+"spreadRecord": {
+"wins": 8,
+"losses": 2,
+"pushes": 0,
+"summary": "8-2-0"
+},
+"teamId": "305"
+},
+"links": []
+}
+],
 "againstTheSpread": [
 {
 "team": {
@@ -1280,7 +1329,23 @@
 "commentaryAvailable": false,
 "conferenceCompetition": true,
 "liveAvailable": false,
-"broadcasts": [],
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "FOX"
+},
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"lang": "en",
+"region": "us"
+}
+],
 "groups": {
 "midsizeName": "Big East",
 "name": "Big East Conference",
@@ -1442,7 +1507,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": false,
+"recent": true,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
