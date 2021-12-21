@@ -402,7 +402,7 @@
 }
 ],
 "possession": false,
-"rank": 16,
+"rank": 15,
 "id": "2550",
 "team": {
 "uid": "s:40~l:41~t:2550",
@@ -1216,7 +1216,40 @@
 "2": []
 }
 },
-"pickcenter": [],
+"pickcenter": [
+{
+"provider": {
+"id": "1002",
+"name": "teamrankings",
+"priority": 0
+},
+"awayTeamOdds": {
+"averageScore": 61.6,
+"favorite": false,
+"underdog": true,
+"spreadRecord": {
+"wins": 4,
+"losses": 7,
+"pushes": 0,
+"summary": "4-7-0"
+},
+"teamId": "2599"
+},
+"homeTeamOdds": {
+"averageScore": 73.4,
+"favorite": true,
+"underdog": false,
+"spreadRecord": {
+"wins": 6,
+"losses": 3,
+"pushes": 0,
+"summary": "6-3-0"
+},
+"teamId": "2550"
+},
+"links": []
+}
+],
 "againstTheSpread": [
 {
 "team": {
@@ -1315,7 +1348,7 @@
 }
 ],
 "possession": false,
-"rank": 16,
+"rank": 15,
 "id": "2550",
 "team": {
 "uid": "s:40~l:41~t:2550",
