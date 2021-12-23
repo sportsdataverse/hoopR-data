@@ -368,23 +368,7 @@
 "commentaryAvailable": false,
 "conferenceCompetition": true,
 "liveAvailable": false,
-"broadcasts": [
-{
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "PAC12"
-},
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"lang": "en",
-"region": "us"
-}
-],
+"broadcasts": [],
 "groups": {
 "midsizeName": "Pac-12",
 "name": "Pac-12 Conference",
@@ -399,7 +383,6 @@
 "uid": "s:40~l:41~t:264",
 "homeAway": "home",
 "score": "0",
-"winner": false,
 "record": [
 {
 "summary": "4-4",
@@ -470,8 +453,7 @@
 {
 "uid": "s:40~l:41~t:26",
 "homeAway": "away",
-"score": "2",
-"winner": true,
+"score": "0",
 "record": [
 {
 "summary": "7-1",
@@ -552,13 +534,13 @@
 "possessionArrowAvailable": false,
 "status": {
 "type": {
-"name": "STATUS_FORFEIT",
-"description": "Forfeit",
-"id": "4",
+"name": "STATUS_POSTPONED",
+"description": "Postponed",
+"id": "6",
 "state": "post",
-"completed": true,
-"detail": "Forfeit",
-"shortDetail": "Forfeit"
+"completed": false,
+"detail": "Postponed",
+"shortDetail": "Postponed"
 }
 }
 }
@@ -581,8 +563,7 @@
 "isPremium": false
 }
 ],
-"id": "401370931",
-"gameNote": "UCLA wins due to Washintgon forfeit"
+"id": "401370931"
 },
 "broadcasts": [],
 "videos": [],
@@ -811,6 +792,59 @@
 "id": "38"
 },
 {
+"uid": "s:40~l:41~t:254",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-4",
+"displayValue": "8-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-1",
+"displayValue": "1-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/254/utah-utes",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+"height": 500
+}
+],
+"team": "Utah",
+"id": "254"
+},
+{
 "uid": "s:40~l:41~t:265",
 "stats": [
 {
@@ -862,59 +896,6 @@
 ],
 "team": "Washington State",
 "id": "265"
-},
-{
-"uid": "s:40~l:41~t:254",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-4",
-"displayValue": "7-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/254/utah-utes",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-"height": 500
-}
-],
-"team": "Utah",
-"id": "254"
 },
 {
 "uid": "s:40~l:41~t:24",
@@ -1080,8 +1061,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "5-5",
+"displayValue": "5-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1133,8 +1114,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-6",
-"displayValue": "6-6",
+"summary": "7-6",
+"displayValue": "7-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1186,8 +1167,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-10",
-"displayValue": "1-10",
+"summary": "2-10",
+"displayValue": "2-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1347,23 +1328,7 @@
 "commentaryAvailable": false,
 "conferenceCompetition": true,
 "liveAvailable": false,
-"broadcasts": [
-{
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "PAC12"
-},
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"lang": "en",
-"region": "us"
-}
-],
+"broadcasts": [],
 "groups": {
 "midsizeName": "Pac-12",
 "name": "Pac-12 Conference",
@@ -1378,7 +1343,6 @@
 "uid": "s:40~l:41~t:264",
 "homeAway": "home",
 "score": "0",
-"winner": false,
 "record": [
 {
 "summary": "4-4",
@@ -1449,8 +1413,7 @@
 {
 "uid": "s:40~l:41~t:26",
 "homeAway": "away",
-"score": "2",
-"winner": true,
+"score": "0",
 "record": [
 {
 "summary": "7-1",
@@ -1531,13 +1494,13 @@
 "possessionArrowAvailable": false,
 "status": {
 "type": {
-"name": "STATUS_FORFEIT",
-"description": "Forfeit",
-"id": "4",
+"name": "STATUS_POSTPONED",
+"description": "Postponed",
+"id": "6",
 "state": "post",
-"completed": true,
-"detail": "Forfeit",
-"shortDetail": "Forfeit"
+"completed": false,
+"detail": "Postponed",
+"shortDetail": "Postponed"
 }
 }
 },
