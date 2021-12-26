@@ -27431,6 +27431,7 @@
 "alt": "C.J. Miles",
 "href": "https://a.espncdn.com/i/headshots/nba/players/full/2778.png"
 },
+"jersey": "50",
 "guid": "85c0829e6bb832f8ce3f6208ddb94dff",
 "links": [
 {
@@ -27964,7 +27965,7 @@
 "shotChartAvailable": true,
 "timeoutsAvailable": true,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -29013,7 +29014,7 @@
 "links": {
 "web": {
 "short": {
-"href": "https://es.pn/3HgQlhN"
+"href": "https://es.pn/3EayHtP"
 },
 "self": {
 "href": "http://espn.go.com/video/clip?id=32913436&ex_cid=espnapi_internal"
@@ -30091,7 +30092,6 @@
 },
 "groups": [
 {
-"moduleType": "standings",
 "header": "2021-22 Atlantic Standings",
 "href": "https://www.espn.com/nba/standings/_/group/1",
 "standings": {
@@ -30194,43 +30194,43 @@
 },
 {
 "shortDisplayName": "L",
-"displayValue": "15",
+"displayValue": "16",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 15
+"value": 16
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".516",
+"displayValue": ".500",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.5161290168762207
+"value": 0.5
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 5.5
+"value": 6
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W1",
+"displayValue": "L1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 1
+"value": -1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
@@ -30267,13 +30267,13 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "15",
+"displayValue": "16",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 15
+"value": 16
 },
 {
 "shortDisplayName": "L",
@@ -30287,33 +30287,33 @@
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".484",
+"displayValue": ".500",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.4838709533214569
+"value": 0.5
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 6.5
+"value": 6
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L1",
+"displayValue": "W1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -1
+"value": 1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/bos/boston-celtics",
@@ -30433,33 +30433,33 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "13",
+"displayValue": "14",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 13
+"value": 14
 },
 {
 "shortDisplayName": "L",
-"displayValue": "17",
+"displayValue": "18",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 17
+"value": 18
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".433",
+"displayValue": ".438",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.4333333373069763
+"value": 0.4375
 },
 {
 "shortDisplayName": "GB",
@@ -30991,10 +30991,10 @@
 "underdog": true,
 "moneyLine": 170,
 "spreadRecord": {
-"wins": 13,
-"losses": 16,
+"wins": 14,
+"losses": 17,
 "pushes": 0,
-"summary": "13-16-0"
+"summary": "14-17-0"
 },
 "spreadOdds": -110.0,
 "teamId": "20"
@@ -31005,10 +31005,10 @@
 "underdog": false,
 "moneyLine": -195,
 "spreadRecord": {
-"wins": 14,
-"losses": 13,
+"wins": 16,
+"losses": 14,
 "pushes": 2,
-"summary": "14-13-2"
+"summary": "16-14-2"
 },
 "spreadOdds": -110.0,
 "teamId": "2"
@@ -31065,9 +31065,7 @@
 "id": "2"
 },
 "awayTeam": {
-"id": "20",
-"gameProjection": "33.3",
-"teamChanceLoss": "66.7"
+"id": "20"
 }
 },
 "espnWP": [
@@ -33638,7 +33636,7 @@
 "shotChartAvailable": true,
 "timeoutsAvailable": true,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {

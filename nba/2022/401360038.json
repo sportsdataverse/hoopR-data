@@ -21180,14 +21180,14 @@
 "scoringPlay": false,
 "clock.displayValue": "8:05",
 "team.id": "8",
-"type.id": "92",
-"type.text": "Jump Shot",
+"type.id": "110",
+"type.text": "Driving Layup Shot",
 "awayScore": 81,
 "id": 401360038607,
-"text": "Cory Joseph misses 9-foot jumper",
+"text": "T.J. McConnell blocks Cory Joseph 's 9-foot driving layup",
 "scoreValue": 0,
 "participants.0.athlete.id": "6446",
-"participants.1.athlete.id": null,
+"participants.1.athlete.id": "2530530",
 "participants.2.athlete.id": null,
 "season": 2022,
 "seasonType": 2,
@@ -24540,13 +24540,13 @@
 "scoringPlay": false,
 "clock.displayValue": "0:54.6",
 "team.id": "11",
-"type.id": "87",
-"type.text": "Out of Bounds - Lost Ball Turnover",
+"type.id": "90",
+"type.text": "Out of Bounds - Bad Pass Turnover",
 "awayScore": 88,
 "id": 401360038626,
-"text": "Domantas Sabonis out of bounds lost ball turnover",
+"text": "Malcolm Brogdon out of bounds bad pass turnover",
 "scoreValue": 0,
-"participants.0.athlete.id": "3155942",
+"participants.0.athlete.id": "2566769",
 "participants.1.athlete.id": null,
 "participants.2.athlete.id": null,
 "season": 2022,
@@ -24590,17 +24590,17 @@
 "sequenceNumber": "629",
 "period.displayValue": "4th Quarter",
 "period.number": 4,
-"homeScore": 96,
+"homeScore": 94,
 "coordinate.x": 26,
 "coordinate.y": 5,
 "scoringPlay": false,
 "clock.displayValue": "0:39.4",
 "team.id": "11",
-"type.id": "44",
-"type.text": "Shooting Foul",
+"type.id": "45",
+"type.text": "Personal Foul",
 "awayScore": 88,
 "id": 401360038629,
-"text": "Justin Holiday shooting foul",
+"text": "Justin Holiday personal foul",
 "scoreValue": 0,
 "participants.0.athlete.id": "2284101",
 "participants.1.athlete.id": null,
@@ -25324,11 +25324,11 @@
 "scoringPlay": false,
 "clock.displayValue": "0:18.5",
 "team.id": "11",
-"type.id": "92",
-"type.text": "Jump Shot",
+"type.id": "131",
+"type.text": "Pullup Jump Shot",
 "awayScore": 89,
 "id": 401360038649,
-"text": "T.J. McConnell misses 17-foot jumper",
+"text": "T.J. McConnell misses 17-foot pullup jump shot",
 "scoreValue": 0,
 "participants.0.athlete.id": "2530530",
 "participants.1.athlete.id": null,
@@ -25788,7 +25788,7 @@
 "abbreviation": "STL"
 },
 {
-"displayValue": "4",
+"displayValue": "5",
 "name": "blocks",
 "label": "Blocks",
 "abbreviation": "BLK"
@@ -26114,7 +26114,7 @@
 "1",
 "0",
 "1",
-"6",
+"5",
 "0",
 "+2",
 "15"
@@ -26262,7 +26262,7 @@
 "4",
 "0",
 "0",
-"4",
+"5",
 "3",
 "+11",
 "20"
@@ -26705,7 +26705,7 @@
 "4",
 "4",
 "2",
-"0",
+"1",
 "0",
 "2",
 "-11",
@@ -26917,7 +26917,7 @@
 "43",
 "14",
 "5",
-"4",
+"5",
 "18",
 "22",
 "",
@@ -28303,7 +28303,7 @@
 "shotChartAvailable": true,
 "timeoutsAvailable": true,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -28334,6 +28334,18 @@
 ],
 "href": "http://www.espn.com/nba/game/_/gameId/401360038",
 "text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Recap",
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/nba/recap?gameId=401360038",
+"text": "Recap",
 "isPremium": false
 },
 {
@@ -28389,208 +28401,6 @@
 },
 "broadcasts": [],
 "videos": [
-{
-"cerebroId": "6195a736ca84b71b7c184f20",
-"thumbnail": "https://a.espncdn.com/media/motion/2021/1117/ss_20211117_200703712_1810639/ss_20211117_200703712_1810639.jpg",
-"ad": {
-"sport": "nba",
-"bundle": "nba_instantreplay"
-},
-"timeRestrictions": {
-"embargoDate": "2021-11-18T01:06:53Z",
-"expirationDate": "2022-07-31T04:00:00Z"
-},
-"description": "Cade Cunningham shows off his vision with nice pass vs. Indiana Pacers",
-"geoRestrictions": {
-"countries": [
-"RE",
-"UG",
-"GY",
-"CR",
-"PE",
-"GN",
-"BF",
-"BI",
-"MP",
-"MZ",
-"HN",
-"ZA",
-"DO",
-"SS",
-"GH",
-"FM",
-"NA",
-"UY",
-"VC",
-"NZ",
-"RW",
-"KY",
-"PR",
-"TC",
-"MS",
-"VE",
-"FJ",
-"MW",
-"CO",
-"ML",
-"LC",
-"BB",
-"TZ",
-"SX",
-"GD",
-"AU",
-"BJ",
-"AI",
-"BQ",
-"BS",
-"GQ",
-"BW",
-"GA",
-"LS",
-"CL",
-"US",
-"AS",
-"GU",
-"VI",
-"UM",
-"MH",
-"GM",
-"SN",
-"CD",
-"PA",
-"AO",
-"AG",
-"GP",
-"NG",
-"CG",
-"ET",
-"NE",
-"BM",
-"AM",
-"HT",
-"JM",
-"GW",
-"MQ",
-"ZW",
-"CU",
-"MU",
-"CV",
-"TG",
-"SV",
-"NI",
-"KE",
-"LR",
-"GB",
-"UK",
-"ZM",
-"SL",
-"SZ",
-"EC",
-"GF",
-"ST",
-"MG",
-"BO",
-"GT",
-"CM",
-"CI",
-"SR",
-"TT",
-"PY",
-"MF",
-"PW",
-"KN",
-"BR",
-"KM",
-"ER",
-"SC",
-"AW",
-"BZ",
-"MX",
-"CF"
-],
-"type": "whitelist"
-},
-"source": "espn",
-"tracking": {
-"leagueName": "No League",
-"trackingName": "NBA_One-Play (Cade Cunningham shows off his vision with nice pass vs. Indiana Pacers) 2021/11/18 ESHEET",
-"coverageType": "OnePlay",
-"sportName": "nba",
-"trackingId": "dm_20211118_NBA_cade_cunningham_shows_off_his_vision_with_nice_pass_vs_indiana_pacers"
-},
-"duration": 14,
-"deviceRestrictions": {
-"devices": [
-"desktop",
-"settop",
-"handset",
-"tablet"
-],
-"type": "whitelist"
-},
-"originalPublishDate": "2021-11-18T01:06:53Z",
-"links": {
-"web": {
-"short": {
-"href": "https://es.pn/3oB8qiQ"
-},
-"self": {
-"href": "http://espn.go.com/video/clip?id=32656757&ex_cid=espnapi_internal"
-},
-"href": "http://espn.go.com/video/clip?id=32656757&ex_cid=espnapi_internal"
-},
-"mobile": {
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c7db417d-95b8-48df-9ee2-35508b4b6da6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=32656757"
-},
-"alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=32656757&ex_cid=espnapi_internal"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c7db417d-95b8-48df-9ee2-35508b4b6da6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=32656757"
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2021/1117/ss_20211117_200703712_1810639/ss_20211117_200703712_1810639.mp4"
-},
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c7db417d-95b8-48df-9ee2-35508b4b6da6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=32656757"
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/32656757"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/c7db417d-95b8-48df-9ee2-35508b4b6da6"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2021/1117/ss_20211117_200703712_1810639/ss_20211117_200703712_1810639.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2021/1117/ss_20211117_200703712_1810639/ss_20211117_200703712_1810639_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/2021/1117/ss_20211117_200703712_1810639/ss_20211117_200703712_1810639_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2021/1117/ss_20211117_200703712_1810639/ss_20211117_200703712_1810639_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2021/1117/ss_20211117_200703712_1810639/ss_20211117_200703712_1810639.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2021/1117/ss_20211117_200703712_1810639/ss_20211117_200703712_1810639.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2021/1117/ss_20211117_200703712_1810639/ss_20211117_200703712_1810639.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2021/1117/ss_20211117_200703712_1810639/ss_20211117_200703712_1810639_360p30_1464k.mp4"
-}
-}
-},
-"id": 32656757,
-"lastModified": "2021-11-18T01:24:32Z",
-"headline": "Cade Cunningham shows off his vision with nice pass vs. Indiana Pacers"
-},
 {
 "cerebroId": "6195b6a9ca84b71b7c1874af",
 "thumbnail": "https://a.espncdn.com/media/motion/2021/1117/ss_20211117_211258581_1810787/ss_20211117_211258581_1810787.jpg",
@@ -28716,7 +28526,7 @@
 "tracking": {
 "leagueName": "No League",
 "trackingName": "NBA_One-Play (Cade Cunningham drains the jump shot) 2021/11/18 ESHEET",
-"coverageType": "OnePlay",
+"coverageType": "Final Game Highlight",
 "sportName": "nba",
 "trackingId": "dm_20211118_NBA_cade_cunningham_drains_the_jump_shot"
 },
@@ -28790,7 +28600,7 @@
 }
 },
 "id": 32657332,
-"lastModified": "2021-11-18T02:20:43Z",
+"lastModified": "2021-11-18T02:39:03Z",
 "headline": "Cade Cunningham drains the jump shot"
 }
 ],
@@ -28802,7 +28612,6 @@
 },
 "groups": [
 {
-"moduleType": "standings",
 "header": "2021-22 Central Standings",
 "href": "https://www.espn.com/nba/standings/_/group/2",
 "standings": {
@@ -28812,33 +28621,33 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "10",
+"displayValue": "19",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 10
+"value": 19
 },
 {
 "shortDisplayName": "L",
-"displayValue": "4",
+"displayValue": "10",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 4
+"value": 10
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".714",
+"displayValue": ".655",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.7142857313156128
+"value": 0.6551724076271057
 },
 {
 "shortDisplayName": "GB",
@@ -28891,37 +28700,120 @@
 "id": "4"
 },
 {
-"uid": "s:40~l:46~t:5",
+"uid": "s:40~l:46~t:15",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "9",
+"displayValue": "21",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 9
+"value": 21
 },
 {
 "shortDisplayName": "L",
-"displayValue": "6",
+"displayValue": "13",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 6
+"value": 13
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".600",
+"displayValue": ".618",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.6000000238418579
+"value": 0.6176470518112183
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0.5
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W2",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+"height": 500
+},
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mil.png",
+"height": 500
+}
+],
+"team": "Milwaukee",
+"id": "15"
+},
+{
+"uid": "s:40~l:46~t:5",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "19",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 19
+},
+{
+"shortDisplayName": "L",
+"displayValue": "13",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 13
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".594",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.59375
 },
 {
 "shortDisplayName": "GB",
@@ -28974,140 +28866,57 @@
 "id": "5"
 },
 {
-"uid": "s:40~l:46~t:15",
-"stats": [
-{
-"shortDisplayName": "W",
-"displayValue": "6",
-"displayName": "Wins",
-"name": "wins",
-"description": "Wins",
-"abbreviation": "W",
-"type": "wins",
-"value": 6
-},
-{
-"shortDisplayName": "L",
-"displayValue": "8",
-"displayName": "Losses",
-"name": "losses",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 8
-},
-{
-"shortDisplayName": "PCT",
-"displayValue": ".429",
-"displayName": "Win Percentage",
-"name": "winPercent",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 0.4285714328289032
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 4
-},
-{
-"shortDisplayName": "STRK",
-"displayValue": "L2",
-"displayName": "Streak",
-"name": "streak",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": -2
-}
-],
-"link": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"scoreboard"
-],
-"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-"height": 500
-},
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"scoreboard",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mil.png",
-"height": 500
-}
-],
-"team": "Milwaukee",
-"id": "15"
-},
-{
 "uid": "s:40~l:46~t:11",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "6",
+"displayValue": "14",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 6
+"value": 14
 },
 {
 "shortDisplayName": "L",
-"displayValue": "10",
+"displayValue": "19",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 10
+"value": 19
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".375",
+"displayValue": ".424",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.375
+"value": 0.42424243688583374
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 5
+"value": 7
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L2",
+"displayValue": "W1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -2
+"value": 1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers",
@@ -29144,53 +28953,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "4",
+"displayValue": "5",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 4
+"value": 5
 },
 {
 "shortDisplayName": "L",
-"displayValue": "10",
+"displayValue": "26",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 10
+"value": 26
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".286",
+"displayValue": ".161",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.2857142984867096
+"value": 0.16129031777381897
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "15",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 6
+"value": 15
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W1",
+"displayValue": "L2",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 1
+"value": -2
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
@@ -29232,7 +29041,7 @@
 "type": "season",
 "title": "Regular Season Series",
 "description": "Regular Season Series",
-"summary": "",
+"summary": "Series tied 1-1",
 "completed": false,
 "totalCompetitions": 4,
 "events": [
@@ -29421,20 +29230,20 @@
 "uid": "s:40~l:46~e:401360252~c:401360252",
 "date": "2021-12-17T00:00:00Z",
 "timeValid": true,
-"status": "pre",
+"status": "post",
 "statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
-"completed": false,
-"description": "Scheduled",
-"detail": "Thu, December 16th at 7:00 PM EST",
-"shortDetail": "12/16 - 7:00 PM EST"
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
 },
-"broadcasts": [],
 "competitors": [
 {
 "homeAway": "home",
+"winner": true,
 "team": {
 "id": "11",
 "uid": "s:40~l:46~t:11",
@@ -29452,10 +29261,11 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
 },
-"score": "0"
+"score": "122"
 },
 {
 "homeAway": "away",
+"winner": false,
 "team": {
 "id": "8",
 "uid": "s:40~l:46~t:8",
@@ -29473,7 +29283,7 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
 },
-"score": "0"
+"score": "113"
 }
 ],
 "links": [
@@ -29669,10 +29479,10 @@
 "underdog": false,
 "moneyLine": -280,
 "spreadRecord": {
-"wins": 8,
-"losses": 7,
-"pushes": 0,
-"summary": "8-7-0"
+"wins": 15,
+"losses": 16,
+"pushes": 1,
+"summary": "15-16-1"
 },
 "spreadOdds": -119.0,
 "teamId": "11"
@@ -29683,10 +29493,10 @@
 "underdog": true,
 "moneyLine": 235,
 "spreadRecord": {
-"wins": 5,
-"losses": 8,
+"wins": 14,
+"losses": 16,
 "pushes": 0,
-"summary": "5-8-0"
+"summary": "14-16-0"
 },
 "spreadOdds": -101.0,
 "teamId": "8"
@@ -29743,9 +29553,7 @@
 "id": "8"
 },
 "awayTeam": {
-"id": "11",
-"gameProjection": "59.6",
-"teamChanceLoss": "40.4"
+"id": "11"
 }
 },
 "espnWP": [
@@ -32325,7 +32133,7 @@
 "shotChartAvailable": true,
 "timeoutsAvailable": true,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {

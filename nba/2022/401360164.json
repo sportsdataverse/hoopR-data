@@ -27294,7 +27294,7 @@
 "abbreviation": "AST"
 },
 {
-"displayValue": "8",
+"displayValue": "9",
 "name": "steals",
 "label": "Steals",
 "abbreviation": "STL"
@@ -27306,7 +27306,7 @@
 "abbreviation": "BLK"
 },
 {
-"displayValue": "13",
+"displayValue": "14",
 "name": "turnovers",
 "label": "Turnovers",
 "abbreviation": "TO"
@@ -27318,7 +27318,7 @@
 "abbreviation": "TTO"
 },
 {
-"displayValue": "15",
+"displayValue": "16",
 "name": "totalTurnovers",
 "label": "Total Turnovers",
 "abbreviation": "ToTO"
@@ -27446,7 +27446,7 @@
 "abbreviation": "AST"
 },
 {
-"displayValue": "9",
+"displayValue": "10",
 "name": "steals",
 "label": "Steals",
 "abbreviation": "STL"
@@ -27458,7 +27458,7 @@
 "abbreviation": "BLK"
 },
 {
-"displayValue": "16",
+"displayValue": "17",
 "name": "turnovers",
 "label": "Turnovers",
 "abbreviation": "TO"
@@ -27470,7 +27470,7 @@
 "abbreviation": "TTO"
 },
 {
-"displayValue": "16",
+"displayValue": "17",
 "name": "totalTurnovers",
 "label": "Total Turnovers",
 "abbreviation": "ToTO"
@@ -28216,7 +28216,7 @@
 "3",
 "7",
 "0",
-"0",
+"1",
 "0",
 "1",
 "1",
@@ -28366,7 +28366,7 @@
 "2",
 "0",
 "1",
-"2",
+"3",
 "4",
 "-30",
 "7"
@@ -28502,9 +28502,9 @@
 "29",
 "38",
 "23",
-"8",
+"9",
 "3",
-"13",
+"14",
 "15",
 "",
 "96"
@@ -29011,9 +29011,9 @@
 "4",
 "6",
 "2",
-"0",
+"1",
 "2",
-"0",
+"1",
 "4",
 "-1",
 "8"
@@ -29386,9 +29386,9 @@
 "40",
 "51",
 "30",
-"9",
+"10",
 "8",
-"16",
+"17",
 "29",
 "",
 "118"
@@ -31482,43 +31482,42 @@
 },
 "groups": [
 {
-"moduleType": "standings",
 "header": "2021-22 Pacific Standings",
 "href": "https://www.espn.com/nba/standings/_/group/4",
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:46~t:9",
+"uid": "s:40~l:46~t:21",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "19",
+"displayValue": "26",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 19
+"value": 26
 },
 {
 "shortDisplayName": "L",
-"displayValue": "3",
+"displayValue": "5",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 3
+"value": 5
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".864",
+"displayValue": ".839",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.8636363744735718
+"value": 0.8387096524238586
 },
 {
 "shortDisplayName": "GB",
@@ -31532,96 +31531,13 @@
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W1",
+"displayValue": "W5",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 1
-}
-],
-"link": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
-"logo": [
-{
-"lastUpdated": "2019-09-30T14:23Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"scoreboard"
-],
-"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-"height": 500
-},
-{
-"lastUpdated": "2019-09-30T20:00Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"scoreboard",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/gs.png",
-"height": 500
-}
-],
-"team": "Golden State",
-"id": "9"
-},
-{
-"uid": "s:40~l:46~t:21",
-"stats": [
-{
-"shortDisplayName": "W",
-"displayValue": "19",
-"displayName": "Wins",
-"name": "wins",
-"description": "Wins",
-"abbreviation": "W",
-"type": "wins",
-"value": 19
-},
-{
-"shortDisplayName": "L",
-"displayValue": "4",
-"displayName": "Losses",
-"name": "losses",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 4
-},
-{
-"shortDisplayName": "PCT",
-"displayValue": ".826",
-"displayName": "Win Percentage",
-"name": "winPercent",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 0.8260869383811951
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "STRK",
-"displayValue": "L1",
-"displayName": "Streak",
-"name": "streak",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": -1
+"value": 5
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns",
@@ -31654,47 +31570,130 @@
 "id": "21"
 },
 {
-"uid": "s:40~l:46~t:12",
+"uid": "s:40~l:46~t:9",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "12",
+"displayValue": "26",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 12
+"value": 26
 },
 {
 "shortDisplayName": "L",
-"displayValue": "11",
+"displayValue": "6",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 11
+"value": 6
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".522",
+"displayValue": ".813",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.52173912525177
+"value": 0.8125
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7.5",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 7.5
+"value": 0.5
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W2",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
+"logo": [
+{
+"lastUpdated": "2019-09-30T14:23Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+"height": 500
+},
+{
+"lastUpdated": "2019-09-30T20:00Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/gs.png",
+"height": 500
+}
+],
+"team": "Golden State",
+"id": "9"
+},
+{
+"uid": "s:40~l:46~t:12",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "17",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 17
+},
+{
+"shortDisplayName": "L",
+"displayValue": "15",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 15
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".531",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.53125
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "9.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 9.5
 },
 {
 "shortDisplayName": "STRK",
@@ -31741,53 +31740,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "12",
+"displayValue": "16",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 12
+"value": 16
 },
 {
 "shortDisplayName": "L",
-"displayValue": "12",
+"displayValue": "17",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 12
+"value": 17
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".500",
+"displayValue": ".485",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.5
+"value": 0.4848484992980957
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 8
+"value": 11
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L1",
+"displayValue": "L4",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -1
+"value": -4
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers",
@@ -31824,53 +31823,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "9",
+"displayValue": "13",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 9
+"value": 13
 },
 {
 "shortDisplayName": "L",
-"displayValue": "14",
+"displayValue": "20",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 14
+"value": 20
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".391",
+"displayValue": ".394",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.3913043439388275
+"value": 0.39393940567970276
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "10.5",
+"displayValue": "14",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 10.5
+"value": 14
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W1",
+"displayValue": "L2",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 1
+"value": -2
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
@@ -32049,6 +32048,22 @@
 },
 "media": {
 "shortName": "ABC"
+},
+"lang": "en",
+"region": "us"
+},
+{
+"type": {
+"id": "5",
+"shortName": "Radio"
+},
+"url": "https://cerebro.espn.com/cerebro/search/airing/a115584754",
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPNRM"
 },
 "lang": "en",
 "region": "us"
@@ -32382,10 +32397,10 @@
 "underdog": true,
 "moneyLine": 245,
 "spreadRecord": {
-"wins": 12,
-"losses": 9,
+"wins": 17,
+"losses": 13,
 "pushes": 0,
-"summary": "12-9-0"
+"summary": "17-13-0"
 },
 "spreadOdds": -105.0,
 "teamId": "21"
@@ -32396,10 +32411,10 @@
 "underdog": false,
 "moneyLine": -290,
 "spreadRecord": {
-"wins": 15,
-"losses": 5,
-"pushes": 1,
-"summary": "15-5-1"
+"wins": 19,
+"losses": 10,
+"pushes": 2,
+"summary": "19-10-2"
 },
 "spreadOdds": -115.0,
 "teamId": "9"
@@ -32456,9 +32471,7 @@
 "id": "9"
 },
 "awayTeam": {
-"id": "21",
-"gameProjection": "26.2",
-"teamChanceLoss": "73.8"
+"id": "21"
 }
 },
 "espnWP": [

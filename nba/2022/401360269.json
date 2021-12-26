@@ -26884,6 +26884,7 @@
 "alt": "Justin Jackson",
 "href": "https://a.espncdn.com/i/headshots/nba/players/full/3138156.png"
 },
+"jersey": "44",
 "guid": "ea5f207a6b56696ed6ae13cd5d9a7072",
 "links": [
 {
@@ -28942,27 +28943,110 @@
 "id": "17"
 },
 {
-"uid": "s:40~l:46~t:2",
+"uid": "s:40~l:46~t:20",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "15",
+"displayValue": "16",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 15
+"value": 16
 },
 {
 "shortDisplayName": "L",
-"displayValue": "15",
+"displayValue": "16",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 15
+"value": 16
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".500",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 6
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+"logo": [
+{
+"lastUpdated": "2018-10-11T14:16Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+"height": 500
+},
+{
+"lastUpdated": "2018-10-11T14:17Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
+"height": 500
+}
+],
+"team": "Philadelphia",
+"id": "20"
+},
+{
+"uid": "s:40~l:46~t:2",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "16",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 16
+},
+{
+"shortDisplayName": "L",
+"displayValue": "16",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 16
 },
 {
 "shortDisplayName": "PCT",
@@ -29023,89 +29107,6 @@
 ],
 "team": "Boston",
 "id": "2"
-},
-{
-"uid": "s:40~l:46~t:20",
-"stats": [
-{
-"shortDisplayName": "W",
-"displayValue": "15",
-"displayName": "Wins",
-"name": "wins",
-"description": "Wins",
-"abbreviation": "W",
-"type": "wins",
-"value": 15
-},
-{
-"shortDisplayName": "L",
-"displayValue": "15",
-"displayName": "Losses",
-"name": "losses",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 15
-},
-{
-"shortDisplayName": "PCT",
-"displayValue": ".500",
-"displayName": "Win Percentage",
-"name": "winPercent",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 0.5
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "6",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 6
-},
-{
-"shortDisplayName": "STRK",
-"displayValue": "L3",
-"displayName": "Streak",
-"name": "streak",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": -3
-}
-],
-"link": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
-"logo": [
-{
-"lastUpdated": "2018-10-11T14:16Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"scoreboard"
-],
-"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-"height": 500
-},
-{
-"lastUpdated": "2018-10-11T14:17Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"scoreboard",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
-"height": 500
-}
-],
-"team": "Philadelphia",
-"id": "20"
 },
 {
 "uid": "s:40~l:46~t:28",
@@ -29195,33 +29196,33 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "13",
+"displayValue": "14",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 13
+"value": 14
 },
 {
 "shortDisplayName": "L",
-"displayValue": "17",
+"displayValue": "18",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 17
+"value": 18
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".433",
+"displayValue": ".438",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.4333333373069763
+"value": 0.4375
 },
 {
 "shortDisplayName": "GB",
@@ -29754,10 +29755,10 @@
 "underdog": true,
 "moneyLine": 185,
 "spreadRecord": {
-"wins": 12,
-"losses": 17,
+"wins": 13,
+"losses": 18,
 "pushes": 0,
-"summary": "12-17-0"
+"summary": "13-18-0"
 },
 "spreadOdds": -110.0,
 "teamId": "18"
@@ -29768,10 +29769,10 @@
 "underdog": false,
 "moneyLine": -215,
 "spreadRecord": {
-"wins": 14,
-"losses": 13,
+"wins": 15,
+"losses": 14,
 "pushes": 2,
-"summary": "14-13-2"
+"summary": "15-14-2"
 },
 "spreadOdds": -110.0,
 "teamId": "2"
@@ -29828,9 +29829,7 @@
 "id": "2"
 },
 "awayTeam": {
-"id": "18",
-"gameProjection": "33.0",
-"teamChanceLoss": "67.0"
+"id": "18"
 }
 },
 "espnWP": [
