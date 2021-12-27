@@ -368,23 +368,7 @@
 "commentaryAvailable": false,
 "conferenceCompetition": true,
 "liveAvailable": false,
-"broadcasts": [
-{
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ESPN2"
-},
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"lang": "en",
-"region": "us"
-}
-],
+"broadcasts": [],
 "groups": {
 "midsizeName": "American",
 "name": "American Athletic Conference",
@@ -541,7 +525,7 @@
 "order": 1
 }
 ],
-"onWatchESPN": true,
+"onWatchESPN": false,
 "boxscoreAvailable": true,
 "id": "401377691",
 "shotChartAvailable": false,
@@ -1232,7 +1216,40 @@
 "2": []
 }
 },
-"pickcenter": [],
+"pickcenter": [
+{
+"provider": {
+"id": "1002",
+"name": "teamrankings",
+"priority": 0
+},
+"awayTeamOdds": {
+"averageScore": 61.6,
+"favorite": false,
+"underdog": true,
+"spreadRecord": {
+"wins": 4,
+"losses": 6,
+"pushes": 2,
+"summary": "4-6-2"
+},
+"teamId": "2132"
+},
+"homeTeamOdds": {
+"averageScore": 75.9,
+"favorite": true,
+"underdog": false,
+"spreadRecord": {
+"wins": 9,
+"losses": 4,
+"pushes": 0,
+"summary": "9-4-0"
+},
+"teamId": "248"
+},
+"links": []
+}
+],
 "againstTheSpread": [
 {
 "team": {
@@ -1297,23 +1314,7 @@
 "commentaryAvailable": false,
 "conferenceCompetition": true,
 "liveAvailable": false,
-"broadcasts": [
-{
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ESPN2"
-},
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"lang": "en",
-"region": "us"
-}
-],
+"broadcasts": [],
 "groups": {
 "midsizeName": "American",
 "name": "American Athletic Conference",
@@ -1470,7 +1471,7 @@
 "order": 1
 }
 ],
-"onWatchESPN": true,
+"onWatchESPN": false,
 "boxscoreAvailable": true,
 "id": "401377691",
 "shotChartAvailable": false,
