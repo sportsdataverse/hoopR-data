@@ -3368,8 +3368,61 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-6",
-"displayValue": "8-6",
+"summary": "9-6",
+"displayValue": "9-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-1",
+"displayValue": "3-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/198/oral-roberts-golden-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png",
+"height": 500
+}
+],
+"team": "Oral Roberts",
+"id": "198"
+},
+{
+"uid": "s:40~l:41~t:2900",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-7",
+"displayValue": "8-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3399,75 +3452,22 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/198/oral-roberts-golden-eagles",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2900/st-thomas---minnesota-tommies",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2021-08-13T16:30Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
 "height": 500
 }
 ],
-"team": "Oral Roberts",
-"id": "198"
-},
-{
-"uid": "s:40~l:41~t:2710",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "10-4",
-"displayValue": "10-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2710/western-illinois-leathernecks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
-"height": 500
-}
-],
-"team": "Western Illinois",
-"id": "2710"
+"team": "St. Thomas - Minnesota",
+"id": "2900"
 },
 {
 "uid": "s:40~l:41~t:2449",
@@ -3523,59 +3523,6 @@
 "id": "2449"
 },
 {
-"uid": "s:40~l:41~t:2900",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-7",
-"displayValue": "7-7",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2900/st-thomas---minnesota-tommies",
-"logo": [
-{
-"lastUpdated": "2021-08-13T16:30Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
-"height": 500
-}
-],
-"team": "St. Thomas - Minnesota",
-"id": "2900"
-},
-{
 "uid": "s:40~l:41~t:140",
 "stats": [
 {
@@ -3629,12 +3576,12 @@
 "id": "140"
 },
 {
-"uid": "s:40~l:41~t:2437",
+"uid": "s:40~l:41~t:2710",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-11",
-"displayValue": "2-11",
+"summary": "10-5",
+"displayValue": "10-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3644,18 +3591,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "1-2",
+"displayValue": "1-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3664,7 +3611,7 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2437/omaha-mavericks",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2710/western-illinois-leathernecks",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3674,12 +3621,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
 "height": 500
 }
 ],
-"team": "Omaha",
-"id": "2437"
+"team": "Western Illinois",
+"id": "2710"
 },
 {
 "uid": "s:40~l:41~t:2172",
@@ -3733,6 +3680,59 @@
 ],
 "team": "Denver",
 "id": "2172"
+},
+{
+"uid": "s:40~l:41~t:2437",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-12",
+"displayValue": "2-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-2",
+"displayValue": "1-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2437/omaha-mavericks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
+"height": 500
+}
+],
+"team": "Omaha",
+"id": "2437"
 },
 {
 "uid": "s:40~l:41~t:155",
@@ -3885,10 +3885,10 @@
 "underdog": true,
 "moneyLine": 281,
 "spreadRecord": {
-"wins": 8,
+"wins": 9,
 "losses": 3,
 "pushes": 0,
-"summary": "8-3-0"
+"summary": "9-3-0"
 },
 "spreadOdds": -103.0,
 "teamId": "2900"

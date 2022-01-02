@@ -3271,12 +3271,12 @@
 "id": "2287"
 },
 {
-"uid": "s:40~l:41~t:71",
+"uid": "s:40~l:41~t:282",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-6",
-"displayValue": "7-6",
+"summary": "8-6",
+"displayValue": "8-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3286,18 +3286,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "1-1",
+"displayValue": "1-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/282/indiana-state-sycamores",
+"logo": [
+{
+"lastUpdated": "2020-08-31T15:38Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/282.png",
+"height": 500
+}
+],
+"team": "Indiana State",
+"id": "282"
+},
+{
+"uid": "s:40~l:41~t:71",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-7",
+"displayValue": "7-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-1",
+"displayValue": "1-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3375,59 +3428,6 @@
 ],
 "team": "Missouri State",
 "id": "2623"
-},
-{
-"uid": "s:40~l:41~t:282",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-6",
-"displayValue": "7-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/282/indiana-state-sycamores",
-"logo": [
-{
-"lastUpdated": "2020-08-31T15:38Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/282.png",
-"height": 500
-}
-],
-"team": "Indiana State",
-"id": "282"
 },
 {
 "uid": "s:40~l:41~t:2674",
@@ -4021,6 +4021,59 @@
 "id": "84"
 },
 {
+"uid": "s:40~l:41~t:164",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-5",
+"displayValue": "7-5",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-1",
+"displayValue": "1-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/164/rutgers-scarlet-knights",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+"height": 500
+}
+],
+"team": "Rutgers",
+"id": "164"
+},
+{
 "uid": "s:40~l:41~t:130",
 "stats": [
 {
@@ -4072,59 +4125,6 @@
 ],
 "team": "Michigan",
 "id": "130"
-},
-{
-"uid": "s:40~l:41~t:164",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-5",
-"displayValue": "6-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/164/rutgers-scarlet-knights",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
-"height": 500
-}
-],
-"team": "Rutgers",
-"id": "164"
 },
 {
 "uid": "s:40~l:41~t:120",
@@ -4421,10 +4421,10 @@
 "underdog": true,
 "moneyLine": 915,
 "spreadRecord": {
-"wins": 5,
+"wins": 6,
 "losses": 6,
 "pushes": 0,
-"summary": "5-6-0"
+"summary": "6-6-0"
 },
 "spreadOdds": -105.0,
 "teamId": "2287"
