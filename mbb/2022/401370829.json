@@ -530,7 +530,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -618,6 +618,59 @@
 "standings": {
 "entries": [
 {
+"uid": "s:40~l:41~t:2681",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-2",
+"displayValue": "8-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-0",
+"displayValue": "3-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2681/wagner-seahawks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png",
+"height": 500
+}
+],
+"team": "Wagner",
+"id": "2681"
+},
+{
 "uid": "s:40~l:41~t:2771",
 "stats": [
 {
@@ -675,8 +728,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-7",
-"displayValue": "6-7",
+"summary": "6-8",
+"displayValue": "6-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -686,18 +739,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-0",
-"displayValue": "3-0",
+"summary": "3-1",
+"displayValue": "3-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -722,59 +775,6 @@
 ],
 "team": "Bryant",
 "id": "2803"
-},
-{
-"uid": "s:40~l:41~t:2681",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-2",
-"displayValue": "7-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2681/wagner-seahawks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png",
-"height": 500
-}
-],
-"team": "Wagner",
-"id": "2681"
 },
 {
 "uid": "s:40~l:41~t:161",
@@ -936,60 +936,7 @@
 "id": "2115"
 },
 {
-"uid": "s:40~l:41~t:116",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-8",
-"displayValue": "4-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/116/mount-st-marys-mountaineers",
-"logo": [
-{
-"lastUpdated": "2021-02-19T15:57Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/116.png",
-"height": 500
-}
-],
-"team": "Mount St. Mary's",
-"id": "116"
-},
-{
-"uid": "s:40~l:41~t:2598",
+"uid": "s:40~l:41~t:112358",
 "stats": [
 {
 "shortDisplayName": "Season",
@@ -1004,71 +951,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2598/st-francis-pa-red-flash",
-"logo": [
-{
-"lastUpdated": "2021-01-11T15:03Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2598.png",
-"height": 500
-}
-],
-"team": "St. Francis (PA)",
-"id": "2598"
-},
-{
-"uid": "s:40~l:41~t:112358",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-9",
-"displayValue": "3-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "1-2",
+"displayValue": "1-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1099,8 +993,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-10",
-"displayValue": "3-10",
+"summary": "4-10",
+"displayValue": "4-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1110,18 +1004,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "1-2",
+"displayValue": "1-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1146,6 +1040,112 @@
 ],
 "team": "St. Francis (BKN)",
 "id": "2597"
+},
+{
+"uid": "s:40~l:41~t:116",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "4-9",
+"displayValue": "4-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-3",
+"displayValue": "0-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/116/mount-st-marys-mountaineers",
+"logo": [
+{
+"lastUpdated": "2021-02-19T15:57Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/116.png",
+"height": 500
+}
+],
+"team": "Mount St. Mary's",
+"id": "116"
+},
+{
+"uid": "s:40~l:41~t:2598",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "4-10",
+"displayValue": "4-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-3",
+"displayValue": "0-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2598/st-francis-pa-red-flash",
+"logo": [
+{
+"lastUpdated": "2021-01-11T15:03Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2598.png",
+"height": 500
+}
+],
+"team": "St. Francis (PA)",
+"id": "2598"
 }
 ]
 }
@@ -1427,7 +1427,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
