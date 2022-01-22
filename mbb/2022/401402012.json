@@ -3228,6 +3228,59 @@
 "id": "79"
 },
 {
+"uid": "s:40~l:41~t:2287",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "10-9",
+"displayValue": "10-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-3",
+"displayValue": "3-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2287/illinois-state-redbirds",
+"logo": [
+{
+"lastUpdated": "2020-08-31T15:26Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png",
+"height": 500
+}
+],
+"team": "Illinois State",
+"id": "2287"
+},
+{
 "uid": "s:40~l:41~t:71",
 "stats": [
 {
@@ -3281,65 +3334,12 @@
 "id": "71"
 },
 {
-"uid": "s:40~l:41~t:2287",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-9",
-"displayValue": "9-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-3",
-"displayValue": "2-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2287/illinois-state-redbirds",
-"logo": [
-{
-"lastUpdated": "2020-08-31T15:26Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png",
-"height": 500
-}
-],
-"team": "Illinois State",
-"id": "2287"
-},
-{
 "uid": "s:40~l:41~t:2674",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-10",
-"displayValue": "9-10",
+"summary": "10-10",
+"displayValue": "10-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3349,18 +3349,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "3-5",
+"displayValue": "3-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3391,8 +3391,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-9",
-"displayValue": "8-9",
+"summary": "8-10",
+"displayValue": "8-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3402,18 +3402,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-4",
-"displayValue": "1-4",
+"summary": "1-5",
+"displayValue": "1-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3444,8 +3444,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-12",
-"displayValue": "4-12",
+"summary": "4-13",
+"displayValue": "4-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3455,18 +3455,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-5",
-"displayValue": "0-5",
+"summary": "0-6",
+"displayValue": "0-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -4113,10 +4113,10 @@
 "underdog": false,
 "moneyLine": 135,
 "spreadRecord": {
-"wins": 6,
+"wins": 7,
 "losses": 7,
 "pushes": 1,
-"summary": "6-7-1"
+"summary": "7-7-1"
 },
 "spreadOdds": -113.0,
 "teamId": "2350"
@@ -4129,8 +4129,8 @@
 "spreadRecord": {
 "wins": 5,
 "losses": 12,
-"pushes": 0,
-"summary": "5-12-0"
+"pushes": 1,
+"summary": "5-12-1"
 },
 "spreadOdds": -107.0,
 "teamId": "2539"
