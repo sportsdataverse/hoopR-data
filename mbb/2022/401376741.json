@@ -3031,8 +3031,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-15",
-"displayValue": "4-15",
+"summary": "4-16",
+"displayValue": "4-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3042,18 +3042,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
+"summary": "3-4",
+"displayValue": "3-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3078,6 +3078,59 @@
 ],
 "team": "William & Mary",
 "id": "2729"
+},
+{
+"uid": "s:40~l:41~t:232",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "10-8",
+"displayValue": "10-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-4",
+"displayValue": "2-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/232/charleston-cougars",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
+"height": 500
+}
+],
+"team": "Charleston",
+"id": "232"
 },
 {
 "uid": "s:40~l:41~t:2210",
@@ -3131,59 +3184,6 @@
 ],
 "team": "Elon",
 "id": "2210"
-},
-{
-"uid": "s:40~l:41~t:232",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-8",
-"displayValue": "9-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-4",
-"displayValue": "1-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/232/charleston-cougars",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
-"height": 500
-}
-],
-"team": "Charleston",
-"id": "232"
 },
 {
 "uid": "s:40~l:41~t:111",
@@ -3300,59 +3300,6 @@
 "id": "2350"
 },
 {
-"uid": "s:40~l:41~t:2623",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "15-6",
-"displayValue": "15-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "6-2",
-"displayValue": "6-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2623/missouri-state-bears",
-"logo": [
-{
-"lastUpdated": "2020-08-31T21:22Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
-"height": 500
-}
-],
-"team": "Missouri State",
-"id": "2623"
-},
-{
 "uid": "s:40~l:41~t:2181",
 "stats": [
 {
@@ -3404,6 +3351,59 @@
 ],
 "team": "Drake",
 "id": "2181"
+},
+{
+"uid": "s:40~l:41~t:2623",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "15-7",
+"displayValue": "15-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-3",
+"displayValue": "6-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2623/missouri-state-bears",
+"logo": [
+{
+"lastUpdated": "2020-08-31T21:22Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+"height": 500
+}
+],
+"team": "Missouri State",
+"id": "2623"
 },
 {
 "uid": "s:40~l:41~t:2460",
@@ -3675,8 +3675,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-10",
-"displayValue": "8-10",
+"summary": "9-10",
+"displayValue": "9-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3686,18 +3686,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "2-5",
+"displayValue": "2-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
