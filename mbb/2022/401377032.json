@@ -3454,8 +3454,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-2",
-"displayValue": "16-2",
+"summary": "16-3",
+"displayValue": "16-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3475,8 +3475,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-0",
-"displayValue": "6-0",
+"summary": "6-1",
+"displayValue": "6-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3518,13 +3518,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3556,6 +3556,59 @@
 "id": "2244"
 },
 {
+"uid": "s:40~l:41~t:2670",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-6",
+"displayValue": "12-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-2",
+"displayValue": "5-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2670/vcu-rams",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
+"height": 500
+}
+],
+"team": "VCU",
+"id": "2670"
+},
+{
 "uid": "s:40~l:41~t:2168",
 "stats": [
 {
@@ -3571,13 +3624,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -3609,12 +3662,12 @@
 "id": "2168"
 },
 {
-"uid": "s:40~l:41~t:2670",
+"uid": "s:40~l:41~t:139",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-6",
-"displayValue": "11-6",
+"summary": "13-6",
+"displayValue": "13-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3624,13 +3677,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3644,7 +3697,7 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2670/vcu-rams",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/139/saint-louis-billikens",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3654,12 +3707,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png",
 "height": 500
 }
 ],
-"team": "VCU",
-"id": "2670"
+"team": "Saint Louis",
+"id": "139"
 },
 {
 "uid": "s:40~l:41~t:179",
@@ -3677,13 +3730,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -3715,59 +3768,6 @@
 "id": "179"
 },
 {
-"uid": "s:40~l:41~t:139",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "12-6",
-"displayValue": "12-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-2",
-"displayValue": "3-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/139/saint-louis-billikens",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png",
-"height": 500
-}
-],
-"team": "Saint Louis",
-"id": "139"
-},
-{
 "uid": "s:40~l:41~t:257",
 "stats": [
 {
@@ -3783,13 +3783,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -3836,13 +3836,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3874,12 +3874,12 @@
 "id": "227"
 },
 {
-"uid": "s:40~l:41~t:45",
+"uid": "s:40~l:41~t:2603",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-11",
-"displayValue": "6-11",
+"summary": "9-10",
+"displayValue": "9-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3896,59 +3896,6 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 3.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-3",
-"displayValue": "2-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/45/george-washington-colonials",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
-"height": 500
-}
-],
-"team": "George Washington",
-"id": "45"
-},
-{
-"uid": "s:40~l:41~t:2603",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-10",
-"displayValue": "9-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4
 },
 {
 "shortDisplayName": "CONF",
@@ -3995,13 +3942,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -4033,6 +3980,59 @@
 "id": "2230"
 },
 {
+"uid": "s:40~l:41~t:45",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-12",
+"displayValue": "6-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-4",
+"displayValue": "2-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/45/george-washington-colonials",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
+"height": 500
+}
+],
+"team": "George Washington",
+"id": "45"
+},
+{
 "uid": "s:40~l:41~t:113",
 "stats": [
 {
@@ -4048,13 +4048,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
@@ -4101,13 +4101,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
@@ -4154,13 +4154,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
