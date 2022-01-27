@@ -2644,8 +2644,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-4",
-"displayValue": "16-4",
+"summary": "17-4",
+"displayValue": "17-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2665,8 +2665,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-1",
-"displayValue": "6-1",
+"summary": "7-1",
+"displayValue": "7-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2697,8 +2697,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-7",
-"displayValue": "14-7",
+"summary": "15-7",
+"displayValue": "15-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2718,8 +2718,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-2",
-"displayValue": "6-2",
+"summary": "7-2",
+"displayValue": "7-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2761,13 +2761,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2799,7 +2799,7 @@
 "id": "2382"
 },
 {
-"uid": "s:40~l:41~t:2747",
+"uid": "s:40~l:41~t:2430",
 "stats": [
 {
 "shortDisplayName": "Season",
@@ -2814,18 +2814,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
 "summary": "4-4",
 "displayValue": "4-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2430/unc-greensboro-spartans",
+"logo": [
+{
+"lastUpdated": "2018-11-06T16:11Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
+"height": 500
+}
+],
+"team": "UNC Greensboro",
+"id": "2430"
+},
+{
+"uid": "s:40~l:41~t:2747",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-9",
+"displayValue": "12-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-5",
+"displayValue": "4-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2856,8 +2909,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-9",
-"displayValue": "12-9",
+"summary": "12-10",
+"displayValue": "12-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2867,18 +2920,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-4",
-"displayValue": "4-4",
+"summary": "4-5",
+"displayValue": "4-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2909,8 +2962,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-9",
-"displayValue": "11-9",
+"summary": "11-10",
+"displayValue": "11-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2920,18 +2973,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-4",
-"displayValue": "4-4",
+"summary": "4-5",
+"displayValue": "4-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2958,65 +3011,12 @@
 "id": "2678"
 },
 {
-"uid": "s:40~l:41~t:2430",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-8",
-"displayValue": "11-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-4",
-"displayValue": "3-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2430/unc-greensboro-spartans",
-"logo": [
-{
-"lastUpdated": "2018-11-06T16:11Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
-"height": 500
-}
-],
-"team": "UNC Greensboro",
-"id": "2430"
-},
-{
 "uid": "s:40~l:41~t:2643",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-10",
-"displayValue": "8-10",
+"summary": "9-10",
+"displayValue": "9-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3036,8 +3036,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "3-5",
+"displayValue": "3-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3068,8 +3068,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-12",
-"displayValue": "8-12",
+"summary": "8-13",
+"displayValue": "8-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3079,18 +3079,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "2-6",
+"displayValue": "2-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3132,13 +3132,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
