@@ -3198,59 +3198,6 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2142",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-10",
-"displayValue": "8-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-1",
-"displayValue": "4-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2142/colgate-raiders",
-"logo": [
-{
-"lastUpdated": "2020-12-09T15:16Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png",
-"height": 500
-}
-],
-"team": "Colgate",
-"id": "2142"
-},
-{
 "uid": "s:40~l:41~t:2426",
 "stats": [
 {
@@ -3410,12 +3357,12 @@
 "id": "349"
 },
 {
-"uid": "s:40~l:41~t:2329",
+"uid": "s:40~l:41~t:2142",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-13",
-"displayValue": "8-13",
+"summary": "8-11",
+"displayValue": "8-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3425,18 +3372,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-3",
-"displayValue": "6-3",
+"summary": "4-2",
+"displayValue": "4-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3445,30 +3392,30 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2329/lehigh-mountain-hawks",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2142/colgate-raiders",
 "logo": [
 {
-"lastUpdated": "2020-07-27T14:47Z",
+"lastUpdated": "2020-12-09T15:16Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png",
 "height": 500
 }
 ],
-"team": "Lehigh",
-"id": "2329"
+"team": "Colgate",
+"id": "2142"
 },
 {
 "uid": "s:40~l:41~t:104",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-8",
-"displayValue": "14-8",
+"summary": "15-8",
+"displayValue": "15-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3478,18 +3425,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3514,6 +3461,59 @@
 ],
 "team": "Boston University",
 "id": "104"
+},
+{
+"uid": "s:40~l:41~t:2329",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-14",
+"displayValue": "8-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-4",
+"displayValue": "6-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2329/lehigh-mountain-hawks",
+"logo": [
+{
+"lastUpdated": "2020-07-27T14:47Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png",
+"height": 500
+}
+],
+"team": "Lehigh",
+"id": "2329"
 },
 {
 "uid": "s:40~l:41~t:322",
@@ -3626,8 +3626,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-15",
-"displayValue": "3-15",
+"summary": "4-15",
+"displayValue": "4-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3637,18 +3637,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "2-5",
+"displayValue": "2-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3793,8 +3793,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-7",
-"displayValue": "12-7",
+"summary": "13-7",
+"displayValue": "13-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3804,18 +3804,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "5-2",
+"displayValue": "5-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3948,59 +3948,6 @@
 "id": "399"
 },
 {
-"uid": "s:40~l:41~t:160",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-7",
-"displayValue": "8-7",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/160/new-hampshire-wildcats",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
-"height": 500
-}
-],
-"team": "New Hampshire",
-"id": "160"
-},
-{
 "uid": "s:40~l:41~t:42",
 "stats": [
 {
@@ -4052,6 +3999,59 @@
 ],
 "team": "Hartford",
 "id": "42"
+},
+{
+"uid": "s:40~l:41~t:160",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-8",
+"displayValue": "8-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-4",
+"displayValue": "3-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/160/new-hampshire-wildcats",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+"height": 500
+}
+],
+"team": "New Hampshire",
+"id": "160"
 },
 {
 "uid": "s:40~l:41~t:2378",

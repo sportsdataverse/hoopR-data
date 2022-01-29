@@ -3140,12 +3140,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:12",
+"uid": "s:40~l:41~t:26",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-2",
-"displayValue": "16-2",
+"summary": "15-2",
+"displayValue": "15-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3162,6 +3162,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-1",
+"displayValue": "7-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/26/ucla-bruins",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+"height": 500
+}
+],
+"team": "UCLA",
+"id": "26"
+},
+{
+"uid": "s:40~l:41~t:12",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "16-2",
+"displayValue": "16-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3193,65 +3246,12 @@
 "id": "12"
 },
 {
-"uid": "s:40~l:41~t:26",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "14-2",
-"displayValue": "14-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "6-1",
-"displayValue": "6-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/26/ucla-bruins",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-"height": 500
-}
-],
-"team": "UCLA",
-"id": "26"
-},
-{
 "uid": "s:40~l:41~t:30",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-2",
-"displayValue": "17-2",
+"summary": "17-3",
+"displayValue": "17-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3261,18 +3261,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-2",
-"displayValue": "7-2",
+"summary": "7-3",
+"displayValue": "7-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3299,6 +3299,59 @@
 "id": "30"
 },
 {
+"uid": "s:40~l:41~t:24",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-6",
+"displayValue": "12-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-3",
+"displayValue": "5-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/24/stanford-cardinal",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+"height": 500
+}
+],
+"team": "Stanford",
+"id": "24"
+},
+{
 "uid": "s:40~l:41~t:2483",
 "stats": [
 {
@@ -3314,13 +3367,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -3352,12 +3405,12 @@
 "id": "2483"
 },
 {
-"uid": "s:40~l:41~t:24",
+"uid": "s:40~l:41~t:264",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-6",
-"displayValue": "11-6",
+"summary": "10-8",
+"displayValue": "10-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3377,8 +3430,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-3",
-"displayValue": "4-3",
+"summary": "5-3",
+"displayValue": "5-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3387,22 +3440,22 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/24/stanford-cardinal",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/264/washington-huskies",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2019-07-12T19:04Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
 "height": 500
 }
 ],
-"team": "Stanford",
-"id": "24"
+"team": "Washington",
+"id": "264"
 },
 {
 "uid": "s:40~l:41~t:265",
@@ -3420,13 +3473,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3458,65 +3511,12 @@
 "id": "265"
 },
 {
-"uid": "s:40~l:41~t:264",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-8",
-"displayValue": "9-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-3",
-"displayValue": "4-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/264/washington-huskies",
-"logo": [
-{
-"lastUpdated": "2019-07-12T19:04Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-"height": 500
-}
-],
-"team": "Washington",
-"id": "264"
-},
-{
 "uid": "s:40~l:41~t:38",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-6",
-"displayValue": "13-6",
+"summary": "13-7",
+"displayValue": "13-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3526,18 +3526,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "5-5",
+"displayValue": "5-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3579,13 +3579,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3621,8 +3621,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-10",
-"displayValue": "9-10",
+"summary": "9-11",
+"displayValue": "9-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3632,18 +3632,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-6",
-"displayValue": "2-6",
+"summary": "2-7",
+"displayValue": "2-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3685,13 +3685,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3738,13 +3738,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
