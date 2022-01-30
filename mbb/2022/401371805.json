@@ -3026,8 +3026,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-7",
-"displayValue": "15-7",
+"summary": "16-7",
+"displayValue": "16-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3037,18 +3037,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-2",
-"displayValue": "7-2",
+"summary": "8-2",
+"displayValue": "8-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3079,8 +3079,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-9",
-"displayValue": "12-9",
+"summary": "12-10",
+"displayValue": "12-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3090,18 +3090,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
+"summary": "5-4",
+"displayValue": "5-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3126,6 +3126,59 @@
 ],
 "team": "Mercer",
 "id": "2382"
+},
+{
+"uid": "s:40~l:41~t:2747",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "13-9",
+"displayValue": "13-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-5",
+"displayValue": "5-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2747/wofford-terriers",
+"logo": [
+{
+"lastUpdated": "2019-03-07T17:03Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png",
+"height": 500
+}
+],
+"team": "Wofford",
+"id": "2747"
 },
 {
 "uid": "s:40~l:41~t:2678",
@@ -3185,59 +3238,6 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-8",
-"displayValue": "12-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-4",
-"displayValue": "4-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2430/unc-greensboro-spartans",
-"logo": [
-{
-"lastUpdated": "2018-11-06T16:11Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
-"height": 500
-}
-],
-"team": "UNC Greensboro",
-"id": "2430"
-},
-{
-"uid": "s:40~l:41~t:2747",
-"stats": [
-{
-"shortDisplayName": "Season",
 "summary": "12-9",
 "displayValue": "12-9",
 "displayName": "Team Season Record",
@@ -3269,22 +3269,22 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2747/wofford-terriers",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2430/unc-greensboro-spartans",
 "logo": [
 {
-"lastUpdated": "2019-03-07T17:03Z",
+"lastUpdated": "2018-11-06T16:11Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
 "height": 500
 }
 ],
-"team": "Wofford",
-"id": "2747"
+"team": "UNC Greensboro",
+"id": "2430"
 },
 {
 "uid": "s:40~l:41~t:2193",
@@ -3511,8 +3511,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-2",
-"displayValue": "17-2",
+"summary": "18-2",
+"displayValue": "18-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3532,8 +3532,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-0",
-"displayValue": "6-0",
+"summary": "7-0",
+"displayValue": "7-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3564,8 +3564,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-4",
-"displayValue": "15-4",
+"summary": "16-4",
+"displayValue": "16-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3585,8 +3585,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-1",
-"displayValue": "6-1",
+"summary": "7-1",
+"displayValue": "7-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3628,13 +3628,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -3666,59 +3666,6 @@
 "id": "2655"
 },
 {
-"uid": "s:40~l:41~t:218",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-6",
-"displayValue": "11-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/218/temple-owls",
-"logo": [
-{
-"lastUpdated": "2020-06-16T17:05Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
-"height": 500
-}
-],
-"team": "Temple",
-"id": "218"
-},
-{
 "uid": "s:40~l:41~t:2132",
 "stats": [
 {
@@ -3734,13 +3681,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
@@ -3772,6 +3719,59 @@
 "id": "2132"
 },
 {
+"uid": "s:40~l:41~t:218",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-7",
+"displayValue": "11-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-3",
+"displayValue": "4-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/218/temple-owls",
+"logo": [
+{
+"lastUpdated": "2020-06-16T17:05Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+"height": 500
+}
+],
+"team": "Temple",
+"id": "218"
+},
+{
 "uid": "s:40~l:41~t:235",
 "stats": [
 {
@@ -3787,13 +3787,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
@@ -3829,8 +3829,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-6",
-"displayValue": "12-6",
+"summary": "12-7",
+"displayValue": "12-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3840,18 +3840,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-4",
-"displayValue": "4-4",
+"summary": "4-5",
+"displayValue": "4-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3893,13 +3893,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -3946,13 +3946,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3988,8 +3988,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-12",
-"displayValue": "6-12",
+"summary": "6-13",
+"displayValue": "6-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3999,18 +3999,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "1-6",
+"displayValue": "1-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -4041,8 +4041,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-12",
-"displayValue": "6-12",
+"summary": "7-12",
+"displayValue": "7-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -4062,8 +4062,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-7",
-"displayValue": "0-7",
+"summary": "1-7",
+"displayValue": "1-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
