@@ -3281,8 +3281,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-8",
-"displayValue": "11-8",
+"summary": "11-9",
+"displayValue": "11-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3302,8 +3302,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-1",
-"displayValue": "6-1",
+"summary": "6-2",
+"displayValue": "6-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3330,6 +3330,59 @@
 "id": "2582"
 },
 {
+"uid": "s:40~l:41~t:2016",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-13",
+"displayValue": "7-13",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-2",
+"displayValue": "6-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2016/alcorn-state-braves",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
+"height": 500
+}
+],
+"team": "Alcorn State",
+"id": "2016"
+},
+{
 "uid": "s:40~l:41~t:2755",
 "stats": [
 {
@@ -3345,13 +3398,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3383,12 +3436,12 @@
 "id": "2755"
 },
 {
-"uid": "s:40~l:41~t:2016",
+"uid": "s:40~l:41~t:2640",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-13",
-"displayValue": "6-13",
+"summary": "7-10",
+"displayValue": "7-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3405,59 +3458,6 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-2",
-"displayValue": "5-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2016/alcorn-state-braves",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
-"height": 500
-}
-],
-"team": "Alcorn State",
-"id": "2016"
-},
-{
-"uid": "s:40~l:41~t:2640",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-10",
-"displayValue": "7-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3504,13 +3504,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -3557,13 +3557,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
