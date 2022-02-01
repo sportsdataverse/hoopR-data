@@ -3198,12 +3198,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2426",
+"uid": "s:40~l:41~t:2142",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-7",
-"displayValue": "14-7",
+"summary": "9-11",
+"displayValue": "9-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3220,6 +3220,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-2",
+"displayValue": "5-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2142/colgate-raiders",
+"logo": [
+{
+"lastUpdated": "2020-12-09T15:16Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png",
+"height": 500
+}
+],
+"team": "Colgate",
+"id": "2142"
+},
+{
+"uid": "s:40~l:41~t:2426",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "14-7",
+"displayValue": "14-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "+0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3266,13 +3319,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3304,112 +3357,6 @@
 "id": "349"
 },
 {
-"uid": "s:40~l:41~t:2142",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-11",
-"displayValue": "8-11",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2142/colgate-raiders",
-"logo": [
-{
-"lastUpdated": "2020-12-09T15:16Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png",
-"height": 500
-}
-],
-"team": "Colgate",
-"id": "2142"
-},
-{
-"uid": "s:40~l:41~t:104",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "15-8",
-"displayValue": "15-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "6-4",
-"displayValue": "6-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/104/boston-university-terriers",
-"logo": [
-{
-"lastUpdated": "2020-07-22T18:35Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/104.png",
-"height": 500
-}
-],
-"team": "Boston University",
-"id": "104"
-},
-{
 "uid": "s:40~l:41~t:2352",
 "stats": [
 {
@@ -3425,13 +3372,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3478,13 +3425,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3516,12 +3463,12 @@
 "id": "2329"
 },
 {
-"uid": "s:40~l:41~t:322",
+"uid": "s:40~l:41~t:104",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-13",
-"displayValue": "5-13",
+"summary": "15-9",
+"displayValue": "15-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3531,18 +3478,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "6-5",
+"displayValue": "6-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3551,30 +3498,30 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/322/lafayette-leopards",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/104/boston-university-terriers",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2020-07-22T18:35Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/322.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/104.png",
 "height": 500
 }
 ],
-"team": "Lafayette",
-"id": "322"
+"team": "Boston University",
+"id": "104"
 },
 {
 "uid": "s:40~l:41~t:107",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-15",
-"displayValue": "4-15",
+"summary": "5-15",
+"displayValue": "5-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3584,18 +3531,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "3-5",
+"displayValue": "3-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3637,13 +3584,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3675,6 +3622,59 @@
 "id": "44"
 },
 {
+"uid": "s:40~l:41~t:322",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-14",
+"displayValue": "5-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-6",
+"displayValue": "2-6",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/322/lafayette-leopards",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/322.png",
+"height": 500
+}
+],
+"team": "Lafayette",
+"id": "322"
+},
+{
 "uid": "s:40~l:41~t:2083",
 "stats": [
 {
@@ -3690,13 +3690,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3740,8 +3740,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-4",
-"displayValue": "15-4",
+"summary": "16-4",
+"displayValue": "16-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3761,8 +3761,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-0",
-"displayValue": "7-0",
+"summary": "8-0",
+"displayValue": "8-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3804,13 +3804,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3842,12 +3842,12 @@
 "id": "2619"
 },
 {
-"uid": "s:40~l:41~t:399",
+"uid": "s:40~l:41~t:42",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-11",
-"displayValue": "9-11",
+"summary": "5-12",
+"displayValue": "5-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3857,18 +3857,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
+"summary": "3-2",
+"displayValue": "3-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3877,22 +3877,22 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/399/albany-great-danes",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/42/hartford-hawks",
 "logo": [
 {
-"lastUpdated": "2020-07-27T14:41Z",
+"lastUpdated": "2019-08-13T21:13Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/42.png",
 "height": 500
 }
 ],
-"team": "Albany",
-"id": "399"
+"team": "Hartford",
+"id": "42"
 },
 {
 "uid": "s:40~l:41~t:2066",
@@ -3910,13 +3910,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3948,12 +3948,12 @@
 "id": "2066"
 },
 {
-"uid": "s:40~l:41~t:2378",
+"uid": "s:40~l:41~t:399",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-10",
-"displayValue": "9-10",
+"summary": "9-12",
+"displayValue": "9-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3970,6 +3970,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-4",
+"displayValue": "5-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/399/albany-great-danes",
+"logo": [
+{
+"lastUpdated": "2020-07-27T14:41Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
+"height": 500
+}
+],
+"team": "Albany",
+"id": "399"
+},
+{
+"uid": "s:40~l:41~t:2378",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-10",
+"displayValue": "9-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
@@ -4001,59 +4054,6 @@
 "id": "2378"
 },
 {
-"uid": "s:40~l:41~t:42",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-12",
-"displayValue": "4-12",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-2",
-"displayValue": "2-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/42/hartford-hawks",
-"logo": [
-{
-"lastUpdated": "2019-08-13T21:13Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/42.png",
-"height": 500
-}
-],
-"team": "Hartford",
-"id": "42"
-},
-{
 "uid": "s:40~l:41~t:160",
 "stats": [
 {
@@ -4069,13 +4069,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -4122,13 +4122,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
@@ -4175,13 +4175,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
@@ -4217,8 +4217,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-15",
-"displayValue": "4-15",
+"summary": "4-16",
+"displayValue": "4-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -4228,18 +4228,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-7",
-"displayValue": "1-7",
+"summary": "1-8",
+"displayValue": "1-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
