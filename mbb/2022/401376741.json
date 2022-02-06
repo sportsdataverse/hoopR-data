@@ -2713,8 +2713,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-6",
-"displayValue": "15-6",
+"summary": "16-6",
+"displayValue": "16-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2734,8 +2734,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-1",
-"displayValue": "9-1",
+"summary": "10-1",
+"displayValue": "10-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2766,8 +2766,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-6",
-"displayValue": "17-6",
+"summary": "17-7",
+"displayValue": "17-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2777,18 +2777,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-2",
-"displayValue": "8-2",
+"summary": "8-3",
+"displayValue": "8-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2830,13 +2830,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2872,8 +2872,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-9",
-"displayValue": "13-9",
+"summary": "14-9",
+"displayValue": "14-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2893,8 +2893,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2921,6 +2921,59 @@
 "id": "2275"
 },
 {
+"uid": "s:40~l:41~t:232",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "13-9",
+"displayValue": "13-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-5",
+"displayValue": "5-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/232/charleston-cougars",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
+"height": 500
+}
+],
+"team": "Charleston",
+"id": "232"
+},
+{
 "uid": "s:40~l:41~t:2182",
 "stats": [
 {
@@ -2936,13 +2989,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2978,8 +3031,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-7",
-"displayValue": "13-7",
+"summary": "13-8",
+"displayValue": "13-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2989,18 +3042,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "4-6",
+"displayValue": "4-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3027,65 +3080,12 @@
 "id": "256"
 },
 {
-"uid": "s:40~l:41~t:232",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "12-9",
-"displayValue": "12-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/232/charleston-cougars",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
-"height": 500
-}
-],
-"team": "Charleston",
-"id": "232"
-},
-{
 "uid": "s:40~l:41~t:2210",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-16",
-"displayValue": "7-16",
+"summary": "7-17",
+"displayValue": "7-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3095,18 +3095,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-6",
-"displayValue": "4-6",
+"summary": "4-7",
+"displayValue": "4-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3137,8 +3137,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-18",
-"displayValue": "5-18",
+"summary": "5-19",
+"displayValue": "5-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3148,18 +3148,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-6",
-"displayValue": "4-6",
+"summary": "4-7",
+"displayValue": "4-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3190,8 +3190,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-16",
-"displayValue": "6-16",
+"summary": "7-16",
+"displayValue": "7-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3211,8 +3211,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-11",
-"displayValue": "0-11",
+"summary": "1-11",
+"displayValue": "1-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3300,12 +3300,12 @@
 "id": "2350"
 },
 {
-"uid": "s:40~l:41~t:2181",
+"uid": "s:40~l:41~t:2460",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-6",
-"displayValue": "17-6",
+"summary": "13-9",
+"displayValue": "13-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3325,8 +3325,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-2",
-"displayValue": "8-2",
+"summary": "9-3",
+"displayValue": "9-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3335,22 +3335,22 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2181/drake-bulldogs",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2460/northern-iowa-panthers",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2020-09-01T17:24Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
 "height": 500
 }
 ],
-"team": "Drake",
-"id": "2181"
+"team": "Northern Iowa",
+"id": "2460"
 },
 {
 "uid": "s:40~l:41~t:2623",
@@ -3406,12 +3406,12 @@
 "id": "2623"
 },
 {
-"uid": "s:40~l:41~t:2460",
+"uid": "s:40~l:41~t:2181",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-9",
-"displayValue": "12-9",
+"summary": "17-7",
+"displayValue": "17-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3441,30 +3441,30 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2460/northern-iowa-panthers",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2181/drake-bulldogs",
 "logo": [
 {
-"lastUpdated": "2020-09-01T17:24Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png",
 "height": 500
 }
 ],
-"team": "Northern Iowa",
-"id": "2460"
+"team": "Drake",
+"id": "2181"
 },
 {
 "uid": "s:40~l:41~t:71",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-11",
-"displayValue": "12-11",
+"summary": "13-11",
+"displayValue": "13-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3474,18 +3474,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-5",
-"displayValue": "6-5",
+"summary": "7-5",
+"displayValue": "7-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3728,8 +3728,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-15",
-"displayValue": "5-15",
+"summary": "5-16",
+"displayValue": "5-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3739,18 +3739,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-8",
-"displayValue": "1-8",
+"summary": "1-9",
+"displayValue": "1-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
