@@ -2763,8 +2763,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "20-5",
-"displayValue": "20-5",
+"summary": "21-5",
+"displayValue": "21-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2784,8 +2784,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-2",
-"displayValue": "10-2",
+"summary": "11-2",
+"displayValue": "11-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2827,13 +2827,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -2869,8 +2869,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-10",
-"displayValue": "14-10",
+"summary": "15-10",
+"displayValue": "15-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2890,8 +2890,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-5",
-"displayValue": "7-5",
+"summary": "8-5",
+"displayValue": "8-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2922,8 +2922,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-10",
-"displayValue": "14-10",
+"summary": "15-10",
+"displayValue": "15-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2943,8 +2943,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-6",
-"displayValue": "6-6",
+"summary": "7-6",
+"displayValue": "7-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2975,8 +2975,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-10",
-"displayValue": "14-10",
+"summary": "14-11",
+"displayValue": "14-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2986,18 +2986,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-6",
-"displayValue": "6-6",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3028,8 +3028,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-12",
-"displayValue": "13-12",
+"summary": "13-13",
+"displayValue": "13-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3039,18 +3039,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-6",
-"displayValue": "6-6",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3077,12 +3077,12 @@
 "id": "2382"
 },
 {
-"uid": "s:40~l:41~t:2193",
+"uid": "s:40~l:41~t:2535",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-13",
-"displayValue": "13-13",
+"summary": "15-9",
+"displayValue": "15-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3099,6 +3099,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 5.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-7",
+"displayValue": "5-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2535/samford-bulldogs",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
+"height": 500
+}
+],
+"team": "Samford",
+"id": "2535"
+},
+{
+"uid": "s:40~l:41~t:2193",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "13-13",
+"displayValue": "13-13",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
@@ -3130,65 +3183,12 @@
 "id": "2193"
 },
 {
-"uid": "s:40~l:41~t:2535",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "14-9",
-"displayValue": "14-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-7",
-"displayValue": "4-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2535/samford-bulldogs",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
-"height": 500
-}
-],
-"team": "Samford",
-"id": "2535"
-},
-{
 "uid": "s:40~l:41~t:2643",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-12",
-"displayValue": "10-12",
+"summary": "10-13",
+"displayValue": "10-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3198,18 +3198,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-7",
-"displayValue": "4-7",
+"summary": "4-8",
+"displayValue": "4-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3240,8 +3240,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-16",
-"displayValue": "9-16",
+"summary": "9-17",
+"displayValue": "9-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3251,18 +3251,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "8",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 8
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-9",
-"displayValue": "3-9",
+"summary": "3-10",
+"displayValue": "3-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3301,8 +3301,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-3",
-"displayValue": "19-3",
+"summary": "20-3",
+"displayValue": "20-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3322,8 +3322,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-1",
-"displayValue": "9-1",
+"summary": "10-1",
+"displayValue": "10-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3365,13 +3365,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3418,13 +3418,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -3471,13 +3471,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -3513,8 +3513,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-8",
-"displayValue": "16-8",
+"summary": "16-9",
+"displayValue": "16-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3524,18 +3524,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-4",
-"displayValue": "7-4",
+"summary": "7-5",
+"displayValue": "7-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3577,13 +3577,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
@@ -3615,12 +3615,12 @@
 "id": "179"
 },
 {
-"uid": "s:40~l:41~t:45",
+"uid": "s:40~l:41~t:2244",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-13",
-"displayValue": "9-13",
+"summary": "12-10",
+"displayValue": "12-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3637,6 +3637,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 4
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-4",
+"displayValue": "5-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2244/george-mason-patriots",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
+"height": 500
+}
+],
+"team": "George Mason",
+"id": "2244"
+},
+{
+"uid": "s:40~l:41~t:45",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-13",
+"displayValue": "9-13",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3668,65 +3721,12 @@
 "id": "45"
 },
 {
-"uid": "s:40~l:41~t:2244",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-10",
-"displayValue": "11-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-4",
-"displayValue": "4-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2244/george-mason-patriots",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
-"height": 500
-}
-],
-"team": "George Mason",
-"id": "2244"
-},
-{
 "uid": "s:40~l:41~t:2603",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-11",
-"displayValue": "10-11",
+"summary": "10-12",
+"displayValue": "10-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3736,18 +3736,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-6",
-"displayValue": "4-6",
+"summary": "4-7",
+"displayValue": "4-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3789,13 +3789,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3842,13 +3842,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3895,13 +3895,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3948,13 +3948,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7.5",
+"displayValue": "8",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.5
+"value": 8
 },
 {
 "shortDisplayName": "CONF",
@@ -4001,13 +4001,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7.5",
+"displayValue": "8",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.5
+"value": 8
 },
 {
 "shortDisplayName": "CONF",
@@ -4121,10 +4121,10 @@
 "underdog": true,
 "moneyLine": -182,
 "spreadRecord": {
-"wins": 10,
+"wins": 11,
 "losses": 12,
 "pushes": 1,
-"summary": "10-12-1"
+"summary": "11-12-1"
 },
 "spreadOdds": -115.0,
 "teamId": "2430"
