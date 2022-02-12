@@ -3284,12 +3284,12 @@
 "id": "45"
 },
 {
-"uid": "s:40~l:41~t:2603",
+"uid": "s:40~l:41~t:113",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-12",
-"displayValue": "10-12",
+"summary": "11-12",
+"displayValue": "11-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3311,6 +3311,59 @@
 "shortDisplayName": "CONF",
 "summary": "4-7",
 "displayValue": "4-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/113/umass-minutemen",
+"logo": [
+{
+"lastUpdated": "2021-01-14T22:35Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+"height": 500
+}
+],
+"team": "UMass",
+"id": "113"
+},
+{
+"uid": "s:40~l:41~t:2603",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "10-13",
+"displayValue": "10-13",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-8",
+"displayValue": "4-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3441,59 +3494,6 @@
 ],
 "team": "Fordham",
 "id": "2230"
-},
-{
-"uid": "s:40~l:41~t:113",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "10-12",
-"displayValue": "10-12",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "6.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 6.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-7",
-"displayValue": "3-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/113/umass-minutemen",
-"logo": [
-{
-"lastUpdated": "2021-01-14T22:35Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
-"height": 500
-}
-],
-"team": "UMass",
-"id": "113"
 },
 {
 "uid": "s:40~l:41~t:2325",
