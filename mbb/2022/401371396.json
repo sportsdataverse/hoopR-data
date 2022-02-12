@@ -3025,12 +3025,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2751",
+"uid": "s:40~l:41~t:68",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "20-3",
-"displayValue": "20-3",
+"summary": "19-5",
+"displayValue": "19-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3047,6 +3047,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "10-1",
+"displayValue": "10-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/68/boise-state-broncos",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+"height": 500
+}
+],
+"team": "Boise State",
+"id": "68"
+},
+{
+"uid": "s:40~l:41~t:2751",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "20-3",
+"displayValue": "20-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3078,65 +3131,12 @@
 "id": "2751"
 },
 {
-"uid": "s:40~l:41~t:68",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "18-5",
-"displayValue": "18-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "9-1",
-"displayValue": "9-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/68/boise-state-broncos",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-"height": 500
-}
-],
-"team": "Boise State",
-"id": "68"
-},
-{
 "uid": "s:40~l:41~t:36",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "18-3",
-"displayValue": "18-3",
+"summary": "19-3",
+"displayValue": "19-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3156,8 +3156,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-3",
-"displayValue": "8-3",
+"summary": "9-3",
+"displayValue": "9-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3199,13 +3199,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
@@ -3241,8 +3241,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-7",
-"displayValue": "16-7",
+"summary": "16-8",
+"displayValue": "16-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3252,18 +3252,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-4",
-"displayValue": "6-4",
+"summary": "6-5",
+"displayValue": "6-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3294,8 +3294,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-10",
-"displayValue": "14-10",
+"summary": "14-11",
+"displayValue": "14-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3305,18 +3305,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-5",
-"displayValue": "6-5",
+"summary": "6-6",
+"displayValue": "6-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3347,8 +3347,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-10",
-"displayValue": "15-10",
+"summary": "15-11",
+"displayValue": "15-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3358,18 +3358,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-6",
-"displayValue": "6-6",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3396,12 +3396,12 @@
 "id": "328"
 },
 {
-"uid": "s:40~l:41~t:2005",
+"uid": "s:40~l:41~t:2440",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-12",
-"displayValue": "10-12",
+"summary": "10-13",
+"displayValue": "10-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3418,6 +3418,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 6.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-8",
+"displayValue": "4-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2440/nevada-wolf-pack",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+"height": 500
+}
+],
+"team": "Nevada",
+"id": "2440"
+},
+{
+"uid": "s:40~l:41~t:2005",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "10-12",
+"displayValue": "10-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
@@ -3449,65 +3502,12 @@
 "id": "2005"
 },
 {
-"uid": "s:40~l:41~t:2440",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-13",
-"displayValue": "9-13",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "6.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 6.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-8",
-"displayValue": "3-8",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2440/nevada-wolf-pack",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
-"height": 500
-}
-],
-"team": "Nevada",
-"id": "2440"
-},
-{
 "uid": "s:40~l:41~t:167",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-14",
-"displayValue": "9-14",
+"summary": "10-14",
+"displayValue": "10-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3517,13 +3517,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3570,13 +3570,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "9.5",
+"displayValue": "10",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.5
+"value": 10
 },
 {
 "shortDisplayName": "CONF",
