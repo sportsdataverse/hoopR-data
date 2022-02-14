@@ -19453,36 +19453,36 @@
 "starter": false,
 "athlete": {
 "uid": "s:40~l:41~a:4598167",
-"displayName": "Torron Mingo",
+"displayName": "TJ Mingo",
 "jersey": "3",
 "guid": "682a8db0-8e7f-3296-a43e-d6786a2f2bef",
 "links": [
 {
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4598167/torron-mingo",
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4598167/tj-mingo",
 "text": "Player Card"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4598167/torron-mingo",
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4598167/tj-mingo",
 "text": "Stats"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4598167/torron-mingo",
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4598167/tj-mingo",
 "text": "Splits"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4598167/torron-mingo",
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4598167/tj-mingo",
 "text": "Game Log"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4598167/torron-mingo",
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4598167/tj-mingo",
 "text": "News"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4598167/torron-mingo",
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4598167/tj-mingo",
 "text": "Bio"
 },
 {
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4598167/torron-mingo",
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4598167/tj-mingo",
 "text": "Overview"
 }
 ],
@@ -19585,6 +19585,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897312",
 "displayName": "Jalyn Hinton",
+"headshot": {
+"alt": "Jalyn Hinton",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897312.png"
+},
 "jersey": "0",
 "guid": "c279f20b-ce6b-3990-b949-bec675e38a4f",
 "links": [
@@ -20057,6 +20061,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897313",
 "displayName": "Roger McFarlane",
+"headshot": {
+"alt": "Roger McFarlane",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897313.png"
+},
 "jersey": "3",
 "guid": "658aa161-ea8b-33b2-a402-3055685512ed",
 "links": [
@@ -21091,12 +21099,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2447",
+"uid": "s:40~l:41~t:2443",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-0",
-"displayValue": "3-0",
+"summary": "15-9",
+"displayValue": "15-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21116,8 +21124,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "8-1",
+"displayValue": "8-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2443/new-orleans-privateers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2443.png",
+"height": 500
+}
+],
+"team": "New Orleans",
+"id": "2443"
+},
+{
+"uid": "s:40~l:41~t:2447",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "16-9",
+"displayValue": "16-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-2",
+"displayValue": "6-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21148,8 +21209,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "14-12",
+"displayValue": "14-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21159,18 +21220,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "6-3",
+"displayValue": "6-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21197,12 +21258,12 @@
 "id": "2545"
 },
 {
-"uid": "s:40~l:41~t:2277",
+"uid": "s:40~l:41~t:2377",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "10-16",
+"displayValue": "10-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21212,18 +21273,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "4-5",
+"displayValue": "4-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2377/mcneese-cowboys",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2377.png",
+"height": 500
+}
+],
+"team": "McNeese",
+"id": "2377"
+},
+{
+"uid": "s:40~l:41~t:2277",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-14",
+"displayValue": "8-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-5",
+"displayValue": "4-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21250,65 +21364,12 @@
 "id": "2277"
 },
 {
-"uid": "s:40~l:41~t:2443",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2443/new-orleans-privateers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2443.png",
-"height": 500
-}
-],
-"team": "New Orleans",
-"id": "2443"
-},
-{
 "uid": "s:40~l:41~t:357",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "16-9",
+"displayValue": "16-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21318,18 +21379,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "3-5",
+"displayValue": "3-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21360,8 +21421,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-2",
-"displayValue": "1-2",
+"summary": "7-19",
+"displayValue": "7-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21371,18 +21432,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "3-6",
+"displayValue": "3-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21413,8 +21474,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "5-21",
+"displayValue": "5-21",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21424,18 +21485,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "1-8",
+"displayValue": "1-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21460,59 +21521,6 @@
 ],
 "team": "Incarnate Word",
 "id": "2916"
-},
-{
-"uid": "s:40~l:41~t:2377",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2377/mcneese-cowboys",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2377.png",
-"height": 500
-}
-],
-"team": "McNeese",
-"id": "2377"
 }
 ]
 }
@@ -22329,11 +22337,6 @@
 "tiePercentage": 0.0,
 "homeWinPercentage": 0.966,
 "playId": "401377972101957701"
-},
-{
-"tiePercentage": 0.0,
-"homeWinPercentage": 0.962,
-"playId": "401377972101964001"
 },
 {
 "tiePercentage": 0.0,
