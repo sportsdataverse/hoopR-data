@@ -16352,6 +16352,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897271",
 "displayName": "Braden May",
+"headshot": {
+"alt": "Braden May",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897271.png"
+},
 "jersey": "15",
 "guid": "da61d496-37f4-39ff-8668-4d0d1140494c",
 "links": [
@@ -16416,6 +16420,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897269",
 "displayName": "Tucson Redding",
+"headshot": {
+"alt": "Tucson Redding",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897269.png"
+},
 "jersey": "1",
 "guid": "4272021e-7561-3e6f-a3cf-f5d3159b1c0a",
 "links": [
@@ -16656,6 +16664,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897270",
 "displayName": "Chris Cole",
+"headshot": {
+"alt": "Chris Cole",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897270.png"
+},
 "jersey": "14",
 "guid": "926d9518-08fb-3d7f-a19c-facd24a481b8",
 "links": [
@@ -17265,8 +17277,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "22-2",
-"displayValue": "22-2",
+"summary": "25-2",
+"displayValue": "25-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17286,8 +17298,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "12-0",
-"displayValue": "12-0",
+"summary": "15-0",
+"displayValue": "15-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17314,65 +17326,12 @@
 "id": "93"
 },
 {
-"uid": "s:40~l:41~t:2413",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "19-6",
-"displayValue": "19-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "11-1",
-"displayValue": "11-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2413/morehead-state-eagles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png",
-"height": 500
-}
-],
-"team": "Morehead State",
-"id": "2413"
-},
-{
 "uid": "s:40~l:41~t:2057",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "18-5",
-"displayValue": "18-5",
+"summary": "23-5",
+"displayValue": "23-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17382,18 +17341,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-2",
-"displayValue": "8-2",
+"summary": "13-2",
+"displayValue": "13-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17420,12 +17379,12 @@
 "id": "2057"
 },
 {
-"uid": "s:40~l:41~t:2546",
+"uid": "s:40~l:41~t:2413",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-13",
-"displayValue": "10-13",
+"summary": "20-8",
+"displayValue": "20-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17435,18 +17394,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-5",
-"displayValue": "5-5",
+"summary": "12-3",
+"displayValue": "12-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2413/morehead-state-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png",
+"height": 500
+}
+],
+"team": "Morehead State",
+"id": "2413"
+},
+{
+"uid": "s:40~l:41~t:2546",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-16",
+"displayValue": "11-16",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-8",
+"displayValue": "6-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17477,8 +17489,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-14",
-"displayValue": "10-14",
+"summary": "11-16",
+"displayValue": "11-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17488,18 +17500,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-7",
-"displayValue": "5-7",
+"summary": "6-9",
+"displayValue": "6-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17526,65 +17538,12 @@
 "id": "2634"
 },
 {
-"uid": "s:40~l:41~t:2630",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-16",
-"displayValue": "8-16",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "8",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 8
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-8",
-"displayValue": "4-8",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2630/ut-martin-skyhawks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png",
-"height": 500
-}
-],
-"team": "UT Martin",
-"id": "2630"
-},
-{
 "uid": "s:40~l:41~t:2046",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-13",
-"displayValue": "7-13",
+"summary": "10-15",
+"displayValue": "10-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17594,18 +17553,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-7",
-"displayValue": "3-7",
+"summary": "6-9",
+"displayValue": "6-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17636,8 +17595,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-17",
-"displayValue": "5-17",
+"summary": "8-19",
+"displayValue": "8-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17647,18 +17606,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 9.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-7",
-"displayValue": "2-7",
+"summary": "5-9",
+"displayValue": "5-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17685,12 +17644,12 @@
 "id": "2635"
 },
 {
-"uid": "s:40~l:41~t:2197",
+"uid": "s:40~l:41~t:2630",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-18",
-"displayValue": "4-18",
+"summary": "8-19",
+"displayValue": "8-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17700,18 +17659,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 11
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-7",
-"displayValue": "2-7",
+"summary": "4-11",
+"displayValue": "4-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17720,7 +17679,7 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2197/eastern-illinois-panthers",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2630/ut-martin-skyhawks",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -17730,20 +17689,20 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2197.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png",
 "height": 500
 }
 ],
-"team": "Eastern Illinois",
-"id": "2197"
+"team": "UT Martin",
+"id": "2630"
 },
 {
 "uid": "s:40~l:41~t:2565",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-16",
-"displayValue": "7-16",
+"summary": "9-18",
+"displayValue": "9-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17753,18 +17712,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "10",
+"displayValue": "11.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10
+"value": 11.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-9",
-"displayValue": "1-9",
+"summary": "3-11",
+"displayValue": "3-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17789,6 +17748,59 @@
 ],
 "team": "SIU Edwardsville",
 "id": "2565"
+},
+{
+"uid": "s:40~l:41~t:2197",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-22",
+"displayValue": "5-22",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-11",
+"displayValue": "3-11",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2197/eastern-illinois-panthers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2197.png",
+"height": 500
+}
+],
+"team": "Eastern Illinois",
+"id": "2197"
 }
 ]
 }
@@ -17864,10 +17876,10 @@
 "underdog": true,
 "moneyLine": 525,
 "spreadRecord": {
-"wins": 8,
-"losses": 8,
+"wins": 10,
+"losses": 11,
 "pushes": 1,
-"summary": "8-8-1"
+"summary": "10-11-1"
 },
 "spreadOdds": -110.0,
 "teamId": "2046"
@@ -17878,10 +17890,10 @@
 "underdog": false,
 "moneyLine": -750,
 "spreadRecord": {
-"wins": 8,
-"losses": 12,
+"wins": 10,
+"losses": 13,
 "pushes": 1,
-"summary": "8-12-1"
+"summary": "10-13-1"
 },
 "spreadOdds": -110.0,
 "teamId": "2413"

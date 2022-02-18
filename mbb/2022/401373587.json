@@ -17949,7 +17949,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -18153,8 +18153,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "20-2",
-"displayValue": "20-2",
+"summary": "21-3",
+"displayValue": "21-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18174,8 +18174,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-1",
-"displayValue": "10-1",
+"summary": "11-2",
+"displayValue": "11-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18206,8 +18206,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-6",
-"displayValue": "19-6",
+"summary": "20-6",
+"displayValue": "20-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18217,18 +18217,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "12-3",
-"displayValue": "12-3",
+"summary": "13-3",
+"displayValue": "13-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18255,65 +18255,12 @@
 "id": "222"
 },
 {
-"uid": "s:40~l:41~t:269",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "16-8",
-"displayValue": "16-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "8-5",
-"displayValue": "8-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/269/marquette-golden-eagles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
-"height": 500
-}
-],
-"team": "Marquette",
-"id": "269"
-},
-{
 "uid": "s:40~l:41~t:41",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-7",
-"displayValue": "16-7",
+"summary": "18-7",
+"displayValue": "18-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18323,18 +18270,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-5",
-"displayValue": "7-5",
+"summary": "9-5",
+"displayValue": "9-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18365,8 +18312,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-8",
-"displayValue": "15-8",
+"summary": "17-8",
+"displayValue": "17-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18376,18 +18323,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-5",
-"displayValue": "7-5",
+"summary": "9-5",
+"displayValue": "9-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18414,12 +18361,12 @@
 "id": "156"
 },
 {
-"uid": "s:40~l:41~t:2752",
+"uid": "s:40~l:41~t:269",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-7",
-"displayValue": "17-7",
+"summary": "17-9",
+"displayValue": "17-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18429,18 +18376,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-6",
-"displayValue": "7-6",
+"summary": "9-6",
+"displayValue": "9-6",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/269/marquette-golden-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
+"height": 500
+}
+],
+"team": "Marquette",
+"id": "269"
+},
+{
+"uid": "s:40~l:41~t:2752",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "17-8",
+"displayValue": "17-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-7",
+"displayValue": "7-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18471,8 +18471,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-8",
-"displayValue": "15-8",
+"summary": "15-9",
+"displayValue": "15-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18482,18 +18482,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-7",
-"displayValue": "6-7",
+"summary": "6-8",
+"displayValue": "6-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18524,8 +18524,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-10",
-"displayValue": "13-10",
+"summary": "14-11",
+"displayValue": "14-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18545,8 +18545,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-7",
-"displayValue": "5-7",
+"summary": "6-8",
+"displayValue": "6-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18577,8 +18577,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-13",
-"displayValue": "11-13",
+"summary": "13-13",
+"displayValue": "13-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18588,18 +18588,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-9",
-"displayValue": "4-9",
+"summary": "6-9",
+"displayValue": "6-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18630,8 +18630,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-10",
-"displayValue": "12-10",
+"summary": "12-13",
+"displayValue": "12-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18641,18 +18641,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-9",
-"displayValue": "3-9",
+"summary": "3-12",
+"displayValue": "3-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18683,8 +18683,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-17",
-"displayValue": "6-17",
+"summary": "6-19",
+"displayValue": "6-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18694,18 +18694,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "10.5",
+"displayValue": "11.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10.5
+"value": 11.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-12",
-"displayValue": "0-12",
+"summary": "0-14",
+"displayValue": "0-14",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18773,7 +18773,7 @@
 "overUnder": 132.0,
 "spread": -9.0,
 "awayTeamOdds": {
-"winPercentage": 59.0,
+"winPercentage": 60.0,
 "favorite": false,
 "underdog": true,
 "moneyLine": 345,
@@ -18781,10 +18781,10 @@
 "teamId": "2550"
 },
 "homeTeamOdds": {
-"winPercentage": 41.0,
+"winPercentage": 40.0,
 "favorite": true,
 "underdog": false,
-"moneyLine": -465,
+"moneyLine": -474,
 "spreadOdds": -110.0,
 "teamId": "222"
 },
@@ -18805,10 +18805,10 @@
 "underdog": true,
 "moneyLine": 360,
 "spreadRecord": {
-"wins": 9,
+"wins": 10,
 "losses": 11,
 "pushes": 1,
-"summary": "9-11-1"
+"summary": "10-11-1"
 },
 "spreadOdds": -110.0,
 "teamId": "2550"
@@ -18820,9 +18820,9 @@
 "moneyLine": -450,
 "spreadRecord": {
 "wins": 13,
-"losses": 10,
+"losses": 11,
 "pushes": 1,
-"summary": "13-10-1"
+"summary": "13-11-1"
 },
 "spreadOdds": -110.0,
 "teamId": "222"
@@ -20535,7 +20535,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {

@@ -19350,6 +19350,18 @@
 },
 {
 "isExternal": false,
+"shortText": "Recap",
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/recap?gameId=401369266",
+"text": "Recap",
+"isPremium": false
+},
+{
+"isExternal": false,
 "shortText": "Box Score",
 "rel": [
 "boxscore",
@@ -19431,8 +19443,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-6",
-"displayValue": "13-6",
+"summary": "18-9",
+"displayValue": "18-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19452,8 +19464,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-0",
-"displayValue": "4-0",
+"summary": "9-3",
+"displayValue": "9-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19484,8 +19496,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-5",
-"displayValue": "11-5",
+"summary": "17-8",
+"displayValue": "17-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19495,18 +19507,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-1",
-"displayValue": "3-1",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19533,65 +19545,12 @@
 "id": "294"
 },
 {
-"uid": "s:40~l:41~t:338",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-9",
-"displayValue": "8-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-1",
-"displayValue": "3-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/338/kennesaw-state-owls",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
-"height": 500
-}
-],
-"team": "Kennesaw State",
-"id": "338"
-},
-{
 "uid": "s:40~l:41~t:526",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-8",
-"displayValue": "12-8",
+"summary": "18-9",
+"displayValue": "18-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19601,18 +19560,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
+"summary": "8-5",
+"displayValue": "8-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19639,12 +19598,12 @@
 "id": "526"
 },
 {
-"uid": "s:40~l:41~t:56",
+"uid": "s:40~l:41~t:338",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-11",
-"displayValue": "8-11",
+"summary": "11-15",
+"displayValue": "11-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19654,18 +19613,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
+"summary": "6-7",
+"displayValue": "6-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/338/kennesaw-state-owls",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+"height": 500
+}
+],
+"team": "Kennesaw State",
+"id": "338"
+},
+{
+"uid": "s:40~l:41~t:56",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-15",
+"displayValue": "11-15",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-8",
+"displayValue": "5-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19696,8 +19708,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-15",
-"displayValue": "4-15",
+"summary": "9-18",
+"displayValue": "9-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19717,8 +19729,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-5",
-"displayValue": "0-5",
+"summary": "5-8",
+"displayValue": "5-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19757,8 +19769,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-6",
-"displayValue": "12-6",
+"summary": "17-9",
+"displayValue": "17-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19778,8 +19790,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-0",
-"displayValue": "5-0",
+"summary": "10-3",
+"displayValue": "10-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19810,8 +19822,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-8",
-"displayValue": "10-8",
+"summary": "16-11",
+"displayValue": "16-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19821,18 +19833,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 0
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-0",
-"displayValue": "4-0",
+"summary": "10-3",
+"displayValue": "10-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19863,8 +19875,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-12",
-"displayValue": "6-12",
+"summary": "8-17",
+"displayValue": "8-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19874,18 +19886,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-2",
-"displayValue": "3-2",
+"summary": "5-7",
+"displayValue": "5-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19912,65 +19924,12 @@
 "id": "2110"
 },
 {
-"uid": "s:40~l:41~t:288",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-12",
-"displayValue": "9-12",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/288/lipscomb-bisons",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
-"height": 500
-}
-],
-"team": "Lipscomb",
-"id": "288"
-},
-{
 "uid": "s:40~l:41~t:2198",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-10",
-"displayValue": "9-10",
+"summary": "12-15",
+"displayValue": "12-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19980,18 +19939,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-4",
-"displayValue": "1-4",
+"summary": "4-9",
+"displayValue": "4-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20018,12 +19977,12 @@
 "id": "2198"
 },
 {
-"uid": "s:40~l:41~t:2453",
+"uid": "s:40~l:41~t:288",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-11",
-"displayValue": "8-11",
+"summary": "11-17",
+"displayValue": "11-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20033,18 +19992,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "4-9",
+"displayValue": "4-9",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/288/lipscomb-bisons",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+"height": 500
+}
+],
+"team": "Lipscomb",
+"id": "288"
+},
+{
+"uid": "s:40~l:41~t:2453",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-17",
+"displayValue": "9-17",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-11",
+"displayValue": "2-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20146,10 +20158,10 @@
 "underdog": true,
 "moneyLine": 110,
 "spreadRecord": {
-"wins": 7,
-"losses": 6,
+"wins": 10,
+"losses": 11,
 "pushes": 0,
-"summary": "7-6-0"
+"summary": "10-11-0"
 },
 "spreadOdds": -111.0,
 "teamId": "338"
@@ -20160,10 +20172,10 @@
 "underdog": false,
 "moneyLine": -129,
 "spreadRecord": {
-"wins": 6,
-"losses": 12,
+"wins": 9,
+"losses": 15,
 "pushes": 0,
-"summary": "6-12-0"
+"summary": "9-15-0"
 },
 "spreadOdds": -105.0,
 "teamId": "288"

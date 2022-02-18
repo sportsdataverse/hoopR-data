@@ -18478,12 +18478,113 @@
 "href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401364909",
 "text": "Team Stats",
 "isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Videos",
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/video?gameId=401364909",
+"text": "Videos",
+"isPremium": false
 }
 ],
 "id": "401364909"
 },
 "broadcasts": [],
-"videos": [],
+"videos": [
+{
+"duration": 105,
+"deviceRestrictions": {
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+],
+"type": "whitelist"
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2022/0202/ss_20220202_172054933_18780991156/ss_20220202_172054933_18780991156.jpg",
+"timeRestrictions": {
+"embargoDate": "2022-02-02T22:20:46Z",
+"expirationDate": "2038-01-01T04:59:59Z"
+},
+"description": "Florida takes a late lead on free throws, and the Gators' defense hangs tough against Missouri in the final seconds to win 66-65.",
+"originalPublishDate": "2022-02-02T22:20:46Z",
+"links": {
+"web": {
+"short": {
+"href": "https://es.pn/3ghhDcj"
+},
+"self": {
+"href": "http://espn.go.com/video/clip?id=33202618&ex_cid=espnapi_internal"
+},
+"href": "http://espn.go.com/video/clip?id=33202618&ex_cid=espnapi_internal"
+},
+"mobile": {
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b4adfe14-7b8b-4481-a517-805d1bac6f16/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33202618"
+},
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=33202618&ex_cid=espnapi_internal"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b4adfe14-7b8b-4481-a517-805d1bac6f16/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33202618"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0202/ss_20220202_172054933_1878099/ss_20220202_172054933_1878099.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b4adfe14-7b8b-4481-a517-805d1bac6f16/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33202618"
+},
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/33202618"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/b4adfe14-7b8b-4481-a517-805d1bac6f16"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2022/0202/ss_20220202_172054933_1878099/ss_20220202_172054933_1878099.mp4"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2022/0202/ss_20220202_172054933_1878099/ss_20220202_172054933_1878099_rel.smil/manifest.f4m"
+},
+"href": "https://media.video-cdn.espn.com/motion/2022/0202/ss_20220202_172054933_1878099/ss_20220202_172054933_1878099_360p30_1464k.mp4",
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0202/ss_20220202_172054933_1878099/ss_20220202_172054933_1878099_720p30_2896k.mp4"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0202/ss_20220202_172054933_1878099/ss_20220202_172054933_1878099.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0202/ss_20220202_172054933_1878099/ss_20220202_172054933_1878099.smil/master.m3u8"
+}
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0202/ss_20220202_172054933_1878099/ss_20220202_172054933_1878099.smil"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0202/ss_20220202_172054933_1878099/ss_20220202_172054933_1878099_360p30_1464k.mp4"
+}
+}
+},
+"source": "espn",
+"id": 33202618,
+"lastModified": "2022-02-03T00:16:56Z",
+"headline": "Florida hangs on to hand Missouri fourth straight loss",
+"tracking": {
+"leagueName": "No League",
+"trackingName": "COM_NCB Highlight (Florida Gators vs. Missouri Tigers: Full Highlights) 2022/02/02 ESHEET",
+"coverageType": "Final Game Highlight",
+"sportName": "ncb",
+"trackingId": "dm_20220202_NCB_florida_gators_vs_missouri_tigers_full_highlights"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -18501,8 +18602,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "21-1",
-"displayValue": "21-1",
+"summary": "24-2",
+"displayValue": "24-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18522,8 +18623,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-0",
-"displayValue": "9-0",
+"summary": "12-1",
+"displayValue": "12-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18554,8 +18655,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-4",
-"displayValue": "17-4",
+"summary": "21-5",
+"displayValue": "21-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18565,18 +18666,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-2",
-"displayValue": "6-2",
+"summary": "10-3",
+"displayValue": "10-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18607,8 +18708,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-6",
-"displayValue": "15-6",
+"summary": "19-6",
+"displayValue": "19-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18618,18 +18719,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-3",
-"displayValue": "6-3",
+"summary": "10-3",
+"displayValue": "10-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18660,8 +18761,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-5",
-"displayValue": "16-5",
+"summary": "20-6",
+"displayValue": "20-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18671,18 +18772,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18709,65 +18810,12 @@
 "id": "8"
 },
 {
-"uid": "s:40~l:41~t:344",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "14-7",
-"displayValue": "14-7",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/344/mississippi-state-bulldogs",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
-"height": 500
-}
-],
-"team": "Mississippi State",
-"id": "344"
-},
-{
 "uid": "s:40~l:41~t:99",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-6",
-"displayValue": "16-6",
+"summary": "19-7",
+"displayValue": "19-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18787,8 +18835,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "7-6",
+"displayValue": "7-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18815,65 +18863,12 @@
 "id": "99"
 },
 {
-"uid": "s:40~l:41~t:245",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "15-7",
-"displayValue": "15-7",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/245/texas-am-aggies",
-"logo": [
-{
-"lastUpdated": "2021-06-02T21:28Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-"height": 500
-}
-],
-"team": "Texas A&M",
-"id": "245"
-},
-{
 "uid": "s:40~l:41~t:333",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-8",
-"displayValue": "14-8",
+"summary": "17-9",
+"displayValue": "17-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18893,8 +18888,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "7-6",
+"displayValue": "7-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18925,8 +18920,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-8",
-"displayValue": "14-8",
+"summary": "16-10",
+"displayValue": "16-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18936,18 +18931,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18978,8 +18973,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-8",
-"displayValue": "13-8",
+"summary": "15-10",
+"displayValue": "15-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18989,18 +18984,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19027,12 +19022,12 @@
 "id": "2579"
 },
 {
-"uid": "s:40~l:41~t:238",
+"uid": "s:40~l:41~t:344",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-9",
-"displayValue": "11-9",
+"summary": "14-11",
+"displayValue": "14-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19042,18 +19037,124 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-5",
-"displayValue": "3-5",
+"summary": "5-7",
+"displayValue": "5-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/344/mississippi-state-bulldogs",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+"height": 500
+}
+],
+"team": "Mississippi State",
+"id": "344"
+},
+{
+"uid": "s:40~l:41~t:245",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "16-10",
+"displayValue": "16-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-8",
+"displayValue": "5-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/245/texas-am-aggies",
+"logo": [
+{
+"lastUpdated": "2021-06-02T21:28Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+"height": 500
+}
+],
+"team": "Texas A&M",
+"id": "245"
+},
+{
+"uid": "s:40~l:41~t:238",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "13-12",
+"displayValue": "13-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-8",
+"displayValue": "5-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19080,65 +19181,12 @@
 "id": "238"
 },
 {
-"uid": "s:40~l:41~t:145",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "12-10",
-"displayValue": "12-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "6",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 6
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-6",
-"displayValue": "3-6",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/145/ole-miss-rebels",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-"height": 500
-}
-],
-"team": "Ole Miss",
-"id": "145"
-},
-{
 "uid": "s:40~l:41~t:142",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-13",
-"displayValue": "8-13",
+"summary": "10-15",
+"displayValue": "10-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19148,18 +19196,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-6",
-"displayValue": "2-6",
+"summary": "4-8",
+"displayValue": "4-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19186,12 +19234,12 @@
 "id": "142"
 },
 {
-"uid": "s:40~l:41~t:61",
+"uid": "s:40~l:41~t:145",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-15",
-"displayValue": "6-15",
+"summary": "12-14",
+"displayValue": "12-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19201,18 +19249,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-7",
-"displayValue": "1-7",
+"summary": "3-10",
+"displayValue": "3-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/145/ole-miss-rebels",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+"height": 500
+}
+],
+"team": "Ole Miss",
+"id": "145"
+},
+{
+"uid": "s:40~l:41~t:61",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-20",
+"displayValue": "6-20",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-12",
+"displayValue": "1-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19313,9 +19414,9 @@
 "moneyLine": -247,
 "spreadRecord": {
 "wins": 12,
-"losses": 10,
+"losses": 13,
 "pushes": 0,
-"summary": "12-10-0"
+"summary": "12-13-0"
 },
 "spreadOdds": -108.0,
 "teamId": "57"
@@ -19326,10 +19427,10 @@
 "underdog": true,
 "moneyLine": 202,
 "spreadRecord": {
-"wins": 10,
-"losses": 10,
+"wins": 12,
+"losses": 12,
 "pushes": 0,
-"summary": "10-10-0"
+"summary": "12-12-0"
 },
 "spreadOdds": -108.0,
 "teamId": "142"

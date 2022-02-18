@@ -15528,7 +15528,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"38",
 "6-12",
 "4-6",
 "4-4",
@@ -15596,7 +15596,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"15",
 "2-2",
 "1-1",
 "1-1",
@@ -15664,7 +15664,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"33",
 "1-6",
 "0-2",
 "1-1",
@@ -15732,7 +15732,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"40",
 "5-13",
 "1-5",
 "4-4",
@@ -15800,7 +15800,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"35",
 "4-10",
 "2-3",
 "2-4",
@@ -15868,7 +15868,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"14",
 "2-2",
 "1-1",
 "0-0",
@@ -15936,7 +15936,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"25",
 "4-6",
 "1-1",
 "5-7",
@@ -16667,7 +16667,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"26",
 "3-6",
 "2-4",
 "2-2",
@@ -16735,7 +16735,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"27",
 "2-7",
 "0-0",
 "0-0",
@@ -16803,7 +16803,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"25",
 "5-13",
 "3-8",
 "3-6",
@@ -16871,7 +16871,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"31",
 "4-10",
 "2-6",
 "1-1",
@@ -16939,7 +16939,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"27",
 "8-10",
 "0-0",
 "0-0",
@@ -17007,7 +17007,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"5",
 "2-2",
 "0-0",
 "0-0",
@@ -17075,7 +17075,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"13",
 "2-3",
 "2-3",
 "3-3",
@@ -17143,7 +17143,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"29",
 "6-6",
 "0-0",
 "0-0",
@@ -17211,7 +17211,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"17",
 "1-2",
 "0-1",
 "2-2",
@@ -18047,8 +18047,8 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
-"boxscoreSource": "basic",
+"recent": false,
+"boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
 "type": {
@@ -18159,8 +18159,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-2",
-"displayValue": "12-2",
+"summary": "20-5",
+"displayValue": "20-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18180,8 +18180,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-0",
-"displayValue": "3-0",
+"summary": "11-3",
+"displayValue": "11-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18208,12 +18208,12 @@
 "id": "2350"
 },
 {
-"uid": "s:40~l:41~t:2460",
+"uid": "s:40~l:41~t:2623",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-7",
-"displayValue": "8-7",
+"summary": "20-8",
+"displayValue": "20-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18223,18 +18223,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-1",
-"displayValue": "4-1",
+"summary": "11-4",
+"displayValue": "11-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2623/missouri-state-bears",
+"logo": [
+{
+"lastUpdated": "2020-08-31T21:22Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+"height": 500
+}
+],
+"team": "Missouri State",
+"id": "2623"
+},
+{
+"uid": "s:40~l:41~t:2460",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "15-10",
+"displayValue": "15-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-4",
+"displayValue": "11-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18265,8 +18318,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-5",
-"displayValue": "12-5",
+"summary": "18-9",
+"displayValue": "18-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18276,18 +18329,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-1",
-"displayValue": "3-1",
+"summary": "9-5",
+"displayValue": "9-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18314,118 +18367,12 @@
 "id": "2181"
 },
 {
-"uid": "s:40~l:41~t:79",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-6",
-"displayValue": "9-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/79/southern-illinois-salukis",
-"logo": [
-{
-"lastUpdated": "2021-06-30T16:57Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
-"height": 500
-}
-],
-"team": "Southern Illinois",
-"id": "79"
-},
-{
-"uid": "s:40~l:41~t:2623",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "12-6",
-"displayValue": "12-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-2",
-"displayValue": "3-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2623/missouri-state-bears",
-"logo": [
-{
-"lastUpdated": "2020-08-31T21:22Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
-"height": 500
-}
-],
-"team": "Missouri State",
-"id": "2623"
-},
-{
 "uid": "s:40~l:41~t:71",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-9",
-"displayValue": "8-9",
+"summary": "15-12",
+"displayValue": "15-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18435,18 +18382,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-3",
-"displayValue": "2-3",
+"summary": "9-6",
+"displayValue": "9-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18473,12 +18420,12 @@
 "id": "71"
 },
 {
-"uid": "s:40~l:41~t:282",
+"uid": "s:40~l:41~t:79",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-7",
-"displayValue": "8-7",
+"summary": "14-13",
+"displayValue": "14-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18488,18 +18435,124 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-2",
-"displayValue": "1-2",
+"summary": "7-8",
+"displayValue": "7-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/79/southern-illinois-salukis",
+"logo": [
+{
+"lastUpdated": "2021-06-30T16:57Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
+"height": 500
+}
+],
+"team": "Southern Illinois",
+"id": "79"
+},
+{
+"uid": "s:40~l:41~t:2674",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-15",
+"displayValue": "11-15",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-10",
+"displayValue": "4-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2674/valparaiso-beacons",
+"logo": [
+{
+"lastUpdated": "2020-09-01T17:30Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2674.png",
+"height": 500
+}
+],
+"team": "Valparaiso",
+"id": "2674"
+},
+{
+"uid": "s:40~l:41~t:282",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-15",
+"displayValue": "11-15",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-10",
+"displayValue": "4-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18530,8 +18583,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-8",
-"displayValue": "8-8",
+"summary": "11-16",
+"displayValue": "11-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18541,18 +18594,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-2",
-"displayValue": "1-2",
+"summary": "4-10",
+"displayValue": "4-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18579,65 +18632,12 @@
 "id": "2287"
 },
 {
-"uid": "s:40~l:41~t:2674",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-9",
-"displayValue": "8-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-4",
-"displayValue": "1-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2674/valparaiso-beacons",
-"logo": [
-{
-"lastUpdated": "2020-09-01T17:30Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2674.png",
-"height": 500
-}
-],
-"team": "Valparaiso",
-"id": "2674"
-},
-{
 "uid": "s:40~l:41~t:339",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-11",
-"displayValue": "4-11",
+"summary": "6-19",
+"displayValue": "6-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18647,18 +18647,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-4",
-"displayValue": "0-4",
+"summary": "2-12",
+"displayValue": "2-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18758,10 +18758,10 @@
 "underdog": true,
 "moneyLine": 606,
 "spreadRecord": {
-"wins": 7,
-"losses": 6,
+"wins": 12,
+"losses": 12,
 "pushes": 0,
-"summary": "7-6-0"
+"summary": "12-12-0"
 },
 "spreadOdds": -105.0,
 "teamId": "2287"
@@ -18772,10 +18772,10 @@
 "underdog": false,
 "moneyLine": -923,
 "spreadRecord": {
-"wins": 3,
-"losses": 10,
+"wins": 6,
+"losses": 17,
 "pushes": 0,
-"summary": "3-10-0"
+"summary": "6-17-0"
 },
 "spreadOdds": -115.0,
 "teamId": "2181"
@@ -20472,8 +20472,8 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
-"boxscoreSource": "basic",
+"recent": false,
+"boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
 "type": {

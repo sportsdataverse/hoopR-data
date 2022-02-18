@@ -20240,7 +20240,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -20271,6 +20271,18 @@
 ],
 "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401371315",
 "text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Recap",
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/recap?gameId=401371315",
+"text": "Recap",
 "isPremium": false
 },
 {
@@ -20331,8 +20343,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-2",
-"displayValue": "17-2",
+"summary": "22-2",
+"displayValue": "22-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20352,8 +20364,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-0",
-"displayValue": "6-0",
+"summary": "11-0",
+"displayValue": "11-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20384,8 +20396,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-4",
-"displayValue": "17-4",
+"summary": "21-6",
+"displayValue": "21-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20395,18 +20407,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-1",
-"displayValue": "5-1",
+"summary": "9-3",
+"displayValue": "9-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20433,171 +20445,12 @@
 "id": "2608"
 },
 {
-"uid": "s:40~l:41~t:301",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "13-9",
-"displayValue": "13-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "6-3",
-"displayValue": "6-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/301/san-diego-toreros",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png",
-"height": 500
-}
-],
-"team": "San Diego",
-"id": "301"
-},
-{
-"uid": "s:40~l:41~t:252",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "17-6",
-"displayValue": "17-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/252/byu-cougars",
-"logo": [
-{
-"lastUpdated": "2020-07-21T17:26Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-"height": 500
-}
-],
-"team": "BYU",
-"id": "252"
-},
-{
-"uid": "s:40~l:41~t:2539",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "17-5",
-"displayValue": "17-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-3",
-"displayValue": "4-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2539/san-francisco-dons",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2539.png",
-"height": 500
-}
-],
-"team": "San Francisco",
-"id": "2539"
-},
-{
 "uid": "s:40~l:41~t:2541",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-8",
-"displayValue": "13-8",
+"summary": "18-9",
+"displayValue": "18-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20607,18 +20460,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
+"summary": "8-4",
+"displayValue": "8-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20645,12 +20498,12 @@
 "id": "2541"
 },
 {
-"uid": "s:40~l:41~t:2501",
+"uid": "s:40~l:41~t:2539",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-10",
-"displayValue": "11-10",
+"summary": "21-7",
+"displayValue": "21-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20670,8 +20523,167 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
+"summary": "8-5",
+"displayValue": "8-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2539/san-francisco-dons",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2539.png",
+"height": 500
+}
+],
+"team": "San Francisco",
+"id": "2539"
+},
+{
+"uid": "s:40~l:41~t:252",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "19-8",
+"displayValue": "19-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-5",
+"displayValue": "7-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/252/byu-cougars",
+"logo": [
+{
+"lastUpdated": "2020-07-21T17:26Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+"height": 500
+}
+],
+"team": "BYU",
+"id": "252"
+},
+{
+"uid": "s:40~l:41~t:301",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "14-13",
+"displayValue": "14-13",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-7",
+"displayValue": "7-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/301/san-diego-toreros",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png",
+"height": 500
+}
+],
+"team": "San Diego",
+"id": "301"
+},
+{
+"uid": "s:40~l:41~t:2501",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "15-12",
+"displayValue": "15-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-6",
+"displayValue": "5-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20698,65 +20710,12 @@
 "id": "2501"
 },
 {
-"uid": "s:40~l:41~t:2351",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-10",
-"displayValue": "9-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2351/loyola-marymount-lions",
-"logo": [
-{
-"lastUpdated": "2019-06-03T16:39Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
-"height": 500
-}
-],
-"team": "Loyola Marymount",
-"id": "2351"
-},
-{
 "uid": "s:40~l:41~t:279",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-13",
-"displayValue": "6-13",
+"summary": "7-18",
+"displayValue": "7-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20766,18 +20725,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-4",
-"displayValue": "1-4",
+"summary": "2-8",
+"displayValue": "2-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20804,12 +20763,12 @@
 "id": "279"
 },
 {
-"uid": "s:40~l:41~t:2492",
+"uid": "s:40~l:41~t:2351",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-17",
-"displayValue": "6-17",
+"summary": "9-15",
+"displayValue": "9-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20819,18 +20778,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "9.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 9.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-8",
-"displayValue": "0-8",
+"summary": "2-10",
+"displayValue": "2-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2351/loyola-marymount-lions",
+"logo": [
+{
+"lastUpdated": "2019-06-03T16:39Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
+"height": 500
+}
+],
+"team": "Loyola Marymount",
+"id": "2351"
+},
+{
+"uid": "s:40~l:41~t:2492",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-21",
+"displayValue": "7-21",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-12",
+"displayValue": "1-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20931,9 +20943,9 @@
 "moneyLine": -889,
 "spreadRecord": {
 "wins": 10,
-"losses": 10,
+"losses": 14,
 "pushes": 0,
-"summary": "10-10-0"
+"summary": "10-14-0"
 },
 "spreadOdds": -110.0,
 "teamId": "252"
@@ -20944,10 +20956,10 @@
 "underdog": true,
 "moneyLine": 588,
 "spreadRecord": {
-"wins": 2,
-"losses": 15,
-"pushes": 0,
-"summary": "2-15-0"
+"wins": 5,
+"losses": 18,
+"pushes": 1,
+"summary": "5-18-1"
 },
 "spreadOdds": -106.0,
 "teamId": "279"
@@ -21013,7 +21025,1663 @@
 "teamChanceTie": "0.0"
 }
 },
-"espnWP": [],
+"espnWP": [
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.085,
+"playId": "401371315101806201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.081,
+"playId": "401371315101808101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.079,
+"playId": "401371315101808102"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.07,
+"playId": "401371315101809601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.066,
+"playId": "401371315101815101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.064,
+"playId": "401371315101815301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.072,
+"playId": "401371315101815901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.072,
+"playId": "401371315101815902"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.065,
+"playId": "401371315101817601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.065,
+"playId": "401371315101817602"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.073,
+"playId": "401371315101819301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.073,
+"playId": "401371315101819302"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.068,
+"playId": "401371315101824501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.066,
+"playId": "401371315101824701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.073,
+"playId": "401371315101825801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.075,
+"playId": "401371315101826101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.086,
+"playId": "401371315101827001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.092,
+"playId": "401371315101828401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.095,
+"playId": "401371315101829101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.119,
+"playId": "401371315101834201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.096,
+"playId": "401371315101835401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.091,
+"playId": "401371315101836501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.089,
+"playId": "401371315101836901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.08,
+"playId": "401371315101838601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.092,
+"playId": "401371315101845601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.1,
+"playId": "401371315101846901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.102,
+"playId": "401371315101847001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.096,
+"playId": "401371315101847701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.094,
+"playId": "401371315101848301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.101,
+"playId": "401371315101849001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.101,
+"playId": "401371315101849002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.103,
+"playId": "401371315101849003"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.119,
+"playId": "401371315101849601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.132,
+"playId": "401371315101855401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.132,
+"playId": "401371315101855402"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.145,
+"playId": "401371315101856101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.159,
+"playId": "401371315101858801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.163,
+"playId": "401371315101859101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.154,
+"playId": "401371315101864201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.15,
+"playId": "401371315101864501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.163,
+"playId": "401371315101865601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.167,
+"playId": "401371315101865901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.153,
+"playId": "401371315101866701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.153,
+"playId": "401371315101866702"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.166,
+"playId": "401371315101868401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.171,
+"playId": "401371315101868701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.215,
+"playId": "401371315101869701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.233,
+"playId": "401371315101875501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.239,
+"playId": "401371315101875901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.229,
+"playId": "401371315101878901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.224,
+"playId": "401371315101879501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.242,
+"playId": "401371315101884301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.248,
+"playId": "401371315101884701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.237,
+"playId": "401371315101887601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.254,
+"playId": "401371315101888101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.282,
+"playId": "401371315101888501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.256,
+"playId": "401371315101889101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.246,
+"playId": "401371315101896201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.241,
+"playId": "401371315101896901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.239,
+"playId": "401371315101896902"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.22,
+"playId": "401371315101896903"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.237,
+"playId": "401371315101896904"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.237,
+"playId": "401371315101896905"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.224,
+"playId": "401371315101897601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.22,
+"playId": "401371315101898001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.237,
+"playId": "401371315101899401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.242,
+"playId": "401371315101899801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.23,
+"playId": "401371315101905101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.23,
+"playId": "401371315101905102"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.226,
+"playId": "401371315101905701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.18,
+"playId": "401371315101905702"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.202,
+"playId": "401371315101906501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.187,
+"playId": "401371315101914401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.239,
+"playId": "401371315101916901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.211,
+"playId": "401371315101918101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.2,
+"playId": "401371315101919501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.195,
+"playId": "401371315101919701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.193,
+"playId": "401371315101924001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.193,
+"playId": "401371315101924002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.174,
+"playId": "401371315101924801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.163,
+"playId": "401371315101926101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.16,
+"playId": "401371315101926401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.176,
+"playId": "401371315101927001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.176,
+"playId": "401371315101927002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.166,
+"playId": "401371315101928501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.163,
+"playId": "401371315101928901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.177,
+"playId": "401371315101935001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.177,
+"playId": "401371315101935002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.182,
+"playId": "401371315101935801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.186,
+"playId": "401371315101936601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.185,
+"playId": "401371315101936701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.185,
+"playId": "401371315101936702"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.185,
+"playId": "401371315101936703"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.168,
+"playId": "401371315101936704"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.181,
+"playId": "401371315101937301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.181,
+"playId": "401371315101937302"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.186,
+"playId": "401371315101938001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.178,
+"playId": "401371315101945301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.174,
+"playId": "401371315101945601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.151,
+"playId": "401371315101946801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.143,
+"playId": "401371315101948901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.153,
+"playId": "401371315101949201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.179,
+"playId": "401371315101949601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.155,
+"playId": "401371315101955001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.205,
+"playId": "401371315101956501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.203,
+"playId": "401371315101957701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.222,
+"playId": "401371315101964101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.209,
+"playId": "401371315101964501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.222,
+"playId": "401371315101964601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.209,
+"playId": "401371315101964701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.179,
+"playId": "401371315101965201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.179,
+"playId": "401371315101965202"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.171,
+"playId": "401371315101967201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.168,
+"playId": "401371315101967501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.179,
+"playId": "401371315101968201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.182,
+"playId": "401371315101968401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.177,
+"playId": "401371315101976301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.174,
+"playId": "401371315101976601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.191,
+"playId": "401371315101977201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.189,
+"playId": "401371315101977202"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.228,
+"playId": "401371315101978901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.241,
+"playId": "401371315101979801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.245,
+"playId": "401371315101984301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.235,
+"playId": "401371315101985101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.232,
+"playId": "401371315101985401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.247,
+"playId": "401371315101987601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.234,
+"playId": "401371315101987602"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.236,
+"playId": "401371315101987901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.248,
+"playId": "401371315101988401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.252,
+"playId": "401371315101988901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.332,
+"playId": "401371315101989101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.353,
+"playId": "401371315101996201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.358,
+"playId": "401371315101996501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.432,
+"playId": "401371315101998501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.429,
+"playId": "401371315101999201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.446,
+"playId": "401371315101999801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.464,
+"playId": "401371315101999901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.471,
+"playId": "401371315102805101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.499,
+"playId": "401371315102805102"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.508,
+"playId": "401371315102805103"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.489,
+"playId": "401371315102805104"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.47,
+"playId": "401371315102808501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.442,
+"playId": "401371315102809401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.433,
+"playId": "401371315102809901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.396,
+"playId": "401371315102816001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.358,
+"playId": "401371315102816002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.349,
+"playId": "401371315102816003"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.327,
+"playId": "401371315102816901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.319,
+"playId": "401371315102817301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.345,
+"playId": "401371315102818001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.321,
+"playId": "401371315102818401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.348,
+"playId": "401371315102819301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.357,
+"playId": "401371315102819601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.404,
+"playId": "401371315102825501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.366,
+"playId": "401371315102827301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.342,
+"playId": "401371315102828301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.334,
+"playId": "401371315102828801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.325,
+"playId": "401371315102829001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.325,
+"playId": "401371315102829002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.325,
+"playId": "401371315102829003"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.289,
+"playId": "401371315102829004"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.409,
+"playId": "401371315102835201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.37,
+"playId": "401371315102837301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.422,
+"playId": "401371315102844101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.422,
+"playId": "401371315102844901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.466,
+"playId": "401371315102845501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.466,
+"playId": "401371315102845502"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.446,
+"playId": "401371315102848601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.437,
+"playId": "401371315102848901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.434,
+"playId": "401371315102855201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.466,
+"playId": "401371315102855501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.477,
+"playId": "401371315102855801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.439,
+"playId": "401371315102857001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.439,
+"playId": "401371315102857002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.434,
+"playId": "401371315102858101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.396,
+"playId": "401371315102858102"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.385,
+"playId": "401371315102858103"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.342,
+"playId": "401371315102858104"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.353,
+"playId": "401371315102859201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.328,
+"playId": "401371315102865301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.358,
+"playId": "401371315102865701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.329,
+"playId": "401371315102865801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.319,
+"playId": "401371315102865802"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.314,
+"playId": "401371315102866501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.344,
+"playId": "401371315102867101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.355,
+"playId": "401371315102867701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.326,
+"playId": "401371315102867901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.316,
+"playId": "401371315102867902"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.313,
+"playId": "401371315102868801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.275,
+"playId": "401371315102868901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.274,
+"playId": "401371315102868902"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.242,
+"playId": "401371315102874801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.242,
+"playId": "401371315102874802"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.177,
+"playId": "401371315102875301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.158,
+"playId": "401371315102878001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.152,
+"playId": "401371315102878301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.171,
+"playId": "401371315102878701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.178,
+"playId": "401371315102879201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.246,
+"playId": "401371315102879801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.274,
+"playId": "401371315102885101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.284,
+"playId": "401371315102885501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.258,
+"playId": "401371315102887401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.287,
+"playId": "401371315102887701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.298,
+"playId": "401371315102888101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.298,
+"playId": "401371315102888102"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.332,
+"playId": "401371315102888103"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.342,
+"playId": "401371315102888104"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.401,
+"playId": "401371315102889101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.401,
+"playId": "401371315102889102"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.506,
+"playId": "401371315102894101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.561,
+"playId": "401371315102895001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.533,
+"playId": "401371315102898101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.521,
+"playId": "401371315102898401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.468,
+"playId": "401371315102899401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.437,
+"playId": "401371315102905601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.425,
+"playId": "401371315102905901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.402,
+"playId": "401371315102906601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.38,
+"playId": "401371315102906602"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.367,
+"playId": "401371315102906603"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.335,
+"playId": "401371315102907601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.371,
+"playId": "401371315102907603"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.378,
+"playId": "401371315102907604"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.476,
+"playId": "401371315102907605"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.477,
+"playId": "401371315102908201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.427,
+"playId": "401371315102908801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.447,
+"playId": "401371315102908802"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.447,
+"playId": "401371315102908803"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.447,
+"playId": "401371315102908804"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.499,
+"playId": "401371315102909001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.563,
+"playId": "401371315102914901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.62,
+"playId": "401371315102916001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.62,
+"playId": "401371315102916002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.678,
+"playId": "401371315102916801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.717,
+"playId": "401371315102918001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.73,
+"playId": "401371315102918501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.702,
+"playId": "401371315102924201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.738,
+"playId": "401371315102924601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.83,
+"playId": "401371315102925001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.866,
+"playId": "401371315102928001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.875,
+"playId": "401371315102928301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.86,
+"playId": "401371315102934801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.853,
+"playId": "401371315102935101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.885,
+"playId": "401371315102935401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.885,
+"playId": "401371315102935402"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.862,
+"playId": "401371315102935403"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.854,
+"playId": "401371315102935404"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.904,
+"playId": "401371315102937201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.893,
+"playId": "401371315102937202"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.926,
+"playId": "401371315102939001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.95,
+"playId": "401371315102939501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.958,
+"playId": "401371315102939502"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.958,
+"playId": "401371315102944201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.947,
+"playId": "401371315102944501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.941,
+"playId": "401371315102945701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.937,
+"playId": "401371315102945801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.932,
+"playId": "401371315102945802"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.919,
+"playId": "401371315102948801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.919,
+"playId": "401371315102948802"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.919,
+"playId": "401371315102948803"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.899,
+"playId": "401371315102948804"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.893,
+"playId": "401371315102948805"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.875,
+"playId": "401371315102954801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.9,
+"playId": "401371315102955101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.876,
+"playId": "401371315102957401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.901,
+"playId": "401371315102958001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.91,
+"playId": "401371315102958401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.923,
+"playId": "401371315102964501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.923,
+"playId": "401371315102964502"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.934,
+"playId": "401371315102964503"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.94,
+"playId": "401371315102964504"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.954,
+"playId": "401371315102964901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.959,
+"playId": "401371315102965301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.948,
+"playId": "401371315102967201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.929,
+"playId": "401371315102968901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.945,
+"playId": "401371315102974201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.927,
+"playId": "401371315102974202"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.905,
+"playId": "401371315102974401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.947,
+"playId": "401371315102974901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.935,
+"playId": "401371315102974902"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.959,
+"playId": "401371315102975501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.976,
+"playId": "401371315102976301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.976,
+"playId": "401371315102976302"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.973,
+"playId": "401371315102976303"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.976,
+"playId": "401371315102976304"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.985,
+"playId": "401371315102976305"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.985,
+"playId": "401371315102977501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.985,
+"playId": "401371315102977502"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.988,
+"playId": "401371315102978001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.991,
+"playId": "401371315102978201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.993,
+"playId": "401371315102978301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.994,
+"playId": "401371315102978302"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.982,
+"playId": "401371315102978901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.971,
+"playId": "401371315102984101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.971,
+"playId": "401371315102984102"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.952,
+"playId": "401371315102984103"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.926,
+"playId": "401371315102984801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.926,
+"playId": "401371315102984802"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.896,
+"playId": "401371315102985301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.912,
+"playId": "401371315102985501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.882,
+"playId": "401371315102985502"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.897,
+"playId": "401371315102985503"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.897,
+"playId": "401371315102985504"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.847,
+"playId": "401371315102985801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.893,
+"playId": "401371315102986601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.857,
+"playId": "401371315102986901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.81,
+"playId": "401371315102987201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.837,
+"playId": "401371315102987601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.851,
+"playId": "401371315102987602"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.864,
+"playId": "401371315102987603"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.852,
+"playId": "401371315102988601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.839,
+"playId": "401371315102988602"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.824,
+"playId": "401371315102988603"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.849,
+"playId": "401371315102988801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.862,
+"playId": "401371315102988802"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.824,
+"playId": "401371315102988803"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.831,
+"playId": "401371315102989401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.711,
+"playId": "401371315102994501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.61,
+"playId": "401371315102995802"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.61,
+"playId": "401371315102995803"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.749,
+"playId": "401371315102997201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.749,
+"playId": "401371315102997202"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.885,
+"playId": "401371315102998701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.9,
+"playId": "401371315102998702"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.914,
+"playId": "401371315102998703"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.973,
+"playId": "401371315102999301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.979,
+"playId": "401371315102999302"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.987,
+"playId": "401371315102999401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.989,
+"playId": "401371315102999402"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.991,
+"playId": "401371315102999403"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.983,
+"playId": "401371315102999601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 1.0,
+"playId": "401371315102999901"
+}
+],
 "gameInfo": {
 "date": "2022-01-30T02:30Z",
 "commentaryAvailable": false,
@@ -21213,7 +22881,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {

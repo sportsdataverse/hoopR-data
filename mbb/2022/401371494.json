@@ -14766,12 +14766,12 @@
 "abbreviation": "FG%"
 },
 {
-"displayValue": "8-11",
+"displayValue": "8-10",
 "name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
 "label": "3PT"
 },
 {
-"displayValue": "72.7",
+"displayValue": "80.0",
 "name": "threePointFieldGoalPct",
 "label": "Three Point %",
 "abbreviation": "3P%"
@@ -15105,7 +15105,7 @@
 "stats": [
 "29",
 "7-9",
-"0-1",
+"0-0",
 "1-1",
 "2",
 "3",
@@ -16080,7 +16080,7 @@
 "totals": [
 "",
 "38-55",
-"8-11",
+"8-10",
 "17-19",
 "11",
 "22",
@@ -16229,7 +16229,7 @@
 "athlete": {
 "uid": "s:40~l:41~a:4896862",
 "displayName": "Ali Abdou Dibba",
-"jersey": "12",
+"jersey": "14",
 "guid": "1e48c1d9-9973-3874-b084-4f85a45e4f9c",
 "links": [
 {
@@ -16365,7 +16365,7 @@
 "alt": "Jahsean Corbett",
 "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4896860.png"
 },
-"jersey": "5",
+"jersey": "24",
 "guid": "1fc1888b-5dcb-30f6-9e64-763454b500cf",
 "links": [
 {
@@ -16637,7 +16637,7 @@
 "alt": "Favour Chukwukelu",
 "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4896867.png"
 },
-"jersey": "24",
+"jersey": "5",
 "guid": "cccb15d7-3070-3ad9-927c-3b28ce440ecd",
 "links": [
 {
@@ -16881,7 +16881,7 @@
 "alt": "Robert Pierce Blount",
 "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4896863.png"
 },
-"jersey": "20",
+"jersey": "13",
 "guid": "5e21dbfa-10e5-3832-a162-048867a38d96",
 "links": [
 {
@@ -17702,12 +17702,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2547",
+"uid": "s:40~l:41~t:166",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-4",
-"displayValue": "16-4",
+"summary": "21-4",
+"displayValue": "21-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17727,8 +17727,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-0",
-"displayValue": "7-0",
+"summary": "11-2",
+"displayValue": "11-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/166/new-mexico-state-aggies",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+"height": 500
+}
+],
+"team": "New Mexico State",
+"id": "166"
+},
+{
+"uid": "s:40~l:41~t:2547",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "20-6",
+"displayValue": "20-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-2",
+"displayValue": "11-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17759,8 +17812,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-9",
-"displayValue": "13-9",
+"summary": "16-11",
+"displayValue": "16-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17770,18 +17823,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-1",
-"displayValue": "8-1",
+"summary": "11-3",
+"displayValue": "11-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17808,65 +17861,12 @@
 "id": "2534"
 },
 {
-"uid": "s:40~l:41~t:166",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "16-3",
-"displayValue": "16-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-1",
-"displayValue": "5-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/166/new-mexico-state-aggies",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
-"height": 500
-}
-],
-"team": "New Mexico State",
-"id": "166"
-},
-{
 "uid": "s:40~l:41~t:2253",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-4",
-"displayValue": "14-4",
+"summary": "18-6",
+"displayValue": "18-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17876,18 +17876,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17914,65 +17914,12 @@
 "id": "2253"
 },
 {
-"uid": "s:40~l:41~t:3084",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "14-6",
-"displayValue": "14-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/3084/utah-valley-wolverines",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
-"height": 500
-}
-],
-"team": "Utah Valley",
-"id": "3084"
-},
-{
 "uid": "s:40~l:41~t:2617",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-8",
-"displayValue": "12-8",
+"summary": "17-8",
+"displayValue": "17-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17982,18 +17929,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-4",
-"displayValue": "4-4",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18020,12 +17967,12 @@
 "id": "2617"
 },
 {
-"uid": "s:40~l:41~t:2000",
+"uid": "s:40~l:41~t:3084",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-7",
-"displayValue": "13-7",
+"summary": "17-8",
+"displayValue": "17-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18035,18 +17982,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "8-5",
+"displayValue": "8-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/3084/utah-valley-wolverines",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
+"height": 500
+}
+],
+"team": "Utah Valley",
+"id": "3084"
+},
+{
+"uid": "s:40~l:41~t:2000",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "17-8",
+"displayValue": "17-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "8-6",
+"displayValue": "8-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18077,8 +18077,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-13",
-"displayValue": "9-13",
+"summary": "11-15",
+"displayValue": "11-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18088,18 +18088,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18130,8 +18130,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-10",
-"displayValue": "10-10",
+"summary": "12-14",
+"displayValue": "12-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18141,18 +18141,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-4",
-"displayValue": "3-4",
+"summary": "5-8",
+"displayValue": "5-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18183,8 +18183,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-8",
-"displayValue": "12-8",
+"summary": "14-12",
+"displayValue": "14-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18194,18 +18194,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "4-9",
+"displayValue": "4-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18236,8 +18236,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-14",
-"displayValue": "6-14",
+"summary": "6-20",
+"displayValue": "6-20",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18247,18 +18247,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "2-11",
+"displayValue": "2-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18289,8 +18289,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-14",
-"displayValue": "6-14",
+"summary": "7-19",
+"displayValue": "7-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18300,18 +18300,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "9.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 9.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-7",
-"displayValue": "1-7",
+"summary": "2-12",
+"displayValue": "2-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18342,8 +18342,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-18",
-"displayValue": "2-18",
+"summary": "2-22",
+"displayValue": "2-22",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18353,18 +18353,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 11
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-7",
-"displayValue": "0-7",
+"summary": "0-13",
+"displayValue": "0-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18464,10 +18464,10 @@
 "underdog": false,
 "moneyLine": -641,
 "spreadRecord": {
-"wins": 9,
-"losses": 8,
+"wins": 12,
+"losses": 10,
 "pushes": 0,
-"summary": "9-8-0"
+"summary": "12-10-0"
 },
 "spreadOdds": -110.0,
 "teamId": "3084"
@@ -18478,10 +18478,10 @@
 "underdog": true,
 "moneyLine": 455,
 "spreadRecord": {
-"wins": 12,
-"losses": 8,
+"wins": 14,
+"losses": 11,
 "pushes": 0,
-"summary": "12-8-0"
+"summary": "14-11-0"
 },
 "spreadOdds": -106.0,
 "teamId": "2130"

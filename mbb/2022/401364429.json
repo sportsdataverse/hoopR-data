@@ -19997,8 +19997,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "21-3",
-"displayValue": "21-3",
+"summary": "23-4",
+"displayValue": "23-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20018,8 +20018,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-3",
-"displayValue": "10-3",
+"summary": "12-4",
+"displayValue": "12-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20050,8 +20050,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-4",
-"displayValue": "19-4",
+"summary": "20-5",
+"displayValue": "20-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20061,18 +20061,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-3",
-"displayValue": "10-3",
+"summary": "11-4",
+"displayValue": "11-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20103,8 +20103,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-6",
-"displayValue": "17-6",
+"summary": "18-7",
+"displayValue": "18-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20114,18 +20114,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-3",
-"displayValue": "10-3",
+"summary": "11-4",
+"displayValue": "11-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20156,8 +20156,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-5",
-"displayValue": "14-5",
+"summary": "16-6",
+"displayValue": "16-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20177,8 +20177,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-3",
-"displayValue": "7-3",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20205,12 +20205,12 @@
 "id": "194"
 },
 {
-"uid": "s:40~l:41~t:127",
+"uid": "s:40~l:41~t:164",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-6",
-"displayValue": "17-6",
+"summary": "16-9",
+"displayValue": "16-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20230,61 +20230,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-4",
-"displayValue": "8-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-"height": 500
-}
-],
-"team": "Michigan State",
-"id": "127"
-},
-{
-"uid": "s:40~l:41~t:164",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "13-9",
-"displayValue": "13-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "7-5",
-"displayValue": "7-5",
+"summary": "10-5",
+"displayValue": "10-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20311,12 +20258,65 @@
 "id": "164"
 },
 {
+"uid": "s:40~l:41~t:127",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "18-7",
+"displayValue": "18-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "9-5",
+"displayValue": "9-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+"height": 500
+}
+],
+"team": "Michigan State",
+"id": "127"
+},
+{
 "uid": "s:40~l:41~t:130",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-9",
-"displayValue": "12-9",
+"summary": "14-10",
+"displayValue": "14-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20336,8 +20336,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-5",
-"displayValue": "6-5",
+"summary": "8-6",
+"displayValue": "8-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20364,65 +20364,12 @@
 "id": "130"
 },
 {
-"uid": "s:40~l:41~t:84",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "16-7",
-"displayValue": "16-7",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "7-6",
-"displayValue": "7-6",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/84/indiana-hoosiers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-"height": 500
-}
-],
-"team": "Indiana",
-"id": "84"
-},
-{
 "uid": "s:40~l:41~t:2294",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-7",
-"displayValue": "15-7",
+"summary": "17-8",
+"displayValue": "17-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20442,8 +20389,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-6",
-"displayValue": "5-6",
+"summary": "7-7",
+"displayValue": "7-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20470,12 +20417,12 @@
 "id": "2294"
 },
 {
-"uid": "s:40~l:41~t:77",
+"uid": "s:40~l:41~t:84",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-10",
-"displayValue": "12-10",
+"summary": "16-9",
+"displayValue": "16-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20485,18 +20432,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-8",
-"displayValue": "5-8",
+"summary": "7-8",
+"displayValue": "7-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20505,30 +20452,30 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/77/northwestern-wildcats",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/84/indiana-hoosiers",
 "logo": [
 {
-"lastUpdated": "2021-07-16T05:37Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
 "height": 500
 }
 ],
-"team": "Northwestern",
-"id": "77"
+"team": "Indiana",
+"id": "84"
 },
 {
 "uid": "s:40~l:41~t:213",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-11",
-"displayValue": "9-11",
+"summary": "11-12",
+"displayValue": "11-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20548,8 +20495,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-8",
-"displayValue": "4-8",
+"summary": "6-9",
+"displayValue": "6-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20576,12 +20523,12 @@
 "id": "213"
 },
 {
-"uid": "s:40~l:41~t:120",
+"uid": "s:40~l:41~t:77",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-12",
-"displayValue": "11-12",
+"summary": "12-12",
+"displayValue": "12-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20601,8 +20548,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-9",
-"displayValue": "3-9",
+"summary": "5-10",
+"displayValue": "5-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/77/northwestern-wildcats",
+"logo": [
+{
+"lastUpdated": "2021-07-16T05:37Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+"height": 500
+}
+],
+"team": "Northwestern",
+"id": "77"
+},
+{
+"uid": "s:40~l:41~t:120",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-14",
+"displayValue": "11-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-11",
+"displayValue": "3-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20633,8 +20633,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-9",
-"displayValue": "11-9",
+"summary": "12-12",
+"displayValue": "12-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20644,18 +20644,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-9",
-"displayValue": "2-9",
+"summary": "3-12",
+"displayValue": "3-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20686,8 +20686,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-17",
-"displayValue": "6-17",
+"summary": "7-18",
+"displayValue": "7-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20697,18 +20697,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "9.5",
+"displayValue": "10",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.5
+"value": 10
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-12",
-"displayValue": "0-12",
+"summary": "1-13",
+"displayValue": "1-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20808,10 +20808,10 @@
 "underdog": true,
 "moneyLine": 155,
 "spreadRecord": {
-"wins": 12,
-"losses": 10,
+"wins": 13,
+"losses": 11,
 "pushes": 0,
-"summary": "12-10-0"
+"summary": "13-11-0"
 },
 "spreadOdds": -110.0,
 "teamId": "275"
@@ -20822,10 +20822,10 @@
 "underdog": false,
 "moneyLine": -175,
 "spreadRecord": {
-"wins": 12,
-"losses": 10,
+"wins": 13,
+"losses": 11,
 "pushes": 0,
-"summary": "12-10-0"
+"summary": "13-11-0"
 },
 "spreadOdds": -110.0,
 "teamId": "127"

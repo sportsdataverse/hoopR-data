@@ -26588,7 +26588,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -26657,6 +26657,18 @@
 "href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401368326",
 "text": "Team Stats",
 "isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Videos",
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/video?gameId=401368326",
+"text": "Videos",
+"isPremium": false
 }
 ],
 "id": "401368326"
@@ -26683,7 +26695,101 @@
 "region": "us"
 }
 ],
-"videos": [],
+"videos": [
+{
+"cerebroId": "620b3127be6ab3731243eb76",
+"thumbnail": "https://a.espncdn.com/media/motion/2022/0215/dm_220214_SVP_BEST_GAME8/dm_220214_SVP_BEST_GAME8.jpg",
+"ad": {
+"sport": "ncb",
+"bundle": "ncb_instant_replay"
+},
+"timeRestrictions": {
+"embargoDate": "2022-02-15T04:49:13Z",
+"expirationDate": "2022-06-01T03:49:13Z"
+},
+"description": "Scott Van Pelt goes over all the key events in the dramatic ending between Purdue Fort Wayne and Cleveland State.",
+"source": "espn",
+"tracking": {
+"leagueName": "No League",
+"trackingName": "COM_NCB Highlight (This hectic 3OT thriller is the best thing SVP saw on Monday) 2022/2/14 ESHEET SVP",
+"coverageType": "Final Game Highlight",
+"sportName": "ncb",
+"trackingId": "dm_220214_SVP_BEST_GAME"
+},
+"duration": 207,
+"deviceRestrictions": {
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+],
+"type": "whitelist"
+},
+"originalPublishDate": "2022-02-15T04:49:13Z",
+"links": {
+"web": {
+"short": {
+"href": "https://es.pn/3uRefNQ"
+},
+"self": {
+"href": "http://espn.go.com/video/clip?id=33292781&ex_cid=espnapi_internal"
+},
+"href": "http://espn.go.com/video/clip?id=33292781&ex_cid=espnapi_internal"
+},
+"mobile": {
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f0bc0018-514e-4121-88d3-b266e703f8ab/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33292781"
+},
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=33292781&ex_cid=espnapi_internal"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f0bc0018-514e-4121-88d3-b266e703f8ab/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33292781"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0214/dm_220214_SVP_BEST_GAME/dm_220214_SVP_BEST_GAME.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f0bc0018-514e-4121-88d3-b266e703f8ab/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33292781"
+},
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/33292781"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/f0bc0018-514e-4121-88d3-b266e703f8ab"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2022/0214/dm_220214_SVP_BEST_GAME/dm_220214_SVP_BEST_GAME.mp4"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2022/0214/dm_220214_SVP_BEST_GAME/dm_220214_SVP_BEST_GAME_rel.smil/manifest.f4m"
+},
+"href": "https://media.video-cdn.espn.com/motion/2022/0214/dm_220214_SVP_BEST_GAME/dm_220214_SVP_BEST_GAME_360p30_1464k.mp4",
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0214/dm_220214_SVP_BEST_GAME/dm_220214_SVP_BEST_GAME_720p30_2896k.mp4"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0214/dm_220214_SVP_BEST_GAME/dm_220214_SVP_BEST_GAME.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0214/dm_220214_SVP_BEST_GAME/dm_220214_SVP_BEST_GAME.smil/master.m3u8"
+}
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0214/dm_220214_SVP_BEST_GAME/dm_220214_SVP_BEST_GAME.smil"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0214/dm_220214_SVP_BEST_GAME/dm_220214_SVP_BEST_GAME_360p30_1464k.mp4"
+}
+}
+},
+"id": 33292781,
+"lastModified": "2022-02-15T14:02:41Z",
+"headline": "This hectic 3OT thriller is the best thing SVP saw on Monday"
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -26692,7 +26798,6 @@
 },
 "groups": [
 {
-"moduleType": "standings",
 "header": "2021-22 Horizon League Standings",
 "href": "https://www.espn.com/mens-college-basketball/standings/_/group/45",
 "standings": {
@@ -26967,8 +27072,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-11",
-"displayValue": "16-11",
+"summary": "17-11",
+"displayValue": "17-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -26978,18 +27083,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-7",
-"displayValue": "10-7",
+"summary": "11-7",
+"displayValue": "11-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -27069,59 +27174,6 @@
 "id": "2174"
 },
 {
-"uid": "s:40~l:41~t:82",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "10-14",
-"displayValue": "10-14",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "6",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 6
-},
-{
-"shortDisplayName": "CONF",
-"summary": "6-9",
-"displayValue": "6-9",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/82/uic-flames",
-"logo": [
-{
-"lastUpdated": "2021-08-10T21:50Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/82.png",
-"height": 500
-}
-],
-"team": "UIC",
-"id": "82"
-},
-{
 "uid": "s:40~l:41~t:270",
 "stats": [
 {
@@ -27175,12 +27227,12 @@
 "id": "270"
 },
 {
-"uid": "s:40~l:41~t:2523",
+"uid": "s:40~l:41~t:82",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-19",
-"displayValue": "7-19",
+"summary": "10-15",
+"displayValue": "10-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -27190,18 +27242,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-12",
-"displayValue": "5-12",
+"summary": "6-10",
+"displayValue": "6-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/82/uic-flames",
+"logo": [
+{
+"lastUpdated": "2021-08-10T21:50Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/82.png",
+"height": 500
+}
+],
+"team": "UIC",
+"id": "82"
+},
+{
+"uid": "s:40~l:41~t:2523",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-20",
+"displayValue": "7-20",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-13",
+"displayValue": "5-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -27285,8 +27390,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-22",
-"displayValue": "2-22",
+"summary": "3-22",
+"displayValue": "3-22",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -27296,18 +27401,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "11",
+"displayValue": "10.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11
+"value": 10.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-13",
-"displayValue": "0-13",
+"summary": "1-13",
+"displayValue": "1-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -27408,9 +27513,9 @@
 "moneyLine": -135,
 "spreadRecord": {
 "wins": 10,
-"losses": 11,
+"losses": 12,
 "pushes": 0,
-"summary": "10-11-0"
+"summary": "10-12-0"
 },
 "spreadOdds": -110.0,
 "teamId": "325"
@@ -27421,10 +27526,10 @@
 "underdog": true,
 "moneyLine": 115,
 "spreadRecord": {
-"wins": 14,
+"wins": 15,
 "losses": 9,
 "pushes": 0,
-"summary": "14-9-0"
+"summary": "15-9-0"
 },
 "spreadOdds": -110.0,
 "teamId": "2870"
@@ -29934,7 +30039,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {

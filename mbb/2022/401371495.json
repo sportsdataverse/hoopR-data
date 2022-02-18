@@ -20375,12 +20375,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2547",
+"uid": "s:40~l:41~t:166",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-4",
-"displayValue": "16-4",
+"summary": "21-4",
+"displayValue": "21-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20400,8 +20400,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-0",
-"displayValue": "7-0",
+"summary": "11-2",
+"displayValue": "11-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/166/new-mexico-state-aggies",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+"height": 500
+}
+],
+"team": "New Mexico State",
+"id": "166"
+},
+{
+"uid": "s:40~l:41~t:2547",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "20-6",
+"displayValue": "20-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-2",
+"displayValue": "11-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20432,8 +20485,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-9",
-"displayValue": "13-9",
+"summary": "16-11",
+"displayValue": "16-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20443,18 +20496,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-1",
-"displayValue": "8-1",
+"summary": "11-3",
+"displayValue": "11-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20481,65 +20534,12 @@
 "id": "2534"
 },
 {
-"uid": "s:40~l:41~t:166",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "16-3",
-"displayValue": "16-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-1",
-"displayValue": "5-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/166/new-mexico-state-aggies",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
-"height": 500
-}
-],
-"team": "New Mexico State",
-"id": "166"
-},
-{
 "uid": "s:40~l:41~t:2253",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-4",
-"displayValue": "14-4",
+"summary": "18-6",
+"displayValue": "18-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20549,18 +20549,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20587,65 +20587,12 @@
 "id": "2253"
 },
 {
-"uid": "s:40~l:41~t:3084",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "13-6",
-"displayValue": "13-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-3",
-"displayValue": "4-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/3084/utah-valley-wolverines",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
-"height": 500
-}
-],
-"team": "Utah Valley",
-"id": "3084"
-},
-{
 "uid": "s:40~l:41~t:2617",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-8",
-"displayValue": "12-8",
+"summary": "17-8",
+"displayValue": "17-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20655,18 +20602,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-4",
-"displayValue": "4-4",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20693,12 +20640,12 @@
 "id": "2617"
 },
 {
-"uid": "s:40~l:41~t:2000",
+"uid": "s:40~l:41~t:3084",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-7",
-"displayValue": "13-7",
+"summary": "17-8",
+"displayValue": "17-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20708,18 +20655,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "8-5",
+"displayValue": "8-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/3084/utah-valley-wolverines",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
+"height": 500
+}
+],
+"team": "Utah Valley",
+"id": "3084"
+},
+{
+"uid": "s:40~l:41~t:2000",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "17-8",
+"displayValue": "17-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "8-6",
+"displayValue": "8-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20750,8 +20750,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-13",
-"displayValue": "9-13",
+"summary": "11-15",
+"displayValue": "11-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20761,18 +20761,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20803,8 +20803,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-10",
-"displayValue": "10-10",
+"summary": "12-14",
+"displayValue": "12-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20814,18 +20814,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-4",
-"displayValue": "3-4",
+"summary": "5-8",
+"displayValue": "5-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20852,65 +20852,12 @@
 "id": "3101"
 },
 {
-"uid": "s:40~l:41~t:2130",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-13",
-"displayValue": "6-13",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2130/chicago-state-cougars",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png",
-"height": 500
-}
-],
-"team": "Chicago State",
-"id": "2130"
-},
-{
 "uid": "s:40~l:41~t:2856",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-8",
-"displayValue": "12-8",
+"summary": "14-12",
+"displayValue": "14-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20920,18 +20867,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "4-9",
+"displayValue": "4-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20958,12 +20905,12 @@
 "id": "2856"
 },
 {
-"uid": "s:40~l:41~t:292",
+"uid": "s:40~l:41~t:2130",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-14",
-"displayValue": "6-14",
+"summary": "6-20",
+"displayValue": "6-20",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20973,18 +20920,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-7",
-"displayValue": "1-7",
+"summary": "2-11",
+"displayValue": "2-11",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2130/chicago-state-cougars",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png",
+"height": 500
+}
+],
+"team": "Chicago State",
+"id": "2130"
+},
+{
+"uid": "s:40~l:41~t:292",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-19",
+"displayValue": "7-19",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "9.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 9.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-12",
+"displayValue": "2-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21015,8 +21015,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-18",
-"displayValue": "2-18",
+"summary": "2-22",
+"displayValue": "2-22",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21026,18 +21026,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 11
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-7",
-"displayValue": "0-7",
+"summary": "0-13",
+"displayValue": "0-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21137,10 +21137,10 @@
 "underdog": false,
 "moneyLine": -104,
 "spreadRecord": {
-"wins": 12,
-"losses": 6,
+"wins": 15,
+"losses": 8,
 "pushes": 0,
-"summary": "12-6-0"
+"summary": "15-8-0"
 },
 "spreadOdds": 102.0,
 "teamId": "2534"
@@ -21151,10 +21151,10 @@
 "underdog": true,
 "moneyLine": -113,
 "spreadRecord": {
-"wins": 7,
-"losses": 8,
+"wins": 10,
+"losses": 11,
 "pushes": 1,
-"summary": "7-8-1"
+"summary": "10-11-1"
 },
 "spreadOdds": -119.0,
 "teamId": "2856"

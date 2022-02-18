@@ -18844,7 +18844,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -18875,6 +18875,18 @@
 ],
 "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401373709",
 "text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Recap",
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/recap?gameId=401373709",
+"text": "Recap",
 "isPremium": false
 },
 {
@@ -18956,8 +18968,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-9",
-"displayValue": "12-9",
+"summary": "15-9",
+"displayValue": "15-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18977,8 +18989,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-1",
-"displayValue": "7-1",
+"summary": "10-1",
+"displayValue": "10-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19009,8 +19021,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-6",
-"displayValue": "13-6",
+"summary": "15-8",
+"displayValue": "15-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19020,18 +19032,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-1",
-"displayValue": "6-1",
+"summary": "8-3",
+"displayValue": "8-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19062,8 +19074,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-7",
-"displayValue": "11-7",
+"summary": "13-8",
+"displayValue": "13-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19073,18 +19085,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-2",
-"displayValue": "6-2",
+"summary": "7-3",
+"displayValue": "7-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19111,7 +19123,7 @@
 "id": "62"
 },
 {
-"uid": "s:40~l:41~t:27",
+"uid": "s:40~l:41~t:300",
 "stats": [
 {
 "shortDisplayName": "Season",
@@ -19126,71 +19138,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/27/uc-riverside-highlanders",
-"logo": [
-{
-"lastUpdated": "2020-08-25T14:37Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/27.png",
-"height": 500
-}
-],
-"team": "UC Riverside",
-"id": "27"
-},
-{
-"uid": "s:40~l:41~t:300",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-7",
-"displayValue": "9-7",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-3",
-"displayValue": "4-3",
+"summary": "6-3",
+"displayValue": "6-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19217,6 +19176,59 @@
 "id": "300"
 },
 {
+"uid": "s:40~l:41~t:27",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "13-9",
+"displayValue": "13-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-4",
+"displayValue": "6-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/27/uc-riverside-highlanders",
+"logo": [
+{
+"lastUpdated": "2020-08-25T14:37Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/27.png",
+"height": 500
+}
+],
+"team": "UC Riverside",
+"id": "27"
+},
+{
 "uid": "s:40~l:41~t:302",
 "stats": [
 {
@@ -19232,13 +19244,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -19274,8 +19286,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-9",
-"displayValue": "9-9",
+"summary": "11-10",
+"displayValue": "11-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19285,18 +19297,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-4",
-"displayValue": "1-4",
+"summary": "3-5",
+"displayValue": "3-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19323,65 +19335,12 @@
 "id": "2540"
 },
 {
-"uid": "s:40~l:41~t:2934",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-10",
-"displayValue": "6-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-5",
-"displayValue": "1-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2934/csu-bakersfield-roadrunners",
-"logo": [
-{
-"lastUpdated": "2020-08-25T14:24Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2934.png",
-"height": 500
-}
-],
-"team": "CSU Bakersfield",
-"id": "2934"
-},
-{
 "uid": "s:40~l:41~t:2463",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-15",
-"displayValue": "5-15",
+"summary": "7-17",
+"displayValue": "7-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19391,18 +19350,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-6",
-"displayValue": "1-6",
+"summary": "3-8",
+"displayValue": "3-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19429,12 +19388,12 @@
 "id": "2463"
 },
 {
-"uid": "s:40~l:41~t:13",
+"uid": "s:40~l:41~t:2934",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-15",
-"displayValue": "5-15",
+"summary": "6-14",
+"displayValue": "6-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19444,18 +19403,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-7",
-"displayValue": "1-7",
+"summary": "1-9",
+"displayValue": "1-9",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2934/csu-bakersfield-roadrunners",
+"logo": [
+{
+"lastUpdated": "2020-08-25T14:24Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2934.png",
+"height": 500
+}
+],
+"team": "CSU Bakersfield",
+"id": "2934"
+},
+{
+"uid": "s:40~l:41~t:13",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-17",
+"displayValue": "5-17",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-9",
+"displayValue": "1-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19486,8 +19498,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-12",
-"displayValue": "10-12",
+"summary": "11-14",
+"displayValue": "11-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19497,13 +19509,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -19608,10 +19620,10 @@
 "underdog": true,
 "moneyLine": 135,
 "spreadRecord": {
-"wins": 10,
-"losses": 6,
-"pushes": 0,
-"summary": "10-6-0"
+"wins": 11,
+"losses": 7,
+"pushes": 1,
+"summary": "11-7-1"
 },
 "spreadOdds": -110.0,
 "teamId": "62"
@@ -19624,8 +19636,8 @@
 "spreadRecord": {
 "wins": 8,
 "losses": 6,
-"pushes": 0,
-"summary": "8-6-0"
+"pushes": 1,
+"summary": "8-6-1"
 },
 "spreadOdds": -110.0,
 "teamId": "302"
@@ -21417,7 +21429,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {

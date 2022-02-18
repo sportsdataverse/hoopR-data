@@ -14458,9 +14458,9 @@
 "half": "1",
 "game_half": "1",
 "lag_qtr": 2.0,
-"lead_qtr": null,
+"lead_qtr": 2.0,
 "lag_game_half": "1",
-"lead_game_half": null,
+"lead_game_half": "1",
 "start.quarter_seconds_remaining": 0,
 "start.half_seconds_remaining": 0,
 "start.game_seconds_remaining": 1200,
@@ -14468,6 +14468,59 @@
 "end.quarter_seconds_remaining": 14.0,
 "end.half_seconds_remaining": 14.0,
 "end.game_seconds_remaining": 1214.0,
+"period": 2
+},
+{
+"shootingPlay": false,
+"sequenceNumber": "102999902",
+"period.displayValue": "2nd Half",
+"period.number": 2,
+"homeScore": 84,
+"scoringPlay": false,
+"clock.displayValue": "0:00",
+"team.id": null,
+"type.id": "402",
+"type.text": "End Game",
+"awayScore": 69,
+"id": 401364740102999902,
+"text": "End of Game",
+"scoreValue": 0,
+"participants.0.athlete.id": null,
+"participants.1.athlete.id": null,
+"season": 2022,
+"seasonType": 2,
+"game_id": 401364740,
+"awayTeamId": 23,
+"awayTeamName": "San Jos\u00e9 State",
+"awayTeamMascot": "Spartans",
+"awayTeamAbbrev": "SJSU",
+"awayTeamNameAlt": "San Jos\u00e9 St",
+"homeTeamId": 2751,
+"homeTeamName": "Wyoming",
+"homeTeamMascot": "Cowboys",
+"homeTeamAbbrev": "WYO",
+"homeTeamNameAlt": "Wyoming",
+"homeTeamSpread": 15.5,
+"gameSpread": -15.5,
+"homeFavorite": true,
+"gameSpreadAvailable": true,
+"qtr": 2,
+"time": "0:00",
+"clock.minutes": "0",
+"clock.seconds": "00",
+"half": "1",
+"game_half": "1",
+"lag_qtr": 2.0,
+"lead_qtr": null,
+"lag_game_half": "1",
+"lead_game_half": null,
+"start.quarter_seconds_remaining": 0,
+"start.half_seconds_remaining": 0,
+"start.game_seconds_remaining": 1200,
+"game_play_number": 274,
+"end.quarter_seconds_remaining": 0.0,
+"end.half_seconds_remaining": 0.0,
+"end.game_seconds_remaining": 1200.0,
 "period": 2
 }
 ],
@@ -14839,7 +14892,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"30",
 "3-9",
 "2-6",
 "3-3",
@@ -14907,7 +14960,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"22",
 "5-9",
 "1-2",
 "3-3",
@@ -14975,7 +15028,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"31",
 "5-10",
 "3-5",
 "0-0",
@@ -15043,7 +15096,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"38",
 "6-13",
 "0-1",
 "3-5",
@@ -15111,7 +15164,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"37",
 "2-5",
 "1-3",
 "0-0",
@@ -15124,346 +15177,6 @@
 "0",
 "1",
 "5"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4897536",
-"displayName": "Majok Kuath",
-"headshot": {
-"alt": "Majok Kuath",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897536.png"
-},
-"jersey": "23",
-"guid": "b22074fb-5c38-325f-83b4-2b8f9fa8a194",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4897536/majok-kuath",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4897536/majok-kuath",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4897536/majok-kuath",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4897536/majok-kuath",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4897536/majok-kuath",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4897536/majok-kuath",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4897536/majok-kuath",
-"text": "Overview"
-}
-],
-"id": "4897536",
-"position": {
-"displayName": "Forward",
-"name": "Forward",
-"abbreviation": "F"
-},
-"shortName": "M. Kuath"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4703352",
-"displayName": "Michael Ofoegbu",
-"headshot": {
-"alt": "Michael Ofoegbu",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703352.png"
-},
-"jersey": "24",
-"guid": "fe1d43e5-2938-3fc1-959f-475c2b78bc7f",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4703352/michael-ofoegbu",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4703352/michael-ofoegbu",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4703352/michael-ofoegbu",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4703352/michael-ofoegbu",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4703352/michael-ofoegbu",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4703352/michael-ofoegbu",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4703352/michael-ofoegbu",
-"text": "Overview"
-}
-],
-"id": "4703352",
-"position": {
-"displayName": "Forward",
-"name": "Forward",
-"abbreviation": "F"
-},
-"shortName": "M. Ofoegbu"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4593099",
-"displayName": "Harminder Dhaliwal",
-"headshot": {
-"alt": "Harminder Dhaliwal",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4593099.png"
-},
-"jersey": "50",
-"guid": "89252679-a0fe-3823-a510-fe2a7e36d7dc",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4593099/harminder-dhaliwal",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4593099/harminder-dhaliwal",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4593099/harminder-dhaliwal",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4593099/harminder-dhaliwal",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4593099/harminder-dhaliwal",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4593099/harminder-dhaliwal",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4593099/harminder-dhaliwal",
-"text": "Overview"
-}
-],
-"id": "4593099",
-"position": {
-"displayName": "Center",
-"name": "Center",
-"abbreviation": "C"
-},
-"shortName": "H. Dhaliwal"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4593096",
-"displayName": "Eduardo Lane",
-"headshot": {
-"alt": "Eduardo Lane",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4593096.png"
-},
-"jersey": "12",
-"guid": "7a2423b5-f572-3d22-b1e5-9cf62f3abd2d",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4593096/eduardo-lane",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4593096/eduardo-lane",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4593096/eduardo-lane",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4593096/eduardo-lane",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4593096/eduardo-lane",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4593096/eduardo-lane",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4593096/eduardo-lane",
-"text": "Overview"
-}
-],
-"id": "4593096",
-"position": {
-"displayName": "Center",
-"name": "Center",
-"abbreviation": "C"
-},
-"shortName": "E. Lane"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4592720",
-"displayName": "Ibrahima Diallo",
-"headshot": {
-"alt": "Ibrahima Diallo",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4592720.png"
-},
-"jersey": "5",
-"guid": "8928b7ac-ec72-327e-9d27-9d52c7880d17",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4592720/ibrahima-diallo",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4592720/ibrahima-diallo",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4592720/ibrahima-diallo",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4592720/ibrahima-diallo",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4592720/ibrahima-diallo",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4592720/ibrahima-diallo",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4592720/ibrahima-diallo",
-"text": "Overview"
-}
-],
-"id": "4592720",
-"position": {
-"displayName": "Center",
-"name": "Center",
-"abbreviation": "C"
-},
-"shortName": "I. Diallo"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
 ],
 "didNotPlay": false,
 "active": false
@@ -15519,7 +15232,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"24",
 "2-4",
 "0-1",
 "2-2",
@@ -15587,7 +15300,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"8",
 "0-2",
 "0-1",
 "0-0",
@@ -15600,142 +15313,6 @@
 "0",
 "2",
 "0"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4703345",
-"displayName": "Sebastian Mendoza",
-"headshot": {
-"alt": "Sebastian Mendoza",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703345.png"
-},
-"jersey": "4",
-"guid": "d02ac50f-dcc5-3b30-8f58-6e81ab95be3a",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4703345/sebastian-mendoza",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4703345/sebastian-mendoza",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4703345/sebastian-mendoza",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4703345/sebastian-mendoza",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4703345/sebastian-mendoza",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4703345/sebastian-mendoza",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4703345/sebastian-mendoza",
-"text": "Overview"
-}
-],
-"id": "4703345",
-"position": {
-"displayName": "Guard",
-"name": "Guard",
-"abbreviation": "G"
-},
-"shortName": "S. Mendoza"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4684167",
-"displayName": "Josh O'Garro",
-"headshot": {
-"alt": "Josh O'Garro",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4684167.png"
-},
-"jersey": "42",
-"guid": "bba4c977-44c6-376c-8d1f-158a221b9a47",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4684167/josh-ogarro",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4684167/josh-ogarro",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4684167/josh-ogarro",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4684167/josh-ogarro",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4684167/josh-ogarro",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4684167/josh-ogarro",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4684167/josh-ogarro",
-"text": "Overview"
-}
-],
-"id": "4684167",
-"position": {
-"displayName": "Guard",
-"name": "Guard",
-"abbreviation": "G"
-},
-"shortName": "J. O'Garro"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
 ],
 "didNotPlay": false,
 "active": false
@@ -15791,7 +15368,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"9",
 "2-3",
 "1-2",
 "0-0",
@@ -15806,6 +15383,384 @@
 "5"
 ],
 "didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4897536",
+"displayName": "Majok Kuath",
+"headshot": {
+"alt": "Majok Kuath",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897536.png"
+},
+"jersey": "23",
+"guid": "b22074fb-5c38-325f-83b4-2b8f9fa8a194",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4897536/majok-kuath",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4897536/majok-kuath",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4897536/majok-kuath",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4897536/majok-kuath",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4897536/majok-kuath",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4897536/majok-kuath",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4897536/majok-kuath",
+"text": "Overview"
+}
+],
+"id": "4897536",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "M. Kuath"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4703352",
+"displayName": "Michael Ofoegbu",
+"headshot": {
+"alt": "Michael Ofoegbu",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703352.png"
+},
+"jersey": "24",
+"guid": "fe1d43e5-2938-3fc1-959f-475c2b78bc7f",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4703352/michael-ofoegbu",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4703352/michael-ofoegbu",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4703352/michael-ofoegbu",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4703352/michael-ofoegbu",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4703352/michael-ofoegbu",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4703352/michael-ofoegbu",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4703352/michael-ofoegbu",
+"text": "Overview"
+}
+],
+"id": "4703352",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "M. Ofoegbu"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4593099",
+"displayName": "Harminder Dhaliwal",
+"headshot": {
+"alt": "Harminder Dhaliwal",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4593099.png"
+},
+"jersey": "50",
+"guid": "89252679-a0fe-3823-a510-fe2a7e36d7dc",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4593099/harminder-dhaliwal",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4593099/harminder-dhaliwal",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4593099/harminder-dhaliwal",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4593099/harminder-dhaliwal",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4593099/harminder-dhaliwal",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4593099/harminder-dhaliwal",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4593099/harminder-dhaliwal",
+"text": "Overview"
+}
+],
+"id": "4593099",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "H. Dhaliwal"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4593096",
+"displayName": "Eduardo Lane",
+"headshot": {
+"alt": "Eduardo Lane",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4593096.png"
+},
+"jersey": "12",
+"guid": "7a2423b5-f572-3d22-b1e5-9cf62f3abd2d",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4593096/eduardo-lane",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4593096/eduardo-lane",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4593096/eduardo-lane",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4593096/eduardo-lane",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4593096/eduardo-lane",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4593096/eduardo-lane",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4593096/eduardo-lane",
+"text": "Overview"
+}
+],
+"id": "4593096",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "E. Lane"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4592720",
+"displayName": "Ibrahima Diallo",
+"headshot": {
+"alt": "Ibrahima Diallo",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4592720.png"
+},
+"jersey": "5",
+"guid": "8928b7ac-ec72-327e-9d27-9d52c7880d17",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4592720/ibrahima-diallo",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4592720/ibrahima-diallo",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4592720/ibrahima-diallo",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4592720/ibrahima-diallo",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4592720/ibrahima-diallo",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4592720/ibrahima-diallo",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4592720/ibrahima-diallo",
+"text": "Overview"
+}
+],
+"id": "4592720",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "I. Diallo"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4703345",
+"displayName": "Sebastian Mendoza",
+"headshot": {
+"alt": "Sebastian Mendoza",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703345.png"
+},
+"jersey": "4",
+"guid": "d02ac50f-dcc5-3b30-8f58-6e81ab95be3a",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4703345/sebastian-mendoza",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4703345/sebastian-mendoza",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4703345/sebastian-mendoza",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4703345/sebastian-mendoza",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4703345/sebastian-mendoza",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4703345/sebastian-mendoza",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4703345/sebastian-mendoza",
+"text": "Overview"
+}
+],
+"id": "4703345",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "S. Mendoza"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4684167",
+"displayName": "Josh O'Garro",
+"headshot": {
+"alt": "Josh O'Garro",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4684167.png"
+},
+"jersey": "42",
+"guid": "bba4c977-44c6-376c-8d1f-158a221b9a47",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4684167/josh-ogarro",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4684167/josh-ogarro",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4684167/josh-ogarro",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4684167/josh-ogarro",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4684167/josh-ogarro",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4684167/josh-ogarro",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4684167/josh-ogarro",
+"text": "Overview"
+}
+],
+"id": "4684167",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "J. O'Garro"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
 "active": false
 }
 ],
@@ -15940,7 +15895,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"32",
 "6-9",
 "0-2",
 "2-2",
@@ -16008,7 +15963,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"32",
 "2-3",
 "2-3",
 "0-0",
@@ -16076,7 +16031,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"40",
 "5-12",
 "5-12",
 "0-1",
@@ -16144,7 +16099,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"27",
 "5-5",
 "2-2",
 "3-4",
@@ -16212,7 +16167,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"39",
 "6-14",
 "1-4",
 "7-9",
@@ -16225,74 +16180,6 @@
 "3",
 "3",
 "20"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4897549",
-"displayName": "Nate Barnhart",
-"headshot": {
-"alt": "Nate Barnhart",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897549.png"
-},
-"jersey": "15",
-"guid": "703a6986-d510-3fe3-9c9d-5b667a7ae90d",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4897549/nate-barnhart",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4897549/nate-barnhart",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4897549/nate-barnhart",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4897549/nate-barnhart",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4897549/nate-barnhart",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4897549/nate-barnhart",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4897549/nate-barnhart",
-"text": "Overview"
-}
-],
-"id": "4897549",
-"position": {
-"displayName": "Forward",
-"name": "Forward",
-"abbreviation": "F"
-},
-"shortName": "N. Barnhart"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
 ],
 "didNotPlay": false,
 "active": false
@@ -16348,7 +16235,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"2",
 "0-0",
 "0-0",
 "0-0",
@@ -16361,210 +16248,6 @@
 "0",
 "1",
 "0"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4703396",
-"displayName": "Graham Ike",
-"headshot": {
-"alt": "Graham Ike",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703396.png"
-},
-"jersey": "33",
-"guid": "efdccd01-d4ac-30af-95a2-bc6c7bb27d29",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4703396/graham-ike",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4703396/graham-ike",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4703396/graham-ike",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4703396/graham-ike",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4703396/graham-ike",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4703396/graham-ike",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4703396/graham-ike",
-"text": "Overview"
-}
-],
-"id": "4703396",
-"position": {
-"displayName": "Forward",
-"name": "Forward",
-"abbreviation": "F"
-},
-"shortName": "G. Ike"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4703395",
-"displayName": "John Grigsby",
-"headshot": {
-"alt": "John Grigsby",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703395.png"
-},
-"jersey": "55",
-"guid": "110f882c-25f2-381f-8342-bb5b97b3499c",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4703395/john-grigsby",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4703395/john-grigsby",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4703395/john-grigsby",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4703395/john-grigsby",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4703395/john-grigsby",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4703395/john-grigsby",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4703395/john-grigsby",
-"text": "Overview"
-}
-],
-"id": "4703395",
-"position": {
-"displayName": "Forward",
-"name": "Forward",
-"abbreviation": "F"
-},
-"shortName": "J. Grigsby"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:41~a:4897552",
-"displayName": "Cort Roberson",
-"headshot": {
-"alt": "Cort Roberson",
-"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897552.png"
-},
-"jersey": "31",
-"guid": "bbcad5f5-6521-31e7-822f-81c7499a4703",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4897552/cort-roberson",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4897552/cort-roberson",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4897552/cort-roberson",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4897552/cort-roberson",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4897552/cort-roberson",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4897552/cort-roberson",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4897552/cort-roberson",
-"text": "Overview"
-}
-],
-"id": "4897552",
-"position": {
-"displayName": "Guard",
-"name": "Guard",
-"abbreviation": "G"
-},
-"shortName": "C. Roberson"
-},
-"ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
 ],
 "didNotPlay": false,
 "active": false
@@ -16620,7 +16303,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"28",
 "5-7",
 "3-3",
 "1-2",
@@ -16635,6 +16318,222 @@
 "14"
 ],
 "didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4897549",
+"displayName": "Nate Barnhart",
+"headshot": {
+"alt": "Nate Barnhart",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897549.png"
+},
+"jersey": "15",
+"guid": "703a6986-d510-3fe3-9c9d-5b667a7ae90d",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4897549/nate-barnhart",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4897549/nate-barnhart",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4897549/nate-barnhart",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4897549/nate-barnhart",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4897549/nate-barnhart",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4897549/nate-barnhart",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4897549/nate-barnhart",
+"text": "Overview"
+}
+],
+"id": "4897549",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "N. Barnhart"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4703396",
+"displayName": "Graham Ike",
+"headshot": {
+"alt": "Graham Ike",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703396.png"
+},
+"jersey": "33",
+"guid": "efdccd01-d4ac-30af-95a2-bc6c7bb27d29",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4703396/graham-ike",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4703396/graham-ike",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4703396/graham-ike",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4703396/graham-ike",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4703396/graham-ike",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4703396/graham-ike",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4703396/graham-ike",
+"text": "Overview"
+}
+],
+"id": "4703396",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "G. Ike"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4703395",
+"displayName": "John Grigsby",
+"headshot": {
+"alt": "John Grigsby",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703395.png"
+},
+"jersey": "55",
+"guid": "110f882c-25f2-381f-8342-bb5b97b3499c",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4703395/john-grigsby",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4703395/john-grigsby",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4703395/john-grigsby",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4703395/john-grigsby",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4703395/john-grigsby",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4703395/john-grigsby",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4703395/john-grigsby",
+"text": "Overview"
+}
+],
+"id": "4703395",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "J. Grigsby"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4897552",
+"displayName": "Cort Roberson",
+"headshot": {
+"alt": "Cort Roberson",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897552.png"
+},
+"jersey": "31",
+"guid": "bbcad5f5-6521-31e7-822f-81c7499a4703",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4897552/cort-roberson",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4897552/cort-roberson",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4897552/cort-roberson",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4897552/cort-roberson",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4897552/cort-roberson",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4897552/cort-roberson",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4897552/cort-roberson",
+"text": "Overview"
+}
+],
+"id": "4897552",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "C. Roberson"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
 "active": false
 },
 {
@@ -16687,22 +16586,8 @@
 "shortName": "D. Dut"
 },
 "ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
+"stats": [],
+"didNotPlay": true,
 "active": false
 },
 {
@@ -16755,22 +16640,8 @@
 "shortName": "X. DuSell"
 },
 "ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
+"stats": [],
+"didNotPlay": true,
 "active": false
 },
 {
@@ -16823,22 +16694,8 @@
 "shortName": "B. Bowen"
 },
 "ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
+"stats": [],
+"didNotPlay": true,
 "active": false
 },
 {
@@ -16891,22 +16748,8 @@
 "shortName": "K. Foster"
 },
 "ejected": false,
-"stats": [
-"--",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
-],
-"didNotPlay": false,
+"stats": [],
+"didNotPlay": true,
 "active": false
 }
 ],
@@ -17155,7 +16998,7 @@
 "date": "2022-01-20T02:00Z",
 "commentaryAvailable": false,
 "conferenceCompetition": true,
-"liveAvailable": true,
+"liveAvailable": false,
 "broadcasts": [],
 "groups": {
 "midsizeName": "Mountain West",
@@ -17171,31 +17014,24 @@
 "uid": "s:40~l:41~t:2751",
 "homeAway": "home",
 "score": "84",
-"fouls": {
-"foulsToGive": 0,
-"teamFouls": 0,
-"teamFoulsCurrent": 0,
-"bonusState": "NONE"
-},
-"timeoutsUsed": 0,
+"winner": true,
 "record": [
 {
-"summary": "13-2",
-"displayValue": "13-2",
+"summary": "14-2",
+"displayValue": "14-2",
 "type": "total"
 },
 {
-"summary": "6-0",
-"displayValue": "6-0",
+"summary": "7-0",
+"displayValue": "7-0",
 "type": "home"
 },
 {
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "3-0",
+"displayValue": "3-0",
 "type": "vsconf"
 }
 ],
-"timeoutsRemaining": 0,
 "possession": false,
 "id": "2751",
 "team": {
@@ -17258,31 +17094,24 @@
 "uid": "s:40~l:41~t:23",
 "homeAway": "away",
 "score": "69",
-"fouls": {
-"foulsToGive": 0,
-"teamFouls": 0,
-"teamFoulsCurrent": 0,
-"bonusState": "NONE"
-},
-"timeoutsUsed": 0,
+"winner": false,
 "record": [
 {
-"summary": "7-8",
-"displayValue": "7-8",
+"summary": "7-9",
+"displayValue": "7-9",
 "type": "total"
 },
 {
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "1-6",
+"displayValue": "1-6",
 "type": "road"
 },
 {
-"summary": "0-3",
-"displayValue": "0-3",
+"summary": "0-4",
+"displayValue": "0-4",
 "type": "vsconf"
 }
 ],
-"timeoutsRemaining": 0,
 "possession": false,
 "id": "23",
 "team": {
@@ -17348,20 +17177,18 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
-"period": 2,
-"displayClock": "0:00",
 "type": {
-"name": "STATUS_END_PERIOD",
-"description": "End of Period",
-"id": "22",
-"state": "in",
-"completed": false,
-"detail": "End of 2nd Half",
-"shortDetail": "End of 2nd"
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
 }
 }
 }
@@ -17373,14 +17200,26 @@
 "links": [
 {
 "isExternal": false,
-"shortText": "Gamecast",
+"shortText": "Summary",
 "rel": [
-"live",
+"summary",
 "desktop",
 "event"
 ],
-"href": "https://www.espn.com/mens-college-basketball/game?gameId=401364740",
+"href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401364740",
 "text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Recap",
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/recap?gameId=401364740",
+"text": "Recap",
 "isPremium": false
 },
 {
@@ -17441,8 +17280,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-4",
-"displayValue": "13-4",
+"summary": "20-6",
+"displayValue": "20-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17462,8 +17301,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-0",
-"displayValue": "4-0",
+"summary": "11-2",
+"displayValue": "11-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17494,8 +17333,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-2",
-"displayValue": "14-2",
+"summary": "21-4",
+"displayValue": "21-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17515,8 +17354,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-0",
-"displayValue": "3-0",
+"summary": "10-2",
+"displayValue": "10-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17543,65 +17382,12 @@
 "id": "2751"
 },
 {
-"uid": "s:40~l:41~t:21",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "10-3",
-"displayValue": "10-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/21/san-diego-state-aztecs",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
-"height": 500
-}
-],
-"team": "San Diego State",
-"id": "21"
-},
-{
 "uid": "s:40~l:41~t:36",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-1",
-"displayValue": "14-1",
+"summary": "21-3",
+"displayValue": "21-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17621,8 +17407,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-1",
-"displayValue": "4-1",
+"summary": "11-3",
+"displayValue": "11-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17649,65 +17435,12 @@
 "id": "36"
 },
 {
-"uid": "s:40~l:41~t:278",
+"uid": "s:40~l:41~t:21",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-4",
-"displayValue": "13-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-1",
-"displayValue": "3-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/278/fresno-state-bulldogs",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
-"height": 500
-}
-],
-"team": "Fresno State",
-"id": "278"
-},
-{
-"uid": "s:40~l:41~t:2439",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "10-7",
-"displayValue": "10-7",
+"summary": "16-6",
+"displayValue": "16-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17727,8 +17460,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-2",
-"displayValue": "2-2",
+"summary": "8-3",
+"displayValue": "8-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/21/san-diego-state-aztecs",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+"height": 500
+}
+],
+"team": "San Diego State",
+"id": "21"
+},
+{
+"uid": "s:40~l:41~t:2439",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "15-11",
+"displayValue": "15-11",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-6",
+"displayValue": "7-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17755,12 +17541,12 @@
 "id": "2439"
 },
 {
-"uid": "s:40~l:41~t:2440",
+"uid": "s:40~l:41~t:278",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-7",
-"displayValue": "8-7",
+"summary": "16-9",
+"displayValue": "16-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17770,18 +17556,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-2",
-"displayValue": "2-2",
+"summary": "6-6",
+"displayValue": "6-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17790,7 +17576,7 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2440/nevada-wolf-pack",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/278/fresno-state-bulldogs",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -17800,73 +17586,20 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
 "height": 500
 }
 ],
-"team": "Nevada",
-"id": "2440"
-},
-{
-"uid": "s:40~l:41~t:2005",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-7",
-"displayValue": "8-7",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-3",
-"displayValue": "1-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2005/air-force-falcons",
-"logo": [
-{
-"lastUpdated": "2019-07-31T20:01Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-"height": 500
-}
-],
-"team": "Air Force",
-"id": "2005"
+"team": "Fresno State",
+"id": "278"
 },
 {
 "uid": "s:40~l:41~t:328",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-8",
-"displayValue": "10-8",
+"summary": "15-12",
+"displayValue": "15-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17876,18 +17609,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-4",
-"displayValue": "1-4",
+"summary": "6-8",
+"displayValue": "6-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17914,12 +17647,12 @@
 "id": "328"
 },
 {
-"uid": "s:40~l:41~t:23",
+"uid": "s:40~l:41~t:2440",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-9",
-"displayValue": "7-9",
+"summary": "12-13",
+"displayValue": "12-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17929,18 +17662,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-4",
-"displayValue": "0-4",
+"summary": "6-8",
+"displayValue": "6-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17949,30 +17682,30 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/23/san-jose-state-spartans",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2440/nevada-wolf-pack",
 "logo": [
 {
-"lastUpdated": "2020-12-16T15:33Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
 "height": 500
 }
 ],
-"team": "San Jos\u00e9 State",
-"id": "23"
+"team": "Nevada",
+"id": "2440"
 },
 {
 "uid": "s:40~l:41~t:167",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-11",
-"displayValue": "7-11",
+"summary": "11-15",
+"displayValue": "11-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17982,18 +17715,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-5",
-"displayValue": "0-5",
+"summary": "3-9",
+"displayValue": "3-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18018,6 +17751,112 @@
 ],
 "team": "New Mexico",
 "id": "167"
+},
+{
+"uid": "s:40~l:41~t:2005",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "10-14",
+"displayValue": "10-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-10",
+"displayValue": "3-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2005/air-force-falcons",
+"logo": [
+{
+"lastUpdated": "2019-07-31T20:01Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+"height": 500
+}
+],
+"team": "Air Force",
+"id": "2005"
+},
+{
+"uid": "s:40~l:41~t:23",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-19",
+"displayValue": "7-19",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-14",
+"displayValue": "0-14",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/23/san-jose-state-spartans",
+"logo": [
+{
+"lastUpdated": "2020-12-16T15:33Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+"height": 500
+}
+],
+"team": "San Jos\u00e9 State",
+"id": "23"
 }
 ]
 }
@@ -18093,10 +17932,10 @@
 "underdog": true,
 "moneyLine": 1316,
 "spreadRecord": {
-"wins": 8,
-"losses": 6,
+"wins": 14,
+"losses": 10,
 "pushes": 0,
-"summary": "8-6-0"
+"summary": "14-10-0"
 },
 "spreadOdds": 101.0,
 "teamId": "23"
@@ -18107,10 +17946,10 @@
 "underdog": false,
 "moneyLine": -2701,
 "spreadRecord": {
-"wins": 9,
-"losses": 4,
-"pushes": 1,
-"summary": "9-4-1"
+"wins": 14,
+"losses": 7,
+"pushes": 2,
+"summary": "14-7-2"
 },
 "spreadOdds": -118.0,
 "teamId": "2751"
@@ -19552,7 +19391,7 @@
 "date": "2022-01-20T02:00Z",
 "commentaryAvailable": false,
 "conferenceCompetition": true,
-"liveAvailable": true,
+"liveAvailable": false,
 "broadcasts": [],
 "groups": {
 "midsizeName": "Mountain West",
@@ -19568,31 +19407,24 @@
 "uid": "s:40~l:41~t:2751",
 "homeAway": "home",
 "score": "84",
-"fouls": {
-"foulsToGive": 0,
-"teamFouls": 0,
-"teamFoulsCurrent": 0,
-"bonusState": "NONE"
-},
-"timeoutsUsed": 0,
+"winner": true,
 "record": [
 {
-"summary": "13-2",
-"displayValue": "13-2",
+"summary": "14-2",
+"displayValue": "14-2",
 "type": "total"
 },
 {
-"summary": "6-0",
-"displayValue": "6-0",
+"summary": "7-0",
+"displayValue": "7-0",
 "type": "home"
 },
 {
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "3-0",
+"displayValue": "3-0",
 "type": "vsconf"
 }
 ],
-"timeoutsRemaining": 0,
 "possession": false,
 "id": "2751",
 "team": {
@@ -19655,31 +19487,24 @@
 "uid": "s:40~l:41~t:23",
 "homeAway": "away",
 "score": "69",
-"fouls": {
-"foulsToGive": 0,
-"teamFouls": 0,
-"teamFoulsCurrent": 0,
-"bonusState": "NONE"
-},
-"timeoutsUsed": 0,
+"winner": false,
 "record": [
 {
-"summary": "7-8",
-"displayValue": "7-8",
+"summary": "7-9",
+"displayValue": "7-9",
 "type": "total"
 },
 {
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "1-6",
+"displayValue": "1-6",
 "type": "road"
 },
 {
-"summary": "0-3",
-"displayValue": "0-3",
+"summary": "0-4",
+"displayValue": "0-4",
 "type": "vsconf"
 }
 ],
-"timeoutsRemaining": 0,
 "possession": false,
 "id": "23",
 "team": {
@@ -19745,20 +19570,18 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
-"period": 2,
-"displayClock": "0:00",
 "type": {
-"name": "STATUS_END_PERIOD",
-"description": "End of Period",
-"id": "22",
-"state": "in",
-"completed": false,
-"detail": "End of 2nd Half",
-"shortDetail": "End of 2nd"
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
 }
 }
 },

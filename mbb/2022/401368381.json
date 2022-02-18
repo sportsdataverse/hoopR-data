@@ -18872,13 +18872,13 @@
 "1-2",
 "2-2",
 "3",
-"6",
-"9",
+"7",
+"10",
 "0",
 "0",
 "2",
 "2",
-"2",
+"3",
 "7"
 ],
 "didNotPlay": false,
@@ -18940,13 +18940,13 @@
 "2-2",
 "3-5",
 "5",
-"2",
-"7",
+"1",
+"6",
 "0",
 "0",
 "2",
 "1",
-"3",
+"2",
 "13"
 ],
 "didNotPlay": false,
@@ -21400,7 +21400,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -21480,6 +21480,18 @@
 "href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401368381",
 "text": "Team Stats",
 "isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Videos",
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/video?gameId=401368381",
+"text": "Videos",
+"isPremium": false
 }
 ],
 "id": "401368381"
@@ -21506,7 +21518,194 @@
 "region": "us"
 }
 ],
-"videos": [],
+"videos": [
+{
+"cerebroId": "61e8bd1cbe6ab3671680540b",
+"thumbnail": "https://a.espncdn.com/media/motion/2022/0119/ss_20220119_203837433_1866211/ss_20220119_203837433_1866211.jpg",
+"ad": {
+"sport": "ncb",
+"bundle": "ncb_instant_replay"
+},
+"timeRestrictions": {
+"embargoDate": "2022-01-20T01:38:34Z",
+"expirationDate": "2038-01-01T04:59:59Z"
+},
+"description": "Xavier Cork throws down the putback slam",
+"source": "espn",
+"tracking": {
+"leagueName": "No League",
+"trackingName": "NCB_One-Play (Xavier Cork throws down the putback slam) 2022/01/20 ESHEET",
+"coverageType": "OnePlay",
+"sportName": "ncb",
+"trackingId": "dm_20220120_NCB_xavier_cork_skies_for_big_dunk"
+},
+"duration": 23,
+"deviceRestrictions": {
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+],
+"type": "whitelist"
+},
+"originalPublishDate": "2022-01-20T01:38:34Z",
+"links": {
+"web": {
+"short": {
+"href": "https://es.pn/3ru10iw"
+},
+"self": {
+"href": "http://espn.go.com/video/clip?id=33103659&ex_cid=espnapi_internal"
+},
+"href": "http://espn.go.com/video/clip?id=33103659&ex_cid=espnapi_internal"
+},
+"mobile": {
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f1a5fb24-285a-423c-add0-8615fa097d8f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33103659"
+},
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=33103659&ex_cid=espnapi_internal"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f1a5fb24-285a-423c-add0-8615fa097d8f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33103659"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0119/ss_20220119_203837433_1866211/ss_20220119_203837433_1866211.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f1a5fb24-285a-423c-add0-8615fa097d8f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33103659"
+},
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/33103659"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/f1a5fb24-285a-423c-add0-8615fa097d8f"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2022/0119/ss_20220119_203837433_1866211/ss_20220119_203837433_1866211.mp4"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2022/0119/ss_20220119_203837433_1866211/ss_20220119_203837433_1866211_rel.smil/manifest.f4m"
+},
+"href": "https://media.video-cdn.espn.com/motion/2022/0119/ss_20220119_203837433_1866211/ss_20220119_203837433_1866211_360p30_1464k.mp4",
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0119/ss_20220119_203837433_1866211/ss_20220119_203837433_1866211_720p30_2896k.mp4"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0119/ss_20220119_203837433_1866211/ss_20220119_203837433_1866211.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0119/ss_20220119_203837433_1866211/ss_20220119_203837433_1866211.smil/master.m3u8"
+}
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0119/ss_20220119_203837433_1866211/ss_20220119_203837433_1866211.smil"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0119/ss_20220119_203837433_1866211/ss_20220119_203837433_1866211_360p30_1464k.mp4"
+}
+}
+},
+"id": 33103659,
+"lastModified": "2022-01-20T17:26:32Z",
+"headline": "Xavier Cork throws down the putback slam"
+},
+{
+"cerebroId": "61e8d136be6ab3671680919b",
+"thumbnail": "https://a.espncdn.com/media/motion/2022/0119/ss_20220119_220423752_1866446/ss_20220119_220423752_1866446.jpg",
+"ad": {
+"sport": "ncb",
+"bundle": "ncb_instant_replay"
+},
+"timeRestrictions": {
+"embargoDate": "2022-01-20T03:04:20Z",
+"expirationDate": "2038-01-01T04:59:59Z"
+},
+"description": "Rondell Walker nails the clutch 3-pointer",
+"source": "espn",
+"tracking": {
+"leagueName": "No League",
+"trackingName": "NCB_One-Play (Rondell Walker nails the 3-pointer vs. TCU Horned Frogs) 2022/01/20 ESHEET",
+"coverageType": "OnePlay",
+"sportName": "ncb",
+"trackingId": "dm_20220120_NCB_rondell_walker_nails_the_3pointer_vs_tcu_horned_frogs"
+},
+"duration": 21,
+"deviceRestrictions": {
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+],
+"type": "whitelist"
+},
+"originalPublishDate": "2022-01-20T03:04:20Z",
+"links": {
+"web": {
+"short": {
+"href": "https://es.pn/3IlYyl5"
+},
+"self": {
+"href": "http://espn.go.com/video/clip?id=33104421&ex_cid=espnapi_internal"
+},
+"href": "http://espn.go.com/video/clip?id=33104421&ex_cid=espnapi_internal"
+},
+"mobile": {
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/5ebbbc39-8e7f-4de8-9881-1e97b3491485/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33104421"
+},
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=33104421&ex_cid=espnapi_internal"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/5ebbbc39-8e7f-4de8-9881-1e97b3491485/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33104421"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0119/ss_20220119_220423752_1866446/ss_20220119_220423752_1866446.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/5ebbbc39-8e7f-4de8-9881-1e97b3491485/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33104421"
+},
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/33104421"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/5ebbbc39-8e7f-4de8-9881-1e97b3491485"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2022/0119/ss_20220119_220423752_1866446/ss_20220119_220423752_1866446.mp4"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2022/0119/ss_20220119_220423752_1866446/ss_20220119_220423752_1866446_rel.smil/manifest.f4m"
+},
+"href": "https://media.video-cdn.espn.com/motion/2022/0119/ss_20220119_220423752_1866446/ss_20220119_220423752_1866446_360p30_1464k.mp4",
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0119/ss_20220119_220423752_1866446/ss_20220119_220423752_1866446_720p30_2896k.mp4"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0119/ss_20220119_220423752_1866446/ss_20220119_220423752_1866446.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0119/ss_20220119_220423752_1866446/ss_20220119_220423752_1866446.smil/master.m3u8"
+}
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0119/ss_20220119_220423752_1866446/ss_20220119_220423752_1866446.smil"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0119/ss_20220119_220423752_1866446/ss_20220119_220423752_1866446_360p30_1464k.mp4"
+}
+}
+},
+"id": 33104421,
+"lastModified": "2022-01-20T17:22:20Z",
+"headline": "Rondell Walker nails the clutch 3-pointer"
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -21524,8 +21723,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-2",
-"displayValue": "15-2",
+"summary": "21-4",
+"displayValue": "21-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21545,8 +21744,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-1",
-"displayValue": "4-1",
+"summary": "10-2",
+"displayValue": "10-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21577,8 +21776,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-2",
-"displayValue": "16-2",
+"summary": "21-5",
+"displayValue": "21-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21588,18 +21787,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21630,8 +21829,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-4",
-"displayValue": "14-4",
+"summary": "20-6",
+"displayValue": "20-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21641,18 +21840,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21683,8 +21882,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-5",
-"displayValue": "13-5",
+"summary": "19-7",
+"displayValue": "19-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21694,18 +21893,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
+"summary": "8-5",
+"displayValue": "8-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21732,12 +21931,12 @@
 "id": "251"
 },
 {
-"uid": "s:40~l:41~t:197",
+"uid": "s:40~l:41~t:2306",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-7",
-"displayValue": "10-7",
+"summary": "14-11",
+"displayValue": "14-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21747,18 +21946,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21767,30 +21966,30 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/197/oklahoma-state-cowboys",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2306/kansas-state-wildcats",
 "logo": [
 {
-"lastUpdated": "2019-07-29T17:08Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
 "height": 500
 }
 ],
-"team": "Oklahoma State",
-"id": "197"
+"team": "Kansas State",
+"id": "2306"
 },
 {
 "uid": "s:40~l:41~t:2628",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-3",
-"displayValue": "12-3",
+"summary": "16-7",
+"displayValue": "16-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21800,18 +21999,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-2",
-"displayValue": "2-2",
+"summary": "5-6",
+"displayValue": "5-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21838,12 +22037,12 @@
 "id": "2628"
 },
 {
-"uid": "s:40~l:41~t:277",
+"uid": "s:40~l:41~t:197",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-4",
-"displayValue": "13-4",
+"summary": "12-13",
+"displayValue": "12-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21853,18 +22052,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-3",
-"displayValue": "2-3",
+"summary": "5-8",
+"displayValue": "5-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21873,30 +22072,30 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/277/west-virginia-mountaineers",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/197/oklahoma-state-cowboys",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2019-07-29T17:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
 "height": 500
 }
 ],
-"team": "West Virginia",
-"id": "277"
+"team": "Oklahoma State",
+"id": "197"
 },
 {
 "uid": "s:40~l:41~t:66",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-4",
-"displayValue": "14-4",
+"summary": "17-9",
+"displayValue": "17-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21906,18 +22105,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
+"summary": "4-9",
+"displayValue": "4-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21948,8 +22147,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-6",
-"displayValue": "12-6",
+"summary": "14-12",
+"displayValue": "14-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21959,18 +22158,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
+"summary": "4-9",
+"displayValue": "4-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21997,12 +22196,12 @@
 "id": "201"
 },
 {
-"uid": "s:40~l:41~t:2306",
+"uid": "s:40~l:41~t:277",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-7",
-"displayValue": "10-7",
+"summary": "14-11",
+"displayValue": "14-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -22012,18 +22211,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
+"summary": "3-9",
+"displayValue": "3-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -22032,7 +22231,7 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2306/kansas-state-wildcats",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/277/west-virginia-mountaineers",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -22042,12 +22241,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
 "height": 500
 }
 ],
-"team": "Kansas State",
-"id": "2306"
+"team": "West Virginia",
+"id": "277"
 }
 ]
 }
@@ -22123,10 +22322,10 @@
 "underdog": true,
 "moneyLine": 182,
 "spreadRecord": {
-"wins": 7,
-"losses": 5,
+"wins": 12,
+"losses": 8,
 "pushes": 2,
-"summary": "7-5-2"
+"summary": "12-8-2"
 },
 "spreadOdds": -105.0,
 "teamId": "2628"
@@ -22137,10 +22336,10 @@
 "underdog": false,
 "moneyLine": -219,
 "spreadRecord": {
-"wins": 6,
-"losses": 10,
-"pushes": 0,
-"summary": "6-10-0"
+"wins": 9,
+"losses": 14,
+"pushes": 1,
+"summary": "9-14-1"
 },
 "spreadOdds": -111.0,
 "teamId": "197"
@@ -24152,7 +24351,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {

@@ -21039,12 +21039,113 @@
 "href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401368413",
 "text": "Team Stats",
 "isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Videos",
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/video?gameId=401368413",
+"text": "Videos",
+"isPremium": false
 }
 ],
 "id": "401368413"
 },
 "broadcasts": [],
-"videos": [],
+"videos": [
+{
+"duration": 103,
+"deviceRestrictions": {
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+],
+"type": "whitelist"
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2022/0214/ss_20220214_213207097_1889552/ss_20220214_213207097_1889552.jpg",
+"timeRestrictions": {
+"embargoDate": "2022-02-15T02:32:00Z",
+"expirationDate": "2038-01-01T04:59:59Z"
+},
+"description": "The Wildcats beat out the Mountaineers 78-73 to improve to 14-11 on the season.",
+"originalPublishDate": "2022-02-15T02:32:00Z",
+"links": {
+"web": {
+"short": {
+"href": "https://es.pn/3rPDaPP"
+},
+"self": {
+"href": "http://espn.go.com/video/clip?id=33291752&ex_cid=espnapi_internal"
+},
+"href": "http://espn.go.com/video/clip?id=33291752&ex_cid=espnapi_internal"
+},
+"mobile": {
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/28750a38-c76e-4b3d-a762-fbed7563740d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33291752"
+},
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=33291752&ex_cid=espnapi_internal"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/28750a38-c76e-4b3d-a762-fbed7563740d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33291752"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0214/ss_20220214_213207097_1889552/ss_20220214_213207097_1889552.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/28750a38-c76e-4b3d-a762-fbed7563740d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33291752"
+},
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/33291752"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/28750a38-c76e-4b3d-a762-fbed7563740d"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2022/0214/ss_20220214_213207097_1889552/ss_20220214_213207097_1889552.mp4"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2022/0214/ss_20220214_213207097_1889552/ss_20220214_213207097_1889552_rel.smil/manifest.f4m"
+},
+"href": "https://media.video-cdn.espn.com/motion/2022/0214/ss_20220214_213207097_1889552/ss_20220214_213207097_1889552_360p30_1464k.mp4",
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0214/ss_20220214_213207097_1889552/ss_20220214_213207097_1889552_720p30_2896k.mp4"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0214/ss_20220214_213207097_1889552/ss_20220214_213207097_1889552.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0214/ss_20220214_213207097_1889552/ss_20220214_213207097_1889552.smil/master.m3u8"
+}
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0214/ss_20220214_213207097_1889552/ss_20220214_213207097_1889552.smil"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0214/ss_20220214_213207097_1889552/ss_20220214_213207097_1889552_360p30_1464k.mp4"
+}
+}
+},
+"source": "espn",
+"id": 33291752,
+"lastModified": "2022-02-15T14:01:32Z",
+"headline": "Kansas State holds on to top West Virginia",
+"tracking": {
+"leagueName": "No League",
+"trackingName": "NCB_One-Play (Kansas State holds on to top West Virginia) 2022/02/15 ESHEET",
+"coverageType": "Final Game Highlight",
+"sportName": "ncb",
+"trackingId": "dm_20220215_NCB_west_virginia_mountaineers_vs_kansas_state_wildcats_full_highlights"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -21062,8 +21163,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "20-4",
-"displayValue": "20-4",
+"summary": "21-4",
+"displayValue": "21-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21083,8 +21184,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-2",
-"displayValue": "9-2",
+"summary": "10-2",
+"displayValue": "10-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21115,8 +21216,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "21-4",
-"displayValue": "21-4",
+"summary": "21-5",
+"displayValue": "21-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21126,18 +21227,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-3",
-"displayValue": "9-3",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21168,8 +21269,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-6",
-"displayValue": "19-6",
+"summary": "20-6",
+"displayValue": "20-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21189,8 +21290,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-4",
-"displayValue": "8-4",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21221,8 +21322,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "18-7",
-"displayValue": "18-7",
+"summary": "19-7",
+"displayValue": "19-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21242,8 +21343,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-5",
-"displayValue": "7-5",
+"summary": "8-5",
+"displayValue": "8-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21270,59 +21371,6 @@
 "id": "251"
 },
 {
-"uid": "s:40~l:41~t:2628",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "16-6",
-"displayValue": "16-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-5",
-"displayValue": "5-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2628/tcu-horned-frogs",
-"logo": [
-{
-"lastUpdated": "2019-04-30T17:20Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
-"height": 500
-}
-],
-"team": "TCU",
-"id": "2628"
-},
-{
 "uid": "s:40~l:41~t:2306",
 "stats": [
 {
@@ -21338,13 +21386,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -21376,12 +21424,12 @@
 "id": "2306"
 },
 {
-"uid": "s:40~l:41~t:197",
+"uid": "s:40~l:41~t:2628",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-12",
-"displayValue": "12-12",
+"summary": "16-7",
+"displayValue": "16-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21401,8 +21449,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-7",
-"displayValue": "5-7",
+"summary": "5-6",
+"displayValue": "5-6",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2628/tcu-horned-frogs",
+"logo": [
+{
+"lastUpdated": "2019-04-30T17:20Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+"height": 500
+}
+],
+"team": "TCU",
+"id": "2628"
+},
+{
+"uid": "s:40~l:41~t:197",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-13",
+"displayValue": "12-13",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-8",
+"displayValue": "5-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21429,65 +21530,12 @@
 "id": "197"
 },
 {
-"uid": "s:40~l:41~t:201",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "14-11",
-"displayValue": "14-11",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-8",
-"displayValue": "4-8",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/201/oklahoma-sooners",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-"height": 500
-}
-],
-"team": "Oklahoma",
-"id": "201"
-},
-{
 "uid": "s:40~l:41~t:66",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-9",
-"displayValue": "16-9",
+"summary": "17-9",
+"displayValue": "17-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21507,8 +21555,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-9",
-"displayValue": "3-9",
+"summary": "4-9",
+"displayValue": "4-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21535,12 +21583,12 @@
 "id": "66"
 },
 {
-"uid": "s:40~l:41~t:277",
+"uid": "s:40~l:41~t:201",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-11",
-"displayValue": "14-11",
+"summary": "14-12",
+"displayValue": "14-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21557,6 +21605,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 6.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-9",
+"displayValue": "4-9",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/201/oklahoma-sooners",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+"height": 500
+}
+],
+"team": "Oklahoma",
+"id": "201"
+},
+{
+"uid": "s:40~l:41~t:277",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "14-11",
+"displayValue": "14-11",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
