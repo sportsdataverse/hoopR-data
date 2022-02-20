@@ -19216,6 +19216,18 @@
 "href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401369731",
 "text": "Team Stats",
 "isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Videos",
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/video?gameId=401369731",
+"text": "Videos",
+"isPremium": false
 }
 ],
 "id": "401369731"
@@ -19242,7 +19254,96 @@
 "region": "us"
 }
 ],
-"videos": [],
+"videos": [
+{
+"duration": 454,
+"deviceRestrictions": {
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+],
+"type": "whitelist"
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2022/0121/ss_20220121_090853014_1867724/ss_20220121_090853014_1867724.jpg",
+"timeRestrictions": {
+"embargoDate": "2022-01-21T14:00:35Z",
+"expirationDate": "2024-01-21T14:00:35Z"
+},
+"description": "Matt Allocco  beats the buzzer and the Tigers win their 9th-straight game to move to 2-0 in  Ivy League play",
+"originalPublishDate": "2022-01-21T14:00:35Z",
+"links": {
+"web": {
+"short": {
+"href": "https://es.pn/3G1LAaR"
+},
+"self": {
+"href": "http://espn.go.com/video/clip?id=33115652&ex_cid=espnapi_internal"
+},
+"href": "http://espn.go.com/video/clip?id=33115652&ex_cid=espnapi_internal"
+},
+"mobile": {
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/d9f845e5-76b0-4960-ad9b-3a6385fcabc7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33115652"
+},
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=33115652&ex_cid=espnapi_internal"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/d9f845e5-76b0-4960-ad9b-3a6385fcabc7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33115652"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0121/ss_20220121_090853014_1867724/ss_20220121_090853014_1867724.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/d9f845e5-76b0-4960-ad9b-3a6385fcabc7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33115652"
+},
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/33115652"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/d9f845e5-76b0-4960-ad9b-3a6385fcabc7"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2022/0121/ss_20220121_090853014_1867724/ss_20220121_090853014_1867724.mp4"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2022/0121/ss_20220121_090853014_1867724/ss_20220121_090853014_1867724_rel.smil/manifest.f4m"
+},
+"href": "https://media.video-cdn.espn.com/motion/2022/0121/ss_20220121_090853014_1867724/ss_20220121_090853014_1867724_360p30_1464k.mp4",
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0121/ss_20220121_090853014_1867724/ss_20220121_090853014_1867724_720p30_2896k.mp4"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0121/ss_20220121_090853014_1867724/ss_20220121_090853014_1867724.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0121/ss_20220121_090853014_1867724/ss_20220121_090853014_1867724.smil/master.m3u8"
+}
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0121/ss_20220121_090853014_1867724/ss_20220121_090853014_1867724.smil"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0121/ss_20220121_090853014_1867724/ss_20220121_090853014_1867724_360p30_1464k.mp4"
+}
+}
+},
+"source": "espn",
+"id": 33115652,
+"lastModified": "2022-01-21T14:15:23Z",
+"headline": "Check out Season 4 - Episode 6 of Hard Cuts!  - Via Ivy League",
+"tracking": {
+"leagueName": "No League",
+"trackingName": "check_out_season_4__epis_61eabde6c154030185b60bab",
+"coverageType": "Feature",
+"sportName": "ncb",
+"trackingId": "61eabde6c154030185b60bab"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -19256,12 +19357,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:163",
+"uid": "s:40~l:41~t:43",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-3",
-"displayValue": "12-3",
+"summary": "15-9",
+"displayValue": "15-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19281,8 +19382,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "9-1",
+"displayValue": "9-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/43/yale-bulldogs",
+"logo": [
+{
+"lastUpdated": "2019-06-18T14:57Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
+"height": 500
+}
+],
+"team": "Yale",
+"id": "43"
+},
+{
+"uid": "s:40~l:41~t:163",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "18-5",
+"displayValue": "18-5",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "CONF",
+"summary": "8-2",
+"displayValue": "8-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19313,8 +19467,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-11",
-"displayValue": "5-11",
+"summary": "11-13",
+"displayValue": "11-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19324,18 +19478,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "8-3",
+"displayValue": "8-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19362,12 +19516,12 @@
 "id": "219"
 },
 {
-"uid": "s:40~l:41~t:159",
+"uid": "s:40~l:41~t:172",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-9",
-"displayValue": "4-9",
+"summary": "13-9",
+"displayValue": "13-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19377,18 +19531,177 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "5-6",
+"displayValue": "5-6",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/172/cornell-big-red",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
+"height": 500
+}
+],
+"team": "Cornell",
+"id": "172"
+},
+{
+"uid": "s:40~l:41~t:108",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-10",
+"displayValue": "12-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-6",
+"displayValue": "4-6",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/108/harvard-crimson",
+"logo": [
+{
+"lastUpdated": "2020-08-05T15:43Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/108.png",
+"height": 500
+}
+],
+"team": "Harvard",
+"id": "108"
+},
+{
+"uid": "s:40~l:41~t:225",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-14",
+"displayValue": "12-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-7",
+"displayValue": "4-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/225/brown-bears",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/225.png",
+"height": 500
+}
+],
+"team": "Brown",
+"id": "225"
+},
+{
+"uid": "s:40~l:41~t:159",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-15",
+"displayValue": "6-15",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-7",
+"displayValue": "3-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19419,8 +19732,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-10",
-"displayValue": "4-10",
+"summary": "4-19",
+"displayValue": "4-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19430,18 +19743,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "1-10",
+"displayValue": "1-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19466,218 +19779,6 @@
 ],
 "team": "Columbia",
 "id": "171"
-},
-{
-"uid": "s:40~l:41~t:172",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-5",
-"displayValue": "9-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-2",
-"displayValue": "1-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/172/cornell-big-red",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
-"height": 500
-}
-],
-"team": "Cornell",
-"id": "172"
-},
-{
-"uid": "s:40~l:41~t:225",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-9",
-"displayValue": "9-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-2",
-"displayValue": "1-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/225/brown-bears",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/225.png",
-"height": 500
-}
-],
-"team": "Brown",
-"id": "225"
-},
-{
-"uid": "s:40~l:41~t:43",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-8",
-"displayValue": "6-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/43/yale-bulldogs",
-"logo": [
-{
-"lastUpdated": "2019-06-18T14:57Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
-"height": 500
-}
-],
-"team": "Yale",
-"id": "43"
-},
-{
-"uid": "s:40~l:41~t:108",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-5",
-"displayValue": "8-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/108/harvard-crimson",
-"logo": [
-{
-"lastUpdated": "2020-08-05T15:43Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/108.png",
-"height": 500
-}
-],
-"team": "Harvard",
-"id": "108"
 }
 ]
 }
@@ -19753,10 +19854,10 @@
 "underdog": true,
 "moneyLine": 210,
 "spreadRecord": {
-"wins": 9,
-"losses": 2,
+"wins": 13,
+"losses": 7,
 "pushes": 0,
-"summary": "9-2-0"
+"summary": "13-7-0"
 },
 "spreadOdds": -107.0,
 "teamId": "172"
@@ -19767,10 +19868,10 @@
 "underdog": false,
 "moneyLine": -250,
 "spreadRecord": {
-"wins": 6,
-"losses": 6,
-"pushes": 0,
-"summary": "6-6-0"
+"wins": 10,
+"losses": 10,
+"pushes": 1,
+"summary": "10-10-1"
 },
 "spreadOdds": -113.0,
 "teamId": "163"

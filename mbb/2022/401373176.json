@@ -23361,55 +23361,6 @@
 {
 "starter": false,
 "athlete": {
-"uid": "s:40~l:41~a:4913972",
-"displayName": "Ty Chisom",
-"guid": "093dc949-fc12-31f5-85f4-d18d3be0d06f",
-"links": [
-{
-"href": "https://www.espn.com/mens-college-basketball/player/_/id/4913972/ty-chisom",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4913972/ty-chisom",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4913972/ty-chisom",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4913972/ty-chisom",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4913972/ty-chisom",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4913972/ty-chisom",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/mens-college-basketball/player/_/id/4913972/ty-chisom",
-"text": "Overview"
-}
-],
-"id": "4913972",
-"position": {
-"displayName": "Athlete",
-"name": "Athlete",
-"abbreviation": "ATH"
-},
-"shortName": "T. Chisom"
-},
-"ejected": false,
-"stats": [],
-"didNotPlay": true,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
 "uid": "s:40~l:41~a:4897813",
 "displayName": "Brian Myles",
 "headshot": {
@@ -23671,6 +23622,60 @@
 "abbreviation": "PG"
 },
 "shortName": "P. Neal"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:41~a:4593834",
+"displayName": "Ty Chisom",
+"headshot": {
+"alt": "Ty Chisom",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4593834.png"
+},
+"jersey": "12",
+"guid": "d0f154a3-8a2d-3281-9a5c-41c9576e0db4",
+"links": [
+{
+"href": "https://www.espn.com/mens-college-basketball/player/_/id/4593834/ty-chisom",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4593834/ty-chisom",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4593834/ty-chisom",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4593834/ty-chisom",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4593834/ty-chisom",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4593834/ty-chisom",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/mens-college-basketball/player/_/id/4593834/ty-chisom",
+"text": "Overview"
+}
+],
+"id": "4593834",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "T. Chisom"
 },
 "ejected": false,
 "stats": [],
@@ -24413,6 +24418,18 @@
 },
 {
 "isExternal": false,
+"shortText": "Recap",
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/recap?gameId=401373176",
+"text": "Recap",
+"isPremium": false
+},
+{
+"isExternal": false,
 "shortText": "Box Score",
 "rel": [
 "boxscore",
@@ -24446,18 +24463,6 @@
 "href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401373176",
 "text": "Team Stats",
 "isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Recap",
-"rel": [
-"recap",
-"desktop",
-"event"
-],
-"href": "http://www.espn.com/ncb/recap?gameId=401373176",
-"text": "Recap",
-"isPremium": false
 }
 ],
 "id": "401373176"
@@ -24481,12 +24486,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2010",
+"uid": "s:40~l:41~t:50",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-10",
-"displayValue": "3-10",
+"summary": "10-14",
+"displayValue": "10-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -24506,8 +24511,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "8-5",
+"displayValue": "8-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/50/florida-am-rattlers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
+"height": 500
+}
+],
+"team": "Florida A&M",
+"id": "50"
+},
+{
+"uid": "s:40~l:41~t:2010",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-16",
+"displayValue": "8-16",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-7",
+"displayValue": "7-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -24534,12 +24592,12 @@
 "id": "2010"
 },
 {
-"uid": "s:40~l:41~t:2011",
+"uid": "s:40~l:41~t:2296",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-12",
-"displayValue": "3-12",
+"summary": "8-17",
+"displayValue": "8-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -24549,18 +24607,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "6-8",
+"displayValue": "6-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2296/jackson-state-tigers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
+"height": 500
+}
+],
+"team": "Jackson State",
+"id": "2296"
+},
+{
+"uid": "s:40~l:41~t:2011",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-19",
+"displayValue": "6-19",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-8",
+"displayValue": "5-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -24591,8 +24702,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-11",
-"displayValue": "3-11",
+"summary": "7-19",
+"displayValue": "7-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -24602,18 +24713,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "5-9",
+"displayValue": "5-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -24644,8 +24755,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-12",
-"displayValue": "1-12",
+"summary": "2-21",
+"displayValue": "2-21",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -24655,18 +24766,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-2",
-"displayValue": "1-2",
+"summary": "2-11",
+"displayValue": "2-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -24691,112 +24802,6 @@
 ],
 "team": "Mississippi Valley State",
 "id": "2400"
-},
-{
-"uid": "s:40~l:41~t:50",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-11",
-"displayValue": "2-11",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/50/florida-am-rattlers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
-"height": 500
-}
-],
-"team": "Florida A&M",
-"id": "50"
-},
-{
-"uid": "s:40~l:41~t:2296",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-11",
-"displayValue": "2-11",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2296/jackson-state-tigers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
-"height": 500
-}
-],
-"team": "Jackson State",
-"id": "2296"
 }
 ]
 }
@@ -24811,8 +24816,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-7",
-"displayValue": "8-7",
+"summary": "15-10",
+"displayValue": "15-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -24832,8 +24837,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-0",
-"displayValue": "3-0",
+"summary": "10-3",
+"displayValue": "10-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -24864,8 +24869,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-11",
-"displayValue": "3-11",
+"summary": "11-15",
+"displayValue": "11-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -24885,8 +24890,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "10-4",
+"displayValue": "10-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -24913,12 +24918,12 @@
 "id": "2016"
 },
 {
-"uid": "s:40~l:41~t:2755",
+"uid": "s:40~l:41~t:2640",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-11",
-"displayValue": "4-11",
+"summary": "11-11",
+"displayValue": "11-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -24938,61 +24943,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2755/grambling-tigers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
-"height": 500
-}
-],
-"team": "Grambling",
-"id": "2755"
-},
-{
-"uid": "s:40~l:41~t:2640",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-8",
-"displayValue": "3-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -25019,12 +24971,12 @@
 "id": "2640"
 },
 {
-"uid": "s:40~l:41~t:2029",
+"uid": "s:40~l:41~t:2755",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-12",
-"displayValue": "3-12",
+"summary": "10-15",
+"displayValue": "10-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -25034,18 +24986,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "8-5",
+"displayValue": "8-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -25054,30 +25006,30 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2029/arkansas-pine-bluff-golden-lions",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2755/grambling-tigers",
 "logo": [
 {
-"lastUpdated": "2018-11-28T21:26Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
 "height": 500
 }
 ],
-"team": "Arkansas-Pine Bluff",
-"id": "2029"
+"team": "Grambling",
+"id": "2755"
 },
 {
 "uid": "s:40~l:41~t:2504",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-11",
-"displayValue": "0-11",
+"summary": "6-15",
+"displayValue": "6-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -25087,18 +25039,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-3",
-"displayValue": "0-3",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -25123,6 +25075,59 @@
 ],
 "team": "Prairie View A&M",
 "id": "2504"
+},
+{
+"uid": "s:40~l:41~t:2029",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-20",
+"displayValue": "6-20",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-9",
+"displayValue": "4-9",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2029/arkansas-pine-bluff-golden-lions",
+"logo": [
+{
+"lastUpdated": "2018-11-28T21:26Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
+"height": 500
+}
+],
+"team": "Arkansas-Pine Bluff",
+"id": "2029"
 }
 ]
 }
@@ -25200,10 +25205,10 @@
 "underdog": true,
 "moneyLine": 1087,
 "spreadRecord": {
-"wins": 6,
-"losses": 6,
+"wins": 13,
+"losses": 10,
 "pushes": 0,
-"summary": "6-6-0"
+"summary": "13-10-0"
 },
 "spreadOdds": -110.0,
 "teamId": "2400"
@@ -25214,10 +25219,10 @@
 "underdog": false,
 "moneyLine": -2434,
 "spreadRecord": {
-"wins": 4,
-"losses": 6,
+"wins": 10,
+"losses": 11,
 "pushes": 0,
-"summary": "4-6-0"
+"summary": "10-11-0"
 },
 "spreadOdds": -110.0,
 "teamId": "2504"

@@ -20602,12 +20602,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2226",
+"uid": "s:40~l:41~t:2393",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-6",
-"displayValue": "8-6",
+"summary": "18-7",
+"displayValue": "18-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20627,8 +20627,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "9-3",
+"displayValue": "9-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2393/middle-tennessee-blue-raiders",
+"logo": [
+{
+"lastUpdated": "2019-09-11T19:05Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+"height": 500
+}
+],
+"team": "Middle Tennessee",
+"id": "2393"
+},
+{
+"uid": "s:40~l:41~t:2226",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "15-11",
+"displayValue": "15-11",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "8-5",
+"displayValue": "8-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20655,65 +20708,12 @@
 "id": "2226"
 },
 {
-"uid": "s:40~l:41~t:295",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-8",
-"displayValue": "6-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/295/old-dominion-monarchs",
-"logo": [
-{
-"lastUpdated": "2018-11-12T16:44Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
-"height": 500
-}
-],
-"team": "Old Dominion",
-"id": "295"
-},
-{
 "uid": "s:40~l:41~t:98",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-6",
-"displayValue": "9-6",
+"summary": "16-11",
+"displayValue": "16-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20723,18 +20723,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "8-6",
+"displayValue": "8-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20765,8 +20765,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-5",
-"displayValue": "7-5",
+"summary": "13-12",
+"displayValue": "13-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20776,18 +20776,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20814,12 +20814,12 @@
 "id": "2429"
 },
 {
-"uid": "s:40~l:41~t:2229",
+"uid": "s:40~l:41~t:295",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-5",
-"displayValue": "10-5",
+"summary": "10-16",
+"displayValue": "10-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20829,18 +20829,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "5-8",
+"displayValue": "5-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/295/old-dominion-monarchs",
+"logo": [
+{
+"lastUpdated": "2018-11-12T16:44Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+"height": 500
+}
+],
+"team": "Old Dominion",
+"id": "295"
+},
+{
+"uid": "s:40~l:41~t:2229",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "14-12",
+"displayValue": "14-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-9",
+"displayValue": "4-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20867,65 +20920,12 @@
 "id": "2229"
 },
 {
-"uid": "s:40~l:41~t:2393",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-6",
-"displayValue": "9-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2393/middle-tennessee-blue-raiders",
-"logo": [
-{
-"lastUpdated": "2019-09-11T19:05Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
-"height": 500
-}
-],
-"team": "Middle Tennessee",
-"id": "2393"
-},
-{
 "uid": "s:40~l:41~t:276",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-8",
-"displayValue": "7-8",
+"summary": "10-16",
+"displayValue": "10-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20935,18 +20935,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "3-10",
+"displayValue": "3-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20981,12 +20981,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2348",
+"uid": "s:40~l:41~t:249",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-3",
-"displayValue": "13-3",
+"summary": "19-4",
+"displayValue": "19-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21006,114 +21006,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-0",
-"displayValue": "4-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2348/louisiana-tech-bulldogs",
-"logo": [
-{
-"lastUpdated": "2019-07-30T18:16Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
-"height": 500
-}
-],
-"team": "Louisiana Tech",
-"id": "2348"
-},
-{
-"uid": "s:40~l:41~t:5",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "13-4",
-"displayValue": "13-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-1",
-"displayValue": "3-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/5/uab-blazers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
-"height": 500
-}
-],
-"team": "UAB",
-"id": "5"
-},
-{
-"uid": "s:40~l:41~t:249",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-4",
-"displayValue": "9-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "12-1",
+"displayValue": "12-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21140,65 +21034,12 @@
 "id": "249"
 },
 {
-"uid": "s:40~l:41~t:242",
+"uid": "s:40~l:41~t:5",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-5",
-"displayValue": "9-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/242/rice-owls",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
-"height": 500
-}
-],
-"team": "Rice",
-"id": "242"
-},
-{
-"uid": "s:40~l:41~t:2572",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "5-9",
-"displayValue": "5-9",
+"summary": "20-6",
+"displayValue": "20-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21218,8 +21059,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "10-3",
+"displayValue": "10-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21228,7 +21069,7 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2572/southern-miss-golden-eagles",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/5/uab-blazers",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -21238,20 +21079,20 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
 "height": 500
 }
 ],
-"team": "Southern Miss",
-"id": "2572"
+"team": "UAB",
+"id": "5"
 },
 {
-"uid": "s:40~l:41~t:2638",
+"uid": "s:40~l:41~t:2348",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-7",
-"displayValue": "8-7",
+"summary": "18-7",
+"displayValue": "18-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21261,18 +21102,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-2",
-"displayValue": "1-2",
+"summary": "9-4",
+"displayValue": "9-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2348/louisiana-tech-bulldogs",
+"logo": [
+{
+"lastUpdated": "2019-07-30T18:16Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+"height": 500
+}
+],
+"team": "Louisiana Tech",
+"id": "2348"
+},
+{
+"uid": "s:40~l:41~t:2638",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "16-10",
+"displayValue": "16-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "9-5",
+"displayValue": "9-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21299,12 +21193,12 @@
 "id": "2638"
 },
 {
-"uid": "s:40~l:41~t:2636",
+"uid": "s:40~l:41~t:242",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-9",
-"displayValue": "7-9",
+"summary": "14-11",
+"displayValue": "14-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21314,18 +21208,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-3",
-"displayValue": "0-3",
+"summary": "6-7",
+"displayValue": "6-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/242/rice-owls",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+"height": 500
+}
+],
+"team": "Rice",
+"id": "242"
+},
+{
+"uid": "s:40~l:41~t:2636",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-18",
+"displayValue": "9-18",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "10.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 10.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-12",
+"displayValue": "2-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21350,6 +21297,59 @@
 ],
 "team": "UTSA",
 "id": "2636"
+},
+{
+"uid": "s:40~l:41~t:2572",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-20",
+"displayValue": "6-20",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-12",
+"displayValue": "1-12",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2572/southern-miss-golden-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+"height": 500
+}
+],
+"team": "Southern Miss",
+"id": "2572"
 }
 ]
 }
@@ -21427,10 +21427,10 @@
 "underdog": false,
 "moneyLine": -500,
 "spreadRecord": {
-"wins": 11,
-"losses": 4,
-"pushes": 0,
-"summary": "11-4-0"
+"wins": 15,
+"losses": 8,
+"pushes": 1,
+"summary": "15-8-1"
 },
 "spreadOdds": -110.0,
 "teamId": "5"
@@ -21441,10 +21441,10 @@
 "underdog": true,
 "moneyLine": 395,
 "spreadRecord": {
-"wins": 6,
-"losses": 6,
+"wins": 10,
+"losses": 12,
 "pushes": 1,
-"summary": "6-6-1"
+"summary": "10-12-1"
 },
 "spreadOdds": -110.0,
 "teamId": "242"
