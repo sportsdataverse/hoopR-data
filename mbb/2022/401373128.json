@@ -18,7 +18,125 @@
 "abbreviation": "JKST",
 "slug": "jackson-state-tigers"
 },
-"statistics": []
+"statistics": [
+{
+"displayValue": "24-55",
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"label": "FG"
+},
+{
+"displayValue": "43.6",
+"name": "fieldGoalPct",
+"label": "Field Goal %",
+"abbreviation": "FG%"
+},
+{
+"displayValue": "6-13",
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"label": "3PT"
+},
+{
+"displayValue": "46.2",
+"name": "threePointFieldGoalPct",
+"label": "Three Point %",
+"abbreviation": "3P%"
+},
+{
+"displayValue": "6-13",
+"name": "freeThrowsMade-freeThrowsAttempted",
+"label": "FT"
+},
+{
+"displayValue": "46.2",
+"name": "freeThrowPct",
+"label": "Free Throw %",
+"abbreviation": "FT%"
+},
+{
+"displayValue": "26",
+"name": "totalRebounds",
+"label": "Rebounds",
+"abbreviation": "REB"
+},
+{
+"displayValue": "7",
+"name": "offensiveRebounds",
+"label": "Offensive Rebounds",
+"abbreviation": "OR"
+},
+{
+"displayValue": "19",
+"name": "defensiveRebounds",
+"label": "Defensive Rebounds",
+"abbreviation": "DR"
+},
+{
+"displayValue": "0",
+"name": "teamRebounds",
+"label": "Team Rebounds",
+"abbreviation": "TREB"
+},
+{
+"displayValue": "15",
+"name": "assists",
+"label": "Assists",
+"abbreviation": "AST"
+},
+{
+"displayValue": "5",
+"name": "steals",
+"label": "Steals",
+"abbreviation": "STL"
+},
+{
+"displayValue": "3",
+"name": "blocks",
+"label": "Blocks",
+"abbreviation": "BLK"
+},
+{
+"displayValue": "13",
+"name": "turnovers",
+"label": "Turnovers",
+"abbreviation": "TO"
+},
+{
+"displayValue": "0",
+"name": "teamTurnovers",
+"label": "Team Turnovers",
+"abbreviation": "TTO"
+},
+{
+"displayValue": "13",
+"name": "totalTurnovers",
+"label": "Total Turnovers",
+"abbreviation": "ToTO"
+},
+{
+"displayValue": "0",
+"name": "technicalFouls",
+"label": "Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "totalTechnicalFouls",
+"label": "Total Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "flagrantFouls",
+"label": "Flagrant Fouls",
+"abbreviation": "FLAG"
+},
+{
+"displayValue": "15",
+"name": "fouls",
+"label": "Fouls",
+"abbreviation": "PF"
+}
+]
 },
 {
 "team": {
@@ -34,7 +152,125 @@
 "abbreviation": "ALCN",
 "slug": "alcorn-state-braves"
 },
-"statistics": []
+"statistics": [
+{
+"displayValue": "22-55",
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"label": "FG"
+},
+{
+"displayValue": "40.0",
+"name": "fieldGoalPct",
+"label": "Field Goal %",
+"abbreviation": "FG%"
+},
+{
+"displayValue": "4-18",
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"label": "3PT"
+},
+{
+"displayValue": "22.2",
+"name": "threePointFieldGoalPct",
+"label": "Three Point %",
+"abbreviation": "3P%"
+},
+{
+"displayValue": "13-14",
+"name": "freeThrowsMade-freeThrowsAttempted",
+"label": "FT"
+},
+{
+"displayValue": "92.9",
+"name": "freeThrowPct",
+"label": "Free Throw %",
+"abbreviation": "FT%"
+},
+{
+"displayValue": "39",
+"name": "totalRebounds",
+"label": "Rebounds",
+"abbreviation": "REB"
+},
+{
+"displayValue": "15",
+"name": "offensiveRebounds",
+"label": "Offensive Rebounds",
+"abbreviation": "OR"
+},
+{
+"displayValue": "24",
+"name": "defensiveRebounds",
+"label": "Defensive Rebounds",
+"abbreviation": "DR"
+},
+{
+"displayValue": "0",
+"name": "teamRebounds",
+"label": "Team Rebounds",
+"abbreviation": "TREB"
+},
+{
+"displayValue": "8",
+"name": "assists",
+"label": "Assists",
+"abbreviation": "AST"
+},
+{
+"displayValue": "8",
+"name": "steals",
+"label": "Steals",
+"abbreviation": "STL"
+},
+{
+"displayValue": "4",
+"name": "blocks",
+"label": "Blocks",
+"abbreviation": "BLK"
+},
+{
+"displayValue": "12",
+"name": "turnovers",
+"label": "Turnovers",
+"abbreviation": "TO"
+},
+{
+"displayValue": "0",
+"name": "teamTurnovers",
+"label": "Team Turnovers",
+"abbreviation": "TTO"
+},
+{
+"displayValue": "12",
+"name": "totalTurnovers",
+"label": "Total Turnovers",
+"abbreviation": "ToTO"
+},
+{
+"displayValue": "0",
+"name": "technicalFouls",
+"label": "Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "totalTechnicalFouls",
+"label": "Total Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "flagrantFouls",
+"label": "Flagrant Fouls",
+"abbreviation": "FLAG"
+},
+{
+"displayValue": "14",
+"name": "fouls",
+"label": "Fouls",
+"abbreviation": "PF"
+}
+]
 }
 ],
 "players": [
@@ -541,13 +777,13 @@
 }
 ],
 "onWatchESPN": false,
-"boxscoreAvailable": false,
+"boxscoreAvailable": true,
 "id": "401373128",
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
 "recent": false,
-"boxscoreSource": "none",
+"boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
 "type": {
@@ -577,6 +813,30 @@
 ],
 "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401373128",
 "text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Box Score",
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/mens-college-basketball/boxscore/_/gameId/401373128",
+"text": "Box Score",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Team Stats",
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401373128",
+"text": "Team Stats",
 "isPremium": false
 }
 ],
@@ -1564,13 +1824,13 @@
 }
 ],
 "onWatchESPN": false,
-"boxscoreAvailable": false,
+"boxscoreAvailable": true,
 "id": "401373128",
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
 "recent": false,
-"boxscoreSource": "none",
+"boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
 "type": {
