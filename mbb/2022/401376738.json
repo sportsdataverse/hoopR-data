@@ -3606,12 +3606,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:163",
+"uid": "s:40~l:41~t:43",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-5",
-"displayValue": "19-5",
+"summary": "16-10",
+"displayValue": "16-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3628,6 +3628,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "10-2",
+"displayValue": "10-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/43/yale-bulldogs",
+"logo": [
+{
+"lastUpdated": "2019-06-18T14:57Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
+"height": 500
+}
+],
+"team": "Yale",
+"id": "43"
+},
+{
+"uid": "s:40~l:41~t:163",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "19-5",
+"displayValue": "19-5",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3659,59 +3712,6 @@
 "id": "163"
 },
 {
-"uid": "s:40~l:41~t:43",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "15-10",
-"displayValue": "15-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "9-2",
-"displayValue": "9-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/43/yale-bulldogs",
-"logo": [
-{
-"lastUpdated": "2019-06-18T14:57Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
-"height": 500
-}
-],
-"team": "Yale",
-"id": "43"
-},
-{
 "uid": "s:40~l:41~t:219",
 "stats": [
 {
@@ -3727,13 +3727,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -3780,13 +3780,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3833,13 +3833,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -3871,59 +3871,6 @@
 "id": "172"
 },
 {
-"uid": "s:40~l:41~t:159",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-15",
-"displayValue": "7-15",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-7",
-"displayValue": "4-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/159/dartmouth-big-green",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
-"height": 500
-}
-],
-"team": "Dartmouth",
-"id": "159"
-},
-{
 "uid": "s:40~l:41~t:225",
 "stats": [
 {
@@ -3939,13 +3886,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
@@ -3977,6 +3924,59 @@
 "id": "225"
 },
 {
+"uid": "s:40~l:41~t:159",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-16",
+"displayValue": "7-16",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-8",
+"displayValue": "4-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/159/dartmouth-big-green",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
+"height": 500
+}
+],
+"team": "Dartmouth",
+"id": "159"
+},
+{
 "uid": "s:40~l:41~t:171",
 "stats": [
 {
@@ -3992,13 +3992,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
