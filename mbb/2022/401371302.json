@@ -731,6 +731,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897170",
 "displayName": "Jaden Byers",
+"headshot": {
+"alt": "Jaden Byers",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897170.png"
+},
 "jersey": "11",
 "guid": "51d51fa4-43b0-3e4a-8d59-c08acc437666",
 "links": [
@@ -795,6 +799,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897169",
 "displayName": "Khaleb Wilson-Rouse",
+"headshot": {
+"alt": "Khaleb Wilson-Rouse",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897169.png"
+},
 "jersey": "0",
 "guid": "a2f5024b-4df0-3840-8e28-63a6ff95e5be",
 "links": [
@@ -927,6 +935,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897172",
 "displayName": "Gabe Oliveira",
+"headshot": {
+"alt": "Gabe Oliveira",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897172.png"
+},
 "jersey": "50",
 "guid": "5455ff58-de7f-38e4-8f92-c3e2d3a88661",
 "links": [
@@ -977,6 +989,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897171",
 "displayName": "Greydon Edwards",
+"headshot": {
+"alt": "Greydon Edwards",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897171.png"
+},
 "jersey": "14",
 "guid": "e5e64249-2843-3ad8-b54e-f0d8a29e9531",
 "links": [
@@ -3607,12 +3623,12 @@
 "id": "38"
 },
 {
-"uid": "s:40~l:41~t:264",
+"uid": "s:40~l:41~t:265",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-12",
-"displayValue": "13-12",
+"summary": "15-12",
+"displayValue": "15-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3622,18 +3638,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-7",
-"displayValue": "8-7",
+"summary": "8-8",
+"displayValue": "8-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/265/washington-state-cougars",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+"height": 500
+}
+],
+"team": "Washington State",
+"id": "265"
+},
+{
+"uid": "s:40~l:41~t:264",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "13-13",
+"displayValue": "13-13",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "8-8",
+"displayValue": "8-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3711,59 +3780,6 @@
 ],
 "team": "Stanford",
 "id": "24"
-},
-{
-"uid": "s:40~l:41~t:265",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "14-12",
-"displayValue": "14-12",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "7",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 7
-},
-{
-"shortDisplayName": "CONF",
-"summary": "7-8",
-"displayValue": "7-8",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/265/washington-state-cougars",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
-"height": 500
-}
-],
-"team": "Washington State",
-"id": "265"
 },
 {
 "uid": "s:40~l:41~t:9",
@@ -4061,9 +4077,9 @@
 "moneyLine": 320,
 "spreadRecord": {
 "wins": 5,
-"losses": 18,
+"losses": 19,
 "pushes": 2,
-"summary": "5-18-2"
+"summary": "5-19-2"
 },
 "spreadOdds": -114.0,
 "teamId": "279"
