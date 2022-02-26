@@ -15537,13 +15537,13 @@
 "abbreviation": "ToTO"
 },
 {
-"displayValue": "4",
+"displayValue": "2",
 "name": "technicalFouls",
 "label": "Technical Fouls",
 "abbreviation": "TECH"
 },
 {
-"displayValue": "4",
+"displayValue": "2",
 "name": "totalTechnicalFouls",
 "label": "Total Technical Fouls",
 "abbreviation": "TECH"
@@ -15677,13 +15677,13 @@
 "abbreviation": "ToTO"
 },
 {
-"displayValue": "4",
+"displayValue": "2",
 "name": "technicalFouls",
 "label": "Technical Fouls",
 "abbreviation": "TECH"
 },
 {
-"displayValue": "4",
+"displayValue": "2",
 "name": "totalTechnicalFouls",
 "label": "Total Technical Fouls",
 "abbreviation": "TECH"
@@ -18110,7 +18110,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -18340,8 +18340,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-9",
-"displayValue": "15-9",
+"summary": "16-9",
+"displayValue": "16-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18351,18 +18351,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-5",
-"displayValue": "9-5",
+"summary": "10-5",
+"displayValue": "10-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18387,59 +18387,6 @@
 ],
 "team": "Memphis",
 "id": "235"
-},
-{
-"uid": "s:40~l:41~t:218",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "15-9",
-"displayValue": "15-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "8-5",
-"displayValue": "8-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/218/temple-owls",
-"logo": [
-{
-"lastUpdated": "2020-06-16T17:05Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
-"height": 500
-}
-],
-"team": "Temple",
-"id": "218"
 },
 {
 "uid": "s:40~l:41~t:2655",
@@ -18495,12 +18442,12 @@
 "id": "2655"
 },
 {
-"uid": "s:40~l:41~t:2116",
+"uid": "s:40~l:41~t:218",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-9",
-"displayValue": "16-9",
+"summary": "15-10",
+"displayValue": "15-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18510,18 +18457,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-7",
-"displayValue": "8-7",
+"summary": "8-6",
+"displayValue": "8-6",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/218/temple-owls",
+"logo": [
+{
+"lastUpdated": "2020-06-16T17:05Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+"height": 500
+}
+],
+"team": "Temple",
+"id": "218"
+},
+{
+"uid": "s:40~l:41~t:2116",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "17-9",
+"displayValue": "17-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
+},
+{
+"shortDisplayName": "CONF",
+"summary": "9-7",
+"displayValue": "9-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18552,8 +18552,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-10",
-"displayValue": "17-10",
+"summary": "17-11",
+"displayValue": "17-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18563,18 +18563,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-7",
-"displayValue": "7-7",
+"summary": "7-8",
+"displayValue": "7-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20625,7 +20625,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {

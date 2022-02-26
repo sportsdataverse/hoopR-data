@@ -17377,7 +17377,7 @@
 "abbreviation": "FLAG"
 },
 {
-"displayValue": "14",
+"displayValue": "15",
 "name": "fouls",
 "label": "Fouls",
 "abbreviation": "PF"
@@ -18907,7 +18907,7 @@
 "0",
 "0",
 "0",
-"0",
+"1",
 "2"
 ],
 "didNotPlay": false,
@@ -19318,7 +19318,7 @@
 "3",
 "5",
 "9",
-"14",
+"15",
 "74"
 ],
 "descriptions": [
@@ -20679,7 +20679,6 @@
 },
 "groups": [
 {
-"moduleType": "standings",
 "header": "2021-22 Southeastern Conference Standings",
 "href": "https://www.espn.com/mens-college-basketball/standings/_/group/23",
 "standings": {
@@ -20689,8 +20688,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "24-3",
-"displayValue": "24-3",
+"summary": "25-3",
+"displayValue": "25-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20710,8 +20709,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "12-2",
-"displayValue": "12-2",
+"summary": "13-2",
+"displayValue": "13-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20742,8 +20741,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "22-5",
-"displayValue": "22-5",
+"summary": "23-5",
+"displayValue": "23-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20763,8 +20762,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "11-3",
-"displayValue": "11-3",
+"summary": "12-3",
+"displayValue": "12-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20806,13 +20805,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -20859,13 +20858,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -20912,13 +20911,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -20950,65 +20949,12 @@
 "id": "333"
 },
 {
-"uid": "s:40~l:41~t:99",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "19-8",
-"displayValue": "19-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "7-7",
-"displayValue": "7-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/99/lsu-tigers",
-"logo": [
-{
-"lastUpdated": "2021-06-25T17:25Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-"height": 500
-}
-],
-"team": "LSU",
-"id": "99"
-},
-{
 "uid": "s:40~l:41~t:2579",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-10",
-"displayValue": "16-10",
+"summary": "17-10",
+"displayValue": "17-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21028,8 +20974,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-7",
-"displayValue": "7-7",
+"summary": "8-7",
+"displayValue": "8-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21056,12 +21002,12 @@
 "id": "2579"
 },
 {
-"uid": "s:40~l:41~t:344",
+"uid": "s:40~l:41~t:99",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-11",
-"displayValue": "16-11",
+"summary": "19-9",
+"displayValue": "19-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21071,18 +21017,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-7",
-"displayValue": "7-7",
+"summary": "7-8",
+"displayValue": "7-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21091,22 +21037,22 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/344/mississippi-state-bulldogs",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/99/lsu-tigers",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2021-06-25T17:25Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
 "height": 500
 }
 ],
-"team": "Mississippi State",
-"id": "344"
+"team": "LSU",
+"id": "99"
 },
 {
 "uid": "s:40~l:41~t:57",
@@ -21124,13 +21070,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
@@ -21162,6 +21108,59 @@
 "id": "57"
 },
 {
+"uid": "s:40~l:41~t:344",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "16-12",
+"displayValue": "16-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-8",
+"displayValue": "7-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/344/mississippi-state-bulldogs",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+"height": 500
+}
+],
+"team": "Mississippi State",
+"id": "344"
+},
+{
 "uid": "s:40~l:41~t:245",
 "stats": [
 {
@@ -21177,13 +21176,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
@@ -21230,13 +21229,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
@@ -21272,8 +21271,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-14",
-"displayValue": "13-14",
+"summary": "13-15",
+"displayValue": "13-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21283,18 +21282,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-10",
-"displayValue": "4-10",
+"summary": "4-11",
+"displayValue": "4-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21336,13 +21335,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
@@ -21389,13 +21388,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "11.5",
+"displayValue": "12",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.5
+"value": 12
 },
 {
 "shortDisplayName": "CONF",

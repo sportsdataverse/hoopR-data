@@ -18586,12 +18586,113 @@
 "href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401364455",
 "text": "Team Stats",
 "isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Videos",
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/mens-college-basketball/video?gameId=401364455",
+"text": "Videos",
+"isPremium": false
 }
 ],
 "id": "401364455"
 },
 "broadcasts": [],
-"videos": [],
+"videos": [
+{
+"duration": 106,
+"deviceRestrictions": {
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+],
+"type": "whitelist"
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2022/0224/ss_20220222_220743455_18962791314/ss_20220222_220743455_18962791314.jpg",
+"timeRestrictions": {
+"embargoDate": "2022-02-23T03:07:33Z",
+"expirationDate": "2038-01-01T04:59:59Z"
+},
+"description": "Northwestern ends a three-game losing streak by defeating Nebraska 77-65.",
+"originalPublishDate": "2022-02-23T03:07:33Z",
+"links": {
+"web": {
+"short": {
+"href": "https://es.pn/3LSl87s"
+},
+"self": {
+"href": "http://espn.go.com/video/clip?id=33351034&ex_cid=espnapi_internal"
+},
+"href": "http://espn.go.com/video/clip?id=33351034&ex_cid=espnapi_internal"
+},
+"mobile": {
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/edc04390-79fd-4025-951c-8ad15a432a00/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33351034"
+},
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=33351034&ex_cid=espnapi_internal"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/edc04390-79fd-4025-951c-8ad15a432a00/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33351034"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0222/ss_20220222_220743455_1896279/ss_20220222_220743455_1896279.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/edc04390-79fd-4025-951c-8ad15a432a00/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33351034"
+},
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/33351034"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/edc04390-79fd-4025-951c-8ad15a432a00"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2022/0222/ss_20220222_220743455_1896279/ss_20220222_220743455_1896279.mp4"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2022/0222/ss_20220222_220743455_1896279/ss_20220222_220743455_1896279_rel.smil/manifest.f4m"
+},
+"href": "https://media.video-cdn.espn.com/motion/2022/0222/ss_20220222_220743455_1896279/ss_20220222_220743455_1896279_360p30_1464k.mp4",
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0222/ss_20220222_220743455_1896279/ss_20220222_220743455_1896279_720p30_2896k.mp4"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0222/ss_20220222_220743455_1896279/ss_20220222_220743455_1896279.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0222/ss_20220222_220743455_1896279/ss_20220222_220743455_1896279.smil/master.m3u8"
+}
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0222/ss_20220222_220743455_1896279/ss_20220222_220743455_1896279.smil"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0222/ss_20220222_220743455_1896279/ss_20220222_220743455_1896279_360p30_1464k.mp4"
+}
+}
+},
+"source": "espn",
+"id": 33351034,
+"lastModified": "2022-02-25T02:55:46Z",
+"headline": "Northwestern drops Nebraska to 1-15 in conference play",
+"tracking": {
+"leagueName": "No League",
+"trackingName": "COM_NCB Highlight (Nebraska Cornhuskers vs. Northwestern Wildcats: Full Highlights) 2022/02/23 ESHEET",
+"coverageType": "Final Game Highlight",
+"sportName": "ncb",
+"trackingId": "dm_20220223_NCB_nebraska_cornhuskers_vs_northwestern_wildcats_full_highlights"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -18662,8 +18763,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "21-5",
-"displayValue": "21-5",
+"summary": "22-5",
+"displayValue": "22-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18673,18 +18774,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 0
 },
 {
 "shortDisplayName": "CONF",
-"summary": "12-4",
-"displayValue": "12-4",
+"summary": "13-4",
+"displayValue": "13-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18715,8 +18816,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-7",
-"displayValue": "19-7",
+"summary": "19-8",
+"displayValue": "19-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18726,18 +18827,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "12-4",
-"displayValue": "12-4",
+"summary": "12-5",
+"displayValue": "12-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18768,8 +18869,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-7",
-"displayValue": "17-7",
+"summary": "18-7",
+"displayValue": "18-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18779,18 +18880,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-5",
-"displayValue": "10-5",
+"summary": "11-5",
+"displayValue": "11-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18821,8 +18922,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-10",
-"displayValue": "16-10",
+"summary": "16-11",
+"displayValue": "16-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18832,18 +18933,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-6",
-"displayValue": "10-6",
+"summary": "10-7",
+"displayValue": "10-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18980,8 +19081,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-11",
-"displayValue": "14-11",
+"summary": "15-11",
+"displayValue": "15-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18991,18 +19092,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-7",
-"displayValue": "8-7",
+"summary": "9-7",
+"displayValue": "9-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19033,8 +19134,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-10",
-"displayValue": "16-10",
+"summary": "17-10",
+"displayValue": "17-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19044,18 +19145,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-9",
-"displayValue": "7-9",
+"summary": "8-9",
+"displayValue": "8-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19192,8 +19293,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-14",
-"displayValue": "13-14",
+"summary": "13-15",
+"displayValue": "13-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19203,18 +19304,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7.5",
+"displayValue": "8",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.5
+"value": 8
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-11",
-"displayValue": "5-11",
+"summary": "5-12",
+"displayValue": "5-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19245,8 +19346,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-12",
-"displayValue": "13-12",
+"summary": "13-13",
+"displayValue": "13-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19256,18 +19357,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-12",
-"displayValue": "4-12",
+"summary": "4-13",
+"displayValue": "4-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19421,9 +19522,9 @@
 "moneyLine": 470,
 "spreadRecord": {
 "wins": 13,
-"losses": 13,
+"losses": 14,
 "pushes": 0,
-"summary": "13-13-0"
+"summary": "13-14-0"
 },
 "spreadOdds": -110.0,
 "teamId": "158"
@@ -19434,10 +19535,10 @@
 "underdog": false,
 "moneyLine": -640,
 "spreadRecord": {
-"wins": 11,
+"wins": 12,
 "losses": 12,
 "pushes": 1,
-"summary": "11-12-1"
+"summary": "12-12-1"
 },
 "spreadOdds": -110.0,
 "teamId": "77"
