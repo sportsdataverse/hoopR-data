@@ -3029,8 +3029,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-10",
-"displayValue": "16-10",
+"summary": "16-11",
+"displayValue": "16-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3040,18 +3040,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-2",
-"displayValue": "9-2",
+"summary": "9-3",
+"displayValue": "9-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3237,6 +3237,59 @@
 "id": "2277"
 },
 {
+"uid": "s:40~l:41~t:2466",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-21",
+"displayValue": "9-21",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-8",
+"displayValue": "5-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2466/northwestern-state-demons",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
+"height": 500
+}
+],
+"team": "Northwestern State",
+"id": "2466"
+},
+{
 "uid": "s:40~l:41~t:2377",
 "stats": [
 {
@@ -3288,59 +3341,6 @@
 ],
 "team": "McNeese",
 "id": "2377"
-},
-{
-"uid": "s:40~l:41~t:2466",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-21",
-"displayValue": "8-21",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-8",
-"displayValue": "4-8",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2466/northwestern-state-demons",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
-"height": 500
-}
-],
-"team": "Northwestern State",
-"id": "2466"
 },
 {
 "uid": "s:40~l:41~t:2916",
@@ -3412,8 +3412,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-15",
-"displayValue": "11-15",
+"summary": "12-15",
+"displayValue": "12-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3433,8 +3433,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-6",
-"displayValue": "9-6",
+"summary": "10-6",
+"displayValue": "10-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3476,13 +3476,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3529,13 +3529,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
@@ -3582,13 +3582,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3635,13 +3635,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3688,13 +3688,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3897,8 +3897,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-15",
-"displayValue": "11-15",
+"summary": "11-16",
+"displayValue": "11-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3908,18 +3908,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-5",
-"displayValue": "9-5",
+"summary": "9-6",
+"displayValue": "9-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",

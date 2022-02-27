@@ -3581,8 +3581,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-10",
-"displayValue": "16-10",
+"summary": "16-11",
+"displayValue": "16-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3592,18 +3592,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-2",
-"displayValue": "10-2",
+"summary": "10-3",
+"displayValue": "10-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3634,8 +3634,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-13",
-"displayValue": "12-13",
+"summary": "12-14",
+"displayValue": "12-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3645,18 +3645,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-3",
-"displayValue": "9-3",
+"summary": "9-4",
+"displayValue": "9-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3687,8 +3687,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-10",
-"displayValue": "13-10",
+"summary": "14-10",
+"displayValue": "14-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3698,18 +3698,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-7",
-"displayValue": "5-7",
+"summary": "6-7",
+"displayValue": "6-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3789,6 +3789,59 @@
 "id": "108"
 },
 {
+"uid": "s:40~l:41~t:159",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-16",
+"displayValue": "8-16",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-8",
+"displayValue": "5-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/159/dartmouth-big-green",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
+"height": 500
+}
+],
+"team": "Dartmouth",
+"id": "159"
+},
+{
 "uid": "s:40~l:41~t:225",
 "stats": [
 {
@@ -3840,59 +3893,6 @@
 ],
 "team": "Brown",
 "id": "225"
-},
-{
-"uid": "s:40~l:41~t:159",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-16",
-"displayValue": "7-16",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "6",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 6
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-8",
-"displayValue": "4-8",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/159/dartmouth-big-green",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
-"height": 500
-}
-],
-"team": "Dartmouth",
-"id": "159"
 },
 {
 "uid": "s:40~l:41~t:171",
