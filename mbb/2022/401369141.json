@@ -15625,6 +15625,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897614",
 "displayName": "Jarius Hicklen",
+"headshot": {
+"alt": "Jarius Hicklen",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897614.png"
+},
 "jersey": "10",
 "guid": "7add2d3f-5117-3e13-a88a-54bac38627f4",
 "links": [
@@ -15961,6 +15965,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897616",
 "displayName": "Max Hrdlicka",
+"headshot": {
+"alt": "Max Hrdlicka",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897616.png"
+},
 "jersey": "13",
 "guid": "16b47665-0c3c-3976-a074-bc72418cfc28",
 "links": [
@@ -16011,6 +16019,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897615",
 "displayName": "Brandon Rasmussen",
+"headshot": {
+"alt": "Brandon Rasmussen",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897615.png"
+},
 "jersey": "11",
 "guid": "74654bf3-7351-34bd-b525-4f57a3bd671f",
 "links": [
@@ -16754,6 +16766,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4683853",
 "displayName": "Jalen Blackmon",
+"headshot": {
+"alt": "Jalen Blackmon",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4683853.png"
+},
 "jersey": "5",
 "guid": "1fb9e47f-7cc1-3134-ad34-39208097e647",
 "links": [
@@ -16926,6 +16942,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4896885",
 "displayName": "Isaiah Shaw",
+"headshot": {
+"alt": "Isaiah Shaw",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4896885.png"
+},
 "jersey": "33",
 "guid": "ab294c2c-8508-3cb4-aca3-a0b99d9ad927",
 "links": [
@@ -16976,6 +16996,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4896884",
 "displayName": "Kobe Knox",
+"headshot": {
+"alt": "Kobe Knox",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4896884.png"
+},
 "jersey": "3",
 "guid": "67397621-fbfa-307d-85bd-55499821f391",
 "links": [
@@ -17741,65 +17765,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:294",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/294/jacksonville-dolphins",
-"logo": [
-{
-"lastUpdated": "2018-10-22T17:25Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
-"height": 500
-}
-],
-"team": "Jacksonville",
-"id": "294"
-},
-{
 "uid": "s:40~l:41~t:2335",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "21-10",
+"displayValue": "21-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17819,8 +17790,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "12-4",
+"displayValue": "12-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17847,12 +17818,12 @@
 "id": "2335"
 },
 {
-"uid": "s:40~l:41~t:526",
+"uid": "s:40~l:41~t:294",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "19-9",
+"displayValue": "19-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17862,18 +17833,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "11-5",
+"displayValue": "11-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/294/jacksonville-dolphins",
+"logo": [
+{
+"lastUpdated": "2018-10-22T17:25Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
+"height": 500
+}
+],
+"team": "Jacksonville",
+"id": "294"
+},
+{
+"uid": "s:40~l:41~t:526",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "20-10",
+"displayValue": "20-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "10-6",
+"displayValue": "10-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17900,65 +17924,12 @@
 "id": "526"
 },
 {
-"uid": "s:40~l:41~t:56",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/56/stetson-hatters",
-"logo": [
-{
-"lastUpdated": "2019-10-21T16:39Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png",
-"height": 500
-}
-],
-"team": "Stetson",
-"id": "56"
-},
-{
 "uid": "s:40~l:41~t:338",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "12-17",
+"displayValue": "12-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17968,18 +17939,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "7-9",
+"displayValue": "7-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18010,8 +17981,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-3",
-"displayValue": "0-3",
+"summary": "11-19",
+"displayValue": "11-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18021,18 +17992,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "7-9",
+"displayValue": "7-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18057,128 +18028,75 @@
 ],
 "team": "North Florida",
 "id": "2454"
+},
+{
+"uid": "s:40~l:41~t:56",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-18",
+"displayValue": "11-18",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-11",
+"displayValue": "5-11",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/56/stetson-hatters",
+"logo": [
+{
+"lastUpdated": "2019-10-21T16:39Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png",
+"height": 500
+}
+],
+"team": "Stetson",
+"id": "56"
 }
 ]
 }
 },
 {
-"header": "ASUN Conference - Wast",
+"header": "ASUN Conference - West",
 "href": "https://www.espn.com/mens-college-basketball/standings/_/group/77",
 "standings": {
 "entries": [
-{
-"uid": "s:40~l:41~t:2198",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-0",
-"displayValue": "3-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2198/eastern-kentucky-colonels",
-"logo": [
-{
-"lastUpdated": "2019-08-13T14:33Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png",
-"height": 500
-}
-],
-"team": "Eastern Kentucky",
-"id": "2198"
-},
-{
-"uid": "s:40~l:41~t:288",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-1",
-"displayValue": "2-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/288/lipscomb-bisons",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
-"height": 500
-}
-],
-"team": "Lipscomb",
-"id": "288"
-},
 {
 "uid": "s:40~l:41~t:55",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "20-9",
+"displayValue": "20-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18198,8 +18116,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "13-3",
+"displayValue": "13-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18226,65 +18144,12 @@
 "id": "55"
 },
 {
-"uid": "s:40~l:41~t:2453",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2453/north-alabama-lions",
-"logo": [
-{
-"lastUpdated": "2018-11-05T11:33Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
-"height": 500
-}
-],
-"team": "North Alabama",
-"id": "2453"
-},
-{
 "uid": "s:40~l:41~t:91",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "17-13",
+"displayValue": "17-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18294,18 +18159,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "11-5",
+"displayValue": "11-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18336,8 +18201,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "10-19",
+"displayValue": "10-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18347,18 +18212,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "7-9",
+"displayValue": "7-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18383,6 +18248,165 @@
 ],
 "team": "Central Arkansas",
 "id": "2110"
+},
+{
+"uid": "s:40~l:41~t:288",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "13-18",
+"displayValue": "13-18",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-10",
+"displayValue": "6-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/288/lipscomb-bisons",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+"height": 500
+}
+],
+"team": "Lipscomb",
+"id": "288"
+},
+{
+"uid": "s:40~l:41~t:2198",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "13-17",
+"displayValue": "13-17",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-11",
+"displayValue": "5-11",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2198/eastern-kentucky-colonels",
+"logo": [
+{
+"lastUpdated": "2019-08-13T14:33Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png",
+"height": 500
+}
+],
+"team": "Eastern Kentucky",
+"id": "2198"
+},
+{
+"uid": "s:40~l:41~t:2453",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-20",
+"displayValue": "9-20",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-14",
+"displayValue": "2-14",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2453/north-alabama-lions",
+"logo": [
+{
+"lastUpdated": "2018-11-05T11:33Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
+"height": 500
+}
+],
+"team": "North Alabama",
+"id": "2453"
 }
 ]
 }
@@ -18395,171 +18419,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2856",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2856/california-baptist-lancers",
-"logo": [
-{
-"lastUpdated": "2018-11-16T16:51Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2856.png",
-"height": 500
-}
-],
-"team": "California Baptist",
-"id": "2856"
-},
-{
-"uid": "s:40~l:41~t:2617",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2617/stephen-f-austin-lumberjacks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
-"height": 500
-}
-],
-"team": "Stephen F. Austin",
-"id": "2617"
-},
-{
-"uid": "s:40~l:41~t:2253",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2253/grand-canyon-antelopes",
-"logo": [
-{
-"lastUpdated": "2021-10-11T19:28Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
-"height": 500
-}
-],
-"team": "Grand Canyon",
-"id": "2253"
-},
-{
 "uid": "s:40~l:41~t:166",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "23-5",
+"displayValue": "23-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18579,8 +18444,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "13-3",
+"displayValue": "13-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18607,171 +18472,12 @@
 "id": "166"
 },
 {
-"uid": "s:40~l:41~t:2320",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2320/lamar-cardinals",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2320.png",
-"height": 500
-}
-],
-"team": "Lamar",
-"id": "2320"
-},
-{
-"uid": "s:40~l:41~t:3101",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/3101/dixie-state-trailblazers",
-"logo": [
-{
-"lastUpdated": "2020-11-23T15:30Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
-"height": 500
-}
-],
-"team": "Dixie State",
-"id": "3101"
-},
-{
-"uid": "s:40~l:41~t:2534",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2534/sam-houston-bearkats",
-"logo": [
-{
-"lastUpdated": "2020-11-17T16:28Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
-"height": 500
-}
-],
-"team": "Sam Houston",
-"id": "2534"
-},
-{
 "uid": "s:40~l:41~t:2547",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "22-8",
+"displayValue": "22-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18781,18 +18487,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "13-4",
+"displayValue": "13-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18819,12 +18525,12 @@
 "id": "2547"
 },
 {
-"uid": "s:40~l:41~t:292",
+"uid": "s:40~l:41~t:2617",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "20-8",
+"displayValue": "20-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18834,18 +18540,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "12-4",
+"displayValue": "12-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18854,30 +18560,30 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/292/ut-rio-grande-valley-vaqueros",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2617/stephen-f-austin-lumberjacks",
 "logo": [
 {
-"lastUpdated": "2019-10-15T14:03Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/292.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
 "height": 500
 }
 ],
-"team": "UT Rio Grande Valley",
-"id": "292"
+"team": "Stephen F. Austin",
+"id": "2617"
 },
 {
-"uid": "s:40~l:41~t:3084",
+"uid": "s:40~l:41~t:2534",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "17-13",
+"displayValue": "17-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18887,18 +18593,124 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "12-5",
+"displayValue": "12-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2534/sam-houston-bearkats",
+"logo": [
+{
+"lastUpdated": "2020-11-17T16:28Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+"height": 500
+}
+],
+"team": "Sam Houston",
+"id": "2534"
+},
+{
+"uid": "s:40~l:41~t:2253",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "20-7",
+"displayValue": "20-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-5",
+"displayValue": "11-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2253/grand-canyon-antelopes",
+"logo": [
+{
+"lastUpdated": "2021-10-11T19:28Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
+"height": 500
+}
+],
+"team": "Grand Canyon",
+"id": "2253"
+},
+{
+"uid": "s:40~l:41~t:3084",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "19-9",
+"displayValue": "19-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "10-6",
+"displayValue": "10-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18929,8 +18741,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "18-9",
+"displayValue": "18-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18940,18 +18752,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "9-7",
+"displayValue": "9-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18982,8 +18794,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "14-15",
+"displayValue": "14-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18993,18 +18805,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "9-7",
+"displayValue": "9-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19031,18 +18843,145 @@
 "id": "2627"
 },
 {
-"uid": "s:40~l:41~t:2130",
+"uid": "s:40~l:41~t:3101",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "13-16",
+"displayValue": "13-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
 "id": "0",
 "abbreviation": "Season",
 "type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-10",
+"displayValue": "6-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/3101/dixie-state-trailblazers",
+"logo": [
+{
+"lastUpdated": "2020-11-23T15:30Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
+"height": 500
+}
+],
+"team": "Dixie State",
+"id": "3101"
+},
+{
+"uid": "s:40~l:41~t:2856",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "15-14",
+"displayValue": "15-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-11",
+"displayValue": "5-11",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2856/california-baptist-lancers",
+"logo": [
+{
+"lastUpdated": "2018-11-16T16:51Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2856.png",
+"height": 500
+}
+],
+"team": "California Baptist",
+"id": "2856"
+},
+{
+"uid": "s:40~l:41~t:2130",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-22",
+"displayValue": "7-22",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "10",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 10
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-13",
+"displayValue": "3-13",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
 }
 ],
 "link": "https://www.espn.com/mens-college-basketball/team/_/id/2130/chicago-state-cougars",
@@ -19061,6 +19000,112 @@
 ],
 "team": "Chicago State",
 "id": "2130"
+},
+{
+"uid": "s:40~l:41~t:292",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-21",
+"displayValue": "7-21",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-14",
+"displayValue": "2-14",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/292/ut-rio-grande-valley-vaqueros",
+"logo": [
+{
+"lastUpdated": "2019-10-15T14:03Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/292.png",
+"height": 500
+}
+],
+"team": "UT Rio Grande Valley",
+"id": "292"
+},
+{
+"uid": "s:40~l:41~t:2320",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-25",
+"displayValue": "2-25",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "13",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 13
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-16",
+"displayValue": "0-16",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2320/lamar-cardinals",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2320.png",
+"height": 500
+}
+],
+"team": "Lamar",
+"id": "2320"
 }
 ]
 }
@@ -19109,10 +19154,10 @@
 "underdog": true,
 "moneyLine": 414,
 "spreadRecord": {
-"wins": 1,
-"losses": 2,
-"pushes": 0,
-"summary": "1-2-0"
+"wins": 15,
+"losses": 11,
+"pushes": 1,
+"summary": "15-11-1"
 },
 "spreadOdds": -105.0,
 "teamId": "2454"
@@ -19123,10 +19168,10 @@
 "underdog": false,
 "moneyLine": -597,
 "spreadRecord": {
-"wins": 1,
-"losses": 0,
+"wins": 13,
+"losses": 11,
 "pushes": 0,
-"summary": "1-0-0"
+"summary": "13-11-0"
 },
 "spreadOdds": -115.0,
 "teamId": "2253"

@@ -20257,6 +20257,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897176",
 "displayName": "Mike Mitchell Jr.",
+"headshot": {
+"alt": "Mike Mitchell Jr.",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897176.png"
+},
 "jersey": "1",
 "guid": "3234a358-c34d-3979-b57a-a5460f3f14cc",
 "links": [
@@ -20321,6 +20325,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4709141",
 "displayName": "Houston Mallette",
+"headshot": {
+"alt": "Houston Mallette",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4709141.png"
+},
 "jersey": "0",
 "guid": "7c2ba5ff-2190-35e0-9083-16efbd4ed007",
 "links": [
@@ -20521,6 +20529,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4699582",
 "displayName": "Carson Basham",
+"headshot": {
+"alt": "Carson Basham",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4699582.png"
+},
 "jersey": "11",
 "guid": "bbe56dc1-c78d-35f6-a87f-66388090eb62",
 "links": [
@@ -20721,6 +20733,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897178",
 "displayName": "Aladji Gassama",
+"headshot": {
+"alt": "Aladji Gassama",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897178.png"
+},
 "jersey": "35",
 "guid": "559099dd-ea21-3157-98fa-d7b1d773abc5",
 "links": [
@@ -20771,6 +20787,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4897177",
 "displayName": "Paul Jordan",
+"headshot": {
+"alt": "Paul Jordan",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897177.png"
+},
 "jersey": "10",
 "guid": "dac0e8d7-cd7a-3b94-99b9-2a71dfe7fc4c",
 "links": [
@@ -20821,6 +20841,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4684286",
 "displayName": "Maxwell Lewis",
+"headshot": {
+"alt": "Maxwell Lewis",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4684286.png"
+},
 "jersey": "24",
 "guid": "035d0054-32bd-375a-bb60-6eb256a70629",
 "links": [
@@ -20925,6 +20949,10 @@
 "athlete": {
 "uid": "s:40~l:41~a:4706564",
 "displayName": "Malachy Caffrey",
+"headshot": {
+"alt": "Malachy Caffrey",
+"href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4706564.png"
+},
 "jersey": "13",
 "guid": "db53794c-0b72-375c-88c3-c640da62c915",
 "links": [
@@ -21595,12 +21623,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2692",
+"uid": "s:40~l:41~t:147",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "21-7",
+"displayValue": "21-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21620,8 +21648,114 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "13-4",
+"displayValue": "13-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/147/montana-state-bobcats",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
+"height": 500
+}
+],
+"team": "Montana State",
+"id": "147"
+},
+{
+"uid": "s:40~l:41~t:253",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "18-9",
+"displayValue": "18-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "CONF",
+"summary": "12-5",
+"displayValue": "12-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/253/southern-utah-thunderbirds",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
+"height": 500
+}
+],
+"team": "Southern Utah",
+"id": "253"
+},
+{
+"uid": "s:40~l:41~t:2692",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "20-10",
+"displayValue": "20-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "CONF",
+"summary": "13-6",
+"displayValue": "13-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21652,8 +21786,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "17-13",
+"displayValue": "17-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21663,18 +21797,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "12-6",
+"displayValue": "12-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21701,65 +21835,12 @@
 "id": "2458"
 },
 {
-"uid": "s:40~l:41~t:304",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/304/idaho-state-bengals",
-"logo": [
-{
-"lastUpdated": "2019-08-22T15:06Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
-"height": 500
-}
-],
-"team": "Idaho State",
-"id": "304"
-},
-{
 "uid": "s:40~l:41~t:149",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "18-11",
+"displayValue": "18-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21769,18 +21850,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "11-7",
+"displayValue": "11-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21807,12 +21888,12 @@
 "id": "149"
 },
 {
-"uid": "s:40~l:41~t:70",
+"uid": "s:40~l:41~t:331",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "15-14",
+"displayValue": "15-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21822,18 +21903,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "9-9",
+"displayValue": "9-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21842,30 +21923,30 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/70/idaho-vandals",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/331/eastern-washington-eagles",
 "logo": [
 {
-"lastUpdated": "2021-11-04T21:05Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
 "height": 500
 }
 ],
-"team": "Idaho",
-"id": "70"
+"team": "Eastern Washington",
+"id": "331"
 },
 {
 "uid": "s:40~l:41~t:2502",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "11-15",
+"displayValue": "11-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21875,18 +21956,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "9-9",
+"displayValue": "9-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21917,8 +21998,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "9-16",
+"displayValue": "9-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21928,18 +22009,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "5-13",
+"displayValue": "5-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21966,171 +22047,12 @@
 "id": "16"
 },
 {
-"uid": "s:40~l:41~t:253",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/253/southern-utah-thunderbirds",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
-"height": 500
-}
-],
-"team": "Southern Utah",
-"id": "253"
-},
-{
-"uid": "s:40~l:41~t:147",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/147/montana-state-bobcats",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
-"height": 500
-}
-],
-"team": "Montana State",
-"id": "147"
-},
-{
-"uid": "s:40~l:41~t:331",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/331/eastern-washington-eagles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
-"height": 500
-}
-],
-"team": "Eastern Washington",
-"id": "331"
-},
-{
 "uid": "s:40~l:41~t:2464",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "9-20",
+"displayValue": "9-20",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -22140,18 +22062,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "5-13",
+"displayValue": "5-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -22176,6 +22098,112 @@
 ],
 "team": "Northern Arizona",
 "id": "2464"
+},
+{
+"uid": "s:40~l:41~t:70",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-20",
+"displayValue": "8-20",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-13",
+"displayValue": "5-13",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/70/idaho-vandals",
+"logo": [
+{
+"lastUpdated": "2021-11-04T21:05Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png",
+"height": 500
+}
+],
+"team": "Idaho",
+"id": "70"
+},
+{
+"uid": "s:40~l:41~t:304",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-21",
+"displayValue": "7-21",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "9",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 9
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-14",
+"displayValue": "5-14",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/304/idaho-state-bengals",
+"logo": [
+{
+"lastUpdated": "2019-08-22T15:06Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
+"height": 500
+}
+],
+"team": "Idaho State",
+"id": "304"
 }
 ]
 }
@@ -22186,12 +22214,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2539",
+"uid": "s:40~l:41~t:2250",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-0",
-"displayValue": "3-0",
+"summary": "24-3",
+"displayValue": "24-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -22211,8 +22239,167 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "13-1",
+"displayValue": "13-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2250/gonzaga-bulldogs",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+"height": 500
+}
+],
+"team": "Gonzaga",
+"id": "2250"
+},
+{
+"uid": "s:40~l:41~t:2608",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "24-6",
+"displayValue": "24-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "12-3",
+"displayValue": "12-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2608/saint-marys-gaels",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+"height": 500
+}
+],
+"team": "Saint Mary's",
+"id": "2608"
+},
+{
+"uid": "s:40~l:41~t:2541",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "20-10",
+"displayValue": "20-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "10-5",
+"displayValue": "10-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2541/santa-clara-broncos",
+"logo": [
+{
+"lastUpdated": "2021-08-24T17:51Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
+"height": 500
+}
+],
+"team": "Santa Clara",
+"id": "2541"
+},
+{
+"uid": "s:40~l:41~t:2539",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "23-8",
+"displayValue": "23-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
+},
+{
+"shortDisplayName": "CONF",
+"summary": "10-6",
+"displayValue": "10-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -22243,8 +22430,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "21-9",
+"displayValue": "21-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -22254,18 +22441,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "9-6",
+"displayValue": "9-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -22292,224 +22479,12 @@
 "id": "252"
 },
 {
-"uid": "s:40~l:41~t:2608",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2608/saint-marys-gaels",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
-"height": 500
-}
-],
-"team": "Saint Mary's",
-"id": "2608"
-},
-{
-"uid": "s:40~l:41~t:2250",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2250/gonzaga-bulldogs",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
-"height": 500
-}
-],
-"team": "Gonzaga",
-"id": "2250"
-},
-{
-"uid": "s:40~l:41~t:301",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/301/san-diego-toreros",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png",
-"height": 500
-}
-],
-"team": "San Diego",
-"id": "301"
-},
-{
-"uid": "s:40~l:41~t:2541",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2541/santa-clara-broncos",
-"logo": [
-{
-"lastUpdated": "2021-08-24T17:51Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-"height": 500
-}
-],
-"team": "Santa Clara",
-"id": "2541"
-},
-{
 "uid": "s:40~l:41~t:2501",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "17-13",
+"displayValue": "17-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -22519,18 +22494,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "7-7",
+"displayValue": "7-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -22557,12 +22532,12 @@
 "id": "2501"
 },
 {
-"uid": "s:40~l:41~t:2351",
+"uid": "s:40~l:41~t:301",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "14-15",
+"displayValue": "14-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -22572,18 +22547,124 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "7-9",
+"displayValue": "7-9",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/301/san-diego-toreros",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png",
+"height": 500
+}
+],
+"team": "San Diego",
+"id": "301"
+},
+{
+"uid": "s:40~l:41~t:279",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-21",
+"displayValue": "8-21",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "10",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 10
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-11",
+"displayValue": "3-11",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/279/pacific-tigers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
+"height": 500
+}
+],
+"team": "Pacific",
+"id": "279"
+},
+{
+"uid": "s:40~l:41~t:2351",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "10-17",
+"displayValue": "10-17",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "10.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 10.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-12",
+"displayValue": "3-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -22614,8 +22695,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "7-24",
+"displayValue": "7-24",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -22625,18 +22706,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "13",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 13
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "1-15",
+"displayValue": "1-15",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -22661,59 +22742,6 @@
 ],
 "team": "Pepperdine",
 "id": "2492"
-},
-{
-"uid": "s:40~l:41~t:279",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-2",
-"displayValue": "1-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/279/pacific-tigers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
-"height": 500
-}
-],
-"team": "Pacific",
-"id": "279"
 }
 ]
 }
@@ -22789,10 +22817,10 @@
 "underdog": true,
 "moneyLine": 169,
 "spreadRecord": {
-"wins": 0,
-"losses": 1,
+"wins": 10,
+"losses": 15,
 "pushes": 0,
-"summary": "0-1-0"
+"summary": "10-15-0"
 },
 "spreadOdds": -113.0,
 "teamId": "304"
@@ -22803,10 +22831,10 @@
 "underdog": false,
 "moneyLine": -194,
 "spreadRecord": {
-"wins": 1,
-"losses": 1,
+"wins": 12,
+"losses": 17,
 "pushes": 0,
-"summary": "1-1-0"
+"summary": "12-17-0"
 },
 "spreadOdds": -107.0,
 "teamId": "2492"
@@ -24122,11 +24150,6 @@
 "tiePercentage": 0.0,
 "homeWinPercentage": 0.751,
 "playId": "401371252102908402"
-},
-{
-"tiePercentage": 0.0,
-"homeWinPercentage": 0.751,
-"playId": "401371252102908403"
 },
 {
 "tiePercentage": 0.0,
