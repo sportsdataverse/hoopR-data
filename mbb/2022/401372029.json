@@ -2909,8 +2909,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-15",
-"displayValue": "13-15",
+"summary": "14-15",
+"displayValue": "14-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2930,8 +2930,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "12-4",
-"displayValue": "12-4",
+"summary": "13-4",
+"displayValue": "13-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2973,13 +2973,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -3015,8 +3015,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-12",
-"displayValue": "16-12",
+"summary": "16-13",
+"displayValue": "16-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3026,18 +3026,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "11-5",
-"displayValue": "11-5",
+"summary": "11-6",
+"displayValue": "11-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3079,13 +3079,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
@@ -3117,65 +3117,12 @@
 "id": "50"
 },
 {
-"uid": "s:40~l:41~t:2755",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-17",
-"displayValue": "11-17",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "9-7",
-"displayValue": "9-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2755/grambling-tigers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
-"height": 500
-}
-],
-"team": "Grambling",
-"id": "2755"
-},
-{
 "uid": "s:40~l:41~t:2010",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-16",
-"displayValue": "10-16",
+"summary": "11-16",
+"displayValue": "11-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3195,8 +3142,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-7",
-"displayValue": "9-7",
+"summary": "10-7",
+"displayValue": "10-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3223,6 +3170,112 @@
 "id": "2010"
 },
 {
+"uid": "s:40~l:41~t:2755",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-18",
+"displayValue": "11-18",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
+},
+{
+"shortDisplayName": "CONF",
+"summary": "9-8",
+"displayValue": "9-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2755/grambling-tigers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
+"height": 500
+}
+],
+"team": "Grambling",
+"id": "2755"
+},
+{
+"uid": "s:40~l:41~t:2296",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "10-18",
+"displayValue": "10-18",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "8-9",
+"displayValue": "8-9",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2296/jackson-state-tigers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
+"height": 500
+}
+],
+"team": "Jackson State",
+"id": "2296"
+},
+{
 "uid": "s:40~l:41~t:2504",
 "stats": [
 {
@@ -3238,13 +3291,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -3276,59 +3329,6 @@
 "id": "2504"
 },
 {
-"uid": "s:40~l:41~t:2296",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-18",
-"displayValue": "9-18",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "7-9",
-"displayValue": "7-9",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2296/jackson-state-tigers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
-"height": 500
-}
-],
-"team": "Jackson State",
-"id": "2296"
-},
-{
 "uid": "s:40~l:41~t:2065",
 "stats": [
 {
@@ -3344,13 +3344,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
@@ -3386,8 +3386,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-21",
-"displayValue": "7-21",
+"summary": "8-21",
+"displayValue": "8-21",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3407,8 +3407,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-10",
-"displayValue": "6-10",
+"summary": "7-10",
+"displayValue": "7-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3439,8 +3439,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-22",
-"displayValue": "7-22",
+"summary": "7-23",
+"displayValue": "7-23",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3450,18 +3450,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "8",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 8
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-11",
-"displayValue": "5-11",
+"summary": "5-12",
+"displayValue": "5-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3492,8 +3492,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-24",
-"displayValue": "2-24",
+"summary": "2-25",
+"displayValue": "2-25",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3503,18 +3503,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "10",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10
+"value": 11
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-14",
-"displayValue": "2-14",
+"summary": "2-15",
+"displayValue": "2-15",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3659,8 +3659,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "21-7",
-"displayValue": "21-7",
+"summary": "21-8",
+"displayValue": "21-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3670,18 +3670,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "12-5",
-"displayValue": "12-5",
+"summary": "12-6",
+"displayValue": "12-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3712,8 +3712,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-9",
-"displayValue": "19-9",
+"summary": "20-9",
+"displayValue": "20-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3723,18 +3723,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "11-6",
-"displayValue": "11-6",
+"summary": "12-6",
+"displayValue": "12-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3761,65 +3761,12 @@
 "id": "156"
 },
 {
-"uid": "s:40~l:41~t:269",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "18-10",
-"displayValue": "18-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4
-},
-{
-"shortDisplayName": "CONF",
-"summary": "10-7",
-"displayValue": "10-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/269/marquette-golden-eagles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
-"height": 500
-}
-],
-"team": "Marquette",
-"id": "269"
-},
-{
 "uid": "s:40~l:41~t:2550",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "18-9",
-"displayValue": "18-9",
+"summary": "19-9",
+"displayValue": "19-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3829,18 +3776,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-8",
-"displayValue": "9-8",
+"summary": "10-8",
+"displayValue": "10-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3867,12 +3814,12 @@
 "id": "2550"
 },
 {
-"uid": "s:40~l:41~t:2752",
+"uid": "s:40~l:41~t:269",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-11",
-"displayValue": "17-11",
+"summary": "18-11",
+"displayValue": "18-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3882,18 +3829,124 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-10",
-"displayValue": "7-10",
+"summary": "10-8",
+"displayValue": "10-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/269/marquette-golden-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
+"height": 500
+}
+],
+"team": "Marquette",
+"id": "269"
+},
+{
+"uid": "s:40~l:41~t:2599",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "16-13",
+"displayValue": "16-13",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "8-10",
+"displayValue": "8-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2599/st-johns-red-storm",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+"height": 500
+}
+],
+"team": "St. John's",
+"id": "2599"
+},
+{
+"uid": "s:40~l:41~t:2752",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "17-12",
+"displayValue": "17-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-11",
+"displayValue": "7-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3920,12 +3973,12 @@
 "id": "2752"
 },
 {
-"uid": "s:40~l:41~t:2599",
+"uid": "s:40~l:41~t:305",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-13",
-"displayValue": "15-13",
+"summary": "15-14",
+"displayValue": "15-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3935,18 +3988,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-10",
-"displayValue": "7-10",
+"summary": "6-13",
+"displayValue": "6-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3955,7 +4008,7 @@
 "type": "vsconf"
 }
 ],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2599/st-johns-red-storm",
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/305/depaul-blue-demons",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3965,12 +4018,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
 "height": 500
 }
 ],
-"team": "St. John's",
-"id": "2599"
+"team": "DePaul",
+"id": "305"
 },
 {
 "uid": "s:40~l:41~t:2086",
@@ -4026,65 +4079,12 @@
 "id": "2086"
 },
 {
-"uid": "s:40~l:41~t:305",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "14-14",
-"displayValue": "14-14",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "9.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 9.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-13",
-"displayValue": "5-13",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/305/depaul-blue-demons",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
-"height": 500
-}
-],
-"team": "DePaul",
-"id": "305"
-},
-{
 "uid": "s:40~l:41~t:46",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-22",
-"displayValue": "6-22",
+"summary": "6-23",
+"displayValue": "6-23",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -4094,18 +4094,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "14",
+"displayValue": "14.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 14
+"value": 14.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-17",
-"displayValue": "0-17",
+"summary": "0-18",
+"displayValue": "0-18",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -4215,9 +4215,9 @@
 "moneyLine": 1653,
 "spreadRecord": {
 "wins": 12,
-"losses": 13,
+"losses": 14,
 "pushes": 0,
-"summary": "12-13-0"
+"summary": "12-14-0"
 },
 "spreadOdds": -102.0,
 "teamId": "2755"
