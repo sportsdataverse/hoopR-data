@@ -4,12 +4,14 @@ import http
 import time
 import urllib.request
 import pandas as pd
+import pyreadr
+import pyarrow as pa
 import sportsdataverse as sdv
 from urllib.error import URLError, HTTPError, ContentTooShortError
 from datetime import datetime
 from itertools import chain, starmap
 from pathlib import Path
-path_to_schedules = "mbb/schedules/csv"
+path_to_schedules = "mbb/schedules"
 final_file_name = "mbb_schedule_master.csv"
 
 def download_schedule(season, path_to_schedules=None):
@@ -23,7 +25,9 @@ def download_schedule(season, path_to_schedules=None):
     ev = ev.drop('competitors', axis=1)
     ev = ev.drop_duplicates(subset=['game_id'], ignore_index=True)
     if path_to_schedules is not None:
-        ev.to_csv(f"{path_to_schedules}/mbb_schedule_{season}.csv", index = False)
+        ev.to_csv(f"{path_to_schedules}/csv/mbb_schedule_{season}.csv", index = False)
+        ev.to_parquet(f"{path_to_schedules}/parquet/mbb_schedule_{season}.parquet", index = False)
+        pyreadr.write_rds(f"{path_to_schedules}/rds/mbb_schedule_{season}.rds", ev)
     return ev
 def main():
 
