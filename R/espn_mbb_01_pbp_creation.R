@@ -15,7 +15,7 @@ suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\User
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2006:hoopR:::most_recent_mbb_season()
+years_vec <- hoopR:::most_recent_mbb_season()
 # --- compile into play_by_play_{year}.parquet ---------
 mbb_pbp_games <- function(y){
   cli::cli_process_start("Starting mbb play_by_play parse for {y}!")
