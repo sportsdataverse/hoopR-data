@@ -4,6 +4,7 @@ import http
 import xgboost as xgb
 import time
 import urllib.request
+import pyarrow.parquet as pq
 from urllib.error import URLError, HTTPError, ContentTooShortError
 from datetime import datetime
 from itertools import chain, starmap
@@ -13,11 +14,17 @@ from play_handler import PlayProcess
 path_to_raw = "mbb"
 def main():
     years_arr = range(2022,2023)
-    schedule = pd.read_csv('mbb_schedule_master.csv', encoding='latin-1', low_memory=False)
-    schedule_in_repo = pd.read_csv('mbb/mbb_games_in_data_repo.csv', encoding='latin-1', low_memory=False)
+    schedule = pd.read_parquet('mbb_schedule_master.parquet', engine='auto', columns=None)
+    schedule["game_id"] = schedule["game_id"].astype(int)
+    schedule_in_repo = pd.read_parquet('mbb/mbb_games_in_data_repo.parquet', engine='auto', columns=None)
+    schedule_in_repo["game_id"] = schedule_in_repo["game_id"].astype(int)
     done_already = schedule_in_repo['game_id']
+    print(len(schedule))
+    print(len(done_already))
     schedule = schedule[schedule['status.type.completed']==True]
+    print(len(schedule))
     schedule = schedule[~schedule['game_id'].isin(done_already)]
+    print(len(schedule))
     schedule = schedule.sort_values(by=['season'], ascending = False)
 
 
@@ -75,3 +82,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+3

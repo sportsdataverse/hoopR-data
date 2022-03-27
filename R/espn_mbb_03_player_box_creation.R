@@ -127,12 +127,23 @@ mbb_player_box_games <- function(y){
     ifelse(!dir.exists(file.path("mbb/player_box/parquet")), dir.create(file.path("mbb/player_box/parquet")), FALSE)
     arrow::write_parquet(player_box_g, glue::glue("mbb/player_box/parquet/player_box_{y}.parquet"))
   }
-  sched <- data.table::fread(paste0('mbb/schedules/csv/mbb_schedule_',y,'.csv'))
+  sched <- arrow::read_parquet(paste0('mbb/schedules/parquet/mbb_schedule_',y,'.parquet'))
   sched <- sched %>%
     dplyr::mutate(
       game_id = as.integer(.data$id),
-      status.displayClock = as.character(.data$status.displayClock)
-    )
+      id = as.integer(.data$id),
+      game_id = as.integer(.data$game_id),
+      type.id = as.integer(.data$`type.id`),
+      venue.id = as.integer(.data$`venue.id`),
+      status.type.id = as.integer(.data$`status.type.id`),
+      home.id = as.integer(.data$`home.id`),
+      home.venue.id = as.integer(.data$`home.venue.id`),
+      home.conferenceId = as.integer(.data$`home.conferenceId`),
+      away.id = as.integer(.data$`away.id`),
+      away.venue.id = as.integer(.data$`away.venue.id`),
+      away.conferenceId = as.integer(.data$`away.conferenceId`),
+      groups.id = as.integer(.data$`groups.id`),
+      status.displayClock = as.character(.data$status.displayClock))
   if(nrow(player_box_g)>0){
     sched <- sched %>%
       dplyr::mutate(
@@ -160,25 +171,39 @@ all_games <- purrr::map(years_vec, function(y){
   mbb_player_box_games(y)
 })
 
-sched_list <- list.files(path = glue::glue('mbb/schedules/csv/'))
+
+sched_list <- list.files(path = glue::glue('mbb/schedules/parquet/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
-  sched <- data.table::fread(paste0('mbb/schedules/csv/',x)) %>%
+  sched <- arrow::read_parquet(paste0('mbb/schedules/parquet/',x)) %>%
     dplyr::mutate(
+      id = as.integer(.data$id),
+      game_id = as.integer(.data$game_id),
+      type.id = as.integer(.data$`type.id`),
+      venue.id = as.integer(.data$`venue.id`),
+      status.type.id = as.integer(.data$`status.type.id`),
+      home.id = as.integer(.data$`home.id`),
+      home.venue.id = as.integer(.data$`home.venue.id`),
+      home.conferenceId = as.integer(.data$`home.conferenceId`),
+      away.id = as.integer(.data$`away.id`),
+      away.venue.id = as.integer(.data$`away.venue.id`),
+      away.conferenceId = as.integer(.data$`away.conferenceId`),
+      groups.id = as.integer(.data$`groups.id`),
       status.displayClock = as.character(.data$status.displayClock)
     )
   return(sched)
 })
 
 
-data.table::fwrite(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.csv')
+
+# data.table::fwrite(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.csv')
 data.table::fwrite(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.csv')
 qs::qsave(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.qs')
 qs::qsave(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.qs')
 arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb_schedule_master.parquet'))
 arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.parquet')
 
-rm(all_games)
 rm(sched_g)
 rm(sched_list)
 rm(years_vec)
+rm(all_games)
 gc()
