@@ -40,13 +40,11 @@ def main():
     for year in years_arr:
         year_schedule = download_schedule(year, path_to_schedules)
         schedule_table = schedule_table.append(year_schedule)
-    parquet_files = [pos_csv.replace('.parquet', '') for pos_csv in os.listdir(path_to_schedules+'/parquet') if pos_csv.endswith('.parquet')]
+    csv_files = [pos_csv.replace('.csv', '') for pos_csv in os.listdir(path_to_schedules+'/csv') if pos_csv.endswith('.csv')]
     glued_data = pd.DataFrame()
-    for index, js in enumerate(parquet_files):
-        x = pd.read_parquet(f"{path_to_schedules}/parquet/{js}.parquet", engine='auto', columns=None)
-        glued_data = glued_data.append(x)
-    # print(glued_data.head())
-    print(glued_data.dtypes)
+    for index, js in enumerate(csv_files):
+        x = pd.read_csv(f"{path_to_schedules}/csv/{js}.csv", low_memory=False)
+        glued_data = pd.concat([glued_data,x],axis=0)
     glued_data.to_parquet(f"{final_file_name}.parquet", index=False)
 if __name__ == "__main__":
     main()

@@ -113,6 +113,8 @@ mbb_player_box_games <- function(y){
     return(player_box_score)
   })
   if(nrow(player_box_g)>1){
+    player_box_g <- player_box_g %>%
+      hoopR:::make_hoopR_data("ESPN MBB Player Boxscore Information from hoopR data repository",Sys.time())
     ifelse(!dir.exists(file.path("mbb/player_box")), dir.create(file.path("mbb/player_box")), FALSE)
     
     ifelse(!dir.exists(file.path("mbb/player_box/csv")), dir.create(file.path("mbb/player_box/csv")), FALSE)
@@ -154,6 +156,10 @@ mbb_player_box_games <- function(y){
   }
   
   final_sched <- dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date))
+  
+  final_sched <- final_sched %>%
+    hoopR:::make_hoopR_data("MBB Schedule Information from hoopR data repository",Sys.time())
+  
   data.table::fwrite(final_sched,paste0("mbb/schedules/csv/mbb_schedule_",y,".csv"))
   qs::qsave(final_sched,glue::glue('mbb/schedules/qs/mbb_schedule_{y}.qs'))
   saveRDS(final_sched, glue::glue('mbb/schedules/rds/mbb_schedule_{y}.rds'))
@@ -195,6 +201,8 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 
 
 
+sched_g <- sched_g %>%
+  hoopR:::make_hoopR_data("MBB Schedule Information from hoopR data repository",Sys.time())
 # data.table::fwrite(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.csv')
 data.table::fwrite(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.csv')
 qs::qsave(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.qs')
