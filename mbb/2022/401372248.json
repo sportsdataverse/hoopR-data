@@ -14297,7 +14297,7 @@
 "team": {
 "shortDisplayName": "Green Bay",
 "uid": "s:40~l:41~t:2739",
-"alternateColor": "b21038",
+"alternateColor": "ffffff",
 "color": "006633",
 "displayName": "Green Bay Phoenix",
 "name": "Phoenix",
@@ -15403,7 +15403,7 @@
 "name": "Guard",
 "abbreviation": "G"
 },
-"shortName": "T.J. Moberg"
+"shortName": "T. Moberg"
 },
 "ejected": false,
 "stats": [
@@ -15540,7 +15540,9 @@
 },
 {
 "starter": false,
-"athlete": {},
+"athlete": {
+"shortName": "J. Barker"
+},
 "ejected": false,
 "stats": [],
 "didNotPlay": true,
@@ -15599,7 +15601,7 @@
 "team": {
 "shortDisplayName": "Green Bay",
 "uid": "s:40~l:41~t:2739",
-"alternateColor": "b21038",
+"alternateColor": "ffffff",
 "color": "006633",
 "displayName": "Green Bay Phoenix",
 "name": "Phoenix",
@@ -16770,7 +16772,7 @@
 "desktop",
 "league"
 ],
-"href": "http://www.espn.com/mens-college-basketball/statistics",
+"href": "http://www.espn.com/mens-college-basketball/stats",
 "text": "Stats"
 },
 {
@@ -16912,7 +16914,7 @@
 "id": "2739",
 "team": {
 "uid": "s:40~l:41~t:2739",
-"alternateColor": "b21038",
+"alternateColor": "ffffff",
 "color": "006633",
 "displayName": "Green Bay Phoenix",
 "name": "Phoenix",
@@ -17109,65 +17111,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:41~t:2473",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "5-2",
-"displayValue": "5-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2473/oakland-golden-grizzlies",
-"logo": [
-{
-"lastUpdated": "2021-08-10T19:28Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2473.png",
-"height": 500
-}
-],
-"team": "Oakland",
-"id": "2473"
-},
-{
 "uid": "s:40~l:41~t:325",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "20-11",
+"displayValue": "20-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17187,8 +17136,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "15-6",
+"displayValue": "15-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17219,8 +17168,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-2",
-"displayValue": "3-2",
+"summary": "21-12",
+"displayValue": "21-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17240,8 +17189,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "15-6",
+"displayValue": "15-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17272,8 +17221,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-3",
-"displayValue": "2-3",
+"summary": "20-12",
+"displayValue": "20-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17283,18 +17232,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "14-6",
+"displayValue": "14-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17321,12 +17270,12 @@
 "id": "94"
 },
 {
-"uid": "s:40~l:41~t:2754",
+"uid": "s:40~l:41~t:2750",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-3",
-"displayValue": "2-3",
+"summary": "22-14",
+"displayValue": "22-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17336,18 +17285,177 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "15-7",
+"displayValue": "15-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2750/wright-state-raiders",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
+"height": 500
+}
+],
+"team": "Wright State",
+"id": "2750"
+},
+{
+"uid": "s:40~l:41~t:2473",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "20-12",
+"displayValue": "20-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "12-7",
+"displayValue": "12-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2473/oakland-golden-grizzlies",
+"logo": [
+{
+"lastUpdated": "2021-08-10T19:28Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2473.png",
+"height": 500
+}
+],
+"team": "Oakland",
+"id": "2473"
+},
+{
+"uid": "s:40~l:41~t:2174",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "14-16",
+"displayValue": "14-16",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "10-7",
+"displayValue": "10-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2174/detroit-mercy-titans",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png",
+"height": 500
+}
+],
+"team": "Detroit Mercy",
+"id": "2174"
+},
+{
+"uid": "s:40~l:41~t:2754",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "19-15",
+"displayValue": "19-15",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "12-9",
+"displayValue": "12-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17378,8 +17486,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-4",
-"displayValue": "2-4",
+"summary": "14-16",
+"displayValue": "14-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17389,18 +17497,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "9-10",
+"displayValue": "9-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17431,8 +17539,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-4",
-"displayValue": "1-4",
+"summary": "10-22",
+"displayValue": "10-22",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17442,18 +17550,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "8-14",
+"displayValue": "8-14",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17480,12 +17588,12 @@
 "id": "270"
 },
 {
-"uid": "s:40~l:41~t:2739",
+"uid": "s:40~l:41~t:2523",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "8-24",
+"displayValue": "8-24",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17495,18 +17603,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "10",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 10
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "5-16",
+"displayValue": "5-16",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/mens-college-basketball/team/_/id/2523/robert-morris-colonials",
+"logo": [
+{
+"lastUpdated": "2020-12-16T15:18Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
+"height": 500
+}
+],
+"team": "Robert Morris",
+"id": "2523"
+},
+{
+"uid": "s:40~l:41~t:2739",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-25",
+"displayValue": "5-25",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "10.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 10.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-16",
+"displayValue": "4-16",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17537,8 +17698,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "3-26",
+"displayValue": "3-26",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17548,18 +17709,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "12",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 12
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "1-16",
+"displayValue": "1-16",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17584,165 +17745,6 @@
 ],
 "team": "IUPUI",
 "id": "85"
-},
-{
-"uid": "s:40~l:41~t:2750",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-5",
-"displayValue": "1-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2750/wright-state-raiders",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
-"height": 500
-}
-],
-"team": "Wright State",
-"id": "2750"
-},
-{
-"uid": "s:40~l:41~t:2174",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-5",
-"displayValue": "0-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2174/detroit-mercy-titans",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png",
-"height": 500
-}
-],
-"team": "Detroit Mercy",
-"id": "2174"
-},
-{
-"uid": "s:40~l:41~t:2523",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-5",
-"displayValue": "0-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/mens-college-basketball/team/_/id/2523/robert-morris-colonials",
-"logo": [
-{
-"lastUpdated": "2020-12-16T15:18Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
-"height": 500
-}
-],
-"team": "Robert Morris",
-"id": "2523"
 }
 ]
 }
@@ -19192,7 +19194,7 @@
 "id": "2739",
 "team": {
 "uid": "s:40~l:41~t:2739",
-"alternateColor": "b21038",
+"alternateColor": "ffffff",
 "color": "006633",
 "displayName": "Green Bay Phoenix",
 "name": "Phoenix",
