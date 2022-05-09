@@ -3210,7 +3210,7 @@
 "id": 401360346240,
 "text": "Jordan Schakel enters the game for Brad Wanamaker",
 "scoreValue": 0,
-"participants.0.athlete.id": "4895528",
+"participants.0.athlete.id": "4278707",
 "participants.1.athlete.id": "6507",
 "participants.2.athlete.id": null,
 "season": 2022,
@@ -5450,7 +5450,7 @@
 "id": 401360346145,
 "text": "Jordan Schakel offensive rebound",
 "scoreValue": 0,
-"participants.0.athlete.id": "4895528",
+"participants.0.athlete.id": "4278707",
 "participants.1.athlete.id": null,
 "participants.2.athlete.id": null,
 "season": 2022,
@@ -5787,7 +5787,7 @@
 "text": "Kentavious Caldwell-Pope enters the game for Jordan Schakel",
 "scoreValue": 0,
 "participants.0.athlete.id": "2581018",
-"participants.1.athlete.id": "4895528",
+"participants.1.athlete.id": "4278707",
 "participants.2.athlete.id": null,
 "season": 2022,
 "seasonType": 2,
@@ -25852,13 +25852,13 @@
 "abbreviation": "ToTO"
 },
 {
-"displayValue": "1",
+"displayValue": "0",
 "name": "technicalFouls",
 "label": "Technical Fouls",
 "abbreviation": "TECH"
 },
 {
-"displayValue": "1",
+"displayValue": "0",
 "name": "totalTechnicalFouls",
 "label": "Total Technical Fouls",
 "abbreviation": "TECH"
@@ -26150,7 +26150,7 @@
 "1",
 "0",
 "0",
-"3",
+"2",
 "3",
 "-5",
 "11"
@@ -26372,7 +26372,7 @@
 "2",
 "0",
 "0",
-"0",
+"1",
 "1",
 "-8",
 "4"
@@ -26728,7 +26728,7 @@
 "name": "Shooting Guard",
 "abbreviation": "SG"
 },
-"shortName": "R. Nembhard Jr."
+"shortName": "Nembhard"
 },
 "ejected": false,
 "stats": [
@@ -26890,7 +26890,7 @@
 "href": "https://a.espncdn.com/i/headshots/nba/players/full/3064560.png"
 },
 "jersey": "40",
-"guid": "7a7e5cbb08080a1108e45b50144abcb9",
+"guid": "754ebf09-fae4-365f-9774-ae128e88cff8",
 "links": [
 {
 "href": "https://www.espn.com/nba/player/_/id/3064560/luke-kornet",
@@ -26927,9 +26927,9 @@
 ],
 "id": "3064560",
 "position": {
-"displayName": "Center",
-"name": "Center",
-"abbreviation": "C"
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
 },
 "shortName": "L. Kornet"
 },
@@ -26949,7 +26949,7 @@
 "href": "https://a.espncdn.com/i/headshots/nba/players/full/2999549.png"
 },
 "jersey": "45",
-"guid": "c4d7526e039e65ad70ba53e87bdf2051",
+"guid": "79785231-de21-3a05-9172-8ccda2e291e0",
 "links": [
 {
 "href": "https://www.espn.com/nba/player/_/id/2999549/denzel-valentine",
@@ -27291,8 +27291,8 @@
 "0-0",
 "3-3",
 "0",
-"5",
-"5",
+"4",
+"4",
 "7",
 "2",
 "0",
@@ -27439,8 +27439,8 @@
 "4-6",
 "0-0",
 "0",
-"2",
-"2",
+"3",
+"3",
 "4",
 "2",
 "1",
@@ -27604,6 +27604,80 @@
 "reason": "COACH'S DECISION",
 "starter": false,
 "athlete": {
+"uid": "s:40~l:46~a:4278707",
+"displayName": "Jordan Schakel",
+"headshot": {
+"alt": "Jordan Schakel",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/4278707.png"
+},
+"jersey": "20",
+"guid": "dbd72edcdbed791ae0d589b5332ae0c9",
+"links": [
+{
+"href": "https://www.espn.com/nba/player/_/id/4278707/jordan-schakel",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/nba/player/stats/_/id/4278707/jordan-schakel",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/nba/player/splits/_/id/4278707/jordan-schakel",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/nba/player/gamelog/_/id/4278707/jordan-schakel",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/nba/player/news/_/id/4278707/jordan-schakel",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/nba/player/bio/_/id/4278707/jordan-schakel",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/nba/player/_/id/4278707/jordan-schakel",
+"text": "Overview"
+},
+{
+"href": "http://www.espn.com/nba/player/advancedstats/_/id/4278707/jordan-schakel",
+"text": "Advanced Stats"
+}
+],
+"id": "4278707",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "J. Schakel"
+},
+"ejected": false,
+"stats": [
+"5",
+"0-0",
+"0-0",
+"0-0",
+"1",
+"0",
+"1",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"reason": "COACH'S DECISION",
+"starter": false,
+"athlete": {
 "uid": "s:40~l:46~a:4280151",
 "displayName": "Corey Kispert",
 "headshot": {
@@ -27752,80 +27826,6 @@
 "reason": "COACH'S DECISION",
 "starter": false,
 "athlete": {
-"uid": "s:40~l:46~a:4895528",
-"displayName": "Jordan Schakel",
-"headshot": {
-"alt": "Jordan Schakel",
-"href": "https://a.espncdn.com/i/headshots/nba/players/full/4895528.png"
-},
-"jersey": "20",
-"guid": "5b001384-3e38-3cbe-8735-b18f27fce506",
-"links": [
-{
-"href": "https://www.espn.com/nba/player/_/id/4895528/jordan-schakel",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/nba/player/stats/_/id/4895528/jordan-schakel",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/nba/player/splits/_/id/4895528/jordan-schakel",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/nba/player/gamelog/_/id/4895528/jordan-schakel",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/nba/player/news/_/id/4895528/jordan-schakel",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/nba/player/bio/_/id/4895528/jordan-schakel",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/nba/player/_/id/4895528/jordan-schakel",
-"text": "Overview"
-},
-{
-"href": "http://www.espn.com/nba/player/advancedstats/_/id/4895528/jordan-schakel",
-"text": "Advanced Stats"
-}
-],
-"id": "4895528",
-"position": {
-"displayName": "Small Forward",
-"name": "Small Forward",
-"abbreviation": "SF"
-},
-"shortName": "J. Schakel"
-},
-"ejected": false,
-"stats": [
-"5",
-"0-0",
-"0-0",
-"0-0",
-"1",
-"0",
-"1",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0"
-],
-"didNotPlay": false,
-"active": false
-},
-{
-"reason": "COACH'S DECISION",
-"starter": false,
-"athlete": {
 "uid": "s:40~l:46~a:4396682",
 "displayName": "Jaime Echenique",
 "headshot": {
@@ -27902,6 +27902,10 @@
 "athlete": {
 "uid": "s:40~l:46~a:2991312",
 "displayName": "Craig Sword",
+"headshot": {
+"alt": "Craig Sword",
+"href": "https://a.espncdn.com/i/headshots/nba/players/full/2991312.png"
+},
 "jersey": "3",
 "guid": "c9a0a4df9c26c258a072f59ecd2b2264",
 "links": [
@@ -27976,6 +27980,7 @@
 "alt": "Jordan Goodwin",
 "href": "https://a.espncdn.com/i/headshots/nba/players/full/4278402.png"
 },
+"jersey": "7",
 "guid": "0bd90eae7fa21afb904f535595216bb3",
 "links": [
 {
@@ -28123,7 +28128,7 @@
 "alt": "Alize Johnson",
 "href": "https://a.espncdn.com/i/headshots/nba/players/full/4067045.png"
 },
-"jersey": "27",
+"jersey": "24",
 "guid": "c9b5a4cf-1c69-37a3-bd10-bee4c2da86d9",
 "links": [
 {
@@ -28885,9 +28890,9 @@
 "href": "https://es.pn/3eCYWyR"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=32965139&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965139&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=32965139&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965139&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -29087,9 +29092,9 @@
 "href": "https://es.pn/3mNivJd"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=32965251&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965251&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=32965251&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965251&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -29289,9 +29294,9 @@
 "href": "https://es.pn/3qvxW9S"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=32965258&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965258&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=32965258&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965258&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -29491,9 +29496,9 @@
 "href": "https://es.pn/3FJXq9Y"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=32965275&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965275&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=32965275&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965275&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -29690,12 +29695,12 @@
 "links": {
 "web": {
 "short": {
-"href": "https://es.pn/3eB0nO7"
+"href": "https://es.pn/32Dq0LZ"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=32965395&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965395&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=32965395&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965395&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -29895,9 +29900,9 @@
 "href": "https://es.pn/3FXLkdL"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=32965504&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965504&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=32965504&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=32965504&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -29960,43 +29965,42 @@
 },
 "groups": [
 {
-"moduleType": "standings",
 "header": "2021-22 Central Standings",
 "href": "https://www.espn.com/nba/standings/_/group/2",
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:46~t:4",
+"uid": "s:40~l:46~t:15",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "22",
+"displayValue": "51",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 22
+"value": 51
 },
 {
 "shortDisplayName": "L",
-"displayValue": "10",
+"displayValue": "31",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 10
+"value": 31
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".688",
+"displayValue": ".622",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.6875
+"value": 0.6219512224197388
 },
 {
 "shortDisplayName": "GB",
@@ -30010,96 +30014,13 @@
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W5",
+"displayValue": "L1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 5
-}
-],
-"link": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"scoreboard"
-],
-"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-"height": 500
-},
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"scoreboard",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/chi.png",
-"height": 500
-}
-],
-"team": "Chicago",
-"id": "4"
-},
-{
-"uid": "s:40~l:46~t:15",
-"stats": [
-{
-"shortDisplayName": "W",
-"displayValue": "24",
-"displayName": "Wins",
-"name": "wins",
-"description": "Wins",
-"abbreviation": "W",
-"type": "wins",
-"value": 24
-},
-{
-"shortDisplayName": "L",
-"displayValue": "13",
-"displayName": "Losses",
-"name": "losses",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 13
-},
-{
-"shortDisplayName": "PCT",
-"displayValue": ".649",
-"displayName": "Win Percentage",
-"name": "winPercent",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 0.6486486196517944
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "STRK",
-"displayValue": "W5",
-"displayName": "Streak",
-"name": "streak",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": 5
+"value": -1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks",
@@ -30132,57 +30053,140 @@
 "id": "15"
 },
 {
-"uid": "s:40~l:46~t:5",
+"uid": "s:40~l:46~t:4",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "20",
+"displayValue": "46",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 20
+"value": 46
 },
 {
 "shortDisplayName": "L",
-"displayValue": "15",
+"displayValue": "36",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 15
+"value": 36
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".571",
+"displayValue": ".561",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.5714285969734192
+"value": 0.5609756112098694
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 3.5
+"value": 5
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L2",
+"displayValue": "W1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -2
+"value": 1
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+"height": 500
+},
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/chi.png",
+"height": 500
+}
+],
+"team": "Chicago",
+"id": "4"
+},
+{
+"uid": "s:40~l:46~t:5",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "44",
+"displayName": "Wins",
+"name": "wins",
+"description": "Team's current Win-Loss record",
+"abbreviation": "W",
+"type": "wins",
+"value": 44
+},
+{
+"shortDisplayName": "L",
+"displayValue": "38",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 38
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".537",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5365853905677795
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers",
@@ -30219,53 +30223,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "14",
+"displayValue": "25",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 14
+"value": 25
 },
 {
 "shortDisplayName": "L",
-"displayValue": "21",
+"displayValue": "57",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 21
+"value": 57
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".400",
+"displayValue": ".305",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.4000000059604645
+"value": 0.3048780560493469
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "9.5",
+"displayValue": "26",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 9.5
+"value": 26
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L2",
+"displayValue": "L10",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -2
+"value": -10
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers",
@@ -30302,53 +30306,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "5",
+"displayValue": "23",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 5
+"value": 23
 },
 {
 "shortDisplayName": "L",
-"displayValue": "28",
+"displayValue": "59",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 28
+"value": 59
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".152",
+"displayValue": ".280",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.1515151560306549
+"value": 0.2804878056049347
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "17.5",
+"displayValue": "28",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 17.5
+"value": 28
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L4",
+"displayValue": "L3",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -4
+"value": -3
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
@@ -30384,7 +30388,6 @@
 }
 },
 {
-"moduleType": "standings",
 "header": "2021-22 Southeast Standings",
 "href": "https://www.espn.com/nba/standings/_/group/9",
 "standings": {
@@ -30394,33 +30397,33 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "22",
+"displayValue": "53",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 22
+"value": 53
 },
 {
 "shortDisplayName": "L",
-"displayValue": "13",
+"displayValue": "29",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 13
+"value": 29
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".629",
+"displayValue": ".646",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.6285714507102966
+"value": 0.6463414430618286
 },
 {
 "shortDisplayName": "GB",
@@ -30434,13 +30437,13 @@
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W4",
+"displayValue": "L1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 4
+"value": -1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/mia/miami-heat",
@@ -30473,47 +30476,130 @@
 "id": "14"
 },
 {
-"uid": "s:40~l:46~t:30",
+"uid": "s:40~l:46~t:1",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "19",
+"displayValue": "43",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 19
+"value": 43
 },
 {
 "shortDisplayName": "L",
-"displayValue": "17",
+"displayValue": "39",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 17
+"value": 39
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".528",
+"displayValue": ".524",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.5277777910232544
+"value": 0.5243902206420898
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "10",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 3.5
+"value": 10
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1
+}
+],
+"link": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+"height": 500
+},
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/atl.png",
+"height": 500
+}
+],
+"team": "Atlanta",
+"id": "1"
+},
+{
+"uid": "s:40~l:46~t:30",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "43",
+"displayName": "Wins",
+"name": "wins",
+"description": "Team's current Win-Loss record",
+"abbreviation": "W",
+"type": "wins",
+"value": 43
+},
+{
+"shortDisplayName": "L",
+"displayValue": "39",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 39
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".524",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5243902206420898
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "10",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 10
 },
 {
 "shortDisplayName": "STRK",
@@ -30560,53 +30646,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "18",
+"displayValue": "35",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 18
+"value": 35
 },
 {
 "shortDisplayName": "L",
-"displayValue": "17",
+"displayValue": "47",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 17
+"value": 47
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".514",
+"displayValue": ".427",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.5142857432365417
+"value": 0.4268292784690857
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "18",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 4
+"value": 18
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W1",
+"displayValue": "L3",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 1
+"value": -3
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards",
@@ -30639,140 +30725,57 @@
 "id": "27"
 },
 {
-"uid": "s:40~l:46~t:1",
-"stats": [
-{
-"shortDisplayName": "W",
-"displayValue": "15",
-"displayName": "Wins",
-"name": "wins",
-"description": "Wins",
-"abbreviation": "W",
-"type": "wins",
-"value": 15
-},
-{
-"shortDisplayName": "L",
-"displayValue": "19",
-"displayName": "Losses",
-"name": "losses",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 19
-},
-{
-"shortDisplayName": "PCT",
-"displayValue": ".441",
-"displayName": "Win Percentage",
-"name": "winPercent",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 0.44117647409439087
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "6.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 6.5
-},
-{
-"shortDisplayName": "STRK",
-"displayValue": "L3",
-"displayName": "Streak",
-"name": "streak",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": -3
-}
-],
-"link": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"scoreboard"
-],
-"href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-"height": 500
-},
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"scoreboard",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/atl.png",
-"height": 500
-}
-],
-"team": "Atlanta",
-"id": "1"
-},
-{
 "uid": "s:40~l:46~t:19",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "7",
+"displayValue": "22",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 7
+"value": 22
 },
 {
 "shortDisplayName": "L",
-"displayValue": "29",
+"displayValue": "60",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 29
+"value": 60
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".194",
+"displayValue": ".268",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.1944444477558136
+"value": 0.26829269528388977
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "15.5",
+"displayValue": "31",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 15.5
+"value": 31
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L4",
+"displayValue": "W1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -4
+"value": 1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/orl/orlando-magic",
@@ -30814,8 +30817,8 @@
 "type": "season",
 "title": "Regular Season Series",
 "description": "Regular Season Series",
-"summary": "WSH leads series 2-1",
-"completed": false,
+"summary": "Series tied 2-2",
+"completed": true,
 "totalCompetitions": 4,
 "events": [
 {
@@ -30823,20 +30826,20 @@
 "uid": "s:40~l:46~e:401360726~c:401360726",
 "date": "2022-02-27T01:00:00Z",
 "timeValid": true,
-"status": "pre",
+"status": "post",
 "statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
-"completed": false,
-"description": "Scheduled",
-"detail": "Sat, February 26th at 8:00 PM EST",
-"shortDetail": "2/26 - 8:00 PM EST"
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
 },
-"broadcasts": [],
 "competitors": [
 {
 "homeAway": "home",
+"winner": true,
 "team": {
 "id": "5",
 "uid": "s:40~l:46~t:5",
@@ -30854,10 +30857,11 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
 },
-"score": "0"
+"score": "92"
 },
 {
 "homeAway": "away",
+"winner": false,
 "team": {
 "id": "27",
 "uid": "s:40~l:46~t:27",
@@ -30875,7 +30879,7 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
 },
-"score": "0"
+"score": "86"
 }
 ],
 "links": [
@@ -31253,10 +31257,10 @@
 "underdog": true,
 "moneyLine": 158,
 "spreadRecord": {
-"wins": 25,
-"losses": 7,
-"pushes": 2,
-"summary": "25-7-2"
+"wins": 34,
+"losses": 25,
+"pushes": 3,
+"summary": "34-25-3"
 },
 "spreadOdds": -115.0,
 "teamId": "5"
@@ -31267,10 +31271,10 @@
 "underdog": false,
 "moneyLine": -178,
 "spreadRecord": {
-"wins": 15,
-"losses": 18,
-"pushes": 1,
-"summary": "15-18-1"
+"wins": 25,
+"losses": 35,
+"pushes": 2,
+"summary": "25-35-2"
 },
 "spreadOdds": -105.0,
 "teamId": "27"

@@ -29787,6 +29787,56 @@
 "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401360813?lang=en&region=us"
 }
 ]
+},
+{
+"summary": "GS Wins series 4-1",
+"competitors": [
+{
+"wins": 1,
+"uid": "s:40~l:46~t:7",
+"ties": 0,
+"id": "7",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2022/teams/7?lang=en&region=us"
+}
+},
+{
+"wins": 4,
+"uid": "s:40~l:46~t:9",
+"ties": 0,
+"id": "9",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2022/teams/9?lang=en&region=us"
+}
+}
+],
+"totalCompetitions": 7,
+"description": "Playoff Series",
+"completed": true,
+"type": "playoff",
+"title": "Playoff Series",
+"events": [
+{
+"id": "401429875",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401429875?lang=en&region=us"
+},
+{
+"id": "401430247",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401430247?lang=en&region=us"
+},
+{
+"id": "401430250",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401430250?lang=en&region=us"
+},
+{
+"id": "401430253",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401430253?lang=en&region=us"
+},
+{
+"id": "401430255",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401430255?lang=en&region=us"
+}
+]
 }
 ],
 "boxscoreAvailable": true,
@@ -30039,9 +30089,9 @@
 "href": "https://es.pn/3CvJmQQ"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=33448828&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33448828&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=33448828&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33448828&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -30241,9 +30291,9 @@
 "href": "https://es.pn/3sSPJul"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=33449110&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449110&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=33449110&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449110&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -30443,9 +30493,9 @@
 "href": "https://es.pn/3KntQJp"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=33449164&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449164&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=33449164&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449164&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -30645,9 +30695,9 @@
 "href": "https://es.pn/35Ym0XV"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=33449555&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449555&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=33449555&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449555&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -30847,24 +30897,24 @@
 "href": "https://es.pn/37dq2fx"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=33449758&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449758&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=33449758&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449758&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4911bcef-b823-4929-b4a2-f5b4c3d10008/asset?UMADPARAMreferer=http://espn.go.com/video/clip?id=33449758&ex_cid=espnapi_internal"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4911bcef-b823-4929-b4a2-f5b4c3d10008/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=33449758&ex_cid=espnapi_internal"
 },
 "alert": {
 "href": "http://m.espn.go.com/general/video/videoAlert?vid=33449758&ex_cid=espnapi_internal"
 },
 "progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4911bcef-b823-4929-b4a2-f5b4c3d10008/asset?UMADPARAMreferer=http://espn.go.com/video/clip?id=33449758&ex_cid=espnapi_internal"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4911bcef-b823-4929-b4a2-f5b4c3d10008/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=33449758&ex_cid=espnapi_internal"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2022/0307/ss_20220307_224018006_1909771/ss_20220307_224018006_1909771.mp4"
 },
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4911bcef-b823-4929-b4a2-f5b4c3d10008/asset?UMADPARAMreferer=http://espn.go.com/video/clip?id=33449758&ex_cid=espnapi_internal"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4911bcef-b823-4929-b4a2-f5b4c3d10008/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=33449758&ex_cid=espnapi_internal"
 },
 "api": {
 "self": {
@@ -31049,9 +31099,9 @@
 "href": "https://es.pn/3pIqucc"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=33449862&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449862&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=33449862&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449862&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -31251,9 +31301,9 @@
 "href": "https://es.pn/34mqvLe"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=33449961&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449961&ex_cid=espnapi_internal"
 },
-"href": "http://espn.go.com/video/clip?id=33449961&ex_cid=espnapi_internal"
+"href": "https://www.espn.com/video/clip?id=33449961&ex_cid=espnapi_internal"
 },
 "mobile": {
 "streaming": {
@@ -31306,6 +31356,208 @@
 "id": 33449961,
 "lastModified": "2022-03-08T04:05:36Z",
 "headline": "Nikola Jokic gets the basket plus the foul"
+},
+{
+"cerebroId": "6226deedca84b749153a3ae6",
+"thumbnail": "https://a.espncdn.com/media/motion/2022/0307/ss_20220307_234327243_19098521431/ss_20220307_234327243_19098521431.jpg",
+"ad": {
+"sport": "nba",
+"bundle": "nba_highlights"
+},
+"timeRestrictions": {
+"embargoDate": "2022-03-08T04:43:16Z",
+"expirationDate": "2022-07-31T04:00:00Z"
+},
+"description": "Nikola Jokic makes it look easy with another big triple-double in Nuggets' 131-124 win over Warriors.",
+"geoRestrictions": {
+"countries": [
+"GF",
+"BO",
+"AI",
+"PR",
+"TC",
+"HN",
+"AU",
+"PW",
+"GU",
+"GT",
+"MQ",
+"CM",
+"MZ",
+"LC",
+"SZ",
+"NZ",
+"NI",
+"PE",
+"TZ",
+"FJ",
+"BS",
+"KN",
+"EC",
+"GQ",
+"US",
+"AS",
+"MP",
+"VI",
+"UM",
+"SX",
+"ZA",
+"SV",
+"GP",
+"SN",
+"NA",
+"NE",
+"CU",
+"BM",
+"DO",
+"SR",
+"FM",
+"CO",
+"VE",
+"ZW",
+"SS",
+"GH",
+"CL",
+"BJ",
+"MX",
+"CV",
+"MW",
+"GM",
+"NG",
+"BI",
+"SC",
+"LR",
+"CR",
+"UG",
+"KY",
+"GW",
+"LS",
+"CG",
+"BZ",
+"AO",
+"RW",
+"ET",
+"GB",
+"UK",
+"PY",
+"MF",
+"ER",
+"BB",
+"AG",
+"MS",
+"BR",
+"CD",
+"BQ",
+"CF",
+"PA",
+"ML",
+"MU",
+"ST",
+"GD",
+"AW",
+"MG",
+"RE",
+"TG",
+"TT",
+"VC",
+"BF",
+"GN",
+"ZM",
+"BW",
+"KM",
+"HT",
+"GY",
+"GA",
+"AM",
+"MH",
+"UY",
+"KE",
+"JM",
+"SL",
+"CI"
+],
+"type": "whitelist"
+},
+"source": "espn",
+"tracking": {
+"leagueName": "No League",
+"trackingName": "NBA_One-Play (The Joker records second straight triple-double in run for MVP) 2022/03/08 ESHEET",
+"coverageType": "Final Game Highlight",
+"sportName": "nba",
+"trackingId": "dm_20220308_NBA_the_joker_records_second_straight_tripledouble_in_run_for_mvp"
+},
+"duration": 120,
+"deviceRestrictions": {
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+],
+"type": "whitelist"
+},
+"originalPublishDate": "2022-03-08T04:43:16Z",
+"links": {
+"web": {
+"short": {
+"href": "https://es.pn/3sSEpOU"
+},
+"self": {
+"href": "https://www.espn.com/video/clip?id=33450362&ex_cid=espnapi_internal"
+},
+"href": "https://www.espn.com/video/clip?id=33450362&ex_cid=espnapi_internal"
+},
+"mobile": {
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/dfa2648c-1811-4453-919b-3d78c62323c3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33450362"
+},
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=33450362&ex_cid=espnapi_internal"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/dfa2648c-1811-4453-919b-3d78c62323c3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33450362"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0307/ss_20220307_234327243_1909852/ss_20220307_234327243_1909852.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/dfa2648c-1811-4453-919b-3d78c62323c3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33450362"
+},
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/33450362"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/dfa2648c-1811-4453-919b-3d78c62323c3"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2022/0307/ss_20220307_234327243_1909852/ss_20220307_234327243_1909852.mp4"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2022/0307/ss_20220307_234327243_1909852/ss_20220307_234327243_1909852_rel.smil/manifest.f4m"
+},
+"href": "https://media.video-cdn.espn.com/motion/2022/0307/ss_20220307_234327243_1909852/ss_20220307_234327243_1909852_360p30_1464k.mp4",
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0307/ss_20220307_234327243_1909852/ss_20220307_234327243_1909852_720p30_2896k.mp4"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0307/ss_20220307_234327243_1909852/ss_20220307_234327243_1909852.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0307/ss_20220307_234327243_1909852/ss_20220307_234327243_1909852.smil/master.m3u8"
+}
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0307/ss_20220307_234327243_1909852/ss_20220307_234327243_1909852.smil"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0307/ss_20220307_234327243_1909852/ss_20220307_234327243_1909852_360p30_1464k.mp4"
+}
+}
+},
+"id": 33450362,
+"lastModified": "2022-03-08T04:51:43Z",
+"headline": "The Joker records second straight triple-double in run for MVP"
 }
 ],
 "playByPlaySource": "full",
@@ -31325,33 +31577,33 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "51",
+"displayValue": "64",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 51
+"value": 64
 },
 {
 "shortDisplayName": "L",
-"displayValue": "13",
+"displayValue": "18",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 13
+"value": 18
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".797",
+"displayValue": ".780",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.796875
+"value": 0.7804877758026123
 },
 {
 "shortDisplayName": "GB",
@@ -31408,53 +31660,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "43",
+"displayValue": "53",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 43
+"value": 53
 },
 {
 "shortDisplayName": "L",
-"displayValue": "22",
+"displayValue": "29",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 22
+"value": 29
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".662",
+"displayValue": ".646",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.6615384817123413
+"value": 0.6463414430618286
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 8.5
+"value": 11
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L5",
+"displayValue": "W5",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -5
+"value": 5
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
@@ -31491,53 +31743,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "34",
+"displayValue": "42",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 34
+"value": 42
 },
 {
 "shortDisplayName": "L",
-"displayValue": "32",
+"displayValue": "40",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 32
+"value": 40
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".515",
+"displayValue": ".512",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.5151515007019043
+"value": 0.5121951103210449
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "18",
+"displayValue": "22",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 18
+"value": 22
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L1",
+"displayValue": "W5",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -1
+"value": 5
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
@@ -31574,53 +31826,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "28",
+"displayValue": "33",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 28
+"value": 33
 },
 {
 "shortDisplayName": "L",
-"displayValue": "36",
+"displayValue": "49",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 36
+"value": 49
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".438",
+"displayValue": ".402",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.4375
+"value": 0.40243902802467346
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "23",
+"displayValue": "31",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 23
+"value": 31
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L1",
+"displayValue": "W2",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -1
+"value": 2
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers",
@@ -31657,53 +31909,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "24",
+"displayValue": "30",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 24
+"value": 30
 },
 {
 "shortDisplayName": "L",
-"displayValue": "43",
+"displayValue": "52",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 43
+"value": 52
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".358",
+"displayValue": ".366",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.35820895433425903
+"value": 0.3658536672592163
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "28.5",
+"displayValue": "34",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 28.5
+"value": 34
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L2",
+"displayValue": "W1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -2
+"value": 1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
@@ -31748,33 +32000,33 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "40",
+"displayValue": "49",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 40
+"value": 49
 },
 {
 "shortDisplayName": "L",
-"displayValue": "24",
+"displayValue": "33",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 24
+"value": 33
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".625",
+"displayValue": ".598",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.625
+"value": 0.5975610017776489
 },
 {
 "shortDisplayName": "GB",
@@ -31788,13 +32040,13 @@
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L1",
+"displayValue": "W1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -1
+"value": 1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/utah/utah-jazz",
@@ -31831,53 +32083,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "39",
+"displayValue": "48",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 39
+"value": 48
 },
 {
 "shortDisplayName": "L",
-"displayValue": "26",
+"displayValue": "34",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 26
+"value": 34
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".600",
+"displayValue": ".585",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.6000000238418579
+"value": 0.5853658318519592
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 1.5
+"value": 1
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W3",
+"displayValue": "L1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 3
+"value": -1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
@@ -31914,23 +32166,23 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "37",
+"displayValue": "46",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 37
+"value": 46
 },
 {
 "shortDisplayName": "L",
-"displayValue": "29",
+"displayValue": "36",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 29
+"value": 36
 },
 {
 "shortDisplayName": "PCT",
@@ -31940,27 +32192,27 @@
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.560606062412262
+"value": 0.5609756112098694
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 4
+"value": 3
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W5",
+"displayValue": "L1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 5
+"value": -1
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
@@ -31997,53 +32249,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "25",
+"displayValue": "27",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 25
+"value": 27
 },
 {
 "shortDisplayName": "L",
-"displayValue": "39",
+"displayValue": "55",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 39
+"value": 55
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".391",
+"displayValue": ".329",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.390625
+"value": 0.32926830649375916
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "15",
+"displayValue": "22",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 15
+"value": 22
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L5",
+"displayValue": "L11",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -5
+"value": -11
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers",
@@ -32080,53 +32332,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "20",
+"displayValue": "24",
 "displayName": "Wins",
 "name": "wins",
-"description": "Wins",
+"description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 20
+"value": 24
 },
 {
 "shortDisplayName": "L",
-"displayValue": "44",
+"displayValue": "58",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 44
+"value": 58
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".313",
+"displayValue": ".293",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.3125
+"value": 0.2926829159259796
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "20",
+"displayValue": "25",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 20
+"value": 25
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L2",
+"displayValue": "L3",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -2
+"value": -3
 }
 ],
 "link": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder",
@@ -32168,7 +32420,7 @@
 "type": "season",
 "title": "Regular Season Series",
 "description": "Regular Season Series",
-"summary": "DEN leads series 3-0",
+"summary": "DEN leads series 3-1",
 "completed": false,
 "totalCompetitions": 5,
 "events": [
@@ -32177,36 +32429,20 @@
 "uid": "s:40~l:46~e:401360813~c:401360813",
 "date": "2022-03-11T03:00:00Z",
 "timeValid": true,
-"status": "pre",
+"status": "post",
 "statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
-"completed": false,
-"description": "Scheduled",
-"detail": "Thu, March 10th at 10:00 PM EST",
-"shortDetail": "3/10 - 10:00 PM EST"
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
 },
-"broadcasts": [
-{
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "TNT"
-},
-"lang": "en",
-"region": "us"
-}
-],
 "competitors": [
 {
 "homeAway": "home",
+"winner": false,
 "team": {
 "id": "7",
 "uid": "s:40~l:46~t:7",
@@ -32224,10 +32460,11 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
 },
-"score": "0"
+"score": "102"
 },
 {
 "homeAway": "away",
+"winner": true,
 "team": {
 "id": "9",
 "uid": "s:40~l:46~t:9",
@@ -32245,7 +32482,7 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
 },
-"score": "0"
+"score": "113"
 }
 ],
 "links": [
@@ -32641,6 +32878,471 @@
 ]
 }
 ]
+},
+{
+"type": "playoff",
+"title": "Playoff Series",
+"description": "Playoff Series",
+"summary": "GS Wins series 4-1",
+"completed": true,
+"totalCompetitions": 7,
+"events": [
+{
+"id": "401430255",
+"uid": "s:40~l:46~e:401430255~c:401430255",
+"date": "2022-04-28T02:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "9",
+"uid": "s:40~l:46~t:9",
+"displayName": "Golden State Warriors",
+"abbreviation": "GS",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/gs",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+},
+"score": "102"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "7",
+"uid": "s:40~l:46~t:7",
+"displayName": "Denver Nuggets",
+"abbreviation": "DEN",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/den",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+},
+"score": "98"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/401430255",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401430255",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401430253",
+"uid": "s:40~l:46~e:401430253~c:401430253",
+"date": "2022-04-24T19:30:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "7",
+"uid": "s:40~l:46~t:7",
+"displayName": "Denver Nuggets",
+"abbreviation": "DEN",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/den",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+},
+"score": "126"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "9",
+"uid": "s:40~l:46~t:9",
+"displayName": "Golden State Warriors",
+"abbreviation": "GS",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/gs",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+},
+"score": "121"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/401430253",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401430253",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401430250",
+"uid": "s:40~l:46~e:401430250~c:401430250",
+"date": "2022-04-22T02:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "7",
+"uid": "s:40~l:46~t:7",
+"displayName": "Denver Nuggets",
+"abbreviation": "DEN",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/den",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+},
+"score": "113"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "9",
+"uid": "s:40~l:46~t:9",
+"displayName": "Golden State Warriors",
+"abbreviation": "GS",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/gs",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+},
+"score": "118"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/401430250",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401430250",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401430247",
+"uid": "s:40~l:46~e:401430247~c:401430247",
+"date": "2022-04-19T02:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "9",
+"uid": "s:40~l:46~t:9",
+"displayName": "Golden State Warriors",
+"abbreviation": "GS",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/gs",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+},
+"score": "126"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "7",
+"uid": "s:40~l:46~t:7",
+"displayName": "Denver Nuggets",
+"abbreviation": "DEN",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/den",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+},
+"score": "106"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/401430247",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401430247",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401429875",
+"uid": "s:40~l:46~e:401429875~c:401429875",
+"date": "2022-04-17T00:30:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "9",
+"uid": "s:40~l:46~t:9",
+"displayName": "Golden State Warriors",
+"abbreviation": "GS",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/gs",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+},
+"score": "123"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "7",
+"uid": "s:40~l:46~t:7",
+"displayName": "Denver Nuggets",
+"abbreviation": "DEN",
+"links": [
+{
+"href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/nba/team/schedule/_/name/den",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+},
+"score": "107"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/nba/game/_/gameId/401429875",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401429875",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
 }
 ],
 "timeouts": {},
@@ -32713,9 +33415,9 @@
 "moneyLine": 290,
 "spreadRecord": {
 "wins": 30,
-"losses": 30,
+"losses": 28,
 "pushes": 4,
-"summary": "30-30-4"
+"summary": "30-28-4"
 },
 "spreadOdds": -110.0,
 "teamId": "9"
@@ -32726,10 +33428,10 @@
 "underdog": false,
 "moneyLine": -350,
 "spreadRecord": {
-"wins": 31,
+"wins": 29,
 "losses": 33,
 "pushes": 0,
-"summary": "31-33-0"
+"summary": "29-33-0"
 },
 "spreadOdds": -110.0,
 "teamId": "7"
@@ -35507,6 +36209,56 @@
 {
 "id": "401360813",
 "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401360813?lang=en&region=us"
+}
+]
+},
+{
+"summary": "GS Wins series 4-1",
+"competitors": [
+{
+"wins": 1,
+"uid": "s:40~l:46~t:7",
+"ties": 0,
+"id": "7",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2022/teams/7?lang=en&region=us"
+}
+},
+{
+"wins": 4,
+"uid": "s:40~l:46~t:9",
+"ties": 0,
+"id": "9",
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2022/teams/9?lang=en&region=us"
+}
+}
+],
+"totalCompetitions": 7,
+"description": "Playoff Series",
+"completed": true,
+"type": "playoff",
+"title": "Playoff Series",
+"events": [
+{
+"id": "401429875",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401429875?lang=en&region=us"
+},
+{
+"id": "401430247",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401430247?lang=en&region=us"
+},
+{
+"id": "401430250",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401430250?lang=en&region=us"
+},
+{
+"id": "401430253",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401430253?lang=en&region=us"
+},
+{
+"id": "401430255",
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401430255?lang=en&region=us"
 }
 ]
 }
