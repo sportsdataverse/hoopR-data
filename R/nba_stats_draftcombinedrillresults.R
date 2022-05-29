@@ -5,7 +5,8 @@ combine_players_spot <- hoopR::nba_draftcombinespotshooting(season_year = 2022)$
 
 combine_players <- combine_players_stats %>% 
   dplyr::left_join(combine_players_spot,by=c("PLAYER_ID","FIRST_NAME","LAST_NAME","PLAYER_NAME","POSITION")) %>% 
-  dplyr::left_join(combine_players_shooting,by=c("PLAYER_ID","FIRST_NAME","LAST_NAME","PLAYER_NAME","POSITION"))
+  dplyr::left_join(combine_players_shooting,by=c("PLAYER_ID","FIRST_NAME","LAST_NAME","PLAYER_NAME","POSITION")) %>% 
+  as.data.frame()
 
 # combine_players_history <- hoopR::nba_drafthistory(season=2021)$DraftHistory
 readr::write_csv(combine_players,"nba/draft/nba_draft_2022.csv")
