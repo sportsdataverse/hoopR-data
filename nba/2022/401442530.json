@@ -24647,6 +24647,22 @@
 "+/-",
 "PTS"
 ],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
 "athletes": [
 {
 "reason": "COACH'S DECISION",
@@ -25826,6 +25842,22 @@
 "PF",
 "+/-",
 "PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
 ],
 "athletes": [
 {
@@ -27387,10 +27419,6 @@
 {
 "id": "401442535",
 "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401442535?lang=en&region=us"
-},
-{
-"id": "401442536",
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401442536?lang=en&region=us"
 }
 ]
 }
@@ -32228,151 +32256,29 @@
 "type": "playoff",
 "title": "Playoff Series",
 "description": "NBA Finals",
-"summary": "Series tied 1-1",
-"completed": false,
+"summary": "GS Wins series 4-2",
+"completed": true,
 "totalCompetitions": 7,
 "events": [
-{
-"id": "401442536",
-"uid": "s:40~l:46~e:401442536~c:401442536",
-"date": "2022-06-20T00:00:00Z",
-"timeValid": true,
-"status": "pre",
-"statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
-"completed": false,
-"description": "Scheduled",
-"detail": "Sun, June 19th at 8:00 PM EDT",
-"shortDetail": "6/19 - 8:00 PM EDT"
-},
-"broadcasts": [
-{
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ABC"
-},
-"lang": "en",
-"region": "us"
-}
-],
-"competitors": [
-{
-"homeAway": "home",
-"team": {
-"id": "9",
-"uid": "s:40~l:46~t:9",
-"displayName": "Golden State Warriors",
-"abbreviation": "GS",
-"links": [
-{
-"href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
-"text": "Clubhouse"
-},
-{
-"href": "https://www.espn.com/nba/team/schedule/_/name/gs",
-"text": "Schedule"
-}
-],
-"logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
-},
-"score": "0"
-},
-{
-"homeAway": "away",
-"team": {
-"id": "2",
-"uid": "s:40~l:46~t:2",
-"displayName": "Boston Celtics",
-"abbreviation": "BOS",
-"links": [
-{
-"href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics",
-"text": "Clubhouse"
-},
-{
-"href": "https://www.espn.com/nba/team/schedule/_/name/bos",
-"text": "Schedule"
-}
-],
-"logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
-},
-"score": "0"
-}
-],
-"links": [
-{
-"language": "en-US",
-"rel": [
-"summary",
-"desktop",
-"event"
-],
-"href": "http://www.espn.com/nba/game/_/gameId/401442536",
-"text": "Gamecast",
-"shortText": "Summary",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"summary",
-"sportscenter",
-"app",
-"event"
-],
-"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401442536",
-"text": "Gamecast",
-"shortText": "Summary",
-"isExternal": false,
-"isPremium": false
-}
-]
-},
 {
 "id": "401442535",
 "uid": "s:40~l:46~e:401442535~c:401442535",
 "date": "2022-06-17T01:00:00Z",
 "timeValid": true,
-"status": "pre",
+"status": "post",
 "statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
-"completed": false,
-"description": "Scheduled",
-"detail": "Thu, June 16th at 9:00 PM EDT",
-"shortDetail": "6/16 - 9:00 PM EDT"
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
 },
-"broadcasts": [
-{
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ABC"
-},
-"lang": "en",
-"region": "us"
-}
-],
 "competitors": [
 {
 "homeAway": "home",
+"winner": false,
 "team": {
 "id": "2",
 "uid": "s:40~l:46~t:2",
@@ -32390,10 +32296,11 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
 },
-"score": "0"
+"score": "90"
 },
 {
 "homeAway": "away",
+"winner": true,
 "team": {
 "id": "9",
 "uid": "s:40~l:46~t:9",
@@ -32411,7 +32318,7 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
 },
-"score": "0"
+"score": "103"
 }
 ],
 "links": [
@@ -32449,36 +32356,20 @@
 "uid": "s:40~l:46~e:401442534~c:401442534",
 "date": "2022-06-14T01:00:00Z",
 "timeValid": true,
-"status": "pre",
+"status": "post",
 "statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
-"completed": false,
-"description": "Scheduled",
-"detail": "Mon, June 13th at 9:00 PM EDT",
-"shortDetail": "6/13 - 9:00 PM EDT"
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
 },
-"broadcasts": [
-{
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ABC"
-},
-"lang": "en",
-"region": "us"
-}
-],
 "competitors": [
 {
 "homeAway": "home",
+"winner": true,
 "team": {
 "id": "9",
 "uid": "s:40~l:46~t:9",
@@ -32496,10 +32387,11 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
 },
-"score": "0"
+"score": "104"
 },
 {
 "homeAway": "away",
+"winner": false,
 "team": {
 "id": "2",
 "uid": "s:40~l:46~t:2",
@@ -32517,7 +32409,7 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
 },
-"score": "0"
+"score": "94"
 }
 ],
 "links": [
@@ -32555,36 +32447,20 @@
 "uid": "s:40~l:46~e:401442533~c:401442533",
 "date": "2022-06-11T01:00:00Z",
 "timeValid": true,
-"status": "pre",
+"status": "post",
 "statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
-"completed": false,
-"description": "Scheduled",
-"detail": "Fri, June 10th at 9:00 PM EDT",
-"shortDetail": "6/10 - 9:00 PM EDT"
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
 },
-"broadcasts": [
-{
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ABC"
-},
-"lang": "en",
-"region": "us"
-}
-],
 "competitors": [
 {
 "homeAway": "home",
+"winner": false,
 "team": {
 "id": "2",
 "uid": "s:40~l:46~t:2",
@@ -32602,10 +32478,11 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
 },
-"score": "0"
+"score": "97"
 },
 {
 "homeAway": "away",
+"winner": true,
 "team": {
 "id": "9",
 "uid": "s:40~l:46~t:9",
@@ -32623,7 +32500,7 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
 },
-"score": "0"
+"score": "107"
 }
 ],
 "links": [
@@ -32661,36 +32538,20 @@
 "uid": "s:40~l:46~e:401442532~c:401442532",
 "date": "2022-06-09T01:00:00Z",
 "timeValid": true,
-"status": "pre",
+"status": "post",
 "statusType": {
-"id": "1",
-"name": "STATUS_SCHEDULED",
-"state": "pre",
-"completed": false,
-"description": "Scheduled",
-"detail": "Wed, June 8th at 9:00 PM EDT",
-"shortDetail": "6/8 - 9:00 PM EDT"
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
 },
-"broadcasts": [
-{
-"type": {
-"id": "1",
-"shortName": "TV"
-},
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ABC"
-},
-"lang": "en",
-"region": "us"
-}
-],
 "competitors": [
 {
 "homeAway": "home",
+"winner": true,
 "team": {
 "id": "2",
 "uid": "s:40~l:46~t:2",
@@ -32708,10 +32569,11 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
 },
-"score": "0"
+"score": "116"
 },
 {
 "homeAway": "away",
+"winner": false,
 "team": {
 "id": "9",
 "uid": "s:40~l:46~t:9",
@@ -32729,7 +32591,7 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
 },
-"score": "0"
+"score": "100"
 }
 ],
 "links": [
@@ -35616,10 +35478,6 @@
 {
 "id": "401442535",
 "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401442535?lang=en&region=us"
-},
-{
-"id": "401442536",
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401442536?lang=en&region=us"
 }
 ]
 }
